@@ -30,5 +30,5 @@ Python és un llenguatge:
 * Està preinstal·lat en la majoria de sistemes
 * Molt utilitzat per l'anàlisi de dades
 
-
+***
 [Index](../../README.md)
