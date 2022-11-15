@@ -337,8 +337,7 @@
 
 54. [Programació orientada a objetes: Exemple complet](curs/POO/u54)
 
-
-55. [Intel.ligència artificial amb python] (curs/IA/u55)
+55. [Intel.ligència artificial amb python](curs/IA/u55)
 
 	* Aprenentatge supervisat
 	* Aprenentatge automàtic
@@ -349,7 +348,7 @@
 	* Algorismes de clustering
 	* Algorismes de xarxes neuronals
     
-56. [Machine learning] (curs/IA/u56)
+56. [Machine learning](curs/IA/u56)
     
 	* Algorismes de Natural Language
 	* Algorismes de Image recognition
