@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saranghe>
+    <child name="Frank" test="0">
+     FRANK lives EVERYONE
+    </child>
+    <unique>
+     Add a video URL here
+    </unique>
+    <child name="Texas" test="1">
+     Exclusively
+    </child>
+    <unique>
+     Add a workbook URL here
+    </unique>
+    <data>
+     Add the content of your article here
+        <family>
+        Add the font of your text here
+        </family>
+        <size>
+        Add the font size of your text here
+        </size>
+    </data>
+</saranghe>
