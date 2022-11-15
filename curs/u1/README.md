@@ -7,7 +7,7 @@ Python és un llenguatge:
 * Interpretat
 * Alt nivell
 * Multiparadigma, ja que suporta **orientació a objectes**, **programació imperativa**  i **programació funcional**.
-* Multipltaforma
+* Multiplataforma
 * Lliure
 
 ## ¿Per què escollir python?
@@ -18,16 +18,17 @@ Python és un llenguatge:
 * Obtens resultats molt ràpidament
 * Pots programar amb diferents paradígmes:
 	* Programació imperativa
-	* Orientació a objetes
+	* Orientació a objectes
 	* Programació funcional
-* Pots programar diferents tipus d'aplicaciones:
-	* Aplicacions de escritori
+* Pots programar diferents tipus d'aplicacions:
+	* Aplicacions de escriptori
 	* Aplicacions web
 	* Scripts
 * Moltes empreses importants utilitzen Python (Google, Nokia, IBM). Es demandat.
 * Gran quantitat de mòduls, moltíssimes funcionalitats.
 * Una gran comunitat que recolza el projecte.
 * Està preinstal·lat en la majoria de sistemes
+* Molt utilitzat per l'anàlisi de dades
 
 
 [Index](../../README.md)

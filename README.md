@@ -251,7 +251,6 @@
 	* Mòduls sys 
 	* Execució de scripts amb arguments
 	
-
 42. [Módulos estándares: módulos matemáticos](curs/u42)
 	* Mòdul math
 	* Mòdul fractions
@@ -297,7 +296,7 @@
 
 48. [Exercicis amb funcions](curs/u48)
     
-49. [Programación estructurada y modular: Ejemplo completo](curs/u49)
+49. [Programació estructurada i modular: Exemple complet](curs/u49)
 
 	### Programació orientada a objectes POO
 
@@ -307,7 +306,7 @@
 	* Atributs d'objetos
 	* Mètode constructor __init__
 	* Definint mètodes. El paràmetre self
-	* Definició d'objetes
+	* Definició d'objectes
 
 51. [Conceptes avançats de programació orientada a objectes I](curs/POO/u51)
 	* Atributs de classe (estàtics)
