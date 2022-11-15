@@ -335,7 +335,7 @@
 
 	### Exercicis programació orientada a objectes
 
-54. [Programació orientada a objetes: Exemple complet](curs/POO/u54)
+54. [Programació orientada a objectes: Exemple complet](curs/POO/u54)
 
 55. [Intel.ligència artificial amb python](curs/IA/u55)
 
