@@ -10,12 +10,13 @@ A La hora de decidir en qué entorno trabajar, nos deberíamos hacer las siguien
  Soporte para python.
 * ¿Es multiplataforma?. Permite que el mismo editor de texto se utilice en diferentes sistemas operativos y puede ser un aspecto determinante para nosotros.
 
-## IDE para python
+## IDE per Python
 
-* [Entornos de desarrollo para python](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
+* [Entorns de desenvolupament per Python](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
 
-## Editores de texto para python
+## Editors de texte per Python
 
-* [Editores de texto para python](https://wiki.python.org/moin/PythonEditors)
+* [Editors de texte per Python](https://wiki.python.org/moin/PythonEditors)
 
-[Index](../../README.md)
+***
+[Index](../../../README.md)

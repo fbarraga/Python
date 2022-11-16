@@ -69,4 +69,6 @@ Por supuesto tenemos que dar permisos de ejecución al fichero.
 Puede encontrar la guía de estilos para escribir código python en [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
 
 
-[Index](../../README.md)
+
+***
+[Index](../../../README.md)

@@ -1,28 +1,27 @@
-# Instalación de python3 
+# Instal·lació de Python3 
 
-La página principal para descargar las distintas versiones es:[www.python.org/downloads/](https://www.python.org/downloads/).
+La pàgina principal para descarregar les diferents versions es:[www.python.org/downloads/](https://www.python.org/downloads/).
 
-## Instalación en Linux
+## Instal·lació en Linux
 
-Python viene preinstalado de serie en la mayoría de las distribuciones GNU/Linux. Si no tenemos a nuestra disposición paquetes para instalarlo.
+Python ve preinstal·lado de serie en la majoria de las distribucions GNU/Linux. Si no podem instal·lar-lo a través dels paquets de instal·lació.
 
-* En Debian 8 Jessie, la versión por defecto es la 3.4.2
-* En Debian 9 Stretch, la versión es la 3.5.3-1
-* En Ubuntu 16.04 Xenial, la versión es la 3.5.3-3
+* Amb Debian 11.3 , la versión es la 3.10.6
+* Amb Ubuntu 22.04 , la versión es la 3.10.6
 
-[Para más información](https://docs.python.org/3/using/unix.html)
+[Per més informació](https://docs.python.org/3/using/unix.html)
 
-## Instalación en Windows
+## Instal·lació en Windows
 
-Podemos descargarnos un instalador (paquete MSI) de las distintas versión de python. 
+Podem descarregar-nos un instal·lador (paquet MSI) de les diferents versions de Python. 
 
-[Para más información](https://docs.python.org/3/using/windows.html)
+[Per més informació](https://docs.python.org/3/using/windows.html)
 
-## Instalación en Mac OS
+## Instal·lació en Mac OS
 
-Mac OS X 10.8 viene con Python 2.7 preinstalado. Si desas instalar Python3 puedes encontrar el paquete de la versión deseada en la página de desrcarga: [www.python.org/downloads/](https://www.python.org/downloads/).
+Mac OS X 10.8 ve amb Python 2.7 pre-instalado. Si vols instal·lar Python3 pots trobar el paquet de la versió desitjada a la pàgina de descàrrega: [www.python.org/downloads/](https://www.python.org/downloads/).
 
-[Para más información](https://docs.python.org/3/using/mac.html)
+[Per més informació](https://docs.python.org/3/using/mac.html)
 
-
-[Index](../../README.md)
+***
+[Index](../../../README.md)
