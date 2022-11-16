@@ -1,4 +1,4 @@
-# Introducció a python
+# Introducció a Python
 
 ## Característiques de Python 
 
@@ -10,7 +10,7 @@ Python és un llenguatge:
 * Multiplataforma
 * Lliure
 
-## ¿Per què escollir python?
+## ¿Per què escollir Python?
 
 * Perquè és fàcil d'aprendre
 * Sintaxis molt neta i senzilla
@@ -33,7 +33,7 @@ Python és un llenguatge:
 
 ## Índex Tiobe
 
-El [índex Tiobe](http://www.tiobe.com/tiobe-index/)
+El [índex Tiobe](http://www.tiobe.com/tiobe-index/) és un indicador de la popularitat dels llenguatges de programació. L'índex s'actualitza un cop al mes. Les valoracions es basen en el nombre d'enginyers qualificats a tot el món, cursos i proveïdors de tercers. Per calcular les valoracions s'utilitzen motors de cerca populars com Google, Bing, Yahoo!, Wikipedia, Amazon, YouTube i Baidu. És important tenir en compte que l'índex TIOBE no tracta del millor llenguatge de programació ni del llenguatge en què s'han escrit la majoria de línies de codi.
 
 ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/tiobe.png?raw=true)
 
