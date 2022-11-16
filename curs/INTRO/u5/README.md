@@ -71,7 +71,7 @@ Una de les idees clau de Guido van és que el codi es llegeix molt més sovint d
 Una guia d'estil tracta sobre la coherència. La coherència amb una guia d'estil és important. La coherència dins d'un projecte és més important. La coherència dins d'un mòdul o funció és el més important.
 Tanmateix, sabeu quan s'ha de ser inconsistent, de vegades les recomanacions de guies d'estil no són aplicables. En cas de dubte, utilitzeu el vostre millor criteri. Mireu altres exemples i decidiu què es veu millor. 
 
-Pots trobar la guía de estils para escriure codi python a [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
+Pots trobar la guía de estils para escriure codi python a [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). La guia d'estil es un Python Enhancement Proposals (PEP). Pots consultar totes els [pep a la següent adreça](https://peps.python.org/pep-0000/)
 
 
 
