@@ -35,7 +35,7 @@ Python és un llenguatge:
 
 El [índex Tiobe](http://www.tiobe.com/tiobe-index/)
 
-![Tabla](https://raw.githubusercontent.com/fbarraga/python/master/assets/tiobe.jpg)
+![Tabla](https://raw.githubusercontent.com/fbarraga/Python/master/assets/tiobe.jpg)
 
 
 
