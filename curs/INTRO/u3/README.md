@@ -1,10 +1,10 @@
 # Instal·lació de Python3 
 
-La pàgina principal para descarregar les diferents versions és: [www.python.org/downloads/](https://www.python.org/downloads/).
+Python és un llenguage multiplataforma, per lo que el mateix programa ens pot funcionar en Linux, Windows i MacOs. La pàgina principal para descarregar les diferents versions és: [www.python.org/downloads/](https://www.python.org/downloads/).
 
 ## Instal·lació en Linux
 
-Python ve preinstal·lado de serie en la majoria de las distribucions GNU/Linux. Si no podem instal·lar-lo a través dels paquets de instal·lació.
+Python ve preinstal·lat de sèrie en la majoria de las distribucions GNU/Linux. Si no el trobem instal·lat sempre el podrem instal·lar a través dels paquets de instal·lació.
 
 * Amb Debian 11.3 , la versión es la 3.10.6
 * Amb Ubuntu 22.04 , la versión es la 3.10.6
