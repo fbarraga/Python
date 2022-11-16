@@ -4,24 +4,25 @@
 
 ### Introducció
 
-1. [Introducció a Python](curs/INTRO/u1/README.md)
+1. [Introducció a Python](curs/000_INTRO/u1/README.md)
 
-2. [Python2 vs Python3](curs/INTRO/u2/README.md)
+2. [Python2 vs Python3](curs/000_INTRO/u2/README.md)
 
-3. [Instal·lació de Python3](curs/INTRO/u3/README.md)
+3. [Instal·lació de Python3](curs/000_INTRO/u3/README.md)
 	* Instal·lació en linux debian/Ubuntu
 	* Instal·lació en altres distribucions linux
 	* Instal·lació en Windows
 	* Instal·lació en Mac
+	* Virtual Environments
 
-4. [Entorns de desenvolupament i editors de text](curs/INTRO/u4/README.md)
+4. [Entorns de desenvolupament i editors de text](curs/000_INTRO/u4/README.md)
 	* IDE Python
 	* Editors de texts
 	* IDE us Editors de text
 	* Característiques dels editors de texts
 
-5. [El meu primer programa en Python3](curs/INTRO/u5/README.md)
-	* Us de l'interpret
+5. [El meu primer programa en Python3](curs/000_INTRO/u5/README.md)
+	* Us de l'intèrpret
 	* Escrivim un programa
 	* Execució de programes utilitzant shebang
 	* Guía de estil
