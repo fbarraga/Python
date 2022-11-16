@@ -19,7 +19,7 @@ Podem descarregar-nos un instal·lador (paquet MSI) de les diferents versions de
 
 ## Instal·lació en Mac OS
 
-Mac OS X 10.8 ve amb Python 2.7 pre-instalado. Si vols instal·lar Python3 pots trobar el paquet de la versió desitjada a la pàgina de descàrrega: [www.python.org/downloads/](https://www.python.org/downloads/).
+Mac OS X 10.8 ve amb Python 2.7 pre-instal·lat. Si vols instal·lar Python3 pots trobar el paquet de la versió desitjada a la pàgina de descàrrega: [www.python.org/downloads/](https://www.python.org/downloads/).
 
 [Per més informació](https://docs.python.org/3/using/mac.html)
 

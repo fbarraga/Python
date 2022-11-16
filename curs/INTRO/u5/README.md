@@ -1,10 +1,10 @@
-# Mi primer programa en python3
+# El meu primer programa amb Python3
 
-La documentación de este curso esta escrita usando la distribución GNU/Linux Debian Jessie. Algunas particularidades pueden cambiar en otras versiones, distribuciones o sistemas operativos.
+La documentació i els exemples estan basats en la distribució GNU/Linux Debian. Algunas particularitats poden canviar amb altres versions, o distribucions o sistemes operatius.
 
-## Uso del interprete
+## Us de l'intèrpret
 
-Al instalar python3 el ejecutable del interprete lo podemos encontrar en `/usr/bin/python3`. Este directorio por defecto está en el PATH, por lo tanto lo podemos ejecutar directamente en el terminal. Por lo tanto para entrar en el modo interactivo, donde podemos ejecutar instrucción por instrucción interactivamente, ejecutamos:
+Al instal·lar Python3 el executable de l'intèrpret el podem cercar a  `/usr/bin/python3`. Aquest directori per defecte està en el PATH, per lo que podem executar-ho directament des del terminal. Per tant per poder entrar en mode interactiu, on podem executar instrucció per instrucció interactivament, executem:
 
 	$ python3
 	Python 3.4.2 (default, Oct  8 2014, 10:45:20) 
@@ -12,7 +12,7 @@ Al instalar python3 el ejecutable del interprete lo podemos encontrar en `/usr/b
 	Type "help", "copyright", "credits" or "license" for more information.
 	>>> 
 
-En el modo interactivo, la última expresión impresa es asignada a la variable _.
+En el mode interactiu, la darrera expressió impressa est+a assignada a la variable _.
 
 	>>> 4 +3
 	7
@@ -20,53 +20,58 @@ En el modo interactivo, la última expresión impresa es asignada a la variable 
 	10
 
 
-Si tenemos nuestro programa en un fichero fuente (suele tener extensión `py`), por ejemplo `programa.py`,lo ejecutaríamos de la siguiente manera.
+Si tenim el nostre programa en un fitxer font (sol tenir extensió `py`), per exemple `programa.py`,l'executaríem de la següent manera:
 	
 	$ python3 programa.py
 
-Por defecto la codificación de nuestro código fuente es UTF-8, por lo que no debemos tener ningún problema con los caracteres utilizados en nuestro programaos. Si por cualquier motivo necesitamos cambiar la codificación de los caracteres, en la primera línea de nuestro programa necesitaríamos poner:
+Por defecte la codificación del nostre codi font és UTF-8, per lo que no hauríem de tenir cap problema amb els caràcters utilitzats en el nostre programa. Si per qualsevol motiu haguéssim de canviar la codificació, ho podríem fer afegint a la primera línia del programa:
 
 	# -*- coding: encoding -
 
-Por ejemplo:
+Per exemple:
 
 	# -*- coding: cp-1252 -*-
 
-## Escribimos un programa
+## Escrivim un programa
 
-Un ejemplo de nuestro primer programa, podría ser este "hola mundo" un poco modificado:
+Un exemple del nostre primer programa, podría ser aquest "hola mon" un mica modificat:
 
 	numero = 5
 	if numero == 5:
-		print ("Hola mundo!!!")
+		print ("Hola mon!!!")
 
-La indentación de la última línea es importante (se puede hacer con espacios o con tabulador), en python se utiliza para indicar bloques de instrucciones definidas por las estructuras de control (if, while, for, ...). 
+La indentació de la darrera línea es important (es pot fer amb espais o amb tabulador), amb python s' utilitza per indicar blocs de instruccions definides por les estructures de control (if, while, for, ...). 
 
-Para ejecutar este programa (guardado en `hola.py`):
+Per executar aquest programa (guardat en `hola.py`):
 
 	$ python3 hola.py
-	$ Hola mundo!!!
+	$ Hola mon!!!
 
-## Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
+## Execució de programes utilitzant [shebang](https://es.wikipedia.org/wiki/Shebang)
 
-Podemos ejecutar directamente el fichero utilizando en la primera línea el shebang, donde se indica el ejecutable que vamos a utilizar.
+Podem executar directament el fitxer utilizant a la primera línea el shebang, on s'indica el executable que anem a utilitzar.
 
 	#!/usr/bin/python3
 
-También podemos usar el programa `env` para preguntar al sistema por la ruta el interprete de python:
+També podem utilitzar el programa `env` per preguntar al sistema per la ruta de l'intèrpret de python:
 
 	#!/usr/bin/env python
 
-Por supuesto tenemos que dar permisos de ejecución al fichero.
+Por suposat, al ser un entorn UNIX, haurem de donar permissos d'execució al fitxer.
 
 	$ chmod +x hola.py
 
  	$ ./hola.py
-	$ Hola mundo!!!
+	$ Hola mon!!!
 
-## Guía de estilo
+## Guía de estil
 
-Puede encontrar la guía de estilos para escribir código python en [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
+Una de les idees clau de Guido van és que el codi es llegeix molt més sovint del que s'escriu. Les directrius que es proporcionen en una guia d'estil estan destinades a millorar la llegibilitat del codi i fer-lo coherent en tot l'ampli espectre del codi Python. ** "La llegibilitat compta".**
+
+Una guia d'estil tracta sobre la coherència. La coherència amb una guia d'estil és important. La coherència dins d'un projecte és més important. La coherència dins d'un mòdul o funció és el més important.
+Tanmateix, sabeu quan s'ha de ser inconsistent, de vegades les recomanacions de guies d'estil no són aplicables. En cas de dubte, utilitzeu el vostre millor criteri. Mireu altres exemples i decidiu què es veu millor. 
+
+Pots trobar la guía de estils para escriure codi python a [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
 
 
 
