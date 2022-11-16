@@ -1,9 +1,9 @@
-# Python2 us Python3
+# Python2 vs Python3
 
-## python 2.x y python 3.x
+## Python 2.x i Python 3.x
 
-La ultima versión 2.x fue la 2.7 de 2010, contando con soporte hasta el final de su vida útil. No está en desarrollo.
-La versión 3.x está bajo desarrollo activo, la última versión 3.6 salió el 23 de diciembre de 2016. Las modificaciones que se han incluido en python 3.x en sintaxis y módulos claves han hecho que no sea compatible con python 2.x.
+La darrera versió 2.x va ser la 2.7 de 2010, la quel te suport fins al final de la seva vida útil. Actualment no està en desenvolupament.
+La versió 3.x està en desenvolupament activu, la darrera versió 3.11 va sortir  24 d'octubre de 2022 [web:Versions Python](https://www.python.org/doc/versions/). Les modificacions que s'han inclós en Python 3.x en sintaxis i módulos claus han fet que no sigui compatible amb Python 2.x.
 
 En el [post: What’s New In Python 3.0](https://docs.python.org/3.0/whatsnew/3.0.html) escrito por Guido van Rossum podemos encontrar los cambios introducidos en la versión 3.x. En la documentación podéis encontrar la página [What’s New in Python](https://docs.python.org/3/whatsnew/index.html) donde podéis estudiar las mejoras de cada una de las versión que van saliendo.
 
