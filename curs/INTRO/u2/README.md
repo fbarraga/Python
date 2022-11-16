@@ -3,38 +3,40 @@
 ## Python 2.x i Python 3.x
 
 La darrera versió 2.x va ser la 2.7 de 2010, la quel te suport fins al final de la seva vida útil. Actualment no està en desenvolupament.
-La versió 3.x està en desenvolupament activu, la darrera versió 3.11 va sortir  24 d'octubre de 2022 [web:Versions Python](https://www.python.org/doc/versions/). Les modificacions que s'han inclós en Python 3.x en sintaxis i módulos claus han fet que no sigui compatible amb Python 2.x.
+La versió 3.x està en desenvolupament activu, la darrera versió 3.11 va sortir  24 d'octubre de 2022, pots consultar totes les versions en el [post: Versions Python](https://www.python.org/doc/versions/). Les modificacions que s'han inclós en Python 3.x en sintaxis i módulos claus han fet que no sigui compatible amb Python 2.x.
 
-En el [post: What’s New In Python 3.0](https://docs.python.org/3.0/whatsnew/3.0.html) escrito por Guido van Rossum podemos encontrar los cambios introducidos en la versión 3.x. En la documentación podéis encontrar la página [What’s New in Python](https://docs.python.org/3/whatsnew/index.html) donde podéis estudiar las mejoras de cada una de las versión que van saliendo.
+En el [post: What’s New In Python 3.0](https://docs.python.org/3.0/whatsnew/3.0.html) escrit per Guido van Rossum podem trobar els canvis introduits a la versió 3.x. A la documentació podeu trobar la página [What’s New in Python](https://docs.python.org/3/whatsnew/index.html) on podeu veure les millores que es van incorporant en cada nova versió.
 
-## Entonces, ¿Qué versión debería utilizar? 
+## ¿Quina versió he d'utilitzar? 
 
-Te debes asegurar si las bibliotecas que vas a utilizar son compatibles con la versión que vas a utilizar. El problema en los últimos años ha sido que no todas las librerías se habían exportado a la versión 3. En los últimos tiempo la versión 3 es suficientemente madura para se utilizada y muchos de las librerías y software más utilizado ya está exportado. Puedes ver la lista de los paquetes exportados a la versión 3 en la página [http://python3wos.appspot.com/](http://python3wos.appspot.com/).
+Depenent del projecte que hagis de fer, hauràs de revisar si les biblioteques que has d'utilizar son compatibles amb la versió que utilizaràs. El problema en els darrers anys es que no totes les llibreries s'exporten a la darrera versió en el moment que surt aquesta.
 
-Si es totalmente necesario, porque la librería que necesito no está portada tendríamos que usar la versión 2, pero hay que tener en cuenta que python 2.x es un lenguaje antiguo con errores, por lo tanto merece la pena hacer un esfuerzo y buscad alternativas para usar la versión 3. Si tienes código en la antigua versión, también existen herramientas para realizar la portabilidad: [Porting Python Code to 3.x](https://wiki.python.org/moin/PortingPythonToPy3k).
+De totes maneres la versión 3 es suficientment madura com per se utilitzada i moltes de les llibreries i software més utilitzat ja està soportat, per lo que si comences un projecte nou, fes-ho des de la darrera o penultima versió.
 
-## Las principales difreencia entre python 2.x y 3.x
+Si tens codi en una versió antiga, hi ha eines per fer la portabilitat a la darrera versió: [Porting Python Code to 3.x](https://wiki.python.org/moin/PortingPythonToPy3k).
 
-## Print es una función en python3
+## Les principals diferencies entre Python 2.x y 3.x
 
-En python2:
+## Print es una funció en python3
+
+Amb Python2:
 
 	print "hola mundo"
 
-En python3:
+Amb Python3:
 
 	print ("Hola mundo")
 
-### División de números enteros
+### Divisió de números enters
 
-En python 2 al dividir enteros, siempre el resultado era un entero, en python3 el resultado es un número real.
+A python 2 al dividir enters, sempre el resultat era un enter, amb python3 el resultat es un número real.
 
-En python2:
+Amb Python2:
 
 	>>> 4/3
 	1
 
-En python3:
+Amb Python3:
 
 	>>> 3/2
 	1.5
@@ -46,28 +48,28 @@ En python3:
 	>>> type(num)
 	<class 'float'>
 
-### Las "cadenas" (strings) son Unicode de forma predeterminada en python 3
+### Les "cadenes" (strings) son Unicode de forma predeterminada en Python 3
 
-En python2 existe dos tipos diferenciados de cadenas: str (ascii) y unicode, en python 3 todas las cadenas son unicodes.
+A python2 existeix dos tipus diferenciats de cadenes: str (ascii) i unicode, a python 3 totes las cadenes son unicodes.
 
-En python2:
+Amb Python2:
 
 	>>> cad = "piña"
 	>>> cad
 	'pi\xc3\xb1a'
 
 
-En python3: 
+Amb Python3: 
 
 	>>> cad = "piña"
 	>>> cad
 	'piña'
 
-### Generación de listas de número
+### Generació de llistes de número
 
-En python2 teníamos dos funciones parecidas: range que generaba una lista de números, y xrange que era una función que devolvía un objeto de tipo xrange. La diferencia entre ambas era que utilizar esta última era mucho más eficiente. E python3 sólo tenemos range que ha pasado a ser un tipo de datos.
+A python2 teníem dos funcions semblants: range que generava una llista de números, i xrange que era una funció que retornava un objecte de tipus xrange. La diferencia entre ambdues era que utilitzar aquesta darrera era molt més eficient. E python3 sólo tenemos range que ha pasado a ser un tipo de datos.
 
-En python2:
+Amb Python2:
 
 	>>> range(1,10)
 	[1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -76,45 +78,45 @@ En python2:
 	>>> type(xrange(1,10))
 	<type 'xrange'>
 
-En pyton3:
+Amb Python3:
 
 	>>> range(1,10)
 	range(1, 10)
 	>>> type(range(1,10))
 	<class 'range'>
 
-### Input es una cadena de texto en python 3
+### Input és una cadena de texte en Python 3
 
-En python 2 habían dos funciones para ingresar datos por un teclado raw_input() en que lo ingresado se trataba como una cadena de texto e input() en lo que se ingresaba se evaluaba y se trataba por su tipo. En python 3, se eliminó el input() de python 2 quedando el raw_input() como el nuevo input(). O sea el input() de python 3 siempre devuelve una cadena de texto.
+En python 2 hi havien dos funcions per ingresar dades per un teclat raw_input() lo entrat es tractava com una cadena de texte i input() lo entrat s'evaluava i es tractava pel seu tipus. En python 3, es va eliminar  el input() de python 2 quedant el raw_input() como el nou input(). O sigui el input() de python 3 sempre retorna una cadena de texte.
 
-En python2:
+Amb Python2:
 
 	>>> cad=raw_input()
 	123
-	>>> type(cad)
+	>>> `type(cad)`
 	<type 'str'>
 	>>> num=input()
 	123
 	>>> type(num)
 	<type 'int'>
 
-En python3:
+Amb Python3:
 
 	>>> num=input()
 	123
 	>>> type(num)
 	<class 'str'>
 
-### Comparando tipos
+### Comparant tipus
 
-Python 3 nos indica un error cuando intentamos comparar tipos de datos diferentes.
+Python 3 ens indica un error quan intentem comparar tipus de dades diferents.
 
-En python2:
+Amb python2:
 
 	>>> [1,2] > "hola"
 	False
 
-En python3:
+Amb python3:
 
 	>>> [1,2] > "hola"
 	Traceback (most recent call last):
@@ -122,5 +124,5 @@ En python3:
 	TypeError: unorderable types: list() > str()
 
 
-
-[Index](../../README.md)
+***
+[Index](../../../README.md)
