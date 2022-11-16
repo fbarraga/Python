@@ -1,6 +1,6 @@
 # Instal·lació de Python3 
 
-La pàgina principal para descarregar les diferents versions es:[www.python.org/downloads/](https://www.python.org/downloads/).
+La pàgina principal para descarregar les diferents versions és: [www.python.org/downloads/](https://www.python.org/downloads/).
 
 ## Instal·lació en Linux
 
