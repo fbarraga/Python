@@ -1,6 +1,6 @@
-# Entornos de desarrollos y editores de texto
+# Entorns de desenvolupament i editors de texte
 
-Una decisión importante que debes tomar cuando empiezas a trabajar en informática es acerca del editor o editores de texto que vas a utilizar. Hay muchas opciones y aspectos a considerar. Además en determinadas entornos es posible que no sea suficiente con utilizar un simple editor de texto y sea el necesario el uso de un IDE (entorno de desarrollo integrado), que además de la posibilidad  de editar el código, nos ofrezca otras herramientas: depuración de código, generación automático de código, ayuda integrada, manejo del proyecto, gestión de los sistemas de control de versiones,...
+Una decisió important que has de prendre quan comences a treballar en informàtica es sobre el editor o editors de texte que utilizaràs. Hi ha moltes opcions i aspectes a considerar. A més en determinats entorns es possible que no sigui suficient amb utilitzar un simple editor de texte i sigui necessari el us de un IDE (entorn de desenvolupament integrat), que además de la posibilidad  de editar el código, nos ofrezca otras herramientas: depuración de código, generación automático de código, ayuda integrada, manejo del proyecto, gestión de los sistemas de control de versiones,...
 
 A La hora de decidir en qué entorno trabajar, nos deberíamos hacer las siguientes preguntas:
 

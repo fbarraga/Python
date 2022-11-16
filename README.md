@@ -4,29 +4,29 @@
 
 ### Introducció
 
-1. [Introducció a python](curs/u1/README.md)
+1. [Introducció a Python](curs/INTRO/u1/README.md)
 
-2. [Python2 vs python3](curs/u2/README.md)
+2. [Python2 vs Python3](curs/INTRO/u2/README.md)
 
-3. [Instal·lació de python3](curs/u3/README.md)
+3. [Instal·lació de Python3](curs/INTRO/u3/README.md)
 	* Instal·lació en linux debian/Ubuntu
 	* Instal·lació en altres distribucions linux
 	* Instal·lació en Windows
 	* Instal·lació en Mac
 
-4. [Entorns de desenvolupament i editors de text](curs/u4/README.md)
-	* IDE python
+4. [Entorns de desenvolupament i editors de text](curs/INTRO/u4/README.md)
+	* IDE Python
 	* Editors de texts
 	* IDE us Editors de text
 	* Característiques dels editors de texts
 
-5. [El meu primer programa en python3](curs/u5/README.md)
+5. [El meu primer programa en Python3](curs/INTRO/u5/README.md)
 	* Us de l'interpret
 	* Escrivim un programa
 	* Execució de programes utilitzant shebang
 	* Guía de estil
 
-	### Estructura del llenguatge
+### Estructura del llenguatge
 
 6. [Estructura del programa](curs/u6/README.md)
 	* Estructura de programa
@@ -40,18 +40,18 @@
 	* Constants predefinides: False,True,None, ...
 	* Ajuda, función help()
 
-8. [Dades](curs/u8)
+8. [Dades](curs/u8/README.md)
 	* Literals, variables i expressions
 	* Definició, borrat i àmbit de variables
 	* Operadors. Precedencia d'operadors
 	* Funció eval()
 
-9. [Tipus de dades](curs/u9)
+9. [Tipus de dades](curs/u9/README.md)
 	* Classificació de tipus de dades
 	* Funció type()
 	* Funció isistance()
 
-10. [Treballant amb variables](curs/u10)
+10. [Treballant amb variables](curs/u10/README.md)
 	* ¿Qué es el tipat dinàmic?
 	* Objectes inmutables i mutables
 	* Funció id()
@@ -65,7 +65,7 @@
 	* Formatejant cadenes de caràcters
 	* Funció format()
 
-	### Tipus de dades numèriques
+### Tipus de dades numèriques
 
 12. [Tipus de dades numèriques](curs/u12) 
 	* Enters
@@ -85,7 +85,7 @@
 
 14. [Exercicis de programació senzills](curs/u14/README.md)
 
-	### Estructures de control
+### Estructures de control
 
 15. [Estructura de control: Alternatives](curs/u15)
 	* Alternatives simples
@@ -103,7 +103,7 @@
 
 18. [Exercicis de repetitives](curs/u18)
 
-	### Tipus de dades seqüència
+### Tipus de dades seqüència
 
 19. [Tipus de dades seqüència](curs/u19)
 	* Enumeració dels tipus seqüència
@@ -115,7 +115,7 @@
 	* Les llistes son mutables. ¿Com es copien les llistes?
 	* Llistes multidimensionals
 	
-21. [Mètodes principals de llistes](curs/u21)
+21. [Mètodes principals de llistes](curs/u21/README.md)
 	* Mètodes d'inserció: append, extend, insert
 	* Mètodes d'eliminació: pop, remove
 	* Mètodes d'ordenació: reverse, sort, 
@@ -183,7 +183,7 @@
 	* Funció next(), reversed()
 	* Generadors
 
- ### Tipus de dades mapes
+### Tipus de dades mapes
 
 33. [Tipus de dades mapa: diccionari](curs/u33)
 	* Definició de diccionaris. Constructor dict
@@ -199,7 +199,7 @@
 
 35. [Exercicis de diccionaris](curs/u35)
 
-	### Treballar amb fitxers
+### Treballar amb fitxers
 
 36. [Lectura i escriptura de fitxers de textes](curs/FILES/u36)
 	* Funció open()
@@ -224,7 +224,7 @@
 	* Llegir fitxers xml
 	* Escriure fitxers xml
 
-	### Errors i Excepcions
+### Errors i Excepcions
 
 39. [Excepcions](curs/u39)
 	* Errors sintàctics i errors d'execució
@@ -232,17 +232,17 @@
 	* Obtenint informació de les excpcions
 	* Propagant excepcions. raise
 
-	### Móduls, paquets i namespaces
+### Móduls, paquets i namespaces
 
 40. [Móduls i paquets](curs/u40)
 	* Móduls, paquets
 	* Executant móduls amb scripts
 	* Important móduls: import
-	* Namespace yi alias
-	* Importando elementos de un módulo: from...import
-	* Importando módulos desde paquetes
+	* Namespace i alias
+	* Important elements d'un mòdul: from...import
+	* Important mòduls des de paquets
 	* Función dir()
-	* ¿Donde se encuentran los módulos?
+	* ¿On es troben els mòduls?
 
 41. [Mòduls estándars: mòduls de sistema](curs/u41)
 	* Mòdul os
@@ -269,7 +269,7 @@
 	* Creant entorns virtuals amb `venv`
 	* Instal·lant paquets al nostre entorn virtual
 
-	### Programació estructurada i modular
+### Programació estructurada i modular
 
 45. [Introducció a les funcions](curs/u45)
 	* Introducció a la programació estructurada i modular
@@ -292,13 +292,11 @@
 	* Decoradors
 	* Funcions generadores
 
-	### Exercicis de programació estructurada i modular
-
 48. [Exercicis amb funcions](curs/u48)
     
-49. [Programació estructurada i modular: Exemple complet](curs/u49)
+49. [Exercicis Programació estructurada i modular](curs/u49)
 
-	### Programació orientada a objectes POO
+### Programació orientada a objectes POO
 
 50. [Programació orientada a objectes](curs/POO/u50)
 	* Introducció a la Programació Orientada a Objectes
@@ -311,8 +309,8 @@
 51. [Conceptes avançats de programació orientada a objectes I](curs/POO/u51)
 	* Atributs de classe (estàtics)
 	* Atributs privats i ocults
-	* Métodes estátics
-	* Métodes de classe (estàtics)
+	* Mètodes estátics
+	* Mètodes de classe (estàtics)
 	* Funcions getattr,setattr,delattr,hasattr
 	
 52. [Conceptes avançats de programació orientada a objectes II](curs/POO/u52)
@@ -332,9 +330,10 @@
 	* Funcions issubclass() y isinstance() 
 	* Delegació
 
-	### Exercicis programació orientada a objectes
+54. [Exercicis Programació orientada a objectes](curs/POO/u54)
 
-54. [Programació orientada a objectes: Exemple complet](curs/POO/u54)
+
+### Python avançat IA
 
 55. [Intel.ligència artificial amb python](curs/IA/u55)
 
