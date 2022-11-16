@@ -24,11 +24,20 @@ Python és un llenguatge:
 	* Aplicacions de escriptori
 	* Aplicacions web
 	* Scripts
-* Moltes empreses importants utilitzen Python (Google, Nokia, IBM). Es demandat.
-* Gran quantitat de mòduls, moltíssimes funcionalitats.
-* Una gran comunitat que recolza el projecte.
+* Moltes empreses importants utilitzen Python (Google, Nokia, IBM). Es demandat
+* Gran quantitat de mòduls, moltíssimes funcionalitats
+* Una gran comunitat que recolza el projecte
 * Està preinstal·lat en la majoria de sistemes
 * Molt utilitzat per l'anàlisi de dades
+
+
+## Índex Tiobe
+
+El [índex Tiobe](http://www.tiobe.com/tiobe-index/)
+
+![Tabla](https://raw.githubusercontent.com/fbarraga/python/master/assets/tiobe.jpg)
+
+
 
 ***
 [Index](../../README.md)
