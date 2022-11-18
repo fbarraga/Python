@@ -10,7 +10,29 @@
 
 ## Comentaris
 
-S'utiliza el caràcter `#` per indicar els comentaris.
+Els comentaris s'utilitzen per:
+* Explicar codi Python
+* Fer el codi més llegible
+* Prevenir l'execució quan estem fent proves
+
+S'utiliza el caràcter `#` per indicar els comentaris. 
+
+Exemple de comentari amb una línia:
+
+#This is a comment
+print("Hello, World!")
+
+print("Hello, World!") #This is a comment
+
+Exemple de comentari amb varies linies `###`
+
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
+
 
 ## Paraules reservades
 
