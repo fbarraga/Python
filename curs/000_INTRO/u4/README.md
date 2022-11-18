@@ -1,10 +1,22 @@
 # Entorns de desenvolupament i editors de texte
 
-Una decisió important que has de prendre quan comences a treballar en informàtica es sobre el editor o editors de texte que utilizaràs. Hi ha moltes opcions i aspectes a considerar. A més en determinats entorns es possible que no sigui suficient amb utilitzar un simple editor de texte i sigui necessari el us de un IDE (entorn de desenvolupament integrat), que además de la posibilidad  de editar el código, nos ofrezca otras herramientas: depuración de código, generación automático de código, ayuda integrada, manejo del proyecto, gestión de los sistemas de control de versiones,...
+Una decisió important que has de prendre quan comences a treballar en programació és sobre l'editor o editors de texte que utilizaràs. Hi ha moltes opcions i aspectes a considerar. A més en determinats entorns es possible que no sigui suficient amb utilitzar un simple editor de texte i sigui necessari l'ús d'un ** IDE (entorn de desenvolupament integrat) **, que a més de la possibilitat d'editar el codi, ens ofereixi altres eines com: 
 
-A La hora de decidir en qué entorno trabajar, nos deberíamos hacer las siguientes preguntas:
+    * depuració de códi
+    * generació automàtica de codi
+    * ajuda integrada
+    * gestió del projecte
+    * gestió del control de versiones
+    * ...
 
-* ¿Editor gráfico o en consola? Para tareas de administración lo ideal sería saber manejar un editor de texto en consola, ya que en muchas ocasiones tendrás que hacerlo en un equipo remoto sin entorno gráfico. Las tres opciones más habituales son vim, nano y emacs-nox Sin embargo, para tareas de programación, es habitual es utilizar un editor gráfico con más funcionalidades: emacs, atom, sublime text, notepad++
+A l'hora de decidir en quin entorn treballar, ens haurem de fer les següents preguntes:
+
+* ¿Editor gràfic o en consola? Per tasques d'administració lo ideal sería saber gestionar un editor de texte en consola, ja que moltes vegades hauràs de fer-ho en un equip remot sense entorn gràfic. Las tres opcions més habituals son:
+  *  vim
+  *  nano
+  *  emacs-nox 
+Per tasques de programació, es habitual es utilizar un editor gráfico con más funcionalidades: emacs, atom, sublime text, notepad++
+
 * ¿Editor simple o IDE?. Habría que considerar que aprender a manejar un IDE lleva más tiempo que un simple editor y no es adecuado para aplicaciones sencillas como las que vamos a utilizar nosotros en este curso. Evidentemente el uso de un IDE se hace imprescindible en un entorno profesional.
 * ¿Qué funcionalidades básicas debe tener el editor?: resaltado de sintaxis, numeración de líneas, control de sangrado (indentación), manejo completo desde teclado
  Soporte para python.

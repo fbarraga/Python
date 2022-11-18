@@ -13,13 +13,15 @@
 	* Instal·lació en altres distribucions linux
 	* Instal·lació en Windows
 	* Instal·lació en Mac
-	* Virtual Environments
+	* Virtual Environments (Pdt)
 
 4. [Entorns de desenvolupament i editors de text](curs/000_INTRO/u4/README.md)
 	* IDE Python
 	* Editors de texts
 	* IDE us Editors de text
 	* Característiques dels editors de texts
+	* Configuració de Visual Studio Code (Pdt)
+	* Extensions de Visual Studio Code (Pdt)
 
 5. [El meu primer programa en Python3](curs/000_INTRO/u5/README.md)
 	* Us de l'intèrpret
