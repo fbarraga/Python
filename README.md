@@ -29,6 +29,10 @@
 	* Execució de programes utilitzant shebang
 	* Guía de estil
 
+### Introducció a l'algorismica
+
+Cridar al github d'algorismica
+
 ### Estructura del llenguatge
 
 6. [Estructura del programa](curs/u6/README.md)
@@ -98,7 +102,7 @@
 
 16. [Exercicis d'alternatives](curs/u16)
 
-17. [Estructura de control: Repetitivas](curs/u17)
+17. [Estructura de control: Repetitives](curs/u17)
 	* while
 	* for
 	* Instruccions break, continue i pass
