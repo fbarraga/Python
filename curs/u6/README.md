@@ -1,18 +1,18 @@
 # Estructura del programa
 
-* Un programa python está formado por instrucciones que acaban en un caracter de "salto de línea". 
-* El punto y coma “;” se puede usar para separar varias sentencias en una misma línea, pero no se aconseja su uso.
-* Una línea empieza en la primera posición, si tenemos instrucciones dentro de un bloque de una estrucura de control de flujo habra que hacer una identación.
-* La identación se puede hacer con espacios y tabulaciones pero ambos tipos no se pueden mezclar. Se recomienda usar 4 espacios.
-* La barra invertida "\\" al final de línea se emplea para dividir una línea muy larga en dos o más líneas.
-* Las expresiones entre paréntesis "()", llaves "{}" y corchetes "[]" separadas por comas "," se pueden escribir ocupando varias líneas.
-* Cuando el bloque a sangrar sólo ocupa una línea ésta puede escribirse después de los dos punto.
+* Un programa python està format por instruccions que acaben en un caràcter de "salt de línia". 
+* El punto i coma “;” es pot utilitzar per separar varies sentencies en una mateixa linia, pero no es recomana el seu us.
+* Una linia comença en la darrera posició, si tenim instruccions dintre de un bloc d'una estructura de control de flux s'haurà de fer una identació.
+* La identació es puede fer amb espais i tabulacions però ambdos tipus no es poden barrejar. Es recomanda  utilitzar 4 espais. ([Guía d'estil de python](https://www.python.org/dev/peps/pep-0008/))
+* La barra invertida "\\" al final de línia s'utilitza per dividir una linea molt llarga en dos o més linies.
+* Les expresions entre parèntesis "()", claus "{}" y corxets "[]" separats per comes "," es poden escriure ocupant varies linies.
+* Quan el bloc a aplicar la sangria només ocupa una linia aquesta pot esciure's després dels dos punts.
 
-## Comentarios
+## Comentaris
 
-Se utiliza el caracter `#` para indicar los comentarios.
+S'utiliza el caràcter `#` per indicar els comentaris.
 
-## Palabras reservadas
+## Paraules reservades
 
 	False      class      finally    is         return
 	None       continue   for        lambda     try
@@ -22,44 +22,44 @@ Se utiliza el caracter `#` para indicar los comentarios.
 	assert     else       import     pass
 	break      except     in         raise
 
-## Ejemplo
+## Exemple
 
 	#!/usr/bin/env python	
 
-	# Sangrado con 4 espacios	
+	# Sangrat con 4 espacios	
 
 	edad = 23
 	if edad > =18:
-	   print('Es mayor de edad')  
+	   print('Es major')  
 	else:
-	   print('Es menor de edad')	
+	   print('Es menor')	
 
-	# Cada bloque de instrucciones dentro de una estructura de control
-	# debe estar tabulada	
+	# Cada bloc de instruccions dintre d'una estructura de control
+	# ha d'estar tabulada	
 
 	if num >=0:
 		while num<10:
 			print (num)
 			num = num +1	
 
-	# El punto y coma “;” se puede usar para separar varias sentencias 
-	# en una misma línea, pero no se aconseja su uso.	
+	# El punt i coma “;” es pot utilitzar per separar varies sentències 
+	# en una mateixa linia, però no s'aconsella el seu ús.	
 
-	edad = 15; print(edad)	
+	edat = 15; print(edat)	
 
-	# Cuando el bloque a sangrar sólo ocupa una línea ésta puede
-	# escribirse después de los dos puntos:   	
+	# Quan el bloc on aplicar sangria només ocupa una linia 
+	# aquesta es pot escriure després dels dos punts:   	
 
-	if azul: print('Cielo')	
+	if blau: print('Cel')	
 
-	# La barra invertida “\” permite escribir una línea de
-	# código demasiado extensa en varias líneas:	
+	# La barra invertida “\” permet escriure una linia de
+	# codi massa extensa en varies linees:	
 
-	if condicion1 and condicion2 and condicion3 and \  
-	    condicion4 and condicion5:	
+	if condicio1 and condicio2 and condicio3 and \  
+	    condicio4 and condicio5:	
 
-	# Las expresiones entre paréntesis, llaves o corchetes pueden 
-	# ocupar varias líneas:	
+	# Las expresions entre parèntesis, claus o corxets poden 
+	# ocupar varies linies:	
 
-	dias = ['lunes', 'martes', 'miércoles', 'jueves',
-	        'viernes', 'sábado', 'domingo'] 
+	dies = ['dilluns', 'dimarts', 'dimecres', 'dijous',
+	        'divendres', 'dissabte', 'diumenge'] 
