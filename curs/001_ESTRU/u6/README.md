@@ -1,9 +1,9 @@
 # Estructura del programa
 
 * Un programa python està format por instruccions que acaben en un caràcter de "salt de línia". 
-* El punto i coma “;” es pot utilitzar per separar varies sentencies en una mateixa linia, pero no es recomana el seu us.
+* El punt i coma “;” es pot utilitzar per separar varies sentencies en una mateixa linia, pero no es recomana el seu ús.
 * Una linia comença en la darrera posició, si tenim instruccions dintre de un bloc d'una estructura de control de flux s'haurà de fer una identació.
-* La identació es puede fer amb espais i tabulacions però ambdos tipus no es poden barrejar. Es recomanda  utilitzar 4 espais. ([Guía d'estil de python](https://www.python.org/dev/peps/pep-0008/))
+* La identació es pot fer amb espais i tabulacions però ambdos tipus no es poden barrejar. Es recomanda  utilitzar 4 espais. ([Guía d'estil de python](https://www.python.org/dev/peps/pep-0008/))
 * La barra invertida "\\" al final de línia s'utilitza per dividir una linea molt llarga en dos o més linies.
 * Les expresions entre parèntesis "()", claus "{}" y corxets "[]" separats per comes "," es poden escriure ocupant varies linies.
 * Quan el bloc a aplicar la sangria només ocupa una linia aquesta pot esciure's després dels dos punts.
@@ -48,7 +48,7 @@ Exemple de comentari amb varies linies `###`
 
 	#!/usr/bin/env python	
 
-	# Sangrat con 4 espacios	
+	# Sangrat amb 4 espais	
 
 	edad = 23
 	if edad > =18:

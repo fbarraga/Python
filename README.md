@@ -35,30 +35,30 @@ Cridar al github d'algorismica
 
 ### Estructura del llenguatge
 
-6. [Estructura del programa](curs/u6/README.md)
+6. [Estructura del programa](curs/001_ESTRU/u6/README.md)
 	* Estructura de programa
 	* Els comentaris
 	* Paraules reservades
 	* Exemple
 
-7. [Funcions i constants predefinides](curs/u7/README.md)
+7. [Funcions i constants predefinides](curs/001_ESTRU/u7/README.md)
 	* Funcions predefinides
 	* Alguns exemples de funcions
 	* Constants predefinides: False,True,None, ...
 	* Ajuda, función help()
 
-8. [Dades](curs/u8/README.md)
+8. [Dades](curs/001_ESTRU/u8/README.md)
 	* Literals, variables i expressions
 	* Definició, borrat i àmbit de variables
 	* Operadors. Precedencia d'operadors
 	* Funció eval()
 
-9. [Tipus de dades](curs/u9/README.md)
+9. [Tipus de dades](curs/001_ESTRU/u9/README.md)
 	* Classificació de tipus de dades
 	* Funció type()
 	* Funció isistance()
 
-10. [Treballant amb variables](curs/u10/README.md)
+10. [Treballant amb variables](curs/001_ESTRU/u10/README.md)
 	* ¿Qué es el tipat dinàmic?
 	* Objectes inmutables i mutables
 	* Funció id()
@@ -66,7 +66,7 @@ Cridar al github d'algorismica
 	* Operadors d'assignación
 	* Assignació múltiple
 
-11. [Entrada i sortida estàndar](curs/u11/README.md)
+11. [Entrada i sortida estàndar](curs/001_ESTRU/u11/README.md)
 	* Funció input
 	* Funció print
 	* Formatejant cadenes de caràcters
