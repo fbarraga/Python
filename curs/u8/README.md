@@ -1,34 +1,39 @@
-# Datos
+# Dades
 
-## Literales, variables y expresiones
+## Literals, variables i expresiones
 
-### Literales
+### Literals
 
-Los literales nos permiten representar valores. Estos valores pueden ser de diferentes tipos, de esta manera tenemos diferentes tipos de literales:
+Els literals ens permeten representar valors. Aquests valors poden ser de diferents tipus, d'aquesta manera podem tenir.
 
-**Literales numéricos**
+**Literals numèrics**
 
-* Para representar números enteros utilizamos cifras enteras (Ejemplos: 3, 12, -23). Si queremos representarlos de forma binaria comenzaremos por la secuencia `0b` (Ejemplos: 0b10101, 0b1100). La representación octal la hacemos comenzando por `0o` (Ejemplos: 0o377, 0o7) y por último, la representación hexadecimal se comienza por `0x` (Ejemplos: 0xdeadbeef, 0xfff).
+* Per representar números enters utilitzem xifres enteres (Ejemplos: 3, 12, -23). Si volem representar-los de forma binaria començarem per la seqüència `0b` (Exemples: 0b10101, 0b1100). 
+  
+* La representació octal la fem començant per `0o` (Ejemplos: 0o377, 0o7) i per últim, la representació hexadecimal es comença per `0x` (Exemples: 0xdeadbeef, 0xfff).
 
-* Para los números reales utilizamos un punto para separar la parte entera de la decimal (12.3, 45.6). Podemos indicar que la parte decimal es 0, por ejemplo 10., o la parte entera es 0, por ejemplo .001, Para la representación de números muy grandes o muy pequeños podemos usar la representación exponencial (Ejemplos: 3.14e-10,1e100).
+* Pels números reales utilitzem un punt per separar la part entera de la decimal (12.3, 45.6). Podem indicar que la parte decimal es 0, per exemple 10., o la part entera es 0, per exemplo .001, Per la representació de números molt grans o molt petits podem utilitzar la representació exponencial (Exemples: 3.14e-10,1e100).
 
 * Por último, también podemos representar números complejos, con una parte real y otra imaginaria (Ejemplo: 1+2j)
 
-**Literales cadenas**
+**Literals cadenes**
 
-Nos permiten representar cadenas de caracteres. Para delimitar las cadenas podemos usar el carácter ' o el carácter ". También podemos utilizar la combinación ''' cuando la cadena ocupa más de una línea. Ejemplos.
+Ens permeten representar cadenes de caràcters. Per delimitar les cadenes podems utilitzar el caràcter ' o el carácter ". També podem utilitzar la combinació ''' quan la cadena ocupa més d'una línoa. 
+
+Exemples:
 
 	'hola que tal!'
-	"Muy bien"
-	'''Podemos \n
-	ir al cine'''
+	"Molt bé"
 
-Las cadenas anteriores son del tipo `str`, si queremos representar una cadena de tipo `byte` podremos hacerlo de la siguiente manera:
+	'''Podem \n
+	anar al cine'''
+
+Les cadenes anteriors son del tipus `str`, si volem representar una cadena de tipus `byte` podrem fer-ho de la següent manera:
 
 	b'Hola'
-	B"Muy bien"
+	B"Molt bé"
 
-Con el carácter /, podemos escapar algunos caracteres, veamos algunos ejemplos:
+Amb el caràcter \, podem posar alguns caracters, per exemple:
 
 	\\ 	Backslash (\) 	 
 	\' 	Single quote (') 	 

@@ -36,11 +36,11 @@ En el mòdul [builtins](https://docs.python.org/3/library/builtins.html) es defi
 * `True` y `False`: Valors booleans
 * `None` especifica que alguna variable o objecte no té assignat cap tipus.
 
-Hay alguna constante más que veremos a los largo del curso si es necesario.
+Hi ha algunes altres constants que les podeu consultar en aquest [post](https://docs.python.org/3/library/constants.html).
 
 ## Ajuda a python
 
-Un funció fundamental quan volem obtenir informació sobre els diferents aspectes del llenguatge es `help`. Podem usarla entrant en una sessió interactiva:
+Un funció fundamental quan volem obtenir informació sobre els diferents aspectes del llenguatge es `help`. Podem utilitzar-la entrant en una sessió interactiva:
 
 	>>> help()	
 
