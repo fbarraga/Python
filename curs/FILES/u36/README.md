@@ -1,32 +1,32 @@
-# Lectura y escritura de ficheros de textos
+# Lectura i escriptura de fitxers de texte
 
-## Función open()
+## Funció open()
 
-La función [open()](https://docs.python.org/3.4/library/functions.html#open) se utiliza normalmente con dos parámetros (fichero con el que vamos a trabajar y modo de acceso) y nos devuelve un objeto de tipo fichero.
+La funció [open()](https://docs.python.org/3.11/library/functions.html#open) s'utilitza normalment amb dos paràmetres (fitxer amb el que anem a treballar i mode d'accés) i ens retorna un objecte de tipus fitxer.
 
-	>>> f = open("ejemplo.txt","w")
+	>>> f = open("exemple.txt","w")
 	>>> type(f)
 	<class '_io.TextIOWrapper'>
 	>>> f.close()
 
-### Modos de acceso
+### Modes d'accés
 
 Los modos que podemos indicar son los siguientes:
 
 <table>
 	<tr>
-		<td>Modo</td>
-		<td>Comportamiento</td>
-		<td>Puntero</td>
+		<td>Mode</td>
+		<td>Comportament</td>
+		<td>Punter</td>
 	</tr>
-	<tr><td>r</td><td>Solo lectura</td><td>Al inicio del archivo</td></tr>
-	<tr><td>rb</td><td>Solo lectura en modo binario </td><td></td></tr>
-	<tr><td>r+</td><td>Lectura y escritura </td><td>Al inicio del archivo</td></tr>
-	<tr><td>rb+</td><td>Lectura y escritura binario</td><td>Al inicio del archivo</td></tr>
-	<tr><td>w</td><td>Solo escritura. Sobreescribe si existe. Crea el archivo si no existe.</td><td>Al inicio del archivo</td></tr>
-	<tr><td>wb</td><td>Solo escritura en modo binario. Sobreescribe si existe. Crea el archivo si no existe.</td><td>Al inicio del archivo</td></tr>
-	<tr><td>w+</td><td>Escritura y lectura. Sobreescribe si existe. Crea el archivo si no existe.</td><td>Al inicio del archivo</td></tr>
-	<tr><td>wb+</td><td>Escritura y lectura binaria. Sobreescribe si existe. Crea el archivo si no existe.</td><td>Al inicio del archivo</td></tr>
+	<tr><td>r</td><td>Només lectura</td><td>A l'inici del fitxer</td></tr>
+	<tr><td>rb</td><td>Només lectura en mode binari </td><td></td></tr>
+	<tr><td>r+</td><td>Lectura i escriptura </td><td>A l'inici del fitxer</td></tr>
+	<tr><td>rb+</td><td>Lectura i escriptura binari</td><td>A l'inici del fitxer</td></tr>
+	<tr><td>w</td><td>Només escriptura. Sobreescriu si existeix. Crea el fitxer si no existeix.</td><td>A l'inici del fitxer</td></tr>
+	<tr><td>wb</td><td>Només escriptura en mode binari. Sobreescriu si existeix. Crea el fitxer si no existeix.</td><td>A l'inici del fitxer</td></tr>
+	<tr><td>w+</td><td>Escriptura i lectura. Sobreescriu si existeix. Crea el fitxer si no existeix.</td><td>A l'inici del fitxer</td></tr>
+	<tr><td>wb+</td><td>Escriptura i lectura binaria. Sobreescriu si existeix. Crea el fitxer si no existeix.</td><td>A l 'inici del fitxer</td></tr>
 	<tr><td>a</td><td>Añadido (agregar contenido). Crea el archivo si no existe.</td><td>Si el archivo existe, al final de éste. Si el archivo no existe, al comienzo.</td></tr>
 	<tr><td>ab</td>Añadido en modo binario. Crea si éste no existe<td></td><td>Si el archivo existe, al final de éste. Si el archivo no existe, al comienzo.</td></tr>
 	<tr><td>a+</td><td>Añadido y lectura. Crea el archivo si no existe.</td><td>Si el archivo existe, al final de éste. Si el archivo no existe, al comienzo.</td></tr>
@@ -34,9 +34,9 @@ Los modos que podemos indicar son los siguientes:
 	
 </table>
 
-Como podemos comprobar podemos trabajar con ficheros binarios y con ficheros de textos.
+Com podem comprovar podem treballar amb fitxers binaris i amb fitxers de text.
 
-### Codificación de caracteres
+### Codificació de caràcters
 
 Si trabajamos con fichero de textos podemos indicar también el parámetro `encoding` que será la codificación de caracteres utilizadas al trabajar con el fichero, por defecto se usa la indicada en el sistema:
 

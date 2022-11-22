@@ -1,10 +1,10 @@
-# Trabajando con variables
+# Treballant amb variables
 
-Como hemos indicado anteriormente las variables en python no se declaran, se determina su tipo en tiempo de ejecución empleando una técnica que se lama **tipado dinámico**.
+Com hem indicat anteriorment les variables en Python no es declaren, es determina el seu tipus en temps d'execució empleant una tècnica que s'anomena **tipat dinàmic**.
 
-## ¿Qué es el tipado dinámico?
+## ¿Qué es el tipt dinàmic?
 
-En python cuando asignamos una variable, se crea una referencia (puntero) al objeto creado, en ese momento se determina el tipo de la variable. Por lo tanto cada vez que asignamos de nuevo la variable puede cambiar el tipo en tempo de ejecución.
+En python quan assignem una variable, es crea una referencia (punter) al objecte creat, en aquest moment es determina el tipus de la variable. Per lo tant cada vegada que assignem de nou la variable pot canviar el tipus en temps d'execució.
 
 	>>> var = 3
 	>>> type(var)
@@ -14,28 +14,28 @@ En python cuando asignamos una variable, se crea una referencia (puntero) al obj
 	<class 'str'>
 
 
-## Objetos inmutables y mutables
+## Objectes inmutables i mutables
 
-### Objetos inmutables
+### Objectes inmutables
 
-Python procura no consumir más memoria que la necesaria. Ciertos objetos son **inmutables**, es decir, no pueden modificar su valor. El número 2 es siempre el núumero 2. Es un objeto inmutable. Python procura almacenar en memoria una sola vez cada valor inmutable. Si dos o más variables contienen ese valor, sus referencias apuntan a la misma zona de memoria.
+Python procura no consumir més memoria de la necesaria. Certs objectes son **inmutables**, es a dir, no poden modificar el seu valor. El número 2 es sempre el número 2. És un objeto inmutable. Python procura emmagatzemar en memoria una sola vegada cada valor inmutable. Si dos o més variables contenen aquest valor, les seves referencias apunten a la mateixa zona de memòria.
 
-**Ejemplo**
+**Exemple**
 
-Para comprobar esto, vamos a utilizar la función `id`, que nos devuelve el identificador de la variable o el objeto en memoria.
+Per comprovar això, anem a utilitzar la funció `id`, que ens retorna l'identificador de la variable o el objecte en memòria.
 
-Veamos el siguiente código:
+Veiem el següent codi:
 
 	>>> a = 5
 
-Podemos comprobar que `a` hace referencia al objeto `5`.
+Podem comprovar que `a` fa referencia al objecte `5`.
 	
 	>>> id(5)
 	10771648
 	>>> id(a)
 	10771648
 
-Esto es muy distinto a otros lenguajes de programación, donde una variable ocupa un espacio de memoria que almacena un valor. Desde este punto cuando asigno otro número a la variable estoy cambiando la referencia.
+Això és molt diferent a altres llenguatges de programació, on una variable ocupa un espai de memoria on es guarda un valor. Des d'aquest punt quan assignem un altre número a la variable esic canviant la referència.
 
 	>>> a = 6
 	>>> id(6)
@@ -43,8 +43,7 @@ Esto es muy distinto a otros lenguajes de programación, donde una variable ocup
 	>>> id(a)
 	10771680
 
-Las cadenas también son un objeto **inmutable**, que lo sean tiene efectos sobre las operaciones que podemos efectuar con ellas. La asignación a un elemento de una
-cadena, por ejemplo está prohibida:
+Les cadenes també son un objecte **inmutable**, que ho siguin té efectes sobre les operacions que podem fer sobre elles. L'assignació aun element d'una cadena, per exemple està prohibida.
 
 	>>> a = "Hola"
 	>>> a[0]="h"
@@ -52,13 +51,13 @@ cadena, por ejemplo está prohibida:
 	  File "<stdin>", line 1, in <module>
 	TypeError: 'str' object does not support item assignment
 
-De los tipos de datos principales, hay que recordar que son inmutables son los números, las cadenas o las tuplas.
+Dels tipus de dades principals, s'ha de recordar que son inmutables els números, les cadenas o les tuples.
 
-### Objetos mutables
+### Objectes mutables
 
-El caso contrario lo tenemos por ejemplo en los objetos de tipo listas, en este caso las listas son mutables. Se puede modificar un elemento de una lista.
+El cas contrari el tenim per exemple en els objectes tipus llistes, en aquest cas les llistes son mutables. Es pot modificar un element de la llista:
 
-**Ejemplo**
+**Exemple**
 
 	>>> a = [1,2]
 	>>> b = a
@@ -67,23 +66,23 @@ El caso contrario lo tenemos por ejemplo en los objetos de tipo listas, en este 
 	>>> id(b)
 	140052934508488
 
-Como anteriormente vemos que dos variables referencia a la misma lista e memoria. Pero aquí viene la diferencia, al poder ser modificada podemos encontrar situaciones como la siguiente:
+Com anteriorment veiem que dos variables referencia a la misma llista y memoria. Pero aquí ve la diferència, al poder ser modificada podem trobar situacions como la següent:
 
 	>>> a[0] = 5
 	>>> b
 	[5, 2]
 
-Cuando estudiamos las listas abordaremos este compartiendo de manera completa.
-De los tipos de datos principales, hay que recordar que son mutables son las listas y los diccionarios.
+Quan estudiem les llistes abordarem aquest tema de manera completa.
+Dels tipus de dades principals, s'ha de recordar que son mutables les llistes i els diccionaris.
 
-## Operadores de identidad
+## Operadors de identitat
 
-Para probar esto de otra forma podemos usar los operadores de identidad:
+Per provar això de una altra manera podem utilitzar els operadors d'identitat:
 
-* `is`: Devuelve True si dos variables u objetos están referenciando la misma posición de memoria. En caso contrario devuelve False.
-* `is not`: Devuelve True si dos variables u objetos **no** están referenciando la misma posición de memoria. En caso contrario devuelve False.
+* `is`: Retorna True si dos variables o objectes están referenciant la darrera posició de memòria. En caso contrari retorna False.
+* `is not`: Retorna True si dos variables u objectes **no** están referenciant la mateixa posició de memoria. En cas contrari retorna False.
 
-**Ejemplo**
+**Exemple**
 
 	>>> a = 5
 	>>> b = a
@@ -96,27 +95,27 @@ Para probar esto de otra forma podemos usar los operadores de identidad:
 	True
 
 	
-## Operadores de asignación
+## Operadors d'assignació
 
-Me permiten asignar una valor a una variable, o mejor dicho: me permiten cambiar la referencia a un nuevo objeto.
+Em permet assignar una valor a una variable, o dit d'una altra manera emm permet canviar la referència a un nou objecte.
 
-El operador principal es `=`:
+L'operador principal és `=`:
 
 	>>> a = 7
 	>>> a
 	7
 
-Podemos hacer diferentes operaciones con la variable y luego asignar, por ejemplo sumar y luego asignar.
+Podem fer diferents operacions amb la variable i després assignar, per exemple sumar i després assignar.
 
 	>>> a+=2
 	>>> a
 	9
 
-Otros operadores de asignación: `+=`, `-=`, `*=`, `/=`, `%=`, `**=`, `//=`
+Altres operadors d'assignació: `+=`, `-=`, `*=`, `/=`, `%=`, `**=`, `//=`
 
-## Asignación múltiple
+## Assignació múltiple
 
-En python se permiten asignaciones múltiples de esta manera:
+En python es permeten assignacions múltiples d'aquesta:
 
 	>>> a, b, c = 1, 2, "hola"
 

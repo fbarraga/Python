@@ -50,8 +50,8 @@ Exemple de comentari amb varies linies `###`
 
 	# Sangrat amb 4 espais	
 
-	edad = 23
-	if edad > =18:
+	edat = 23
+	if edat > =18:
 	   print('Es major')  
 	else:
 	   print('Es menor')	
