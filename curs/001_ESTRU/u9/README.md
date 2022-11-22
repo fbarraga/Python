@@ -53,3 +53,6 @@ Aquesta funció retorna True si l'objecte indicat és del tipus indicat, en cas 
 	True
 	>>> isinstance(5,list)
 	False
+
+***
+[Index](../../../README.md)

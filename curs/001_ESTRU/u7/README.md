@@ -63,3 +63,6 @@ Un funció fundamental quan volem obtenir informació sobre els diferents aspect
 O demanant ajuda d'un terme determinat, per exemple:
 
 	>>> help(print)
+
+***
+[Index](../../../README.md)

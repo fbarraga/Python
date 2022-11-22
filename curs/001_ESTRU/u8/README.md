@@ -138,3 +138,6 @@ La funció `eval()` rep una expressió como una cadena i l'executa.
 	>>> x=1
 	>>> eval("x + 1")
 	2
+
+***
+[Index](../../../README.md)

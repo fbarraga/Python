@@ -63,4 +63,5 @@ Per utilitzar el nou estil en python3 tenim una funció `format` i un métode `f
 	2.35
 
 
-[Index](../../README.md)
+***
+[Index](../../../README.md)

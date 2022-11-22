@@ -119,3 +119,6 @@ Otros operadores de asignación: `+=`, `-=`, `*=`, `/=`, `%=`, `**=`, `//=`
 En python se permiten asignaciones múltiples de esta manera:
 
 	>>> a, b, c = 1, 2, "hola"
+
+***
+[Index](../../../README.md)

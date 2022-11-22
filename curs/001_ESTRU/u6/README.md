@@ -85,3 +85,6 @@ Exemple de comentari amb varies linies `###`
 
 	dies = ['dilluns', 'dimarts', 'dimecres', 'dijous',
 	        'divendres', 'dissabte', 'diumenge'] 
+
+***
+[Index](../../../README.md)
