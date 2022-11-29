@@ -74,7 +74,7 @@ Cridar al github d'algorismica
 
 ### Tipus de dades numèriques
 
-12. [Tipus de dades numèriques](curs/u12) 
+12. [Tipus de dades numèriques](curs/002_TDNU/u12) 
 	* Enters
 	* Reals
 	* Complexes
@@ -83,7 +83,7 @@ Cridar al github d'algorismica
 	* Operadors a nivell de bit
 	* Conversió de tipus
 
-13. [Tipus de dades booleanes](curs/u13) 
+13. [Tipus de dades booleanes](curs/002_TDNU/u13) 
 	* Tipus booleà
 	* ¿Quins valors s'interpreten com FALS?
 	* Operadors booleans
