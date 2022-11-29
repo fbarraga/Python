@@ -70,3 +70,7 @@ Solución
 	else:
 	    print("No es primo")
 
+
+***
+[Index](../../../README.md)
+

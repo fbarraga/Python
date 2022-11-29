@@ -92,15 +92,17 @@ Cridar al github d'algorismica
 
 14. [Exercicis de programació senzills](curs/002_TDNU/u14/README.md)
 
-### Estructures de control
+### Estructures de control Alternatives/Condicionals (IF)
 
-15. [Estructura de control: Alternatives](curs/u15)
+15. [Estructura de control: Alternatives](curs/003_ALTER/u15)
 	* Alternatives simples
 	* Alternatives dobles
 	* Alternatives múltiples
 	* Expressió reduïda del if 
 
-16. [Exercicis d'alternatives](curs/u16)
+16. [Exercicis d'alternatives](curs/003_ALTER/16)
+    
+### Estructures de control Repetitives (WHILE / FOR)
 
 17. [Estructura de control: Repetitives](curs/u17)
 	* while

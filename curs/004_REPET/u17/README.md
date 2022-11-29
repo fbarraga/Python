@@ -1,21 +1,21 @@
-# Estructura de control: Repetitivas
+# Estructura de control: Repetitives
 
 ## while
 
-La estructura `while` nos permite repetir un bloque de instrucciones mientras al evaluar una expresión lógica nos devuelve True. Puede tener una estructura `else` que se ejecutará al terminar el bucle.
+L'estructura `while` ens permet repetir un bloc d'instruccions mentres al evaluar una expressió lògica ens retorna  True. Pot tenir una estructura `else` que s'executarà al terminar el bucle.
 
-*Ejemplo*
+*Exemple*
 
-	año = 2001 
-	while año <= 2017: 
-    	print ("Informes del Año", año) 
+	anyo = 2001 
+	while anyo <= 2017: 
+    	print ("Informes del Año", anyo) 
     	año += 1
     else:
     	print ("Hemos terminado")
 
 ## for
 
-La estructura `for` nos permite iterar los elementos de una secuencia (lista, rango, tupla, diccionario, cadena de caracteres,...). Puede tener una estructura `else` que se ejecutará al terminar el bucle.
+L'estructura `for` ens permet iterar els elementss de una secuencia (lista, rango, tupla, diccionario, cadena de caracteres,...). Puede tener una estructura `else` que se ejecutará al terminar el bucle.
 
 *Ejemplo*
 
@@ -54,3 +54,6 @@ Para recorrerla:
 	1 ana
 	2 juan
 	3 pepe
+
+***
+[Index](../../../README.md)
