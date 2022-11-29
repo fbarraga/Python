@@ -90,7 +90,7 @@ Cridar al github d'algorismica
 	* Operadors de comparació
 	* Funcions all() y any()
 
-14. [Exercicis de programació senzills](curs/u14/README.md)
+14. [Exercicis de programació senzills](curs/002_TDNU/u14/README.md)
 
 ### Estructures de control
 

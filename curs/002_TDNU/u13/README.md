@@ -2,7 +2,7 @@
 
 ## Tipus booleà
 
-El tipus booleà o lògic es considera en python3 com un subtipus del tipus enter. Es pot representar amb dos valores: vertader o fals (True, False).
+El tipus booleà o lògic es considera en python3 com un subtipus del tipus enter. Es pot representar amb dos valors: vertader o fals (True, False).
 
 ## ¿Quins valors s'interpreten com False?
 
