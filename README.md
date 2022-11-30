@@ -109,7 +109,7 @@ Cridar al github d'algorismica
 	* while
 	* for
 	* Instruccions break, continue i pass
-	* Recorrent varies sequències. Funció zip()
+	* Recorregut amb varies sequències. Funció zip()
 
 18. [Exercicis de repetitives](curs/004_REPET/u18/README.md)
 
