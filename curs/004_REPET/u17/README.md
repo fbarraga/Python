@@ -1,10 +1,12 @@
 # Estructura de control: Repetitives
 
-<div style="text-align: center;">
+<p align="center">
+  <img  src="https://github.com/fbarraga/Python/blob/master/master/assets/iterativa.png">
+</p>
 
 ![](https://github.com/fbarraga/Python/blob/master/master/assets/iterativa.png?raw=true)
 
-</div>
+
 
 ## while
 
