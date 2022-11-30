@@ -1,6 +1,6 @@
 # Estructura de control: Repetitives
 
-![](https://github.com/fbarraga/Python/blob/master/master/assets/iterativa.png?raw=true)
+![](https://github.com/fbarraga/Python/blob/master/master/assets/iterativa.png?raw=true){: .center-image}
 
 ## while
 
