@@ -289,6 +289,7 @@ Cridar al github d'algorismica
 	* Paràmetres formals i reals
 	* Pas de parámetre per valor o per referencia
 	* Crides a una funció
+	* args and kwargs in Python
 
 46. [Conceptes avançats sobre funcions](curs/u46)
 	* Tipus d'arguments: posicionals o keyword
