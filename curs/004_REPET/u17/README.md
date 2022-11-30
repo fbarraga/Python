@@ -7,7 +7,6 @@ Podem veure el funcionament de les estructures repetitives en el següent fluxog
 </p>
 
 
-
 ## while
 
 L'estructura `while` ens permet repetir un bloc d'instruccions mentres al evaluar una expressió lògica ens retorna  True. Pot tenir una estructura `else` que s'executarà al terminar el bucle.
