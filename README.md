@@ -74,7 +74,7 @@ Cridar al github d'algorismica
 
 ### Tipus de dades numèriques
 
-12. [Tipus de dades numèriques](curs/002_TDNU/u12) 
+12. [Tipus de dades numèriques](curs/002_TDNU/u12/README.md) 
 	* Enters
 	* Reals
 	* Complexes
@@ -83,7 +83,7 @@ Cridar al github d'algorismica
 	* Operadors a nivell de bit
 	* Conversió de tipus
 
-13. [Tipus de dades booleanes](curs/002_TDNU/u13) 
+13. [Tipus de dades booleanes](curs/002_TDNU/u13/README.md) 
 	* Tipus booleà
 	* ¿Quins valors s'interpreten com FALS?
 	* Operadors booleans
@@ -94,31 +94,32 @@ Cridar al github d'algorismica
 
 ### Estructures de control Alternatives/Condicionals (IF)
 
-15. [Estructura de control: Alternatives](curs/003_ALTER/u15)
-	* Alternatives simples
-	* Alternatives dobles
-	* Alternatives múltiples
+15. [Estructura de control: Condicionals](curs/003_ALTER/u15/README.md)
+	* Condicionals simples
+	* Condicionals dobles
+	* Condicionals múltiples
 	* Expressió reduïda del if 
+	* Expressió match/else
 
-16. [Exercicis d'alternatives](curs/003_ALTER/16)
+16. [Exercicis de condicionals](curs/003_ALTER/16/README.md)
     
 ### Estructures de control Repetitives (WHILE / FOR)
 
-17. [Estructura de control: Repetitives](curs/u17)
+17. [Estructura de control: Repetitives](curs/004_REPET/u17/README.md)
 	* while
 	* for
 	* Instruccions break, continue i pass
 	* Recorrent varies sequències. Funció zip()
 
-18. [Exercicis de repetitives](curs/u18)
+18. [Exercicis de repetitives](curs/004_REPET/u18/README.md)
 
 ### Tipus de dades seqüència
 
-19. [Tipus de dades seqüència](curs/u19)
+19. [Tipus de dades seqüència](curs/u19/README.md)
 	* Enumeració dels tipus seqüència
 	* Característiques principals de las seqüències
 
-20. [Tipus de dades seqüència: llistes](curs/u20)
+20. [Tipus de dades seqüència: llistes](curs/u20/README.md)
 	* Construcció d'una llista
 	* Operacions bàsiques amb llistes
 	* Les llistes son mutables. ¿Com es copien les llistes?
@@ -131,48 +132,48 @@ Cridar al github d'algorismica
 	* Mètodes de cerca: count, index
 	* Mètode de copia: copy
 
-22. [Exercicis amb llistes](curs/u22)	
+22. [Exercicis amb llistes](curs/u22/README.md)	
 
-23. [Operacions avançades amb seqüències](curs/u23)
+23. [Operacions avançades amb seqüències](curs/u23/README.md)
 	* Funció map
 	* Funció filter
 	* Funció reduce
 	* list comprehension
 
-24. [Tipus de dades seqüència: Tuples](curs/u24)
+24. [Tipus de dades seqüència: Tuples](curs/u24/README.md)
 	* Construcció d'una tupla
 	* Empaquetat i desempaquetat de tuples
 	* Operacions bàsiques amb tuples
 	* Les tuples son inmutables
 	* Métodes principals
 
-25. [Tipus de dades seqüència: Rangs](curs/u25)
+25. [Tipus de dades seqüència: Rangs](curs/u25/README.md)
 	* Definició d'un rang. Constructor range
 	* Recorregut d'un rang
 	* Operacions bàsiques amb range
 
-26. [Codificació de caràcters](curs/u26)
+26. [Codificació de caràcters](curs/u26/README.md)
 	* Introducció a la codificación de caracteres
 	* La codificación de caracteres en python3
 	* Funciones chr() y ord()
 
-27. [Tipus de dades cadenes de caràcters](curs/u27)
+27. [Tipus de dades cadenes de caràcters](curs/u27/README.md)
 	* Definició de cadenes. Constructor str
 	* Operacions bàsiques amb llistes
 	* Les cadenes son inmutables
 	* Comparació de cadenes
 	* Funcions repr, ascii, bin
 
-28. [Mètodes principals de cadenes](curs/u28)
+28. [Mètodes principals de cadenes](curs/u28/README.md)
 	* Mètodes de format
 	* Mètodes de cerca
 	* Mètodes de validació
 	* Mètodes de sustitució
 	* Mètodes d'unió i divisió
 
-29. [Exercicis de cadenes](curs/u29)
+29. [Exercicis de cadenes](curs/u29/README.md)
 
-30. [Tipus de dades binaris: bytes, bytearray](curs/u30)
+30. [Tipus de dades binaris: bytes, bytearray](curs/u30/README.md)
 	* Definició de bytes. Constructor bytes
 	* Definició de bytearray. Constructor bytearray
 	* Operacions bàsiques amb bytes i bytearray
@@ -180,37 +181,37 @@ Cridar al github d'algorismica
 	* Mètodes de bytes i bytearray
 	* Mètodes encode(), decode()
 
-31. [Tipus de dades conjunts: set, frozenset](curs/u31)
+31. [Tipus de dades conjunts: set, frozenset](curs/u31/README.md)
 	* Definició de conjunts. Constructor set
 	* Definició de frozenset. Constructor frozenset
 	* Operacions bàsiques amb set i frozenset
 	* Els set son inmutables, els frozenset son mutables
 	* Mètodes principals
 
-32. [Tipus de dades iterador i generador](curs/u32)
+32. [Tipus de dades iterador i generador](curs/u32/README.md)
 	* Iteradors
 	* Funció next(), reversed()
 	* Generadors
 
 ### Tipus de dades mapes
 
-33. [Tipus de dades mapa: diccionari](curs/u33)
+33. [Tipus de dades mapa: diccionari](curs/u33/README.md)
 	* Definició de diccionaris. Constructor dict
 	* Operacions bàsiques amb diccionaris
 	* Els diccionaris son tipus mutables
 
-34. [Mètodes principals de diccionaris](curs/u34)
+34. [Mètodes principals de diccionaris](curs/u34/README.md)
 	* Mètodes de eliminació: clear
 	* Mètodes de agregat i creació: copy, dict.fromkeys, update, setdefault
 	* Mètodes de retorn: get, pop, popitem, items, keys, values
 	* El tipus de dades dictviews
 	* Recorreguts de diccionaris
 
-35. [Exercicis de diccionaris](curs/u35)
+35. [Exercicis de diccionaris](curs/u35/README.md)
 
 ### Treballar amb fitxers
 
-36. [Lectura i escriptura de fitxers de textes](curs/FILES/u36)
+36. [Lectura i escriptura de fitxers de textes](curs/FILES/u36/README.md)
 	* Funció open()
 	* Modes d'accés
 	* Codificació de caràcters
@@ -218,24 +219,25 @@ Cridar al github d'algorismica
 	* Mètodes principals
 	* Recorregut de fitxers
 
-37. [Gestionar fitxers CSV](curs/FILES/u37)
+37. [Gestionar fitxers CSV](curs/FILES/u37/README.md)
 	* Mòdul csv
 	* Llegir fitxers CSV
 	* Escriure fitxers CSV
 
-38. [Gestionar fitxers json](curs/FILES/u38)
+38. [Gestionar fitxers json](curs/FILES/u38/README.md)
 	* Mòdul json
 	* Llegir fitxers json
 	* Escriure fitxers json
+	* Pretty Json
 
-38. [Gestionar fitxers xml](curs/FILES/u38b)
+38. [Gestionar fitxers xml](curs/FILES/u38b/README.md)
 	* Mòdul lxml i beautifulsoup
 	* Llegir fitxers xml
 	* Escriure fitxers xml
 
 ### Errors i Excepcions
 
-39. [Excepcions](curs/u39)
+39. [Excepcions](curs/u39/README.md)
 	* Errors sintàctics i errors d'execució
 	* Gestionant excepcions. try, except, else, finally
 	* Obtenint informació de les excpcions
@@ -243,7 +245,7 @@ Cridar al github d'algorismica
 
 ### Móduls, paquets i namespaces
 
-40. [Móduls i paquets](curs/u40)
+40. [Móduls i paquets](curs/u40/README.md)
 	* Móduls, paquets
 	* Executant móduls amb scripts
 	* Important móduls: import
@@ -253,14 +255,14 @@ Cridar al github d'algorismica
 	* Función dir()
 	* ¿On es troben els mòduls?
 
-41. [Mòduls estándars: mòduls de sistema](curs/u41)
+41. [Mòduls estándars: mòduls de sistema](curs/u41/README.md)
 	* Mòdul os
 	* Executar comandes del sistema operatiu. Mòdul subprocess
 	* Mòdul shutils
 	* Mòduls sys 
 	* Execució de scripts amb arguments
 	
-42. [Módulos estándares: módulos matemáticos](curs/u42)
+42. [Módulos estándares: módulos matemáticos](curs/u42/README.md)
 	* Mòdul math
 	* Mòdul fractions
 	* Mòdul statistics
@@ -359,4 +361,8 @@ Cridar al github d'algorismica
     
 	* Algorismes de Natural Language
 	* Algorismes de Image recognition
+
+
+57. [Microsoft Power BI i Python](curs/998_DATAAN)
+
 

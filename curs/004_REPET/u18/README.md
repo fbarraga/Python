@@ -1,74 +1,54 @@
-# Ejercicios de repetitivas
+# Exercicis de repetitives
 
-Pedir un número por teclado y mostrar la tabla de multiplicar
+1. Demanar un número per teclat i mostrar la taula de multiplicar amb un while
 
-Solución con while
+	Entrada: Entra un número:
+	Sortida: 1 x 1 = 1	
+             1 x 2 = 2     
+			 ...
 
-	#!/usr/bin/env python
-	numero = int(input("Número:"))
-	cont = 1
-	while (cont<11):
-		print ("%d * %d = %d" % (cont, numero, cont * numero))
-		cont += 1
+2. Demanar un número per teclat i mostrar la taula de multiplicar amb un for
+   
+   Entrada: Entra un número:
+	Sortida: 1 x 1 = 1	
+             1 x 2 = 2     
+			 ...
 
-Solución con for
+3. Crea un programa que demani un número i calculi el seu factorial (El factorial d'un número és el producte de tots els enters entre 1 i el propi número i es representa pel nombre seguit d'un signe d'exclamació. 
+   
+   Entrada: Entra el numero: 5
+   Sortida: 5! = 1x2x3x4x5 = 120
 
-	#!/usr/bin/env python
-	numero = int(input("Número:"))
-	for cont in range(1,11):
-		print ("%2d * %d = %2d" % (cont, numero, cont * numero))
 
-Crea una aplicación que pida un número y calcule su factorial (El factorial de un número es el producto de todos los enteros entre 1 y el propio número y se representa por el número seguido de un signo de exclamación. Por ejemplo 5! = 1x2x3x4x5=120
+4. Crea un programa que permeti endivinar un número. En primer lloc l'aplicació demana un número sencer per teclat. A continuació va demanant números i va responent si el número a endivinar és major o menor que l' introduït. El programa acaba quan s'encerta el número.
 
-Solución
+	Entrada: Entra el numero secret: 9
+	Entrada: Entra un número: 4
+	Sortida: El numero es més gran
+	Entrada: Entra el número: 6
+	Sortida: El número es més gran
+	Entrada: Entra el número : 9
+	Sortida: Felicitats! Era el número 9
 
-	#!/usr/bin/env python
-	num=int(input("Número:"))
-	fact=1
-	for i in range(2,num+1):
-		fact*=i
-	print("El resultado es %d" % fact)
+5. Fés un programa que mostri la taula de multiplicar dels números 1,2,3,4 i 5.
 
-Crea una aplicación que permita adivinar un número. En primer lugar la aplicación solicita un número entero por teclado. A continuación va pidiendo números y va respondiendo si el número a adivinar es mayor o menor que el introducido. El programa termina cuando se acierta el número.
+   Entrada: -
+   Sortida: 1 x 1 = 1	
+            1 x 2 = 2     
+			...
+			2 x 1 = 2
 
-Solución
+6. Escriu un programa que digui si un número introduït per teclat és o no primer. Un número primer és aquell que només és divisible entre ell mateix i la unitat.
 
-	#!/usr/bin/env python
-	secreto=int(input("Número secreto:"))
-	num=int(input("Número:"))
-	while num!=secreto:
-	    if num>secreto:
-	        print("El número es menor")
-	    else:
-	        print("El número es mayor")
-	    num=int(input("Número:"))
-	print ("Has acertado")
+   Entrada: Entra el número: 3
+   Sortida: El número 3 és primer
+   Entrada: Entra el número: 25
+   Sortida: El número 25 no és primer
 
-Programa que muestre la tabla de multiplicar de los números 1,2,3,4 y 5.
+7. Escriu un programa en python que doni la volta a un numero. 
 
-Solución
-
-	#!/usr/bin/env python
-	for numero in range(1,6):
-		for cont in range(1,11):
-			print ("%2d * %d = %2d" % (cont, numero, cont * numero))
-		print()
-
-Escribe un programa que diga si un número introducido por teclado es o no primo. Un número primo es aquel que sólo es divisible entre él mismo y la unidad.
-
-Solución
-
-	#!/usr/bin/env python
-	num=int(input("Número:"))
-	primo = True
-	for cont in range(2,num):
-	    if num%cont==0:
-	        primo=False
-	        break
-	if primo:
-	    print("Es primo")
-	else:
-	    print("No es primo")
+   Entrada: Entra un numero per girar: 123456 
+   Sortida esperada: 654321
 
 
 ***

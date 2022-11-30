@@ -1,5 +1,7 @@
 # Estructura de control: Repetitives
 
+![](https://github.com/fbarraga/Python/blob/master/master/assets/iterativa.png?raw=true)
+
 ## while
 
 L'estructura `while` ens permet repetir un bloc d'instruccions mentres al evaluar una expressió lògica ens retorna  True. Pot tenir una estructura `else` que s'executarà al terminar el bucle.
