@@ -1,10 +1,10 @@
 # Estructura de control: Repetitives
 
+Podem veure el funcionament de les estructures repetitives en el següent fluxograma:
+
 <p align="center">
   <img  src="https://github.com/fbarraga/Python/blob/master/master/assets/iterativa.png">
 </p>
-
-![](https://github.com/fbarraga/Python/blob/master/master/assets/iterativa.png?raw=true)
 
 
 
