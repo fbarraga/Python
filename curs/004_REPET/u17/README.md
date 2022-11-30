@@ -15,46 +15,46 @@ L'estructura `while` ens permet repetir un bloc d'instruccions mentres al evalua
 
 	anyo = 2001 
 	while anyo <= 2017: 
-    	print ("Informes del Año", anyo) 
+    	print ("Informes del any", anyo) 
     	año += 1
     else:
-    	print ("Hemos terminado")
+    	print ("Hem acabat")
 
 ## for
 
 L'estructura `for` ens permet iterar els elementss de una secuencia (lista, rango, tupla, diccionario, cadena de caracteres,...). Puede tener una estructura `else` que se ejecutará al terminar el bucle.
 
-*Ejemplo*
+*Exemple*
 
 	for i in range(1,10):
         print (i)
 	else:
-        print ("Hemos terminado")
+        print ("Hem acabat")
 
-## Instrucciones break, continue y pass
+## Instruccions break, continue i pass
 
 ### break
 
-Termina la ejecución del bucle, además no ejecuta el bloque de instrucciones indicado por la parte `else`.
+Acaba l'execució del bucle, a més no executa el bloc d'instruccions indicat amb la part `else`.
 
 ### continue
 	
-Deja de ejecutar las restantes instrucciones del bucle y vuelve a iterar.
+Deixa d'executar les instruccions que falten del bucle i torna a iterar.
 
 ### pass
 
-Indica una instrucción nula, es decir no se ejecuta nada. Pero no tenemos errores de sintaxis.
+Indica una instrucció nul·la, es a dir no s'executa res. Però no tenim errors de sintaxis.
 
 ## Recorriendo varias secuencias. Función zip()
 
-Con la instrucción `for` podemos ejecutar más de una secuencia, utilizando la función `zip`. Esta función crea una secuencia donde cada elemento es una tupla de los elementos de cada secuencia que toma cómo parámetro.
+Amb la instrucció `for` podem executar més d'una seqüència, utilizant la funció `zip`. Aquesta funció crea una seqüència on cada element es una tupla dels elements de cada seqüència que retorna cóm a paràmetre.
 
-*Ejemplo*
+*Exemple*
 
 	>>> list(zip(range(1,4),["ana","juan","pepe"]))
 	[(1, 'ana'), (2, 'juan'), (3, 'pepe')]
 
-Para recorrerla:
+Per recorrer-la:
 
 	>>> for x,y in zip(range(1,4),["ana","juan","pepe"]):
 	...     print(x,y)	
