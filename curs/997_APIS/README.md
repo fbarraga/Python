@@ -25,6 +25,58 @@ Intermedio
 * Conocimientos básicos del protocolo HTTP
 * Conocimientos básicos de python3
 
+
+## Servicio web
+Servicios Web
+▸ Es un método de comunicación entre máquinas/programas a 
+través de la red (normalmente Internet)
+▹ Las páginas web la usan las personas.
+▹ Los servicios web lo usan los programas.
+▸ WEB PROGRAMABLE: mediante diferentes APIs (web API) 
+podemos configurar gran cantidad de aplicaciones basadas en 
+recursos de la Web
+▹ Podemos consumir (solo lectura) recursos de un servicio 
+web
+▹ Podemos modificar (lectura/escritura)los recursos de un 
+servicio web
+
+
+
+
+3. JSON
+JSON JSON (JavaScript Object Notation) es un lenguaje de  marcas que nos permite representar información.
+
+{
+  "colors": [
+    {
+      "color": "black",
+      "code": {
+        "rgba": [255,255,255,1],
+        "hex": "#000"
+      }
+    },
+    {
+      "color": "white",
+        "rgba": [0,0,0,1],
+        "hex": "#FFF"
+      }
+    }
+}
+
+
+Dos estructuras básicas:
+▸ Diccionarios
+▸ Listas
+
+4. Python3  y REST
+Python3 y REST
+▸ Podemos usar Python3 para crear programas que utilice API RESTful para consumir/modificar los recursos de un servicio 
+web. Para ello vamos a usar dos librerías: 
+▹ requests: Nos permite realizar peticiones HTTP y gestionar la respuesta del servidor.
+▹ json: Nos permite trabajar con información en formato json 
+
+
+
 ## Desarrollo
 
 1. Ver presentación
