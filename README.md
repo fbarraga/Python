@@ -9,6 +9,7 @@
 2. [Python2 vs Python3](curs/000_INTRO/u2/README.md)
 
 3. [Instal·lació de Python3](curs/000_INTRO/u3/README.md)
+   
 	* Instal·lació en linux debian/Ubuntu
 	* Instal·lació en altres distribucions linux
 	* Instal·lació en Windows
@@ -16,6 +17,7 @@
 	* Virtual Environments (Pdt)
 
 4. [Entorns de desenvolupament i editors de text](curs/000_INTRO/u4/README.md)
+   
 	* IDE Python
 	* Editors de texts
 	* IDE us Editors de text
@@ -24,6 +26,7 @@
 	* Extensions de Visual Studio Code (Pdt)
 
 5. [El meu primer programa en Python3](curs/000_INTRO/u5/README.md)
+   
 	* Us de l'intèrpret
 	* Escrivim un programa
 	* Execució de programes utilitzant shebang
@@ -36,29 +39,34 @@ Cridar al github d'algorismica
 ### Estructura del llenguatge
 
 6. [Estructura del programa](curs/001_ESTRU/u6/README.md)
+   
 	* Estructura de programa
 	* Els comentaris
 	* Paraules reservades
 	* Exemple
 
 7. [Funcions i constants predefinides](curs/001_ESTRU/u7/README.md)
+   
 	* Funcions predefinides
 	* Alguns exemples de funcions
 	* Constants predefinides: False,True,None, ...
 	* Ajuda, función help()
 
 8. [Dades](curs/001_ESTRU/u8/README.md)
+   
 	* Literals, variables i expressions
 	* Definició, borrat i àmbit de variables
 	* Operadors. Precedencia d'operadors
 	* Funció eval()
 
-9. [Tipus de dades](curs/001_ESTRU/u9/README.md)
+9.  [Tipus de dades](curs/001_ESTRU/u9/README.md)
+    
 	* Classificació de tipus de dades
 	* Funció type()
 	* Funció isistance()
 
 10. [Treballant amb variables](curs/001_ESTRU/u10/README.md)
+    
 	* ¿Qué es el tipat dinàmic?
 	* Objectes inmutables i mutables
 	* Funció id()
@@ -67,6 +75,7 @@ Cridar al github d'algorismica
 	* Assignació múltiple
 
 11. [Entrada i sortida estàndar](curs/001_ESTRU/u11/README.md)
+    
 	* Funció input
 	* Funció print
 	* Formatejant cadenes de caràcters
@@ -75,6 +84,7 @@ Cridar al github d'algorismica
 ### Tipus de dades numèriques
 
 12. [Tipus de dades numèriques](curs/002_TDNU/u12/README.md) 
+    
 	* Enters
 	* Reals
 	* Complexes
@@ -84,6 +94,7 @@ Cridar al github d'algorismica
 	* Conversió de tipus
 
 13. [Tipus de dades booleanes](curs/002_TDNU/u13/README.md) 
+    
 	* Tipus booleà
 	* ¿Quins valors s'interpreten com FALS?
 	* Operadors booleans
@@ -95,6 +106,7 @@ Cridar al github d'algorismica
 ### Estructures de control Alternatives/Condicionals (IF)
 
 15. [Estructura de control: Condicionals](curs/003_ALTER/u15/README.md)
+    
 	* Condicionals simples
 	* Condicionals dobles
 	* Condicionals múltiples
@@ -106,6 +118,7 @@ Cridar al github d'algorismica
 ### Estructures de control Repetitives (WHILE / FOR)
 
 17. [Estructura de control: Repetitives](curs/004_REPET/u17/README.md)
+    
 	* while
 	* for
 	* Instruccions break, continue i pass
@@ -116,16 +129,19 @@ Cridar al github d'algorismica
 ### Tipus de dades seqüència
 
 19. [Tipus de dades seqüència](curs/u19/README.md)
+    
 	* Enumeració dels tipus seqüència
 	* Característiques principals de las seqüències
 
 20. [Tipus de dades seqüència: llistes](curs/u20/README.md)
+    
 	* Construcció d'una llista
 	* Operacions bàsiques amb llistes
 	* Les llistes son mutables. ¿Com es copien les llistes?
 	* Llistes multidimensionals
 	
 21. [Mètodes principals de llistes](curs/u21/README.md)
+    
 	* Mètodes d'inserció: append, extend, insert
 	* Mètodes d'eliminació: pop, remove
 	* Mètodes d'ordenació: reverse, sort, 
@@ -135,12 +151,14 @@ Cridar al github d'algorismica
 22. [Exercicis amb llistes](curs/u22/README.md)	
 
 23. [Operacions avançades amb seqüències](curs/u23/README.md)
+    
 	* Funció map
 	* Funció filter
 	* Funció reduce
 	* list comprehension
 
 24. [Tipus de dades seqüència: Tuples](curs/u24/README.md)
+    
 	* Construcció d'una tupla
 	* Empaquetat i desempaquetat de tuples
 	* Operacions bàsiques amb tuples
@@ -148,16 +166,19 @@ Cridar al github d'algorismica
 	* Métodes principals
 
 25. [Tipus de dades seqüència: Rangs](curs/u25/README.md)
+    
 	* Definició d'un rang. Constructor range
 	* Recorregut d'un rang
 	* Operacions bàsiques amb range
 
 26. [Codificació de caràcters](curs/u26/README.md)
+    
 	* Introducció a la codificación de caracteres
 	* La codificación de caracteres en python3
 	* Funciones chr() y ord()
 
 27. [Tipus de dades cadenes de caràcters](curs/u27/README.md)
+    
 	* Definició de cadenes. Constructor str
 	* Operacions bàsiques amb llistes
 	* Les cadenes son inmutables
@@ -165,6 +186,7 @@ Cridar al github d'algorismica
 	* Funcions repr, ascii, bin
 
 28. [Mètodes principals de cadenes](curs/u28/README.md)
+    
 	* Mètodes de format
 	* Mètodes de cerca
 	* Mètodes de validació
@@ -174,6 +196,7 @@ Cridar al github d'algorismica
 29. [Exercicis de cadenes](curs/u29/README.md)
 
 30. [Tipus de dades binaris: bytes, bytearray](curs/u30/README.md)
+    
 	* Definició de bytes. Constructor bytes
 	* Definició de bytearray. Constructor bytearray
 	* Operacions bàsiques amb bytes i bytearray
@@ -182,6 +205,7 @@ Cridar al github d'algorismica
 	* Mètodes encode(), decode()
 
 31. [Tipus de dades conjunts: set, frozenset](curs/u31/README.md)
+    
 	* Definició de conjunts. Constructor set
 	* Definició de frozenset. Constructor frozenset
 	* Operacions bàsiques amb set i frozenset
@@ -189,6 +213,7 @@ Cridar al github d'algorismica
 	* Mètodes principals
 
 32. [Tipus de dades iterador i generador](curs/u32/README.md)
+    
 	* Iteradors
 	* Funció next(), reversed()
 	* Generadors
@@ -196,11 +221,13 @@ Cridar al github d'algorismica
 ### Tipus de dades mapes
 
 33. [Tipus de dades mapa: diccionari](curs/u33/README.md)
+    
 	* Definició de diccionaris. Constructor dict
 	* Operacions bàsiques amb diccionaris
 	* Els diccionaris son tipus mutables
 
 34. [Mètodes principals de diccionaris](curs/u34/README.md)
+    
 	* Mètodes de eliminació: clear
 	* Mètodes de agregat i creació: copy, dict.fromkeys, update, setdefault
 	* Mètodes de retorn: get, pop, popitem, items, keys, values
@@ -212,6 +239,7 @@ Cridar al github d'algorismica
 ### Treballar amb fitxers
 
 36. [Lectura i escriptura de fitxers de textes](curs/FILES/u36/README.md)
+    
 	* Funció open()
 	* Modes d'accés
 	* Codificació de caràcters
@@ -220,17 +248,20 @@ Cridar al github d'algorismica
 	* Recorregut de fitxers
 
 37. [Gestionar fitxers CSV](curs/FILES/u37/README.md)
+    
 	* Mòdul csv
 	* Llegir fitxers CSV
 	* Escriure fitxers CSV
 
 38. [Gestionar fitxers json](curs/FILES/u38/README.md)
+    
 	* Mòdul json
 	* Llegir fitxers json
 	* Escriure fitxers json
 	* Pretty Json
 
-38. [Gestionar fitxers xml](curs/FILES/u38b/README.md)
+39. [Gestionar fitxers xml](curs/FILES/u38b/README.md)
+    
 	* Mòdul lxml i beautifulsoup
 	* Llegir fitxers xml
 	* Escriure fitxers xml
@@ -238,6 +269,7 @@ Cridar al github d'algorismica
 ### Errors i Excepcions
 
 39. [Excepcions](curs/u39/README.md)
+    
 	* Errors sintàctics i errors d'execució
 	* Gestionant excepcions. try, except, else, finally
 	* Obtenint informació de les excpcions
@@ -246,6 +278,7 @@ Cridar al github d'algorismica
 ### Móduls, paquets i namespaces
 
 40. [Móduls i paquets](curs/u40/README.md)
+    
 	* Móduls, paquets
 	* Executant móduls amb scripts
 	* Important móduls: import
@@ -256,6 +289,7 @@ Cridar al github d'algorismica
 	* ¿On es troben els mòduls?
 
 41. [Mòduls estándars: mòduls de sistema](curs/u41/README.md)
+    
 	* Mòdul os
 	* Executar comandes del sistema operatiu. Mòdul subprocess
 	* Mòdul shutils
@@ -263,17 +297,20 @@ Cridar al github d'algorismica
 	* Execució de scripts amb arguments
 	
 42. [Módulos estándares: módulos matemáticos](curs/u42/README.md)
+    
 	* Mòdul math
 	* Mòdul fractions
 	* Mòdul statistics
 	* Mòdul random
 
 43. [Mòduls estándars: móduls d' hora i dates](curs/u43)
+    
 	* Mòdul time
 	* Mòdul datetime
 	* Mòdul calendar
 
 44. [Instal·lació de mòduls](curs/u44)
+    
 	* PyPI i pip
 	* Instal·lació de mòduls python
 	* Creant entorns virtuals amb `virtualenv`
@@ -345,25 +382,77 @@ Cridar al github d'algorismica
 54. [Exercicis Programació orientada a objectes](curs/POO/u54)
 
 
-### Python avançat IA
+## Desenvolupament d'aplicacions en entorn gràfic
 
-55. [Intel.ligència artificial amb python](curs/IA/u55)
+55. [Introducció al entorn gràfic](curs/04_PYGUI/u55)
+
+	* Tkinter
+	* wxPython
+	* PyQt
+	* Kivy
+
+## Desenvolupament d'aplicacions en entorn web
+
+
+56. [Introducció a Django](curs/015_DJANGO/u56)
+
+
+### APIs REST
+
+57. [Descripció de les APIS](curs/014_APIS/u55)
+
+	* Qué son
+	* Funcionament
+	* Seguretat
+
+
+58. [Consumir una API amb el modul requests](curs/01)
+
+	* Amb el mètode GET
+	* Amb el mètode POST
+
+59. Crear una API REST
+
+	* Amb Swagger
+	* Amb Flask
+
+
+### Intel.ligència artificial i Machine Learning
+
+
+60. [Data Management](curs/012_IA/u100)
+
+	* Normalització de dades
+
+56. [Què és la Intel.ligència artificial](curs/IA/u101)
+
 
 	* Aprenentatge supervisat
 	* Aprenentatge automàtic
 	* Aprenentatge semisupervisat
+
+56. [Algorsimes bàsics de IA](curs/IA/u102)
+
 
 	* Algorismes de regresió
 	* Algorismes basats en arbres de decisió
 	* Algorismes de clustering
 	* Algorismes de xarxes neuronals
     
-56. [Machine learning](curs/IA/u56)
+57. [Machine learning](curs/IA/u56)
     
 	* Algorismes de Natural Language
 	* Algorismes de Image recognition
 
 
 57. [Microsoft Power BI i Python](curs/998_DATAAN)
+
+
+
+
+
+
+### MarkDown
+
 
 
