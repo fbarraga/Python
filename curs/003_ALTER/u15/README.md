@@ -1,5 +1,13 @@
 # Estructura de control: Alternatives/Condicionals
 
+Podem veure el funcionament de les estructures condicionals en el següent fluxograma:
+
+<p align="center">
+  <img  src="https://github.com/fbarraga/Python/blob/master/master/assets/condicional.png">
+</p>
+
+
+
 Si al avaluar l'expressió lògica obtenim el resultat True executa un bloc d'instruccions, en cas contrari executa un altre bloc.
 
 ## Alternatives simples
