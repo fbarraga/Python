@@ -10,8 +10,8 @@
 
 3. [Instal·lació de Python3](curs/000_INTRO/u3/README.md)
    
-	* Instal·lació en linux debian/Ubuntu
-	* Instal·lació en altres distribucions linux
+	* Instal·lació en Linux Debian/Ubuntu
+	* Instal·lació en altres distribucions Linux
 	* Instal·lació en Windows
 	* Instal·lació en Mac
 	* Virtual Environments (Pdt)
