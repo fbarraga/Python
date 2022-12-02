@@ -1,10 +1,10 @@
-# Tipo de datos: iterador y generador
+# Tipus de dades: iterador i generador
 
 ## Iterador
 
-Un objeto iterable es aquel que puede devolver un iterador. Normalmente las colecciones que hemos estudiados son iterables. Un iterador me permite recorrer los elementos del objeto iterable.
+Un objecte iterable es aquell que pot retornar un iterador. Normalment ls coleccions que hem vist son iterables. Un iterador em permet recorrer els elementos de l'objecte iterable.
 
-### Definición de iterador. Constructor iter
+### Definició d'iterador. Constructor iter
 
 	>>> iter1 = iter([1,2,3])
 	>>> type(iter1)
@@ -15,7 +15,7 @@ Un objeto iterable es aquel que puede devolver un iterador. Normalmente las cole
 
 ## Función next(), reversed()
 
-Para recorrer el iterador, utilizamos la función `next()`:
+Per recérrer el iterador, utilitzem la funció `next()`:
 
 	>>> next(iter1)
 	1
@@ -28,7 +28,7 @@ Para recorrer el iterador, utilizamos la función `next()`:
 	  File "<stdin>", line 1, in <module>
 	StopIteration
 
-La función `reversed()` devuelve un iterador con los elementos invertidos, desde el último al primero.
+La funció `reversed()` retorna un iterador amb els elements invertits, des de l'últim al primer.
 
 	>>> iter2 = reversed([1,2,3])
 	>>> next(iter2)
@@ -42,13 +42,13 @@ La función `reversed()` devuelve un iterador con los elementos invertidos, desd
 	  File "<stdin>", line 1, in <module>
 	StopIteration	
 
-## El módulo itertools
+## El módul itertools
 
-El módulo [itertools](https://docs.python.org/3.4/library/itertools.html) contiene distintas funciones que nos devuelven iteradores.
+El módul [itertools](https://docs.python.org/3.11/library/itertools.html) conté diferents funcions que ens retornen iteradors.
 
-Veamos algunos ejemplos:
+Exemples:
 
-`count()`: Devuelve un iterador infinito.
+`count()`: Retorna un iterador infinit.
 
 	>>> from itertools import count
 	>>> counter = count(start=13)
@@ -57,7 +57,7 @@ Veamos algunos ejemplos:
 	>>> next(counter)
 	14
 
-`cycle()`: devuelve una secuencia infinita.
+`cycle()`: Retorna una seqüència infinita.
 
 	>>> from itertools import cycle
 	>>> colors = cycle(['red', 'white', 'blue'])
@@ -70,7 +70,7 @@ Veamos algunos ejemplos:
 	>>> next(colors)
 	'red'
 
-`islice()`: Retorna un iterador finito.
+`islice()`: Retorna un iterador finit.
 
 	>>> from itertools import islice
 	>>> limited = islice(colors, 0, 4) 
@@ -81,12 +81,12 @@ Veamos algunos ejemplos:
 	red
 	white
 
-## Generadores
+## Generadors
 
-Un generador es un tipo concreto de iterador. Es una función que permite obtener sus resultados paso a paso. Por ejemplo, hacer una función que cada vez que la llamemos nos de el próximo número par. Tenemos dos maneras de crear generadores:
+Un generador es un tipus concret de iterador. Es una funció que permet obtenir els seus resultats pas a pas. Per exemple, fer una función que cada vegada que la cridem ens doni el próxim número par. Tenim dos maneras de crear generadores:
 
-1. Realizar una función que devuelva los valores con la palabra reservada `yield`. Lo veremos con profundidad cuando estudiemos las funciones.
-2. Utilizando la sintaxis de las "list comprehension". Por ejemplo:
+1. Realizar una funció que retorni els valores amb la paraula reservada `yield`. 
+2. Utilitzant la sintaxis de les "list comprehension". Per exemple:
 
 		>>> iter1 = (x for x in range(10) if x % 2==0)
 		>>> next(iter1)
