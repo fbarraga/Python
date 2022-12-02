@@ -1,47 +1,47 @@
-# Tipo de datos secuencia: Tuplas
+# Tipus de dades seqüència: Tuples
 
-Las tuplas (`tuple`): Sirven para los mismo que las listas (me permiten guardar un conjunto de datos que se pueden repetir y que pueden ser de distintos tipos), pero en este caso es un tipo inmutable.
+Les tuples (`tuple`): Serveixen per lo mateix que les llistes (em permiten guardar un conjunt de dades que es poden repetir i que poden ser de diferents tipus), però en aquest cas és un tipus inmutable.
 
-## Construcción de una tupla
+## Construcció de una tupla
 
-Para crear una lista puedo usar varias formas:
+Per crear una llista puc utilitzar varies formas:
 
-* Con los caracteres ( y ):
+* Amb els caràcters ( y ):
 
     	>>> tupla1 = ()
     	>>> tupla2 = ("a",1,True)
 
-* Utilizando el constructor tuple, que toma como parámetro un dato de algún tipo secuencia.
+* Utilizant el constructor tuple, que pren com paràmetre un dada d'algún tipus seqüència.
 
 		>>> tupla3=tuple()
 		>>> tuple4=tuple([1,2,3])
 
-## Empaquetado y desempaquetado de tuplas
+## Empaquetat i desempaquetat de tuples
 
-Si a una variable se le asigna una secuencia de valores separados por comas, el valor de esa variable será la tupla formada por todos los valores asignados. 
+Si a una variable se li assigna una seqüència de valors separats per comes, el valor d'aquesta variable serà la tuple formada por tots els valors assignats. 
 
 	>>> tuple = 1,2,3
 	>>> tuple
 	(1, 2, 3)
 
-Si se tiene una tupla de longitud k, se puede asignar la tupla a k variables distintas y en cada variable quedará una de las componentes de la tupla. 
+Si es té una tupla de longitud k, es po assignar la tupla a k variables diferents i en cada variable quedarà un dels components de la tupla. 
 
 	>>> a,b,c=tuple
 	>>> a
 	1
 
-## Operaciones básicas con tuplas
+## Operacions bàsiques amb tuplas
 
-En las tuplas se pueden realizar las siguientes operaciones:
+A les tuples es poden realitzar les següents operacions:
 
-* Las tuplas se pueden recorrer.
-* Operadores de pertenencia: `in` y `not in`.
-* Concatenación: `+` 
-* Repetición: `*`
-* Indexación
+* Les tuples es poden recorrer.
+* Operadors de pertanyença: `in` y `not in`.
+* Concatenació: `+` 
+* Repetició: `*`
+* Indexació
 * Slice
 
-Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sum`, `sorted`.
+Entre les funcions definides podem utilitzar: `len`, `max`, `min`, `sum`, `sorted`.
 
 ## Las tuplas son inmutables
 
@@ -51,9 +51,9 @@ Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sum`, `sorted`
 	  File "<stdin>", line 1, in <module>
 	TypeError: 'tuple' object does not support item assignment
 
-## Métodos principales
+## Mètodes principales
 
-Métodos de búsqueda: `count`, `index`
+Mètodos de cerca: `count`, `index`
 
 	>>> tupla = (1,2,3,4,1,2,3)
 	>>> tupla.count(1)

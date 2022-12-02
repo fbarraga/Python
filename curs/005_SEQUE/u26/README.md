@@ -1,39 +1,39 @@
-# Codificación de caracteres
+# Codificació de caràcters
 
-## Introducción a la codificación de caracteres
+## Introducció a la codificació de caràcters
 
-#### ascii
+#### ASCII
 
-En los principios de la informática los ordenadores se diseñaron para utilizar sólo caracteres ingleses, por lo tanto se creó una codificación de caracteres, llamada ascii (American Standard Code for Information Interchange) que utiliza 7 bits para codificar los 128 caracteres necesarios en el alfabeto inglés. Posteriormente se extendió esta codificación para incluir caracteres no ingleses. Al utilizar 8 bits se pueden representar 256 caracteres. De esta forma para codificar el alfabeto latino aparece la codificación ISO-8859-1 o Latín 1.
+Als principis de la informàtica els ordinadors es va dissenyar per utilitzar només caràcters anglesos, per lo tant es va crear una codificació de caràcters, anomenada ASCII (American Standard Code for Information Interchange) que utilitza 7 bits per codificar els 128 caràcters necessaris en l'alfabet anglès. Posteriorment es va extendre aquesta codificació per incluir caràcters no anglesos. Al utilitzar 8 bits es poden represenar fins a un màxim de 256 caràcters. Per codificar l'alfabet llatí apareix la codificació ISO-8859-1 o Latín 1.
 
 #### Unicode
 
-La codificación unicode  nos permite representar todos los caracteres de todos los alfabetos del mundo, en realidad permite representar más de un millón de caracteres, ya que utiliza 32 bits para su representación, pero en la realidad sólo se definen unos 110.000 caracteres.
+La codificació unicode  ens permet representar tots els caràcters de tots els alfabets del món, en realitat permet més d'un milió de caràcters, ja que utilitza 32 bits per la seva representació, però en realitat només es defineixen uns 110000 caràcters diferents.
 
 #### UTF-8
 
-UTF-8 es un sistema de codificación de longitud variable para Unicode. Esto significa que los caracteres pueden utilizar diferente número de bytes.
+UTF-8 es un sistema de codificació de longitud variable per Unicode. Això significa que els caràcters poden utilitzar diferent número de bytes.
 
 ## La codificación de caracteres en python3
 
-En Python 3.x las cadenas de caracteres pueden ser de tres tipos: Unicode, Byte y Bytearray.
+En Python 3.x les cadenes de caràcters poden ser de tres tipus: Unicode, Byte i Bytearray.
 
-* El tipo `unicode` permite caracteres de múltiples lenguajes y cada carácter en una cadena tendrá un valor inmutable. 
-* El tipo `byte` sólo permitirá caracteres ASCII y los caracteres son también inmutables.
-* El tipo `bytearray` es como el tipo `byte` pero, en este caso, los caracteres de una cadena si son mutables.
+* El tipus `unicode` permet caràcters de múltiples llenguatges i cada caràcter en una cadena tindrà un valor inmutable. 
+* El tipus `byte` només permetrà caràcteres ASCII i els caràcteres son també inmutables.
+* El tipus `bytearray` es como el tipus `byte` però, en aquest cas, els caràcters de una cadena si son mutables.
 
-Algo que debe entenderse (e insiste Mark Pilgrim en su libro *Dive into Python*) es que "los bytes no son caracteres, los bytes son bytes; un carácter es en realidad una abstracción; y una cadena de caracteres es una sucesión de abstracciones".
+Una cosa important a entendre, (insisteix Mark Pilgrim en su libro *Dive into Python*) es que "els bytes no son caracters, elss bytes son bytes; un carácter és en realitat una abstracció; i una cadena de caràcters és una successió d'abstraccions".
 
-## Funciones chr() y ord()
+## Funcions chr() y ord()
 
-* `chr(i)`: Nos devuelve el carácter Unicode que representa el código `i`.
+* `chr(i)`: Ens retorna el  carácter Unicode que representa el codi `i`.
 
 		>>> chr(97)
 		'a'
 		>>> chr(1004)
 		'Ϭ'
 
-* `ord(c)`: recibe un carácter `c` y devuelve el código unicode correspondiente.
+* `ord(c)`: rep un caràcter `c` i retorna el codi unicode corresponent.
 
 		>>> ord("a")
 		97

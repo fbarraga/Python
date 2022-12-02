@@ -1,16 +1,16 @@
-# Tipo de datos secuencia: Rangos
+# Tipus de dades seqüència: Rangs
 
-Los rangos (`range`): Es un tipo de secuencias que nos permite crear secuencias de números. Es un tipo inmutable y se suelen utilizar para realizar bucles.
+Els rangs (`range`): és un tipus de seqüències que ens permet crear seqüències de números. Es un tipus inmutable i es sol utilitzar per realitzar bucles.
 
-## Definición de un rango. Constructor range
+## Definició d'un rang. Constructor range
 
-Al crear un rango (secuencia de números) obtenemos un objeto que es de la clase `range`:
+Al crear un rang (seqüència de números) obtenim un objecte que es de la classe `range`:
 
-	>>> rango = range(0,10,2)
-	>>> type(rango)
+	>>> rang = range(0,10,2)
+	>>> type(rang)
 	<class 'range'>
 
-Veamos algunos ejemplos, convirtirndo el rango en lista para ver la secuencia:
+Exemples, convertint el rang en llista per veure la seqüència:
 
 	>>> list(range(10))
 	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -23,31 +23,31 @@ Veamos algunos ejemplos, convirtirndo el rango en lista para ver la secuencia:
 	>>> list(range(0, -10, -1))
 	[0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
 
-## Recorrido de un rango
+## Recorregut d'un rang
 
-Los rangos se suelen usar para ser recorrido, cuando tengo que crear un bucle cuyo número de iteraciones lo se de antemanos puedo usar una estructura como esta:
+Els rangs es solen utilitzar per ser recorregut, quan tinc que crear un bucle el número de iteracions del qual el sabem per avançat puc utilitzar una estructura com aquesta:
 
 	>>> for i in range(11):
 	...    print(i,end=" ")
 	0 1 2 3 4 5 6 7 8 9 10  
 
-## Operaciones básicas con range
+## Operacions bàsiques amb range
 
-En las tuplas se pueden realizar las siguientes operaciones:
+En les tuples es poden realitzar les següents operacions:
 
-* Los rangos se pueden recorrer.
-* Operadores de pertenencia: `in` y `not in`.
-* Indexación
+* Els rangs es poden recorrer.
+* Operadors de pertanyença: `in` i `not in`.
+* Indexació
 * Slice
 
-Entre las funciones definidas podemos usar: `len`, `max`, `min`,  `sum`, `sorted`.
+Entre las funcions definides podem utilitzar: `len`, `max`, `min`,  `sum`, `sorted`.
 
-Ademas un objeto `range` posee tres atributos que nos almacenan el comienzo, final e intervalo del rango:
+A més un objecte `range` té tres atributs que ens emmagatzemen el començament, final i interval del rang:
 
-	>>> rango = range(1,11,2)
-	>>> rango.start
+	>>> rang = range(1,11,2)
+	>>> rang.start
 	1
-	>>> rango.stop
+	>>> rang.stop
 	11
-	>>> rango.step
+	>>> rang.step
 	2

@@ -1,84 +1,84 @@
-# Métodos principales de listas
+# Mètodes principals de llistes
 
-Cuando creamos una lista estamos creando un objeto de la clase `list`, que tiene definido un conjunto de métodos:
+Quan creem una llista estem creant un objecte de la classe `list`, que té definit un conjunt de mètodes:
 
-	lista.append   lista.copy     lista.extend   lista.insert   lista.remove   lista.sort
-	lista.clear    lista.count    lista.index    lista.pop      lista.reverse
+	llista.append   llista.copy     llista.extend   llista.insert   llista.remove   llista.sort
+	llista.clear    llista.count    llista.index    llista.pop      llista.reverse
 
-## Métodos de inserción: append, extend, insert
+## Mètodes d'inserció: append, extend, insert
 
-	>>> lista = [1,2,3]
-	>>> lista.append(4)
-	>>> lista
+	>>> llista = [1,2,3]
+	>>> llista.append(4)
+	>>> llista
 	[1, 2, 3, 4]
 
-	>>> lista2 = [5,6]
-	>>> lista.extend(lista2)
-	>>> lista
+	>>> llista2 = [5,6]
+	>>> llista.extend(lista2)
+	>>> llista
 	[1, 2, 3, 4, 5, 6]	
 
-	>>> lista.insert(1,100)
-	>>> lista
+	>>> llista.insert(1,100)
+	>>> llista
 	[1, 100, 2, 3, 4, 5, 6]
 
-## Métodos de eliminación: pop, remove
+## Mètodes d'eliminació: pop, remove
 
-	>>> lista.pop()
+	>>> llista.pop()
 	6
-	>>> lista
+	>>> llista
 	[1, 100, 2, 3, 4, 5]
 
-	>>> lista.pop(1)
+	>>> llista.pop(1)
 	100
-	>>> lista
+	>>> llista
 	[1, 2, 3, 4, 5]
 
-	>>> lista.remove(3)
-	>>> lista
+	>>> llista.remove(3)
+	>>> llista
 	[1, 2, 4, 5]
 
-## Métodos de ordenación: reverse, sort, 
+## Mètodes d'ordenació: reverse, sort, 
 
-	>>> lista.reverse()
-	>>> lista
+	>>> llista.reverse()
+	>>> llista
 	[5, 4, 2, 1]
 
-	>>> lista.sort()
-	>>> lista
+	>>> llista.sort()
+	>>> llista
 	[1, 2, 4, 5]
 
-	>>> lista.sort(reverse=True)
-	>>> lista
+	>>> llista.sort(reverse=True)
+	>>> llista
 	[5, 4, 2, 1]
 
-	>>> lista=["hola","que","tal","Hola","Que","Tal"]
-	>>> lista.sort()
-	>>> lista
+	>>> llista=["hola","que","tal","Hola","Que","Tal"]
+	>>> llista.sort()
+	>>> llista
 	['Hola', 'Que', 'Tal', 'hola', 'que', 'tal']
 	
-	>>> lista=["hola","que","tal","Hola","Que","Tal"]
-	>>> lista.sort(key=str.lower)
-	>>> lista
+	>>> llista=["hola","que","tal","Hola","Que","Tal"]
+	>>> llista.sort(key=str.lower)
+	>>> llista
 	['hola', 'Hola', 'que', 'Que', 'tal', 'Tal']
 
 
-## Métodos de búsqueda: count, index
+## Mètodes de cerca: count, index
 
-	>>> lista.count(5)
+	>>> llista.count(5)
 	1
 
-	>>> lista.append(5)
-	>>> lista
+	>>> llista.append(5)
+	>>> llista
 	[5, 4, 2, 1, 5]
-	>>> lista.index(5)
+	>>> llista.index(5)
 	0
-	>>> lista.index(5,1)
+	>>> llista.index(5,1)
 	4
-	>>> lista.index(5,1,4)
+	>>> llista.index(5,1,4)
 	Traceback (most recent call last):
 	  File "<stdin>", line 1, in <module>
 	ValueError: 5 is not in list
 
-## Método de copia: copy
+## Mètode de copia: copy
 
-	>>> lista2 = lista1.copy()
+	>>> llista2 = llista1.copy()

@@ -1,45 +1,48 @@
-# Operaciones avanzadas con secuencias
+# Operacions avançades amb seqüències
 
-Las funciones que vamos a estudiar en esta unidad nos acercan al paradigna de la programación funcional que también nos ofrece python. La programación funcional es un paradigma de programación declarativa basado en el uso de funciones matemáticas, en contraste con la programación imperativa, que enfatiza los cambios de estado mediante la mutación de variables.
+Les funcions que anem a estudiar en aquesta unitat ens apropen al paradigna de la programació funcional que tambén ens ofereix python. La programació funcional es un paradigma de programació declarativa basat en el ús de funcions matemàtiques, en contrast amb la programació imperativa, que enfatitza els canvis d'estat mitjançant la mutació de variables.
 
-## Función map
+## Funció map
 
-`map(funcion,secuencia)`: Ejecuta la función enviada por parámetro sobre cada uno de los elementos de la secuencia.
+`map(funció,seqüència)`: Executa la funció enviada per paràmetre sobre cadascun dels elements de la seqüència.
 
-*Ejemplo*
+*Exemple*
 
 	>>> items = [1, 2, 3, 4, 5]
 	>>> def sqr(x): return x ** 2
 	>>> list(map(sqr, items))
 	[1, 4, 9, 16, 25]
 
-## Función filter
+## Funció filter
 
-`filter(funcion,secuencia)`: Devuelve una secuencia con los elementos de la secuencia envíada por parámetro que devuelvan `True` al aplicarle la función envíada también como parámetro.
+`filter(funció,seqüència)`: Retorna una seqüència amb els elements de la seqüència envíada per paràmetre que retornen `True` al aplicar-li la funció envíada també como paràmetre.
 
-*Ejemplo*
+*Exemple*
 
-	>>> lista = [1,2,3,4,5]
+	>>> llista = [1,2,3,4,5]
 	>>> def par(x): return x % 2==0 
-	>>> list(filter(par,lista))
+	>>> list(filter(par,llista))
 
-## Función reduce
+	[2,4]
 
-`reduce(funcion,secuencia)`: Devuelve un único valor que es el resultado de aplicar la función á los lementos de la secuencia.
+## Funció reduce
+
+`reduce(funció,seqüència)`: Retorna un únic valor que és el resultat d'aplicar la funció als elements de la seqüència.
 	
-*Ejemplo*
+*Exemple*
 
 	>>> from functools import reduce
-	>>> lista = [1,2,3,4,5]
+	>>> llista = [1,2,3,4,5]
 	>>> def add(x,y): return x + y
-	>>> reduce(add,lista)
+	>>> reduce(add,llista)
+
 	15
 
 # list comprehension
 
-`list comprehension` nos propociona una alternativa para la creación de listas. Es parecida a la función `map`, pero mientras `map` ejecuta una función por cada elemento de la secuencia, con esta técnica se aplica una expresión.
+`list comprehension` ens propociona una alternativa per la creació de llistes. Es semblant a la funció `map`, pero mentres `map` executa una funció per cada element de la seqüència, amb aquesta tècnica s'aplica una expressió.
 
-*Ejemplo*
+*Exemple*
 
 	>>> [x ** 3 for x in [1,2,3,4,5]]
 	[1, 8, 27, 64, 125]
