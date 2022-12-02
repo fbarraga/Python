@@ -1,120 +1,120 @@
-# Tipo de datos secuencia: listas
+# Tipus de dades seqüència: llistes
 
-Las listas (`list`) me permiten guardar un conjunto de datos que se pueden repetir y que pueden ser de distintos tipos. Es un tipo mutable.
+Les llistes (`list`) em permeen guadar un conjunt de dades que es poden repetir i que poden ser de distints tipus. Es un tipus mutable.
 
-## Construcción de una lista 
+## Construcció d'una llista 
 
-Para crear una lista puedo usar varias formas:
+Per crear una llista puc utilitzar diferents mètodes:
 
-* Con los caracteres `[` y `]`:
+* Amb els caràcters `[` y `]`:
 
-		>>> lista1 = []
-		>>> lista2 = ["a",1,True]
+		>>> llista1 = []
+		>>> llista2 = ["a",1,True]
 
-* Utilizando el constructor `list`, que toma como parámetro un dato de algún tipo secuencia.
+* Utilizant el constructor `list`, que pren com a parámetre una dada d'algún tipus de seqüència.
 
-		>>> lista3 = list()
-		>>> lista4 = list("hola")
-		>>> lista4
+		>>> llista3 = list()
+		>>> llista4 = list("hola")
+		>>> llista4
 		['h', 'o', 'l', 'a']
 
-## Operaciones básicas con listas
+## Operacions bàsiques amb llistes
 
-Como veíamos en el apartado "Tipo de datos secuencia" podemos realizar las siguientes operaciones:
+Com veiem en el apartado "Tipo de datos secuencia" podemos realizar las siguientes operaciones:
 
-* Las secuencias se pueden recorrer.
-* Operadores de pertenencia: `in` y `not in`.
-* Concatenación: `+` 
-* Repetición: `*`
-* Indexación: Cada elemento tiene un índice, empezamos a contar por el elemento en el índice 0. Si intento acceder a un índice que corresponda a un elemento que no existe obtenemos una excepción `IndexError`.
+* Les seqüències es poden recórrer.
+* Operadors de pertanyença: `in` i `not in`.
+* Concatenació: `+` 
+* Repetició: `*`
+* Indexació: Cada element té un índex, comencem a comptar pel element en el índex 0. Si intentem accedir a un índex que correspogui a un element que no existeix obtenim una excepció `IndexError`.
 
-		>>> lista1[6]
+		>>> llista1[6]
 		Traceback (most recent call last):
 		  File "<stdin>", line 1, in <module
 		IndexError: list index out of range	
 
-	Se pueden utilizar índices negativos:
+	Es poden utilitzar índexs negatius:
 
 		>>> lista[-1]
 		6
 
-* Slice: Veamos como se puede utilizar
+* Slice: S'utilitza de la següent manera
 
-	* `lista[start:end]` 	  # Elementos desde la posición start hasta end-1
-	* `lista[start:]`    	  # Elementos desde la posición start hasta el final
-	* `lista[:end]`      	  # Elementos desde el principio hata la posición end-1
-	* `lista[:]` 		 	  # Todos Los elementos	    
-	* `lista[start:end:step]` # Igual que el anterior pero dando step saltos.
+	* `llista[start:end]` 	  # Elements des de la posició start fins end-1
+	* `llista[start:]`    	  # Elements desde la posició start fins el final
+	* `llista[:end]`      	  # Elements des de el principio fins la posició end-1
+	* `llista[:]` 		 	  # Tots els elements
+	* `llista[start:end:step]` # Igual que l'anterior pero donant step salts.
  		
- 	Se pueden utilizar también índices negativos, por ejemplo: `lista[::-1]`
+ 	Es poden utilitzar també indexs negatius, per exemple: `llista[::-1]`
 
-## Funciones predefinidas que trabajan con listas
+## Funcions predefinides que treballin amb llistes
 
-	>>> lista1 = [20,40,10,40,50]
-	>>> len(lista1)
+	>>> llista1 = [20,40,10,40,50]
+	>>> len(llista1)
 	5
-	>>> max(lista1)
+	>>> max(llista1)
 	50
-	>>> min(lista1)
+	>>> min(llista1)
 	10
-	>>> sum(lista1)
+	>>> sum(llista1)
 	150
-	>>> sorted(lista1)
+	>>> sorted(llista1)
 	[10, 20, 30, 40, 50]
-	>>> sorted(lista1,reverse=True)
+	>>> sorted(llista1,reverse=True)
 	[50, 40, 30, 20, 10]
 
-Veamos con más detenimiento la función `enumerate`: que recibe una secuencia y devuelve un objeto enumerado como tuplas:
+Veiem  la funció `enumerate` amb més detall: rep una seqüència i retorna un objecte enumerat amb tuples:
 
-	>>> seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno']
+	>>> seasons = ['Primavera', 'Estiu', 'Tardor', 'Hivern']
 	>>> list(enumerate(seasons))
-	[(0, 'Primavera'), (1, 'Verano'), (2, 'Otoño'), (3, 'Invierno')]
+	[(0, 'Primavera'), (1, 'Estiu'), (2, 'Tardor'), (3, 'Hivern')]
 	>>> list(enumerate(seasons, start=1))
-	[(1, 'Primavera'), (2, 'Verano'), (3, 'Otoño'), (4, 'Invierno')]
+	[(1, 'Primavera'), (2, 'Estiu'), (3, 'Tardor'), (4, 'Hivern')]
 
 
-## Las listas son mutables
+## Les llistes son mutables
 
-Como hemos indicado anteriormente las listas es un tipo de datos mutable. Eso tiene para nostros varias consecuencias, por ejemplo podemos obtener resultados como se los que se muestran a continuación:
+Com hem indicat anteriorment les llistes es un tipus de dades mutable. Això té per nosaltres varies conseqüències, per exemple podem obtenir resultats com els que es mostren a continuació:
 
-	>>> lista1 = [1,2,3]
-	>>> lista1[2]=4
-	>>> lista1
+	>>> llista1 = [1,2,3]
+	>>> llista1[2]=4
+	>>> llista1
 	[1, 2, 4]
-	>>> del lista1[2]
-	>>> lista1
+	>>> del llista1[2]
+	>>> llista1
 	[1, 2]
 
 
-	>>> lista1 = [1,2,3]
-	>>> lista2 = lista1
-	>>> lista1[1] = 10
-	>>> lista2
+	>>> llista1 = [1,2,3]
+	>>> llista2 = lista1
+	>>> llista1[1] = 10
+	>>> llista2
 	[1, 10, 3]
 
-### ¿Cómo se copian las listas?
+### ¿Com es copien les llistes?
 
-Por lo tanto si queremos copiar una lista en otra podemos hacerlo de varias formas:
+Si volem copiar una llista en una altra podem fer-ho de moltes maneres:
 
-	>>> lista1 = [1,2,3]
-	>>> lista2=lista1[:]
-	>>> lista1[1] = 10
-	>>> lista2
+	>>> llista1 = [1,2,3]
+	>>> llista2=llista1[:]
+	>>> llista1[1] = 10
+	>>> llista2
 	[1, 2, 3]
 
-	>>> lista2 = list(lista1)	
+	>>> llista2 = llist(llista1)	
 
-	>>> lista2 = lista1.copy()
+	>>> llista2 = llista1.copy()
 
-## Listas multidimensionales
+## Llistes multidimensionals
 
-A la hora de definir las listas hemos indicado que podemos guardar en ellas datos de cualquier tipo, y evidentemente podemos guardar listas dentro de listas. 
+A la hora de definir les llistes hem indicat que podem guardar en elles dades de qualsevol tipus, i evidentement podem guardar llistes dintre de llistes. 
 
-	>>> tabla = [[1,2,3],[4,5,6],[7,8,9]]
-	>>> tabla[1][1]
+	>>> taula = [[1,2,3],[4,5,6],[7,8,9]]
+	>>> taula[1][1]
 	5
 
-	>>> for fila in tabla:
+	>>> for fila in taula:
 	...   for elem in fila:
 	...      print(elem,end="")
 	...   print()

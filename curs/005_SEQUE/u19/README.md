@@ -1,91 +1,91 @@
-# Tipo de datos secuencia
+# Tipus de dades seqüència
 
-Los tipos de datos secuencia me permiten guardar una sucesión de datos de diferentes tipos. Los tipos de datos secuencias en python son: 
+Els tipus de dades sequència em permet guardar una successió de dades de diferents tipuss. Els tipus de dades seqüències en python son: 
 
-* Las listas (`list`): Me permiten guardar un conjunto de datos que se pueden repetir y que pueden ser de distintos tipos. Es un tipo mutable.
-* Las tuplas (`tuple`): Sirven para los mismo que las listas, pero en este caso es un tipo inmutable. 
-* Los rangos (`range`): Es un tipo de secuencias que nos permite crear secuencias de números. Es un tipo inmutable y se suelen utilizar para realizar bucles.
-* Las cadenas de caracteres (`str`): Me permiten guardar secuencias de caracteres. Es un tipo inmutable. 
-* Las secuencias de bytes (`byte`): Me permite guardar valores binarios representados por caracteres ASCII. Es un tipo inmutable.
-* Las secuencias de bytes (`bytearray`): En este caso son iguales que las anteriores, pero son de tipo mutables.
-* Los conjuntos (`set`): Me permiten guardar conjuntos de datos, en los que no se existen repeticiones. Es un tipo mutable.
-* Los conjuntos (`frozenset`): Son igales que los anteriores, pero son tipos inmutables.
+* Les listas (`list`): Em permeten guardar un conjunt de dades que es poden repetir i que poden ser de diferents tipus. Es un tipus mutable.
+* Les tuples (`tuple`): Serveixen per lo mateix que les llistes, per en aquest cas es un tipus inmutable.
+* Els rangs (`range`): Es un tipus de seqüència que ens permet crear seqüèncias de números. Es un tipus inmutable i es sol utilitzar per realitzar bucles.
+* Las cadenes de caràcters (`str`): Ens permeten guardar seqüències de caràcters. És un tipus inmutable. 
+* Les seqüències de bytes (`byte`): Em permet guardar valors binaris representats per caracters ASCII.És un tipus inmutable.
+* Les seqüències de bytes (`bytearray`): En aquest caso son iguals que les anteriors, pero son de tipus mutable.
+* Els conjunts (`set`): Em permeten guardar conjunts de dades, en els que no existeixen repeticions. Es un tipo mutable.
+* Els conjunt congelats (`frozenset`): Son iguals que els anteriors, pero son tipus inmutables.
 
 
-## Características principales de las secuencias
+## Característiques principals de las seqüències
 
-Vamos a ver distintos ejemplos partiendo de una lista, que es una secuencia mutable.
+Anem a veure diferents exemples partint d'una llista que és una seqüència mutable:
 
-	lista = [1,2,3,4,5,6]
+	llista = [1,2,3,4,5,6]
 
-* Las secuencias se pueden recorrer
+* Les seqüències es pueden recorrer
 	
-		>>> for num in lista:
+		>>> for num in llista:
 		...   print(num,end="")
 		123456
 
-* Operadores de pertenencia: Se puede comprobar si un elemento pertenece o no a una secuencia con los operadores `in` y `not in`.
+* *Operadors de pertanyença:* Es pot comprobar si un element pertany o no a una seqüència amb els operadores `in` i `not in`.
 
 		>>> 2 in lista
 		True
 		>>> 8 not in lista
 		True
 
-* Concatenación: El operador `+` me permite unir datos de tipos secuenciales. No se pueden concatenar secuencias de tipo `range` y de tipo conjunto.
+* *Concatenació:* L'operador `+` em permet unir dades de tipus seqüèncials. No es poden concatenar seqüències de tipus `range` i de tipus conjunt.
 
 		>>> lista + [7,8,9]
 		[1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-* Repetición: El operador `*` me permite repetir un dato de un tipo secuencial. No se pueden repetir secuencias de tipo `range` y de tipo conjunto.
+* *Repetición:* L'operador `*` em permet repetir una dada d'un tipus seqüèncial. No es poden repetir seqüències de tipus `range` i de tipus conjunt.
 
 		>>> lista * 2
 		[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6]
 
-* Indexación: Puedo obtener el dato de una secuencia indicando la posición en la secuencia. Los conjuntos no tienen implementado esta característica.
+* *Indexació:* Pot obtenir la dada d'una seqüència indicant la posició en la seqüència. Els conjunts no tenen implementat aquesta característica.
 
 		>>> lista[3]
 		4
 	
-* Slice (rebanada): Puedo obtener una subsecuencia de los datos de una secuencia. En los conjuntos no puedo obtener subconjuntos. Esta característica la estudiaremos más detenidamente en la unidad que estudiemos las listas.
+* *Slice (rebanada):* Pots obtenir una subseqüència de les dades de una seqüència. En els conjunts no puc obtenir subconjunts. Aquesta característica la veurem más en detall dintre de la unitat on veurem les llistes.
 
 		>>> lista[2:4]
 		[3, 4]
 		>>> lista[1:4:2]
 		[2, 4]
 
-* Con la función `len` puedo obtener el tamaño de la secuencia, es decir el número de elementos que contiene.
+* Amb la funció `len` puc obtenir el tamany de la seqüència, es a dir el número d'elements que conté.
 
 		>>> len(lista)
 		6
 
-* Con las funciones `max` y `min` puedo obtener el valor máximo y mínimo de una secuencia.
+* Amb la funció `max` i `min` puc obtenir el valor màxim i mínim d'una seqüència.
 
 		>>> max(lista)
 		6
 		>>> min(lista)
 		1
 	
-Además en los tipos mutables puedo realizar las siguientes operaciones:
+A més en els tipus mutables puc realitzar les següents operacions:
 
-* Puedo modificar un dato de la secuencia indicando su posición.
+* Puc modificar una dada de la seqüència indicant la seva posició.
 
 		>>> lista[2]=99
 		>>> lista
 		[1, 2, 99, 4, 5, 6]
 		
-* Puedo modificar un subconjunto de elementos de la secuencia haciendo slice.
+* Puc modificar un subconjunt d'elements de la seqüència fent slice.
 
 		>>> lista[2:4]=[8,9,10]
 		>>> lista
 		[1, 2, 8, 9, 10, 5, 6]
 
-* Puedo borrar un subconjunto de elementos con la instrucción `del`.
+* Puc esborrar un subconjunt d'elements amb la instrucció `del`.
 
 		>>> del lista[5:]
 		>>> lista
 		[1, 2, 8, 9, 10]
 
-* Puedo actualizar la secuencia con el operador `*=`
+* Puc actualitzar la seqüència amb l'operador `*=`
 
 		>>> lista*=2
 		>>> lista
