@@ -135,6 +135,8 @@ Por último los métodos de `frozenset`:
 	fset1.intersection          fset1.issuperset            
 
 
+***
+[Index](../../../README.md)
 
 
 

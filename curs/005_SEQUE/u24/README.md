@@ -64,6 +64,8 @@ Mètodos de cerca: `count`, `index`
 	>>> tupla.index(2,2)
 	5
 
+***
+[Index](../../../README.md)
 
 
 

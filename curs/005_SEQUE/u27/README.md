@@ -83,3 +83,5 @@ Las cadenas se comparan carácter a carácter, en el momento en que dos caracter
 		>>> bin(213)
 		'0b11010101'	
 		
+***
+[Index](../../../README.md)

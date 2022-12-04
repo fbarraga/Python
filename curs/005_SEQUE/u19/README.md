@@ -2,7 +2,7 @@
 
 Els tipus de dades sequència em permet guardar una successió de dades de diferents tipuss. Els tipus de dades seqüències en python son: 
 
-* Les listas (`list`): Em permeten guardar un conjunt de dades que es poden repetir i que poden ser de diferents tipus. Es un tipus mutable.
+* Les llistes (`list`): Em permeten guardar un conjunt de dades que es poden repetir i que poden ser de diferents tipus. Es un tipus mutable.
 * Les tuples (`tuple`): Serveixen per lo mateix que les llistes, per en aquest cas es un tipus inmutable.
 * Els rangs (`range`): Es un tipus de seqüència que ens permet crear seqüèncias de números. Es un tipus inmutable i es sol utilitzar per realitzar bucles.
 * Las cadenes de caràcters (`str`): Ens permeten guardar seqüències de caràcters. És un tipus inmutable. 
@@ -36,57 +36,60 @@ Anem a veure diferents exemples partint d'una llista que és una seqüència mut
 		>>> lista + [7,8,9]
 		[1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-* *Repetición:* L'operador `*` em permet repetir una dada d'un tipus seqüèncial. No es poden repetir seqüències de tipus `range` i de tipus conjunt.
+* *Repetició:* L'operador `*` em permet repetir una dada d'un tipus seqüèncial. No es poden repetir seqüències de tipus `range` i de tipus conjunt.
 
-		>>> lista * 2
+		>>> llista * 2
 		[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6]
 
 * *Indexació:* Pot obtenir la dada d'una seqüència indicant la posició en la seqüència. Els conjunts no tenen implementat aquesta característica.
 
-		>>> lista[3]
+		>>> llista[3]
 		4
 	
 * *Slice (rebanada):* Pots obtenir una subseqüència de les dades de una seqüència. En els conjunts no puc obtenir subconjunts. Aquesta característica la veurem más en detall dintre de la unitat on veurem les llistes.
 
-		>>> lista[2:4]
+		>>> llista[2:4]
 		[3, 4]
-		>>> lista[1:4:2]
+		>>> llista[1:4:2]
 		[2, 4]
 
 * Amb la funció `len` puc obtenir el tamany de la seqüència, es a dir el número d'elements que conté.
 
-		>>> len(lista)
+		>>> len(llista)
 		6
 
 * Amb la funció `max` i `min` puc obtenir el valor màxim i mínim d'una seqüència.
 
-		>>> max(lista)
+		>>> max(llista)
 		6
-		>>> min(lista)
+		>>> min(llista)
 		1
 	
 A més en els tipus mutables puc realitzar les següents operacions:
 
 * Puc modificar una dada de la seqüència indicant la seva posició.
 
-		>>> lista[2]=99
-		>>> lista
+		>>> llista[2]=99
+		>>> llista
 		[1, 2, 99, 4, 5, 6]
 		
 * Puc modificar un subconjunt d'elements de la seqüència fent slice.
 
-		>>> lista[2:4]=[8,9,10]
-		>>> lista
+		>>> llista[2:4]=[8,9,10]
+		>>> llista
 		[1, 2, 8, 9, 10, 5, 6]
 
 * Puc esborrar un subconjunt d'elements amb la instrucció `del`.
 
-		>>> del lista[5:]
-		>>> lista
+		>>> del llista[5:]
+		>>> llista
 		[1, 2, 8, 9, 10]
 
 * Puc actualitzar la seqüència amb l'operador `*=`
 
-		>>> lista*=2
-		>>> lista
+		>>> llista*=2
+		>>> llista
 		[1, 2, 8, 9, 10, 1, 2, 8, 9, 10]
+
+***
+[Index](../../../README.md)

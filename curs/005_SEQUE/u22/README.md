@@ -9,3 +9,6 @@
 
 4. Donada una llista, fer un programa que indiqui si està ordenada o no.
 
+
+***
+[Index](../../../README.md)
