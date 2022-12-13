@@ -35,7 +35,7 @@ Ens permet escriure en la sortida estándar. Podem indicar varis dades a imprimi
 
 ## Formatejant cadenes de caràcters
 	
-Existeix dos formes d'indicar el format de impressió de las cadenes. En la documentació trobarem :
+Existeix dos formes d'indicar el format d'impressió de les cadenes. En la documentació trobarem :
 	* [estilo antiguo 2.x](https://docs.python.org/2/library/stdtypes.html#string-formatting) 
 	* [estilo nuevo 3.x](https://docs.python.org/3/library/string.html#string-formatting).
 
@@ -62,6 +62,6 @@ Per utilitzar el nou estil en python3 tenim una funció `format` i un métode `f
 	>>> print(format(2.345,".2f"))
 	2.35
 
-
+	
 ***
 [Index](../../../README.md)
