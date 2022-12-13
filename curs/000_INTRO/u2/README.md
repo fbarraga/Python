@@ -90,7 +90,7 @@ Amb Python3:
 	>>> type(range(1,10))
 	<class 'range'>
 
-### Input és una cadena de texte en Python 3
+### Input és una cadena de texte en Python3
 
 En python2 hi havien dos funcions per ingresar dades per un teclat raw_input() lo entrat es tractava com una cadena de texte i input() lo entrat s'evaluava i es tractava pel seu tipus. En python3, es va eliminar  el input() de python2 quedant el raw_input() como el nou input(). O sigui el input() de python3 sempre retorna una cadena de texte.
 
