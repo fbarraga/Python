@@ -2,7 +2,7 @@
 
 Com hem indicat anteriorment les variables en Python no es declaren, es determina el seu tipus en temps d'execució empleant una tècnica que s'anomena **tipat dinàmic**.
 
-## ¿Qué es el tipt dinàmic?
+## ¿Qué es el tipat dinàmic?
 
 En python quan assignem una variable, es crea una referencia (punter) al objecte creat, en aquest moment es determina el tipus de la variable. Per lo tant cada vegada que assignem de nou la variable pot canviar el tipus en temps d'execució.
 
@@ -18,7 +18,7 @@ En python quan assignem una variable, es crea una referencia (punter) al objecte
 
 ### Objectes inmutables
 
-Python procura no consumir més memoria de la necesaria. Certs objectes son **inmutables**, es a dir, no poden modificar el seu valor. El número 2 es sempre el número 2. És un objeto inmutable. Python procura emmagatzemar en memoria una sola vegada cada valor inmutable. Si dos o més variables contenen aquest valor, les seves referencias apunten a la mateixa zona de memòria.
+Python procura no consumir més memoria de la necesaria. Certs objectes son **inmutables**, es a dir, no poden modificar el seu valor. El número 2 es sempre el número 2. És un objecte inmutable. Python procura emmagatzemar en memoria una sola vegada cada valor inmutable. Si dos o més variables contenen aquest valor, les seves referències apunten a la mateixa zona de memòria.
 
 **Exemple**
 
@@ -43,7 +43,7 @@ Això és molt diferent a altres llenguatges de programació, on una variable oc
 	>>> id(a)
 	10771680
 
-Les cadenes també son un objecte **inmutable**, que ho siguin té efectes sobre les operacions que podem fer sobre elles. L'assignació aun element d'una cadena, per exemple està prohibida.
+Les cadenes també son un objecte **inmutable**, que ho siguin té efectes sobre les operacions que podem fer sobre elles. L'assignació a un element d'una cadena, per exemple està prohibida.
 
 	>>> a = "Hola"
 	>>> a[0]="h"
@@ -51,7 +51,7 @@ Les cadenes també son un objecte **inmutable**, que ho siguin té efectes sobre
 	  File "<stdin>", line 1, in <module>
 	TypeError: 'str' object does not support item assignment
 
-Dels tipus de dades principals, s'ha de recordar que son inmutables els números, les cadenas o les tuples.
+Dels tipus de dades principals, s'ha de recordar que son inmutables els números, les cadenes o les tuples.
 
 ### Objectes mutables
 
@@ -66,7 +66,7 @@ El cas contrari el tenim per exemple en els objectes tipus llistes, en aquest ca
 	>>> id(b)
 	140052934508488
 
-Com anteriorment veiem que dos variables referencia a la misma llista y memoria. Pero aquí ve la diferència, al poder ser modificada podem trobar situacions como la següent:
+Com anteriorment veiem que dos variables fan referencia a la misma llista i memòria. Pero aquí ve la diferència, al poder ser modificada podem trobar situacions com la següent:
 
 	>>> a[0] = 5
 	>>> b
@@ -97,7 +97,7 @@ Per provar això de una altra manera podem utilitzar els operadors d'identitat:
 	
 ## Operadors d'assignació
 
-Em permet assignar una valor a una variable, o dit d'una altra manera emm permet canviar la referència a un nou objecte.
+Em permet assignar una valor a una variable, o dit d'una altra manera em permet canviar la referència a un nou objecte.
 
 L'operador principal és `=`:
 
