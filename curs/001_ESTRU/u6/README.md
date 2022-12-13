@@ -2,8 +2,8 @@
 
 * Un programa python està format por instruccions que acaben en un caràcter de "salt de línia". 
 * El punt i coma “;” es pot utilitzar per separar varies sentencies en una mateixa linia, pero no es recomana el seu ús.
-* Una linia comença en la darrera posició, si tenim instruccions dintre de un bloc d'una estructura de control de flux s'haurà de fer una indentació.
-* La identació es pot fer amb espais i tabulacions però ambdos tipus no es poden barrejar. Es recomanda  utilitzar 4 espais. ([Guía d'estil de python](https://www.python.org/dev/peps/pep-0008/))
+* Una línia comença en la darrera posició, si tenim instruccions dintre de un bloc d'una estructura de control de flux s'haurà de fer una indentació.
+* La indentació es pot fer amb espais i tabulacions però ambdos tipus no es poden barrejar. Es recomanda  utilitzar 4 espais. ([Guía d'estil de python](https://www.python.org/dev/peps/pep-0008/))
 * La barra invertida "\\" al final de línia s'utilitza per dividir una linea molt llarga en dos o més linies.
 * Les expresions entre parèntesis "()", claus "{}" y corxets "[]" separats per comes "," es poden escriure ocupant varies linies.
 * Quan el bloc a aplicar la sangria només ocupa una linia aquesta pot esciure's després dels dos punts.
@@ -19,7 +19,7 @@ S'utiliza el caràcter `#` per indicar els comentaris.
 
 Exemple de comentari amb una línia:
 
-	#This is a comment
+	# This is a comment
 	print("Hello, World!")
 
 	print("Hello, World!") #This is a comment
