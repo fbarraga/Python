@@ -81,7 +81,7 @@ Vegeu com ha canviat el prompt del sistema "normal" de nou?)
 
     $ echo "som-hi!"
 
-# Desactivant el virtualenv fa que el binari de `python` i `pip` tornin a utilitzar el global:
+Desactivant el virtualenv fa que el binari de `python` i `pip` tornin a utilitzar el global:
 
     $ which python
     /usr/local/bin/python
