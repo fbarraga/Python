@@ -23,10 +23,9 @@
 	* Característiques dels editors de texts
 	* Configuració de Visual Studio Code (Pdt)
 	* Extensions de Visual Studio Code (Pdt)
-
-4a.[Virtual Environments](curs/OOO_INTRO/u4a/README.md)
-	* Virtualenv
-	* AnaConda
+	* Virtual Environments
+    	* Virtualenv
+    	* AnaConda
 
 5. [El meu primer programa en Python3](curs/000_INTRO/u5/README.md)
    
