@@ -19,7 +19,7 @@ Python és un llenguatge:
 * Sintaxis molt neta i senzilla
 * S'ha d'escriure menys
 * Obtens resultats molt ràpidament
-* Pots programar amb diferents paradígmes:
+* Pots programar amb diferents paradigmes:
 	* Programació imperativa
 	* Orientació a objectes
 	* Programació funcional
@@ -32,7 +32,7 @@ Python és un llenguatge:
 * Gran quantitat de mòduls, moltíssimes funcionalitats
 * Una gran comunitat que recolza el projecte
 * Està preinstal·lat en la majoria de sistemes
-* Molt utilitzat per l'anàlisi de dades
+* Molt utilitzat per l'anàlisi i accès de dades
 
 
 ## Índex Tiobe
