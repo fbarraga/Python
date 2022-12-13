@@ -43,7 +43,7 @@ Un exemple del nostre primer programa, podría ser aquest "hola mon" un mica mod
 	if numero == 5:
 		print ("Hola mon!!!")
 
-La *indentació* de la darrera línea és important (es pot fer amb espais o amb tabulador), amb python s'utilitza la identació per indicar blocs de instruccions definides por les estructures de control (if, while, for, ...). 
+La *indentació* de la darrera línea és important (es pot fer amb espais o amb tabulador no barrejant), amb python s'utilitza la indentació per indicar blocs de instruccions definides por les estructures de control (if, while, for, ...). 
 
 Per executar aquest programa (guardat en `hola.py`):
 
@@ -52,7 +52,7 @@ Per executar aquest programa (guardat en `hola.py`):
 
 ## Execució de programes utilitzant [shebang](https://es.wikipedia.org/wiki/Shebang)
 
-Podem executar directament el fitxer utilizant a la primera línea el shebang, on s'indica el executable que anem a utilitzar.
+Podem executar directament el fitxer del programa,  introduint a la primera línea el shebang, on s'indica el executable que anem a utilitzar. Donat que Python és un llenguatge que s'utilitza molt per la creació s'scripts, es molt habitual l'ús del shebang.
 
 	#!/usr/bin/python3
 
@@ -60,7 +60,7 @@ També podem utilitzar el programa `env` per preguntar al sistema per la ruta de
 
 	#!/usr/bin/env python
 
-Por suposat, al ser un entorn UNIX, haurem de donar permissos d'execució al fitxer.
+Por suposat, al ser un entorn Linux, haurem de donar permissos d'execució al fitxer.
 
 	$ chmod +x hola.py
 
