@@ -1,6 +1,6 @@
-# Métodos principales de cadenas
+# Mètodes principals de cadenes
 
-Cuando creamos una cadena de caracteres estamos creando un objeto de la clase `str`, que tiene definido un conjunto de métodos:
+Quan creem una cadena de caràcters estem creant un objecte de la classe `str`, que te definit un conjunt de mètodes:
 
 	cadena.capitalize    cadena.isalnum       cadena.join          cadena.rsplit
 	cadena.casefold      cadena.isalpha       cadena.ljust         cadena.rstrip
@@ -15,11 +15,11 @@ Cuando creamos una cadena de caracteres estamos creando un objeto de la clase `s
 	cadena.index         cadena.isupper       cadena.rpartition    cadena.zfill
 
 
-## Métodos de formato
+## Mètodes de format
 
-	>>> cad = "hola, como estás?"
+	>>> cad = "hola, com estás?"
 	>>> print(cad.capitalize())
-	Hola, como estás?
+	Hola, com estás?
 
 	>>> cad = "Hola Mundo" 
 	>>> print(cad.lower())
@@ -51,7 +51,7 @@ Cuando creamos una cadena de caracteres estamos creando un objeto de la clase `s
 	>>> print(str(num).zfill(12))
 	000000000123
 
-## Métodos de búsqueda
+## Mètodes de cerca
 
 	>>> cad = "bienvenido a mi aplicación"
 	>>> cad.count("a")
@@ -70,9 +70,9 @@ Cuando creamos una cadena de caracteres estamos creando un objeto de la clase `s
 	21
 
 
-El método `index()` y `rindex()` son similares a los anteriores pero provocan una excepción `ValueError` cuando no encuentra la subcadena. 
+El mètode `index()` i `rindex()` son similars als anteriors pero provoquen una excepció `ValueError` quan no troba la subcadena. 
 
-## Métodos de validación
+## Mètodes de validació
 
 	>>> cad.startswith("b")
 	True
@@ -88,15 +88,15 @@ El método `index()` y `rindex()` son similares a los anteriores pero provocan u
 	>>> cad.endswith("nido",0,10)
 	True
 
-Otras funciones de validación: `isalnum()`, `isalpha()`, `isdigit()`, `islower()`, `isupper()`, `isspace()`, `istitle()`,...
+Altres funcions de validació `isalnum()`, `isalpha()`, `isdigit()`, `islower()`, `isupper()`, `isspace()`, `istitle()`,...
 
-## Métodos de sustitución
+## Mètodes de substitució
 
 ### `format`
 
-En la unidad **"Entrada y salida estándar"** ya estuvimos introduciendo el concepto de formateo de la cadenas. Estuvimos viendo que hay dos métodos y vimos algunos ejemplos del *nuevo estilo* con la función predefinida `format()`.
+A la unitat **"Entrada i sortida estàndar"** ja vam introduir el concepte de formateig de cadenes. Vam veure que hi ha dos mètoes i vam veure alguns exemples del *no estil* com la funció predefinida `format()`.
 
-El uso del [estilo nuevo](https://docs.python.org/3/library/string.html#string-formatting) es actualmente el recomendado (puedes obtener más información y ejemplos en algunos de estos enlaces: [enlace1](http://www.python-course.eu/python3_formatted_output.php) y [enlace2](https://pyformat.info/)) y obtiene toda su potencialidad usando el método `format()` de las cadenas. Veamos algunos ejemplos:
+L'ús del [estil nou](https://docs.python.org/3/library/string.html#string-formatting) es actualment el recomanat (pots obtenir més informació i exemples en alguns d'aquests enllaços: [enllaç1](http://www.python-course.eu/python3_formatted_output.php) i [enllaç2](https://pyformat.info/)) i obté tota la seva potencialitat usant el mètode `format()` de les cadenes. Veiem alguns exemples:
 
 	>>> '{} {}'.format("a", "b")
 	'a b'
@@ -109,7 +109,7 @@ El uso del [estilo nuevo](https://docs.python.org/3/library/string.html#string-f
 	>>> '{:^10}'.format('test')
 	'   test   '
 
-### Otros métodos de sustitución
+### Altres mètodes de substitució
 
 	>>> buscar = "nombre apellido"
 	>>> reemplazar_por = "Juan Pérez" 
@@ -123,9 +123,9 @@ El uso del [estilo nuevo](https://docs.python.org/3/library/string.html#string-f
 	>>> print(cadena.strip("0"))
 	123
 
-De forma similar `lstrip(["caracter"])` y `rstrip(["caracter"])`.
+De manera similar `lstrip(["caracter"])` y `rstrip(["caracter"])`.
 
-## Métodos de unión y división
+## Mètodes d'unió i divisió
 
 	>>> formato_numero_factura = ("Nº 0000-0", "-0000 (ID: ", ")"
 	>>> print("275".join(formato_numero_factura))
