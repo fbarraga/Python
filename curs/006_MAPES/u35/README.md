@@ -83,3 +83,7 @@ Solución
 			gustos[nombre].append(gusto)
 		nombre = input("Nombre:")
 	print(gustos)
+
+
+***
+[Index](../../../README.md)

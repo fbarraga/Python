@@ -83,3 +83,5 @@ Les cadenes es comparen caràcter a caràcter, en el moment en que dos caràcter
 		>>> bin(213)
 		'0b11010101'	
 		
+***
+[Index](../../../README.md)

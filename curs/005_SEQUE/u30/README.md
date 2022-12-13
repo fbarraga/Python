@@ -143,3 +143,5 @@ El problema lo tenemos si hemos codificado utilizando un código e intentamos de
 	>>> byte1.decode("utf-8","replace")
 	'pi�a'
 
+***
+[Index](../../../README.md)

@@ -82,3 +82,7 @@ Quan creem una llista estem creant un objecte de la classe `list`, que té defin
 ## Mètode de copia: copy
 
 	>>> llista2 = llista1.copy()
+
+
+***
+[Index](../../../README.md)

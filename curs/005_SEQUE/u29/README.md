@@ -37,3 +37,5 @@ Exemple:
 
 1. Escribir un programa python que dado una palabra diga si es un palíndromo. Un palídromo Un palíndromo es una palabra, número o frase que se lee igual hacia adelante que hacia atrás. Ejemplo: reconocer
 
+***
+[Index](../../../README.md)

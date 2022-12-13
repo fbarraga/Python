@@ -39,3 +39,6 @@ Una cosa important a entendre, (insisteix Mark Pilgrim en su libro *Dive into Py
 		97
 		>>> ord("Ϭ")
 		1004
+
+***
+[Index](../../../README.md)

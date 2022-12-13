@@ -95,3 +95,6 @@ Un generador es un tipus concret de iterador. Es una funció que permet obtenir 
 		2
 		>>> next(iter1)
 		4
+
+***
+[Index](../../../README.md)

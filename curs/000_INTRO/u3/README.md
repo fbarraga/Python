@@ -6,8 +6,8 @@ Python és un llenguage multiplataforma, per lo que el mateix programa ens pot f
 
 Python ve preinstal·lat de sèrie en la majoria de las distribucions GNU/Linux. Si no el trobem instal·lat sempre el podrem instal·lar a través dels paquets de instal·lació.
 
-* Amb Debian 11.3 , la versión es la 3.10.6
-* Amb Ubuntu 22.04 , la versión es la 3.10.6
+* Amb Debian 11.3 , la versió es la 3.10.6
+* Amb Ubuntu 22.04 , la versió es la 3.10.6
 
 [Per més informació](https://docs.python.org/3/using/unix.html)
 

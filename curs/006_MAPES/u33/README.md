@@ -77,6 +77,8 @@ En este caso para copiar diccionarios vamos a usar el método `copy()`:
 	>>> b
 	{'three': 3, 'one': 1, 'two': 2}
 
+***
+[Index](../../../README.md)
 
 
 

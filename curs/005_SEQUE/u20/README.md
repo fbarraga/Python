@@ -122,3 +122,7 @@ A la hora de definir les llistes hem indicat que podem guardar en elles dades de
 	123
 	456
 	789
+
+***
+[Index](../../../README.md)
+
