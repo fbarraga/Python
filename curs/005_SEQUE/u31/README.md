@@ -1,14 +1,14 @@
-# Tipo de datos conjuntos: set, frozenset
+# Tipus de dades conjunts: set, frozenset
 
 ## set
 
- Los conjuntos (`set`): Me permiten guardar conjuntos (desornedos) de datos (a los que se puede calcular una función hash), en los que no existen repeticiones. Es un tipo de datos mutable.
+ Els conjunts (`set`): em permeten guardar conjunts (desordenats) de dades (als que es pot calcular una funció de hash), en el que no existeixen repeticions. Es un tipus de dades mutable.
 
- Normalmente se usan para comprobar si existe un elemento en el conjunto, eliminar duplicados y cálculos matématicos, como la intersección, unión, diferencia,...
+ Normalment s'utilitzen per comprovar si existeix un element en el conjunt, eliminar duplicats i càlculs matemàtics, com la intersecció, unió, diferència,...
 
-### Definición de set. Constructor set
+### Definició de set. Constructor set
 
-Podemos definir un tipo `set` de distintas formas:
+Podem definir un tipus `set` de diferentes formes:
 
 	>>> set1 = set()
 	>>> set1
@@ -22,9 +22,9 @@ Podemos definir un tipo `set` de distintas formas:
 
 ## Frozenset
 
-El tipo `frozenset` es un tipo inmutable de conjuntos.
+El tipus `frozenset` es un tipus inmutable de conjunts.
 
-### Definición de frozenset. Constructor frozenset
+### Definició de frozenset. Constructor frozenset
 
 	>>> fs1=frozenset()
 	>>> fs1
@@ -34,16 +34,16 @@ El tipo `frozenset` es un tipo inmutable de conjuntos.
 	frozenset({1, 2, 3})
 
 
-## Operaciones básicas con set y frozenset
+## Operacions bàsiques amb set i frozenset
 
-De las operaciones que estudiamos en el apartado "Tipo de datos secuencia" los conjuntos sólo aceptan las siguientes:
+De les operacions que vam estudiar en l'apartat "Tipo de dades seqüència" els conjuns només accepten les següents:
 
-* Recorrido
-* Operadores de pertenencia: `in` y `not in`.
+* Recorregut
+* Operadores de pertanyença: `in` i `not in`.
 
-Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`.
+Entre les funcions definides podem utilitzar: `len`, `max`, `min`, `sorted`.
 
-## Los set son mutables, los frozenset son inmutables
+## Els set son mutables, los frozenset son inmutables
 
 	>>> set1={1,2,3}
 	>>> set1.add(4)
@@ -53,9 +53,9 @@ Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`.
 	>>> set1
 	{1, 3, 4}
 
-El tipo `frozenset` es inmutable por lo tanto no posee los métodos `add` y `remove`.
+El tipus `frozenset` es inmutable per lo tanto no poseeix els mètodos `add` i `remove`.
 
-## Métodos de set y frozenset
+## Mètodes de set i frozenset
 
 	set1.add                          set1.issubset
 	set1.clear                        set1.issuperset
@@ -67,7 +67,7 @@ El tipo `frozenset` es inmutable por lo tanto no posee los métodos `add` y `rem
 	set1.intersection_update          set1.update
 	set1.isdisjoint     
 	
-Veamos algunos métodos, partiendo siempre de estos dos conjuntos:
+Veiem alguns mètodes, partint sempre d'aquests dos conjunts:
 
 	>>> set1={1,2,3}
 	>>> set2={2,3,4}
@@ -96,7 +96,7 @@ Veamos algunos métodos, partiendo siempre de estos dos conjuntos:
 	>>> set1
 	{1, 2, 3, 4}
 
-Veamos los métodos de añadir y eliminar elementos:
+Veiem els mètodes d'afegir i eliminar elements:
 
 	>>> set1 = set()
 	>>> set1.add(1)
@@ -113,7 +113,7 @@ Veamos los métodos de añadir y eliminar elementos:
 	>>> set1
 	{2}
 
-Y los métodos de comprobación:
+i els mètodes de comprovació:
 
 	>>> set1 = {1,2,3}
 	>>> set2 = {1,2,3,4}
@@ -127,7 +127,7 @@ Y los métodos de comprobación:
 	True
 
 
-Por último los métodos de `frozenset`:
+Per últim els mètodes de `frozenset`:
 
 
 	fset1.copy                  fset1.isdisjoint            fset1.symmetric_difference

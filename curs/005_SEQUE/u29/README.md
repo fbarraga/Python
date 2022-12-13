@@ -1,4 +1,4 @@
-# Ejercicios de cadenas
+# Exercicis de cadenes
 
 1. Crear un programa que llegeixi per teclat una cadena i un carácter, i insereixi el caracter entre cada lletra de la cadena.
 Exemple: 
@@ -21,21 +21,19 @@ Exemple:
    c. Lae paraules que comencin amb la lletra A. 
    		 * Per exemple, si rep "Antes de ayer" ha de retornar "Antes ayer".
 
-3. Esciure funcions que donades dos cadenes de caràcters:
+3. Escriure funcions que donades dos cadenes de caràcters:
    a. Indiqui si la segona cadena és una subcadena de la primera. 
-	  >>> cadena 
-	  >>> subcadena
-	  
+	  >> cadena 
+	  >> subcadena
 	  >>> És subcadena.
 
 * Retorni la que sigui anterior en ordre alfabètic. 
   Per exemple, 
-  		>>> kde
-		>>> gnome 
-		
-		>>> gnome.
+  	  >> kde
+	  >> gnome 
+	  >>> gnome.
 
-1. Escribir un programa python que dado una palabra diga si es un palíndromo. Un palídromo Un palíndromo es una palabra, número o frase que se lee igual hacia adelante que hacia atrás. Ejemplo: reconocer
+1. Escriure un programa en Python que donada una paraula ens digui si es un palíndrom. Un palídrom és una paraula, número o frase que es llegeix igual cap en davant que cap enrera. Exemple: reconocer
 
 ***
 [Index](../../../README.md)

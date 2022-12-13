@@ -94,7 +94,7 @@ Altres funcions de validació `isalnum()`, `isalpha()`, `isdigit()`, `islower()`
 
 ### `format`
 
-A la unitat **"Entrada i sortida estàndar"** ja vam introduir el concepte de formateig de cadenes. Vam veure que hi ha dos mètoes i vam veure alguns exemples del *no estil* com la funció predefinida `format()`.
+A la unitat **"Entrada i sortida estàndar"** ja vam introduir el concepte de formateig de cadenes. Vam veure que hi ha dos mètodes i vam veure alguns exemples del *no estil* com la funció predefinida `format()`.
 
 L'ús del [estil nou](https://docs.python.org/3/library/string.html#string-formatting) es actualment el recomanat (pots obtenir més informació i exemples en alguns d'aquests enllaços: [enllaç1](http://www.python-course.eu/python3_formatted_output.php) i [enllaç2](https://pyformat.info/)) i obté tota la seva potencialitat usant el mètode `format()` de les cadenes. Veiem alguns exemples:
 

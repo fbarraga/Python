@@ -1,19 +1,19 @@
-# Tipo de datos binarios: bytes, bytearray
+# Tipus de dades binaries: bytes, bytearray
 
 ## Bytes
 
-El tipo `bytes` es una secuencia inmutable de bytes. Solo admiten caracteres ASCII. También se pueden representar los bytes mediante números enteros cuyo valores deben cumplir `0 <= x < 256`.
+El tipus `bytes` es una seqüència inmutable de bytes. Només admet caràcters ASCII. També es pot representar els bytes mitjançant números enters els valors dels quals han de compliar `0 <= x < 256`.
 
-### Definición de bytes. Constructor bytes
+### Definició de bytes. Constructor bytes
 
-Podemos definir un tipo `bytes` de distintas formas:
+Podem definir un tipus `bytes` de varies maneres:
 
 	>>> byte1 = b"Hola"
 	>>> byte2 = b'¿Qué tal?'
 	>>> byte3 = b'''Hola,
     	que tal?'''
 
-También podemos crear cadenas con el constructor bytes a partir de otros tipos de datos.
+També podem crear cadenes amb el constructor bytes a partir d'altres tipus de dades.
 
 	>>> byte1=bytes(10)
 	>>> byte1
@@ -27,9 +27,9 @@ También podemos crear cadenas con el constructor bytes a partir de otros tipos 
 
 ## Bytearray
 
-El tipo `bytearray` es un tipo mutable de bytes. 
+El tipus `bytearray` és un tipus mutable de bytes. 
 
-### Definición de bytearray. Constructor bytearray
+### Definició de bytearray. Constructor bytearray
 
 	>>> ba1=bytearray()
 	>>> ba1
@@ -48,20 +48,20 @@ El tipo `bytearray` es un tipo mutable de bytes.
 	bytearray(b'.\xf0\xf1\xf2')
 
 
-## Operaciones básicas con bytes y bytearray
+## Operacions bàsiques amb bytes y bytearray
 
-Como veíamos en el apartado "Tipo de datos secuencia" podemos realizar las siguientes operaciones:
+Com veiem en el apartat "Tipus de dades seqüència" podem realizar les següents operacions:
 
-* Recorrido
-* Operadores de pertenencia: `in` y `not in`.
-* Concatenación: `+` 
-* Repetición: `*`
-* Indexación
+* Recorregut
+* Operadors de pertanyença: `in` y `not in`.
+* Concatenació: `+` 
+* Repetició: `*`
+* Indexació
 * Slice
 
-Entre las funciones definidas podemos usar: `len`, `max`, `min`,  `sum`, `sorted`.
+Entre les funcions definides podem utilitzar: `len`, `max`, `min`,  `sum`, `sorted`.
 
-## Los bytes son inmutables, los bytearray son mutables
+## Els bytes son inmutables, els bytearray son mutables
 
 	>>> byte=b"hola"
 	>>> byte[2]=b'g'
@@ -77,7 +77,7 @@ Entre las funciones definidas podemos usar: `len`, `max`, `min`,  `sum`, `sorted
 	>>> ba1
 	bytearray(b'ho{')
 
-## Métodos de bytes y bytearray
+## Mètodes de bytes i bytearray
 
 	byte1.capitalize  byte1.index       byte1.join        byte1.rindex      byte1.strip
 	byte1.center      byte1.isalnum     byte1.ljust       byte1.rjust       byte1.swapcase
@@ -101,11 +101,11 @@ Entre las funciones definidas podemos usar: `len`, `max`, `min`,  `sum`, `sorted
 	bytearray1.find        bytearray1.ljust       bytearray1.rpartition  
 	bytearray1.fromhex     bytearray1.lower       bytearray1.rsplit 
 
-Si nos fijamos la mayoría de los métodos en el caso de los `bytes` son los de las cadenas de caracteres, y en los `bytearray` encontramos también métodos propios de las listas.
+Si ens fixem la majoria dels mètodes en el cas dels `bytes` son los de les cadenes de caràcters, i en els `bytearray` trobarem també mètodes propis de les llistes.
 
-### Métodos encode y decode
+### Mètodes encode i decode
 
-Los caracteres cuyo código es mayor que 256 no se pueden usar para representar los bytes, sin embargo si podemos indicar una codificación de caracteres determinada para que ese carácter se convierte en un conjunto de bytes.
+Els caràcters el codi del qual es més gran que 256 no es pot utilitzar per representar els bytes, no obstant si podem indicar una codificació de caràcters determinada per que aquest caràcter es converteixi en un conjunt de bytes.
 
 	>>> byte1=b'piña'
 	  File "<stdin>", line 1
@@ -119,19 +119,19 @@ Los caracteres cuyo código es mayor que 256 no se pueden usar para representar 
 	>>> byte1
 	b'pi\xf1a'
 
-Podemos también convertir una cadena unicode a bytes utilizando el método `encode`:
+Podem també convertir una cadena unicode a bytes utilitzant el mètode `encode`:
 
 	>>> cad="piña"
 	>>> byte1=cad.encode("utf-8")
 	>>> byte1
 	b'pi\xc3\xb1a'
 
-Para hacer la función inversa, convertir de bytes a unicode utilizamos el método `decode`:
+Per fer la funció inversa, convertir de bytes a unicode utilitzem el mètode `decode`:
 
 	>>> byte1.decode("utf-8")
 	'piña'
 
-El problema lo tenemos si hemos codificado utilizando un código e intentamos decodificar usando otro.
+El problema el tenemos si hem codificat utilizant un codi i intentem decodificar utilitzant un altre.
 
 	>>> byte1=bytes('piña',"latin1")
 	>>> byte1.decode("utf-8")
