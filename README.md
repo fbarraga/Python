@@ -21,8 +21,8 @@
 	* Editors de texts
 	* IDE us Editors de text
 	* Característiques dels editors de texts
-	* Configuració de Visual Studio Code (Pdt)
-	* Extensions de Visual Studio Code (Pdt)
+	* Configuració de Visual Studio Code
+	* Extensions de Visual Studio Code 
 	* Virtual Environments
     	* Virtualenv
     	* AnaConda

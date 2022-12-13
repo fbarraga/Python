@@ -31,6 +31,19 @@ Per tasques de programació, es habitual es utilizar un editor gráfico con más
 * [Editors de texte per Python](https://wiki.python.org/moin/PythonEditors)
 
 
+
+# Configuració de python amb Visual Studio Code
+
+Hi ha dos IDEs que s'utilitzen per la majoria de programadors de Python:
+
+  * [Pycharm](https://www.jetbrains.com/pycharm/)
+  * [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+
+Per la realització d'aquest curs utilitzarem Visual Studio Code. Podem trobar una guia de com configurar Python amb Visual Studio Code en aquest [link](https://code.visualstudio.com/docs/python/python-tutorial)
+
+
+
 # Entorns virtuals
 
 Entorns Virtuals ("virtualenvs") guarda les dependències (mòduls,...) del teu projecte separades del entorn global. T'ajuden a evitar conflictes de versions entre paquets i diferents versions del runtime de Python.
@@ -85,9 +98,6 @@ Desactivant el virtualenv fa que el binari de `python` i `pip` tornin a utilitza
 
     $ which python
     /usr/local/bin/python
-
-
-
 
 
 ***
