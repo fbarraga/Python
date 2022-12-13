@@ -1,6 +1,6 @@
 # Funcions i constants predefinides
 
-## Funcions predefinidae
+## Funcions predefinides
 
 Tenim una serie de funcions predefinides en python3:
 
