@@ -14,7 +14,6 @@
 	* Instal·lació en altres distribucions Linux
 	* Instal·lació en Windows
 	* Instal·lació en Mac
-	* Virtual Environments (Pdt)
 
 4. [Entorns de desenvolupament i editors de text](curs/000_INTRO/u4/README.md)
    
@@ -24,6 +23,10 @@
 	* Característiques dels editors de texts
 	* Configuració de Visual Studio Code (Pdt)
 	* Extensions de Visual Studio Code (Pdt)
+
+4a.[Virtual Environments](curs/OOO_INTRO/u4a/README.md)
+	* Virtualenv
+	* AnaConda
 
 5. [El meu primer programa en Python3](curs/000_INTRO/u5/README.md)
    

@@ -23,10 +23,6 @@ Mac OS X 10.8 ve amb Python 2.7 pre-instal·lat. Si vols instal·lar Python3 pot
 
 [Per més informació](https://docs.python.org/3/using/mac.html)
 
-# Virtual Environments
-
-Francesc
-Pendent de completar!!!
 
 ***
 [Index](../../../README.md)
