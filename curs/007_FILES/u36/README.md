@@ -11,7 +11,7 @@ La funció [open()](https://docs.python.org/3.11/library/functions.html#open) s'
 
 ### Modes d'accés
 
-Los modos que podemos indicar son los siguientes:
+Els modes què podem seleccionar son:
 
 <table>
 	<tr>
@@ -36,48 +36,57 @@ Los modos que podemos indicar son los siguientes:
 
 Com podem comprovar podem treballar amb fitxers binaris i amb fitxers de text.
 
+### Fitxers de text i fitxers binaris
+
+Un *fitxer de text pla* (en anglès plain text) és el que està compost únicament per text sense format, només caràcters. Aquests caràcters es poden codificar de diferents maneres depenent de la llengua usada. Alguns dels sistemes de codificació més usats  són: ASCII, ISO-8859-1 o Llatí-1, Unicode, etc.
+Se'ls coneix també com a fitxers de text simple, per mancar d'informació destinada a generar formats (negretes, subratllats, cursives, mida, etc.) i tipus de lletra (per exemple, Arial, Times, Courier, etc).
+
+
+Un *fitxer binari* és un fitxer informàtic que conté informació de qualsevol tipus (text formatat, programes, una imatge, audio, vídeo, etc) codificada en una seqüència de bytes. Per a poder-los llegir i interpretar s’ha de coneixer el format
+
+
 ### Codificació de caràcters
 
-Si trabajamos con fichero de textos podemos indicar también el parámetro `encoding` que será la codificación de caracteres utilizadas al trabajar con el fichero, por defecto se usa la indicada en el sistema:
+Si treballem amb fitxers de texte podem indicar també el paràmetre `encoding` que serà la codificació de caràcters utilitzats al treballar amb el fitxer. Per defecte s'utilitzarà la que estigui indicada pel sistema:
 
 	>>> import locale
 	>>> locale.getpreferredencoding()
 	'UTF-8'
 
-Y por último también podemos indicar el parámetro `errors` que controla el comportamiento cuando se encuentra con algún error al codificar o decodificar caracteres.
+I per últim també podem indicar el parámetre `errors` que controla el comportament quan es troba algún error al codificar o decodificar caràcters.
 
-## Objeto fichero
+## Objecte fitxer
 
-Al abrir un fichero con un determinado modo de acceso con la función `open()` se nos devuelve un objeto fichero. El fichero abierto siempre hay que cerrarlo con el método `close()`:
+Al obrir un fitxer amb un determinat mode d'accés la funció `open()` ens retorna un objecte de tipus fitxers. El fitxer obert sempre s'ha de tancar amb el mètode `close()`:
 
-	>>> f = open("ejemplo.txt","w")
+	>>> f = open("exemple.txt","w")
 	>>> type(f)
 	<class '_io.TextIOWrapper'>
 	>>> f.close()
 
-Se pueden acceder a las siguientes propiedades del objeto file:
+Es poden accedir a les següents propietats d'un objecte file:
 
-* `closed`: retorna `True` si el archivo se ha cerrado. De lo contrario, `False`.
-* `mode`: retorna el modo de apertura.
-* `name`: retorna el nombre del archivo
-* `encoding`: retorna la codificación de caracteres de un archivo de texto
+* `closed`: retorna `True` si el fitxer s'ha tancat. De lo contrari, `False`.
+* `mode`: retorna el mode d'obertura.
+* `name`: retorna el nom del fitxer
+* `encoding`: retorna la codificació de caràcteres d'un fitxer de texte
 
-Podemos abrirlo y cerrarlo en la misma instrucción con la siguiente estructura:
+Podem obrir-lo i tancar-lo amb la mateixa instrucció amb la següent estructura:
 
-	>>> with open("ejemplo.txt", "r") as archivo: 
-	...    contenido = archivo.read()
-	>>> archivo.closed
+	>>> with open("ejemplo.txt", "r") as fitxer: 
+	...    contenido = fitxer.read()
+	>>> fitxer.closed
 	True
 
-## Métodos principales
+## Mètodes principals
 
-### Métodos de lectura
+### Mètodes de lectura
 
-	>>> f = open("ejemplo.txt","r")
+	>>> f = open("exemple1.txt","r")
 	>>> f.read()
 	'Hola que tal\n'
 
-	>>> f = open("ejemplo.txt","r")
+	>>> f = open("exemple1.txt","r")
 	>>> f.read(4)
 	'Hola'
 	>>> f.read(4)
@@ -88,7 +97,7 @@ Podemos abrirlo y cerrarlo en la misma instrucción con la siguiente estructura:
 	>>> f.read()
 	'Hola que tal\n'
 
-	>>> f = open("ejemplo2.txt","r")	
+	>>> f = open("exemple2.txt","r")	
 	>>> f.readline()
 	'Línea 1\n'
 	>>> f.readline()
@@ -98,20 +107,20 @@ Podemos abrirlo y cerrarlo en la misma instrucción con la siguiente estructura:
 	>>> f.readlines()
 	['Línea 1\n', 'Línea 2\n']
 
-### Métodos de escritura
+### Mètodes d'escriptura
 
-	>>> f = open("ejemplo3.txt","w")
-	>>> f.write("Prueba 1\n")
+	>>> f = open("exemple3.txt","w")
+	>>> f.write("Prova 1\n")
 	9
-	>>> print("Prueba 2\n",file=f)
-	>>> f.writelines(["Prueba 3","Prueba 4"])
+	>>> print("Prova 2\n",file=f)
+	>>> f.writelines(["Prova 3","Prova 4"])
 	>>> f.close()
-	>>> f = open("ejemplo3.txt","r")
+	>>> f = open("exemple3.txt","r")
 	>>> f.read()
-	'Prueba 1\nPrueba 2\n\nPrueba 3Prueba 4'
+	'Prpva 1\nProva 2\n\Prova 3Prova 4'
 
-## Recorrido de ficheros
+## Recorregut de fitxers
 
-	>>> with open("ejemplo3.txt","r") as fichero:
-	...    for linea in fichero:
-	...        print(linea)
+	>>> with open("exemple3.txt","r") as fitxer:
+	...    for linia in fitxer:
+	...        print(linia)

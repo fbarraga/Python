@@ -1,26 +1,26 @@
-# importing element tree
-# under the alias of ET
+# importem el mòdul element tree
+# sota l'alias ET
 import xml.etree.ElementTree as ET
 
-# Passing the path of the
-# xml document to enable the
-# parsing process
+# Passem el path del fitxers xml
+# xper poder inciiar el proces de parsing
+
 tree = ET.parse('../data/dict.xml')
 
-# getting the parent tag of
-# the xml document
+# Agafem el tag de pare del document xml
 root = tree.getroot()
 
-# printing the root (parent) tag
-# of the xml document, along with
+# Imprimim el root (parent) tag
+# del document xmls, along with
 # its memory location
 print(root)
 
-# printing the attributes of the
-# first tag from the parent
+# Imprimim els atributs del primer tag des
+# del pare
 print(root[0].attrib)
 
-# printing the text contained within
-# first subtag of the 5th tag from
-# the parent
+# Imprimim el text contingut dintre
+# del primer subtage en el 5e tag des del
+# pare
+
 print(root[5][0].text)

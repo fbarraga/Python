@@ -1,8 +1,8 @@
-# Gestionar ficheros json
+# Gestionar fitxers json
 
-El módulo [json](https://docs.python.org/3.4/library/json.html) nos permite gestionar ficheros con formato [JSON (JavaScript Object Notation)](http://json.org/).
+El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](http://json.org/).
 
-La correspondecia entre JSON y Python la podemos resumir en la siguiente tabla:
+La correspondència entre JSON i Python la podemos resumir en la següent taula:
 <table>
 	<tr><td>JSON</td><td>Python</td></tr>
 	<tr><td>object</td><td>dict</td></tr>
@@ -15,9 +15,9 @@ La correspondecia entre JSON y Python la podemos resumir en la siguiente tabla:
 	<tr><td>null</td><td>None</td></tr>
 </table>
 
-## Leer ficheros json
+## Llegir fitxers json
 
-Desde una cadena de caracteres:
+Des d'una cadena de caràcters:
 
 	>>> import json
 	>>> datos_json='{"nombre":"carlos","edad":23}'
@@ -27,22 +27,67 @@ Desde una cadena de caracteres:
 	>>> print(datos)
 	{'nombre': 'carlos', 'edad': 23}
 
-Desde un fichero:
+Des de un fitxer:
 
-	>>> with open("ejemplo1.json") as fichero:
-	...   datos=json.load(fichero)
+	>>> with open("exemple1.json") as fitxer:
+	...   datos=json.load(fitxer)
 	>>> type(datos)
 	<class 'dict'>
 	>>> datos
 	{'bookstore': {'book': [{'_category': 'COOKING', 'price': '30.00', 'author': 'Giada De Laurentiis', 'title': {'__text': 'Everyday Italian', '_lang': 'en'}, 'year': '2005'}, {'_category': 'CHILDREN', 'price': '29.99', 'author': 'J K. Rowling', 'title': {'__text': 'Harry Potter', '_lang': 'en'}, 'year': '2005'}, {'_category': 'WEB', 'price': '49.99', 'author': ['James McGovern', 'Per Bothner', 'Kurt Cagle', 'James Linn', 'Vaidyanathan Nagarajan'], 'title': {'__text': 'XQuery Kick Start', '_lang': 'en'}, 'year': '2003'}, {'_category': 'WEB', 'price': '39.95', 'author': 'Erik T. Ray', 'title': {'__text': 'Learning XML', '_lang': 'en'}, 'year': '2003'}]}}
+
+
+Fixe'm nos que quan llegim d'una cadena de caràcters es json.loads i quan llegim d'un fitxer json.load
+
 	
-## Escribir ficheros json
+## Escriure fitxers json
 
 	>>> datos = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie','felineIQ': None}
-	>>> fichero = open("ejemplo2.json","w")
+	>>> fichero = open("exemple2.json","w")
 	>>> json.dump(datos,fichero)
 	>>> fichero.close()
 
 	cat ejemplo2.json 
 	{"miceCaught": 0, "name": "Zophie", "felineIQ": null, "isCat": true}
 
+Fixe'm nos que quan escrivim en un fitxer és json.dump i quan ho fem a cadena de caràcters es json.dumps
+
+## Mostrar fitxers json
+
+Codificació de jerarquies bàsiques en Python.
+
+	>>> import json
+	>>>json.dumps(['foo', {'bar': ('baz', None, 1.0, 2)}])
+	'["foo", {"bar": ["baz", null, 1.0, 2]}]'
+
+	>>> print(json.dumps("\"foo\bar"))
+	"\"foo\bar"
+
+	>>> print(json.dumps('\u1234'))
+	"\u1234"
+
+	>>> print(json.dumps('\\'))
+	"\\"
+
+	>>> print(json.dumps({"c": 0, "b": 0, "a": 0}, sort_keys=True))
+	{"a": 0, "b": 0, "c": 0}
+
+	>>> from io import StringIO
+	>>> io = StringIO()
+	>>> json.dump(['streaming API'], io)	
+	>>> io.getvalue()
+	'["streaming API"]'
+
+Codificació compacta:
+
+	>>> import json
+	>>> json.dumps([1, 2, 3, {'4': 5, '6': 7}], separators=(',', ':'))
+	'[1,2,3,{"4":5,"6":7}]'
+
+Pretty printing:
+	>>> import json
+	>>> print(json.dumps({'4': 5, '6': 7}, sort_keys=True, indent=4))
+	{
+    	"4": 5,
+    	"6": 7
+	}

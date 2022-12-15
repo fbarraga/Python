@@ -1,39 +1,39 @@
-# Gestionar ficheros CSV
+# Gestionar fitxers CSV
 
-## Módulo CSV
+## Mòdul CSV
 
-El módulo [cvs](https://docs.python.org/3.4/library/csv.html) nos permite trabajar con ficheros CSV.
-Un fichero CSV (comma-separated values)  son un tipo de documento en formato abierto sencillo para representar datos en forma de tabla, en las que las columnas se separan por comas (o por otro carácter).
+El mòdul [csv](https://docs.python.org/3.4/library/csv.html) ens permet treballar amb fitxers csv.
+Un fitxer CSV (comma-separated values)  es un tipus de document en format obert senzill per representar dades en format de taula, en la que les columnes es separen per comes(o per un altre caràcter).
 
-## Leer ficheros CSV
+## Llegir fitxers CSV
 
-Para leer un fichero CSV utilizamos la función `reader()`:
+Per llegir un fitxer CSV utilitzem la funció `reader()`:
 
 	>>> import csv
-	>>> fichero = open("ejemplo1.csv")
-	>>> contenido = csv.reader(fichero)
-	>>> list(contenido)
+	>>> fitxer = open("exemple1.csv")
+	>>> contingut = csv.reader(fitxer)
+	>>> list(contingut)
 	[['4/5/2015 13:34', 'Apples', '73'], ['4/5/2015 3:41', 'Cherries', '85'], ['4/6/2015 12:46', 'Pears', '14'], ['4/8/2015 8:59', 'Oranges', '52'], ['4/10/2015 2:07', 'Apples', '152'], ['4/10/2015 18:10', 'Bananas', '23'], ['4/10/2015 2:40', 'Strawberries', '98']]
-	>>> list(contenido)
+	>>> list(contingut)
 	[]
-	>>> fichero.close()
+	>>> fitxer.close()
 
-Podemos guardar la lista obtenida en una variable y acceder a ella indicando fila y columna.
+Podem guardar la llista obtinguda en una variable i accedir amb ella indicant fila i columna.
 
 	...
-	>>> datos = list(contenido)
-	>>> datos[0][0]
+	>>> dades = list(contingut)
+	>>> dades[0][0]
 	'4/5/2015 13:34'
-	>>> datos[1][1]
+	>>> dades[1][1]
 	'Cherries'
-	>>> datos[2][2]
+	>>> dades[2][2]
 	'14'
 
-Por supuesto podemos recorrer el resultado:
+Per suposat podem recorrer el resultat:
 
 	...
-	>>> for row in contenido:
-		print("Fila "+str(contenido.line_num)+" "+str(row))	
+	>>> for row in contingut:
+		print("Fila "+str(contingut.line_num)+" "+str(row))	
 
 	Fila 1 ['4/5/2015 13:34', 'Apples', '73']
 	Fila 2 ['4/5/2015 3:41', 'Cherries', '85']
@@ -43,12 +43,12 @@ Por supuesto podemos recorrer el resultado:
 	Fila 6 ['4/10/2015 18:10', 'Bananas', '23']
 	Fila 7 ['4/10/2015 2:40', 'Strawberries', '98']
 
-Veamos otro ejemplo un poco más complejo:
+Veiem un altre exemple una mica més complexe:
 
 	>>> import csv
-	>>> fichero = open("ejemplo2.csv")
-	>>> contenido = csv.reader(fichero,quotechar='"')
-	>>> for row in contenido:
+	>>> fitxer = open("exemple2.csv")
+	>>> contingut = csv.reader(fitxer,quotechar='"')
+	>>> for row in contingut:
 	...   print(row)
 	... 
 	['Año', 'Marca', 'Modelo', 'Descripción', 'Precio']
