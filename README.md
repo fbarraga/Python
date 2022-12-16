@@ -240,7 +240,9 @@ Cridar al github d'algorismica
 
 ### Treballar amb fitxers
 
-36. [Lectura i escriptura de fitxers](curs/007_FILES/u36/README.md)
+36. [Treball amb fitxers](curs/007_FILES/u36a/README.md)
+
+36. [Lectura i escriptura de fitxers de texte](curs/007_FILES/u36b/README.md)
     
 	* Fitxers de texte i fitxers binaris
 	* Fitxers de texte
