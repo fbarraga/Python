@@ -78,3 +78,6 @@ Veiem un altre exemple una mica més complexe:
 	4/5/2015 3:41,Cherries,85
 	4/6/2015 12:46,Pears,14
 
+
+***
+[Index](../../../README.md)
