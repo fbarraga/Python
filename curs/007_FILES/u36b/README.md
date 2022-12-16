@@ -113,3 +113,8 @@ Podem obrir-lo i tancar-lo amb la mateixa instrucció amb la següent estructura
 	>>> with open("exemple3.txt","r") as fitxer:
 	...    for linia in fitxer:
 	...        print(linia)
+
+
+
+***
+[Index](../../../README.md)

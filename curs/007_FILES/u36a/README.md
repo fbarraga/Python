@@ -5,3 +5,7 @@ Se'ls coneix també com a fitxers de text simple, per mancar d'informació desti
 
 
 Un *fitxer binari* és un fitxer informàtic que conté informació de qualsevol tipus (text formatat, programes, una imatge, audio, vídeo, etc) codificada en una seqüència de bytes. Per a poder-los llegir i interpretar s’ha de coneixer el format.
+
+
+***
+[Index](../../../README.md)
