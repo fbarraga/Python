@@ -1,3 +1,10 @@
+# Serialització
+
+## Procés de serialització
+
+El procés de serialització consisteix a transformar un objecte determinat en un text a partir d'un llenguatge específic, per ser emmagatzemat o bé transferit i, finalment, restablert a l'objecte original.
+Per exemple, desar una llista de Python en un arxiu de text o base de dades, i després carregar quan sigui necessari. Formats comuns entre els diferents llenguatges de programació inclouen CSV, XML i JSON
+
 # Gestionar fitxers CSV
 
 ## Mòdul CSV
@@ -57,16 +64,16 @@ Veiem un altre exemple una mica més complexe:
 	['1999', 'Chevy', 'Venture "Extended Edition, Very Large"', '', '5000.00']
 	['1996', 'Jeep', 'Grand Cherokee', 'MUST SELL!\nair, moon roof, loaded', '4799.00']
 
-## Escribir ficheros CSV
+## Escriure fitxers CSV
 
 	>>> import csv
-	>>> fichero = open("ejemplo3.csv","w")
-	>>> contenido = csv.writer(fichero)
-	>>> contenido.writerow(['4/5/2015 13:34', 'Apples', '73'])
-	>>> contenido.writerows(['4/5/2015 3:41', 'Cherries', '85'],['4/6/2015 12:46', 'Pears', '14'])
-	>>> fichero.close()
+	>>> fitxer = open("exemple3.csv","w")
+	>>> contingut = csv.writer(fitxer)
+	>>> contingut.writerow(['4/5/2015 13:34', 'Apples', '73'])
+	>>> contingut.writerows(['4/5/2015 3:41', 'Cherries', '85'],['4/6/2015 12:46', 'Pears', '14'])
+	>>> fitxer.close()
 
-	$ cat ejemplo3.csv
+	$ cat exemple3.csv
 	4/5/2015 13:34,Apples,73
 	4/5/2015 3:41,Cherries,85
 	4/6/2015 12:46,Pears,14

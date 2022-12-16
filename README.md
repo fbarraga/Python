@@ -240,17 +240,21 @@ Cridar al github d'algorismica
 
 ### Treballar amb fitxers
 
-36. [Lectura i escriptura de fitxers de textes](curs/007_FILES/u36/README.md)
+36. [Lectura i escriptura de fitxers](curs/007_FILES/u36/README.md)
     
-	* Funció open()
-	* Modes d'accés
-	* Codificació de caràcters
-	* Objecte fitxer
-	* Mètodes principals
-	* Recorregut de fitxers
+	* Fitxers de texte i fitxers binaris
+	* Fitxers de texte
+    	* Funció open()
+    	* Modes d'accés
+    	* Codificació de caràcters
+    	* Objecte fitxer
+    	* Mètodes principals
+    	* Recorregut de fitxers
+  	* Fitxers binaris
 
 37. [Gestionar fitxers CSV](curs/007_FILES/u37/README.md)
     
+	* Procés de serialització
 	* Mòdul csv
 	* Llegir fitxers CSV
 	* Escriure fitxers CSV
