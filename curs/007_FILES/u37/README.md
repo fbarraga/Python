@@ -6,7 +6,7 @@
 El mòdul [csv](https://docs.python.org/3.4/library/csv.html) ens permet treballar amb fitxers csv.
 Un fitxer CSV (comma-separated values)  es un tipus de document en format obert senzill per representar dades en format de taula, en la que les columnes es separen per comes(o per un altre caràcter).
 
-## Llegir fitxers CSV
+### Llegir fitxers CSV
 
 Per llegir un fitxer CSV utilitzem la funció `reader()`:
 
@@ -81,7 +81,7 @@ També podem llegir el fitxer i posar-ho en un diccionari mitjançant el mètode
 	>>>        line_count += 1
 	>>>    print(f'Processed {line_count} lines.')	
 
-## Escriure fitxers CSV
+### Escriure fitxers CSV
 
 	>>> import csv
 	>>>
