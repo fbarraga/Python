@@ -135,13 +135,15 @@ Llegir el CSV en un [Pandas DataFrame](https://realpython.com/pandas-dataframe/)
 
 Tres línies de codi, i només una d'elles fa el treball real. pandas.read_csv() obre, analitza i llegeix el fitxer CSV proporcionat i emmagatzema les dades en un DataFrame. La impressió del DataFrame dóna com a resultat la sortida següent:
 
-             Name Hire Date   Salary  Sick Days remaining
-0  Graham Chapman  03/15/14  50000.0                   10
-1     John Cleese  06/01/15  65000.0                    8
-2       Eric Idle  05/12/14  45000.0                   10
-3     Terry Jones  11/01/13  70000.0                    3
-4   Terry Gilliam  08/12/14  48000.0                    7
-5   Michael Palin  05/23/13  66000.0                    8
+
+|            Name  | Hire Date|  Salary | Sick Days remaining |
+---------------------------------------------------------------				 
+|0 | Graham Chapman|  03/15/14|  50000.0|                   10|
+|1 |    John Cleese|  06/01/15|  65000.0|                    8|
+|2 |      Eric Idle|  05/12/14|  45000.0|                   10|
+|3 |    Terry Jones|  11/01/13|  70000.0|                    3|
+|4 |  Terry Gilliam|  08/12/14|  48000.0|                    7|
+|5 |  Michael Palin|  05/23/13|  66000.0|                    8|
 
 Aquí hi ha alguns punts que val la pena destacar:
 
