@@ -254,6 +254,8 @@ Cridar al github d'algorismica
     	* Recorregut de fitxers
   	* Fitxers binaris
 
+37. [Procés dde serialització](curs/007_FILES/u36c/README.md)
+
 37. [Gestionar fitxers CSV](curs/007_FILES/u37/README.md)
     
 	* Procés de serialització
