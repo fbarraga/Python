@@ -262,6 +262,7 @@ Cridar al github d'algorismica
 	* Mòdul csv
 	* Llegir fitxers CSV
 	* Escriure fitxers CSV
+	* Gestionar fitxers CSV amb el mòdul Panda
 
 38. [Gestionar fitxers json](curs/007_FILES/u38/README.md)
     
