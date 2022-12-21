@@ -137,7 +137,7 @@ Tres línies de codi, i només una d'elles fa el treball real. pandas.read_csv()
 
 
 |            Name  | Hire Date|  Salary | Sick Days remaining |
----------------------------------------------------------------				 
+|------------------|----------|---------|---------------------|				 
 |0 | Graham Chapman|  03/15/14|  50000.0|                   10|
 |1 |    John Cleese|  06/01/15|  65000.0|                    8|
 |2 |      Eric Idle|  05/12/14|  45000.0|                   10|
