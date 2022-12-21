@@ -181,7 +181,7 @@ A continuació, arreglem el tipus de dades del camp Data de contractació. Podeu
 
 |               | Hire Date |  Salary | Sick Days remaining|
 |Name           |           |         |                    |
-|---------------|			|		  |					   |
+|---------------|-----------|---------|--------------------|
 |Graham Chapman |2014-03-15 | 50000.0 |                  10|
 |John Cleese    |2015-06-01 | 65000.0 |                   8|
 |Eric Idle      |2014-05-12 | 45000.0 |                  10|
