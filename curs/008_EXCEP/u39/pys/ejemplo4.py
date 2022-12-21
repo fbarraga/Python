@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-cad =  input("Dame un número:")
+cad =  input("Dona'm un número:")
 try:
 	i = int(cad)
 except ValueError as error:

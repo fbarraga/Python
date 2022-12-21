@@ -1,69 +1,69 @@
-# Módulos estándares: módulos de sistema
+# Mòduls estándars: mòduls de sistema
 
-Python tiene sus propios módulos, los cuales forman parte de su librería de módulos estándar, que también pueden ser importados. En esta unidad vamos a estudiar las funciones porincipales de módulos realacionados con el sistema operativo.
+Python té els seus propis mòduls, els quals formen part de la seva llibreria de mòduls estàndard, que també poden ser importats. En aquesta unitat anem a estuir les funcions principals de mòduls relacionats amb el sistema operatiu.
 
-## Módulo os
+## Mòdulo os
 
-El módulo [os](https://docs.python.org/3.4/library/os.html#module-os) nos permite acceder a funcionalidades dependientes del Sistema Operativo. Sobre todo, aquellas que nos refieren información sobre el entorno del mismo y nos permiten manipular la estructura de directorios.
+El mòdul [os](https://docs.python.org/3.11/library/os.html#module-os) ens permet accedir a funcionalitats dependenes del Sistema Operatiu. Sobre tot, aquelles que ens refereixen informació sobre l'entorn del mateix i ens permeten manipular l'estructura de directoris.
 
-   <table>
+<table>
 <thead>
 <tr>
-  <th>Descripción</th>
-  <th>Método</th>
+  <th>Descripció</th>at
+  <th>Mètode</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>Saber si se puede acceder a un archivo o directorio</td>
+  <td>Saber si es pot accedir a un arxiu o directori</td>
   <td><code>os.access(path, modo_de_acceso)</code></td>
 </tr>
 <tr>
-  <td>Conocer el directorio actual</td>
+  <td>Conèixer el directori actual</td>
   <td><code>os.getcwd()</code></td>
 </tr>
 <tr>
-  <td>Cambiar de directorio de trabajo</td>
+  <td>Canviar de directori de treball</td>
   <td><code>os.chdir(nuevo_path)</code></td>
 </tr>
 <tr>
-  <td>Cambiar al directorio de trabajo raíz</td>
+  <td>Canviar el directori de treball arrel</td>
   <td><code>os.chroot()</code></td>
 </tr>
 <tr>
-  <td>Cambiar los permisos de un archivo o directorio</td>
+  <td>Canviar els permissos d'un arxiu o directori</td>
   <td><code>os.chmod(path, permisos)</code></td>
 </tr>
 <tr>
-  <td>Cambiar el propietario de un archivo o directorio</td>
+  <td>Canviar el propietari d'un arxiu o directorio</td>
   <td><code>os.chown(path, permisos)</code></td>
 </tr>
 <tr>
-  <td>Crear un directorio</td>
+  <td>Crear un directori</td>
   <td><code>os.mkdir(path[, modo])</code></td>
 </tr>
 <tr>
-  <td>Crear directorios recursivamente</td>
+  <td>Crear directoris recursivament</td>
   <td><code>os.mkdirs(path[, modo])</code></td>
 </tr>
 <tr>
-  <td>Eliminar un archivo</td>
+  <td>Eliminar un fitxer</td>
   <td><code>os.remove(path)</code></td>
 </tr>
 <tr>
-  <td>Eliminar un directorio</td>
+  <td>Eliminar un directori</td>
   <td><code>os.rmdir(path)</code></td>
 </tr>
 <tr>
-  <td>Eliminar directorios recursivamente</td>
+  <td>Eliminar directoris recursivamente</td>
   <td><code>os.removedirs(path)</code></td>
 </tr>
 <tr>
-  <td>Renombrar un archivo</td>
+  <td>Renombrar un fitxer</td>
   <td><code>os.rename(actual, nuevo)</code></td>
 </tr>
 <tr>
-  <td>Crear un enlace simbólico</td>
+  <td>Crear un enllaç simbòlic</td>
   <td><code>os.symlink(path, nombre_destino)</code></td>
 </tr>
 </tbody>
@@ -76,13 +76,13 @@ El módulo [os](https://docs.python.org/3.4/library/os.html#module-os) nos permi
 	>>> os.getcwd()
 	'/home/jose/github/curso_python3/curso'
 
-El módulo os también nos provee del submódulo path (os.path) el cual nos permite acceder a ciertas funcionalidades relacionadas con los nombres de las rutas de archivos y directorios.
+El mòdul os també ens proveeix del submòdul path (os.path) el qual ens permet accedir a certes funcionalitats relacionades amb els noms de les rutes de fitxers i directoris.
 
 <table>
 <thead>
 <tr>
-  <th>Descripción</th>
-  <th>Método</th>
+  <th>Descripció</th>
+  <th>Mètode</th>
 </tr>
 </thead>
 <tbody>
@@ -91,55 +91,55 @@ El módulo os también nos provee del submódulo path (os.path) el cual nos perm
   <td><code>os.path.abspath(path)</code></td>
 </tr>
 <tr>
-  <td>Directorio base</td>
+  <td>Directori base</td>
   <td><code>os.path.basename(path)</code></td>
 </tr>
 <tr>
-  <td>Saber si un directorio existe</td>
+  <td>Saber si un directori existeix</td>
   <td><code>os.path.exists(path)</code></td>
 </tr>
 <tr>
-  <td>Conocer último acceso a un directorio</td>
+  <td>Conèixer el darrer accés a un directori</td>
   <td><code>os.path.getatime(path)</code></td>
 </tr>
 <tr>
-  <td>Conocer tamaño del directorio</td>
+  <td>Conèixer tamany del directori</td>
   <td><code>os.path.getsize(path)</code></td>
 </tr>
 <tr>
-  <td>Saber si una ruta es absoluta</td>
+  <td>Saber si una ruta és absoluta</td>
   <td><code>os.path.isabs(path)</code></td>
 </tr>
 <tr>
-  <td>Saber si una ruta es un archivo</td>
+  <td>Saber si una ruta és un fitxer</td>
   <td><code>os.path.isfile(path)</code></td>
 </tr>
 <tr>
-  <td>Saber si una ruta es un directorio</td>
+  <td>Saber si una ruta és un directori</td>
   <td><code>os.path.isdir(path)</code></td>
 </tr>
 <tr>
-  <td>Saber si una ruta es un enlace simbólico</td>
+  <td>Saber si una ruta és un enllaç simbòlic</td>
   <td><code>os.path.islink(path)</code></td>
 </tr>
 <tr>
-  <td>Saber si una ruta es un punto de montaje</td>
+  <td>Saber si una ruta és un punt de muntatge</td>
   <td><code>os.path.ismount(path)</code></td>
 </tr>
 </tbody>
 </table>
 
-### Ejecutar comandos del sistema operativo. Módulo subprocess
+### Executar comandes del sistema operatiu. Mòdul subprocess
 
-Con la función `system()` del módulo `os` nos permite ejecutar comandos del sistema operativo.
+Amb la funció `system()` del mòdul `os` ens permet executar comandes del sistema operatiu.
 
 	>>> os.system("ls")
 	curso  modelo.odp  README.md
 	0
 
-La función nos devuelve un código para indicar si la instrucción se ha ejecutado con éxito.
+La funció ens retorna un codi per indicar si l'instrucció s'ha executat amb èxit.
 
-Tenemos otra forma de ejecutar comandos del sistema operativo que nos da más funcionalidad, por ejemplo nos permite guardar la salida del comando en una variable. Para ello podemos usar el módulo [subprocess](https://docs.python.org/3.4/library/subprocess.html)
+Tenim una altre manera d'executar comandes del sistema operatiu que ens dona més funcionalitat, per exemple ens permet guardar la sortida de la comanda en una variable. Per fer-ho podem utilitzar el mòdul [subprocess](https://docs.python.org/3.11/library/subprocess.html)
 
 	>>> import subprocess
 	>>> subprocess.call("ls")
@@ -157,69 +157,69 @@ Tenemos otra forma de ejecutar comandos del sistema operativo que nos da más fu
 	>>> salida = subprocess.Popen(["df","-h"], stdout=subprocess.PIPE)
 	>>> salida.communicate()[0]
 
-## Módulo shutil
+## M+odul shutil
 
-El módulo [shutil](https://docs.python.org/3.4/library/shutil.html#module-shutil) de funciones para realizar operaciones de alto nivel con archivos y directorios. Dentro de las operaciones que se pueden realizar está copiar, mover y borrar archivos y directorios; y copiar los permisos y el estado de los archivos. 
+El mòdul [shutil](https://docs.python.org/3.11/library/shutil.html#module-shutil) de funcions per realitzar operacions d'alt nivell amb fitxers i directoris. Dintre de les operacions que es poden realitzar estàn copiar,moure i borrar fitxers i directories; i copiar els permissos i l'estat dels fitxers.
 
 <table>
 <thead>
 <tr>
-  <th>Descripción</th>
-  <th>Método</th>
+  <th>Descripció</th>
+  <th>Mètode</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>Copia un fichero complero o parte</td>
+  <td>Copia un fitxers complert o part</td>
   <td><code>shutil.copyfileobj(fsrc, fdst[, length])</code></td>
 </tr>
 <tr>
-  <td>Copia el contenido completo (sin metadatos) de un archivo</td>
+  <td>Copia el contingut complet (sense metadades) d'un fitxer</td>
   <td><code>shutil.copyfile(src, dst, *, follow_symlinks=True)</code></td>
 </tr>
 <tr>
-  <td>copia los permisos de un archivo origen a uno destino</td>
+  <td>copia els permissos d'un fitxer origen a un destí</td>
   <td><code>shutil.copymode(src, dst, *, follow_symlinks=True)</code></td>
 </tr>
 <tr>
-  <td>Copia los permisos, la fecha-hora del último acceso, la fecha-hora de la última modificación y los atributos de un archivo origen a un archivo destino</td>
+  <td>Copia els permissos, la data-hora de l'últim accés, la data-hora de la darrera modificació i els atributs d'un fitxer origen a un fitxer destí</td>
   <td><code>shutil.copystat(src, dst, *, follow_symlinks=True)</code></td>
 </tr>
 <tr>
-  <td>Copia un archivo (sólo datos y permisos)</td>
+  <td>Copia un fitxer (només dades i permissos)</td>
   <td><code>shutil.copy(src, dst, *, follow_symlinks=True)</code></td>
 </tr>
 <tr>
-  <td>Copia archivos (datos, permisos y metadatos) </td>
+  <td>Copia fitxers (dades, permissos i metadades) </td>
   <td><code>shutil.move(src, dst, copy_function=copy2)</code></td>
 </tr>
 <tr>
-  <td>Obtiene información del espacio total, usado y libre, en bytes </td>
+  <td>Obté informació de l'espai total, usat i lliure, en bytes </td>
   <td><code>shutil.disk_usage(path)</code></td>
 </tr>
 <tr>
-  <td>Obtener la ruta de un archivo ejecutable </td>
+  <td>Obtenir la ruta d'un fitxer executable </td>
   <td><code>shutil.chown(path, user=None, group=None)</code></td>
 </tr>
 <tr>
-  <td>Saber si una ruta es un enlace simbólico</td>
+  <td>Saber si una ruta és un enllaç simbòlic</td>
   <td><code>shutil.which(cmd, mode=os.F_OK | os.X_OK, path=None)</code></td>
 </tr>
 </tbody>
 </table>
 
 
-## Módulos sys 
+## Mòduls sys 
 
-El módulo [sys](https://docs.python.org/3.4/library/sys.html#module-sys) es el encargado de proveer variables y funcionalidades, directamente relacionadas con el intérprete.
+El mòdul [sys](https://docs.python.org/3.11/library/sys.html#module-sys) és el encarregat de proveir variables i funcionalitats, directamentt relacionades amb l'intèrpret.
 
-Algunas variables definidas en el módulo:
+Algunes variables definides en el mòdul:
 
 <table>
 <thead>
 <tr>
   <th>Variable</th>
-  <th>Descripción</th>
+  <th>Descripció</th>
 </tr>
 </thead>
 <tbody>

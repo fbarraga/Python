@@ -3,7 +3,7 @@ def dividir(x,y):
 	try:
 		return x/y
 	except ZeroDivisionError:
-		return "No se puede dividir"
+		return "No es pot dividir"
 
 def dividir2(x,y):
 	try:

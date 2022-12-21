@@ -1,12 +1,12 @@
-# Módulos y paquetes
+# Mòduls i paquets
 
-* Módulo: Cada uno de los ficheros `.py` que nosotros creamos se llama módulo. Los elementos creados en un módulo (funciones, clases, ...) se pueden importar para ser utilizados en otro módulo. El nombre que vamos a utilizar para importar un módulo es el nombre del fichero.
+* Mòdul: Cadascu dels fitxers `.py` que nosaltres creem es diu mòdul. Els elements creats en un mòdul (funcions, classes, ...) es poden importar per ser utilitzats en un altre mòdul. El nom que anem a utilitzar per importar un mòdul és el nom del fitxer.
 
-* Paquete: Para estructurar nuestros módulos podemos crear paquetes. Un paquete, es una carpeta que contiene archivos `.py`. Pero, para que una carpeta pueda ser considerada un paquete, debe contener un archivo de inicio llamado `__init__.py`. Este archivo, no necesita contener ninguna instrucción. Los paquetes, a la vez, también pueden contener otros sub-paquetes.
+* Paquet: Per estructurar els nostres mòduls podem crear paquets. Un paquet, es una carpeta que conté arxius `.py`. Però, per que una carpeta pugui ser considerada un paquet, aquesta ha de contenir un arxiu d'inici anomenat `__init__.py`. Aquest arxiu, no necessita contenir cap instrucció. Els paquets, a la vegada, també poden contener altres sub-paquets.
 
-## Ejecutando módulos como scripts
+## Executant mòduls amb scripts
 
-Si hemos creado un módulo, donde hemos definido dos funciones y hemos hecho un programa principal donde se utilizan dichas funciones, tenemos dos opciones: ejecutar ese módulo como un script o importar ese módulo desde otro, para utilizar sus funciones. Por ejemplo, si tenemos un fichero llamado `potencias.py`:
+Si hem creat un mòdul, on hem definit dos funcions i hem fet un programa principal on s'utilitzzen aquestes funcions, tenim dos opcions: executar aquest mòdul com un script o importar aquest mòdul des d'un altre, per utilitzar les seves funcions. Per exemple, si tenim un fitxer anomenat `potencias.py`:
 
 	#!/usr/bin/env python	
 
@@ -18,17 +18,17 @@ Si hemos creado un módulo, donde hemos definido dos funciones y hemos hecho un 
 		print(cuadrado(3))
 		print(cubo(3))
 
-En este caso, cuando lo ejecuto como un script:
+En aquest cas, quan l'executo com un script:
 
 	$ python3 potencias.py
 
-El nombre que tiene el módulo es `__main__`, por lo tanto se ejecutará el programa principal.
+El nom que té el mòdul és `__main__`, per lo tant s'executarà el programa principal.
 
-Además este módulo se podrá importar (como veremos en el siguiente apartado) y el programa principal no se tendrá en cuenta.
+A més aquest mòdul es podrà importar (com veurem en el següent apartat) i el programa principal no es tindrá en compte.
 
-## Importando módulos: import, from
+## Important mòduls: import, from
 
-Para importar un módulo completo tenemos que utilizar las instrucción `import`. lo podemos importar de la siguiente manera:
+Per importar un mòdul complet hem d'utilitzar les instruccions `import`. ho podem importar de la següent manera:
 
 	>>> import potencias
 	>>> potencias.cuadrado(3)
@@ -36,29 +36,29 @@ Para importar un módulo completo tenemos que utilizar las instrucción `import`
 	>>> potencias.cubo(3)
 	27
 
-## Namespace y alias
+## Namespace i alias
 
-Para acceder (desde el módulo donde se realizó la importación), a cualquier elemento del módulo importado, se realiza mediante el **namespace**, seguido de un punto (.) y el nombre del elemento que se desee obtener. En Python, un **namespace**, es el nombre que se ha indicado luego de la palabra import, es decir la ruta (namespace) del módulo.
+Per accedir (des de el mòdul on es va realitzar l'importació), a qualsevol element del mòdul importat, es realitza mitjançant el **namespace**, seguit d'un punt (.) i el nom de l'element que es vol obtenir. A Python, un **namespace**, es el nom que s'ha indicat després de la paraula import, és a dir la ruta (namespace) del mòdul.
 
-Es posible también, abreviar los **namespaces** mediante un **alias**. Para ello, durante la importación, se asigna la palabra clave `as` seguida del alias con el cuál nos referiremos en el futuro a ese namespace importado:
+És possible també, abreujar els **namespaces** mtijançant un **alias**. Per això, durant l'importació, s'assigna la paraula clau `as` seguida de l'alias amb el qual ens referirem en el futur a aquest namespace importat:
 
 	>>> import potencias as p
 	>>> p.cuadrado(3)
 	9
 
-## Importando elementos de un módulo: from...import
+## Important elements d'un mòdul: from...import
 
-Para no utilizar el **namespace** podemos indicar los elementos concretos que queremos importar de un módulo:
+Per no utilitzar el **namespace** podem indicar els elements concrets que volem importar d'un mòdul:
 
 	>>> from potencias import cubo
 	>>> cubo(3)
 	27
 
-Podemos importar varios elementos separándolos con comas:
+Podem importar varis elements separant-los amb comas:
 
 	>>> from potencias import cubo,cuadrado
 
-Podemos tener un problema al importar dos elementos de dos módulos que se llamen igual. En este caso tengo que utilizar **alias**:
+Podem tenir un problema a l'importar dos elements de dos mòduls que s'anomenin igual. En aquest cas s'ha d'utilitzar **alias**:
 
 	>>> from potencias import cuadrado as pc
 	>>> from dibujos import cuadrado as dc
@@ -67,15 +67,15 @@ Podemos tener un problema al importar dos elementos de dos módulos que se llame
 	>>> dc()
 	Esto es un cuadrado
 
-## Importando módulos desde paquetes
+## Important mòduls des de paquets
 
-Si tenemos un módulo dentro de un paquete la importación se haría de forma similar. tenemos un paquete llamado `operaciones`:
+Si tenim un mòdul dintre d'un paquet l'importació es faria de manera similar. Tenim un paquet anomenat `operaciones`:
 
 	$ cd operaciones
 	$ ls
 	__init.py__  potencias.py
 
-Para importarlo:
+Per importar-lo:
 
 	>>> import operaciones.potencias
 	>>> operaciones.potencias.cubo(3)
@@ -85,26 +85,26 @@ Para importarlo:
 	>>> cubo(3)
 	27
 
-## Función dir()
+## Funció dir()
 
-La función `dir()` nos permite averiguar los elementos definidos en un módulo:
+La funció `dir()` ens permet saber els elements definits en un mòdul:
 
 	>>> import potencias
 	>>> dir(potencias)
 	['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'cuadrado', 'cubo']
 
 
-## ¿Donde se encuentran los módulos?
+## On es troben els mòduls estàndards?
 	
-Los módulos estandar (como `math` o `sys` por motivos de eficiencia están escrito en C e incorporados en el interprete (builtins).
+Els  mòduls estàndar (com `math` o `sys` per motius d'eficiència están escrits en C e incorporats en el interpret (builtins).
 
-Para obtener la lista de módulos builtins:
+Per obtenir la llista de mòduls builtins:
 
 	>>> import sys
 	>>> sys.builtin_module_names
 	('_ast', '_bisect', '_codecs', '_collections', '_datetime', '_elementtree', '_functools', '_heapq', '_imp', '_io', '_locale', '_md5', '_operator', '_pickle', '_posixsubprocess', '_random', '_sha1', '_sha256', '_sha512', '_socket', '_sre', '_stat', '_string', '_struct', '_symtable', '_thread', '_tracemalloc', '_warnings', '_weakref', 'array', 'atexit', 'binascii', 'builtins', 'errno', 'faulthandler', 'fcntl', 'gc', 'grp', 'itertools', 'marshal', 'math', 'posix', 'pwd', 'pyexpat', 'select', 'signal', 'spwd', 'sys', 'syslog', 'time', 'unicodedata', 'xxsubtype', 'zipimport', 'zlib')
 
-Los demás módulos que podemos importar se encuentran guardados en ficheros, que se encuentra en los path indicados en el interprete:
+Els altres mòduls que podem importar es troben guardats en fitxers, que es troben en els path indicats en l'intèrpret:
 
 	>>> sys.path
 	['', '/usr/lib/python3.4', '/usr/lib/python3.4/plat-x86_64-linux-gnu', '/usr/lib/python3.4/lib-dynload', '/usr/local/lib/python3.4/dist-packages', '/usr/lib/python3/dist-packages']

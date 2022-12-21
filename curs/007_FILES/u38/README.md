@@ -85,6 +85,7 @@ Codificació compacta:
 	'[1,2,3,{"4":5,"6":7}]'
 
 Pretty printing:
+
 	>>> import json
 	>>> print(json.dumps({'4': 5, '6': 7}, sort_keys=True, indent=4))
 	{
