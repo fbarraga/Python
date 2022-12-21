@@ -179,7 +179,9 @@ A continuació, arreglem el tipus de dades del camp Data de contractació. Podeu
 	>>> df = pandas.read_csv('hrdata.csv', index_col='Name', parse_dates=['Hire Date'])
 	>>> print(df)
 
+|----------------------------------------------------------|
 |               | Hire Date |  Salary | Sick Days remaining|
+|---------------|-----------|---------|--------------------|
 |Name           |           |         |                    |
 |---------------|-----------|---------|--------------------|
 |Graham Chapman |2014-03-15 | 50000.0 |                  10|
