@@ -157,14 +157,13 @@ Aquí hi ha alguns punts que val la pena destacar:
 
 Per utilitzar una columna diferent com a índex DataFrame, afegiu el paràmetre opcional index_col:
 
-	>>> import pandas
-	>>> df = pandas.read_csv('hrdata.csv', index_col='Name')
-	>>> print(df)
+		>>> import pandas
+		>>> df = pandas.read_csv('hrdata.csv', index_col='Name')
+		>>> print(df)
 
 i la sortida ens quedaria:
 
-|                |Hire Date|   Salary | Sick Days remaining|
-|Name            |         |          |                    |
+|  Name          |Hire Date|   Salary | Sick Days remaining|
 |----------------|---------|----------|--------------------|
 |Graham Chapman  |03/15/14 |50000.0   |                10  |
 |John Cleese     |06/01/15 |65000.0   |                 8  |
