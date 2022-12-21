@@ -151,8 +151,8 @@ Aquí hi ha alguns punts que val la pena destacar:
 2. Tanmateix, els pandas també utilitzen índexs enters de base zero al DataFrame. Això és perquè no li vam dir quin hauria de ser el nostre índex.
 3. A més, si mireu els tipus de dades de les nostres columnes , veureu que Pandas ha convertit correctament les columnes de Salari i Dies de malaltia restants en números, però la columna Data de contractació continua sent una cadena. Això es confirma fàcilment en mode interactiu:
 
-	>>> print(type(df['Hire Date'][0]))
-	<class 'str'>
+		>>> print(type(df['Hire Date'][0]))
+		<class 'str'>
 
 
 Per utilitzar una columna diferent com a índex DataFrame, afegiu el paràmetre opcional index_col:
@@ -163,14 +163,14 @@ Per utilitzar una columna diferent com a índex DataFrame, afegiu el paràmetre 
 
 i la sortida ens quedaria:
 
-               Hire Date   Salary  Sick Days remaining
-Name                                                  
-Graham Chapman  03/15/14  50000.0                   10
-John Cleese     06/01/15  65000.0                    8
-Eric Idle       05/12/14  45000.0                   10
-Terry Jones     11/01/13  70000.0                    3
-Terry Gilliam   08/12/14  48000.0                    7
-Michael Palin   05/23/13  66000.0                    8
+|                |Hire Date|   Salary | Sick Days remaining|
+|Name                                 |                    |
+|Graham Chapman  |03/15/14 |50000.0   |                10  |
+|John Cleese     |06/01/15 |65000.0   |                 8  |
+|Eric Idle       |05/12/14 |45000.0   |                10  |
+|Terry Jones     |11/01/13 |70000.0   |                 3  |
+|Terry Gilliam   |08/12/14 |48000.0   |                 7  |
+|Michael Palin   |05/23/13 |66000.0   |                 8  |
 
 
 A continuació, arreglem el tipus de dades del camp Data de contractació. Podeu forçar els pandas a llegir les dades com a data amb el paràmetre opcional parse_dates, que es defineix com una llista de noms de columnes per tractar-los com a dates:
