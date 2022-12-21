@@ -179,14 +179,15 @@ A continuació, arreglem el tipus de dades del camp Data de contractació. Podeu
 	>>> df = pandas.read_csv('hrdata.csv', index_col='Name', parse_dates=['Hire Date'])
 	>>> print(df)
 
-                Hire Date   Salary  Sick Days remaining
-Name                                                   
-Graham Chapman 2014-03-15  50000.0                   10
-John Cleese    2015-06-01  65000.0                    8
-Eric Idle      2014-05-12  45000.0                   10
-Terry Jones    2013-11-01  70000.0                    3
-Terry Gilliam  2014-08-12  48000.0                    7
-Michael Palin  2013-05-23  66000.0                    8
+|               | Hire Date |  Salary | Sick Days remaining|
+|Name           |           |         |                    |
+|---------------|			|		  |					   |
+|Graham Chapman |2014-03-15 | 50000.0 |                  10|
+|John Cleese    |2015-06-01 | 65000.0 |                   8|
+|Eric Idle      |2014-05-12 | 45000.0 |                  10|
+|Terry Jones    |2013-11-01 | 70000.0 |                   3|
+|Terry Gilliam  |2014-08-12 | 48000.0 |                   7|
+|Michael Palin  |2013-05-23 | 66000.0 |                   8|
 
 Ara la data està formatejada correctament, podem veure que ara és de tipus data sii ho consultem:
 
