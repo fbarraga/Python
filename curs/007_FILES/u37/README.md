@@ -163,7 +163,7 @@ Per utilitzar una columna diferent com a índex DataFrame, afegiu el paràmetre 
 
 i la sortida ens quedaria:
 
-|  Name          |Hire Date|   Salary | Sick Days remaining|
+|Name			 |Hire Date|   Salary | Sick Days remaining|
 |----------------|---------|----------|--------------------|
 |Graham Chapman  |03/15/14 |50000.0   |                10  |
 |John Cleese     |06/01/15 |65000.0   |                 8  |
