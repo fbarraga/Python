@@ -119,3 +119,5 @@ Y por lo tanto puedo guardar el objeto función en otra variable:
 	>>> c(4)
 	16
 
+***
+[Index](../../../README.md)

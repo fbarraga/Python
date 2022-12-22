@@ -97,3 +97,6 @@ Realizar una función recursiva que reciba una lista y que calcule el producto d
 
 	if __name__ == '__main__':
 		print(multiplicar([3,4,5]))
+
+***
+[Index](../../../README.md)

@@ -138,3 +138,6 @@ La instrucción `return` puede devolver cualquier tipo de resultados, por lo tan
 	3
 	>>> producto
 	10
+
+***
+[Index](../../../README.md)

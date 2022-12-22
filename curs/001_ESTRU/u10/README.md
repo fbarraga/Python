@@ -4,7 +4,7 @@ Com hem indicat anteriorment les variables en Python no es declaren, es determin
 
 ## ¿Qué es el tipat dinàmic?
 
-En python quan assignem una variable, es crea una referencia (punter) al objecte creat, en aquest moment es determina el tipus de la variable. Per lo tant cada vegada que assignem de nou la variable pot canviar el tipus en temps d'execució.
+A python quan assignem una variable, es crea una referencia (punter) al objecte creat, en aquest moment es determina el tipus de la variable. Per lo tant cada vegada que assignem de nou la variable pot canviar el tipus en temps d'execució.
 
 	>>> var = 3
 	>>> type(var)

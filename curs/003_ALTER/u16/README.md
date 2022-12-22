@@ -1,17 +1,17 @@
 # Exercicis d'alternatives
 
 
-1. Realiza un programa que pida dos números ‘a’ y ‘b’ e indique si su suma es positiva, negativa o cero.
+1. Realitza un programa que demani dos números ‘a’ i ‘b’ i indiqui si la suma és positiva, negativa o zero.
 
-2. Escribe un programa que lea un número e indique si es par o impar.2.
+2. Escriu un programa que llegeixi un número i indiqui si es par o impar.2.
 
-3. Escribe un programa que pida un número entero entre uno y doce e imprima el número de días que tiene el mes correspondiente.
+3. Escriu un programa que demani un número enter entre un i dotze i tregui per pantalla el número de dies que te el mes seleccionat.
 
-4. Escribe un programa que pida un nombre de usuario y una contraseña y si se ha introducido “pepe” y “asdasd” se indica “Has entrado al sistema”, sino se da un error.
+4. Escriu un programa que demani un nom d'usuari i una contrasenya i si s'ha introduit“pepe” y “mypassw” tregui per pantalla “Has entrat al sistema”, sino ha de donar un error.
 
-5. Escribir un programa que lea un año indicar si es bisiesto. Nota: un año es bisiesto si es un número divisible por 4, pero no si es divisible por 100, excepto que también sea divisible por 400.
+5. Escriu un programa que demani un any i t'informi si es bisiest. Nota: un any és bisiest si es un número divisible per 4, però no si es divisible per 100, excepte que també sigui divisible por 400.
 
-6. Programa que lea un carácter por teclado y compruebe si es una letra mayúscula.
+6. Escriu un programa que llegeixi un caràcter per teclat i comprovi si és una lletra majúscula.
 
 
 ***

@@ -242,7 +242,7 @@ Cridar al github d'algorismica
 
 36. [Treball amb fitxers (texte o binaris)](curs/007_FILES/u36a/README.md)
 
-36. [Lectura i escriptura de fitxers de texte](curs/007_FILES/u36b/README.md)
+	[Lectura i escriptura de fitxers de texte](curs/007_FILES/u36b/README.md)
     
 	* Fitxers de texte i fitxers binaris
 	* Fitxers de texte
@@ -254,7 +254,7 @@ Cridar al github d'algorismica
     	* Recorregut de fitxers
   	* Fitxers binaris
 
-37. [Procés dde serialització](curs/007_FILES/u36c/README.md)
+[Procés de serialització](curs/007_FILES/u36c/README.md)
 
 37. [Gestionar fitxers CSV](curs/007_FILES/u37/README.md)
     

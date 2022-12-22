@@ -18,3 +18,8 @@ Esta función utiliza interna las siguinetes funciones:
 	* `Puntos(info)`: Función que recibe una lista con los partidos ganados, empatados y perdidos y devuelve los puntos obtenidos.
 
 * `Clasificacion(datos)`: Recibe la lista generada con la función anterior y la ordena según el número de puntos.
+
+
+
+***
+[Index](../../../README.md)

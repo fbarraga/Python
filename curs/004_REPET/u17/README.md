@@ -31,21 +31,6 @@ L'estructura `for` ens permet iterar els elements d'una seqüència (llista, ran
 	else:
         print ("Hem acabat")
 
-<<<<<<< HEAD
-## Instruccions break, continue y pass
-
-### break
-
-Acaba l'execució del bucle, a més no executa el bloque de instruccions indicat per la part `else`.
-
-### continue
-	
-Deixa d'executar les restants instruccions del bucle i torna a iterar.
-
-### pass
-
-Indica una instrucció nula, es a  dir no s'executa res. Pero no tenim errorss de sintaxis.
-=======
 ## Instruccions break, continue i pass
 
 ### break
@@ -59,15 +44,10 @@ Deixa d'executar les instruccions que falten del bucle i torna a iterar.
 ### pass
 
 Indica una instrucció nul·la, es a dir no s'executa res. Però no tenim errors de sintaxis.
->>>>>>> 592a52c0e8a9b71541dd7c844ea6bbf3427bc2fd
 
 ## Recorrer varias seqüències. Funció zip()
 
-<<<<<<< HEAD
-Amb la instrucció `for` podem executar més d'una seqüència, utilizant la funció `zip`. Aquesta funció crea una seqüència on cada elemento és una tupla dels elements de cada seqüència que pren com paràmetre.
-=======
 Amb la instrucció `for` podem executar més d'una seqüència, utilizant la funció `zip`. Aquesta funció crea una seqüència on cada element es una tupla dels elements de cada seqüència que retorna cóm a paràmetre.
->>>>>>> 592a52c0e8a9b71541dd7c844ea6bbf3427bc2fd
 
 *Exemple*
 

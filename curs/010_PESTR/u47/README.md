@@ -89,4 +89,6 @@ Un generador es un tipo concreto de iterador. Es una función que permite obtene
 	[2, 4, 6, 8]
 
 
+***
+[Index](../../../README.md)
 
