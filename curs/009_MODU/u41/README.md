@@ -157,7 +157,7 @@ Tenim una altre manera d'executar comandes del sistema operatiu que ens dona mé
 	>>> salida = subprocess.Popen(["df","-h"], stdout=subprocess.PIPE)
 	>>> salida.communicate()[0]
 
-## M+odul shutil
+## Mòdul shutil
 
 El mòdul [shutil](https://docs.python.org/3.11/library/shutil.html#module-shutil) de funcions per realitzar operacions d'alt nivell amb fitxers i directoris. Dintre de les operacions que es poden realitzar estàn copiar,moure i borrar fitxers i directories; i copiar els permissos i l'estat dels fitxers.
 
@@ -281,3 +281,5 @@ Podemos enviar información (argumentos) a un programa cuando se ejecuta como un
 
 
 
+***
+[Index](../../../README.md)

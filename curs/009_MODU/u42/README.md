@@ -1,8 +1,8 @@
-# Módulos estándares: módulos matemáticos
+# Mòduls estàndards: mòduls matemàtics
 
-## Módulo math
+## Mòdul math
 
-El módulo [math](https://docs.python.org/3.4/library/math.html) nos proporciones distintas funciones y operaciones matemáticas.
+El mòdul [math](https://docs.python.org/3.11/library/math.html) ens proporciona varies funcions i operacions matemàtiques.
 
 	>>> import math
 	>>> math.factorial(5)
@@ -18,9 +18,9 @@ El módulo [math](https://docs.python.org/3.4/library/math.html) nos proporcione
 	>>> math.log(10)
 	2.302585092994046
 
-## Módulo fractions
+## Mòdul fraccions
 
-El módulo [fractions](https://docs.python.org/3.4/library/fractions.html) nos permite trabajar con fracciones.
+El mòdul [fractions](https://docs.python.org/3.11/library/fractions.html) ens permet treballar amb fraccions.
 
 	>>> from fractions import Fraction
 	>>> a=Fraction(2,3)
@@ -31,9 +31,9 @@ El módulo [fractions](https://docs.python.org/3.4/library/fractions.html) nos p
 	>>> c
 	Fraction(13, 6)
 
-## Módulo statistics
+## Mòdul statistics
 
-El módulo [statistics](https://docs.python.org/3.4/library/statistics.html) nos proporciona funciones para hacer operaciones estadísticas.
+El mòdul [statistics](https://docs.python.org/3.11/library/statistics.html) ens proporciona funcions per fer operacions estadístiques.
 
 	>>> import statistics
 	>>> statistics.mean([1,4,5,2,6])
@@ -44,7 +44,7 @@ El módulo [statistics](https://docs.python.org/3.4/library/statistics.html) nos
 
 ## Módulo random
 
-El módulo [random](https://docs.python.org/3.4/library/random.html) nos permite generar datos pseudo-aleatorios.
+El mòdul [random](https://docs.python.org/3.11/library/random.html) ens permet generar dades pseudo-aleatoris.
 
 	>>> import random
 	>>> random.randint(10,100)
@@ -64,6 +64,8 @@ El módulo [random](https://docs.python.org/3.4/library/random.html) nos permite
 	[1, 2, 4]
 
 	
+***
+[Index](../../../README.md)
 
 
 

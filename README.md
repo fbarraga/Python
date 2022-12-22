@@ -299,7 +299,7 @@ Cridar al github d'algorismica
 	* Función dir()
 	* ¿On es troben els mòduls?
 
-41. [Mòduls estándars: mòduls de sistema](curs/009_MODU/u41/README.md)
+41. [Mòduls estàndards: mòduls de sistema](curs/009_MODU/u41/README.md)
     
 	* Mòdul os
 	* Executar comandes del sistema operatiu. Mòdul subprocess
@@ -307,14 +307,14 @@ Cridar al github d'algorismica
 	* Mòduls sys 
 	* Execució de scripts amb arguments
 	
-42. [Módulos estándares: módulos matemáticos](curs/009_MODU/u42/README.md)
+42. [Mòduls estàndards: mòduls matemàtics](curs/009_MODU/u42/README.md)
     
 	* Mòdul math
 	* Mòdul fractions
 	* Mòdul statistics
 	* Mòdul random
 
-43. [Mòduls estándars: móduls d' hora i dates](curs/009_MODU/u43/README.md)
+43. [Mòduls estàndards: móduls d' hora i dates](curs/009_MODU/u43/README.md)
     
 	* Mòdul time
 	* Mòdul datetime

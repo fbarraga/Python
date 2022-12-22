@@ -112,3 +112,7 @@ Y si queremos guardar esta información en un fichero que podamos distribuir:
 De tal manera que otro usuario, en otro entorno, teniendo este fichero pude reproducirlo e instalar los mismos paquetes de la siguiente manera:
 
 	(entorno4)$ pip install -r requirements.txt
+
+
+***
+[Index](../../../README.md)
