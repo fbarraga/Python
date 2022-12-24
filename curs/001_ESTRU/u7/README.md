@@ -7,7 +7,7 @@ Tenim una serie de funcions predefinides en python3:
 	abs() 		  dict() 		help()		 min() 		setattr()
 	all() 		  dir() 		hex() 		 next() 	slice()
 	any() 		  divmod() 		id() 		 object() 	sorted()
-	ascii() 	  enumerate()	input() 	 oct() 		staticmethod()
+	ascii() 	  enumerate()	input()		 oct() 		staticmethod()
 	bin() 		  eval() 		int() 		 open() 	str()
 	bool()		  exec() 		isinstance() ord() 		sum()
 	bytearray()	  filter() 		issubclass() pow() 		super()
