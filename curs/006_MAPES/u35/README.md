@@ -4,7 +4,7 @@
 
 2. Tenim guardat en un diccionari els codis morse coresponents a cada caràcter. Escriu un programa que llegeixi una paraula i la mostri utilitzant el codi morse.
 
-		>>> codigo = {
+		>>> codi = {
 	    	'A': '.-',     'B': '-...',    'C': '-.-.',
 	    	'D': '-..',    'E': '.',       'F': '..-.',
 	    	'G': '--.',    'H': '....',    'I': '..',
