@@ -1,10 +1,11 @@
 # Curs: Introducció a python3
 
 ## Unitats formatives
+| UF						| Llista																		  |
 |---------------------------|---------------------------------------------------------------------------------|
 | Introducció               | [[1]](curs/000_INTRO/u1/README.md) [[2]](curs/000_INTRO/u2/README.md) [[3]](curs/000_INTRO/u3/README.md)[[4]](curs/000_INTRO/u4/README.md)[[5]](curs/000_INTRO/u5/README.md) |
 | Estructura del llenguatge |[[6]](curs/001_ESTRU/u6/README.md) [[7]](curs/001_ESTRU/u7/README.md) [[8]](curs/001_ESTRU/u8/README.md) [[9]](curs/001_ESTRU/u9/README.md) [[10]](curs/001_ESTRU/u10/README.md)|
-|-------------------------------------------------------------------------------------------------------------|
+
 
 ### Introducció
 
