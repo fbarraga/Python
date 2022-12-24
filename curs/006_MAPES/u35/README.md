@@ -52,16 +52,16 @@
 
 7. El mètode dict.update actualitza un diccionari amb els elements procedents de l'altre diccionari, de manera que se substitueixen les entrades existents i s'afegeixen noves entrades. Quin és el contingut del diccionari "armari" al final del codi següent?
 
-		>>> wardrobe = {'shirt': ['red', 'blue', 'white'], 'jeans': ['blue', 'black']}
-		>>> new_items = {'jeans': ['white'], 'scarf': ['yellow'], 'socks': ['black', 'brown']}
-		>>> wardrobe.update(new_items)
+		>>> armari = {'samarreta': ['vermell', 'blau', 'blanc'], 'pantalans': ['blau', 'negre']}
+		>>> nous_elements = {'pantalons': ['blanc'], 'bufana': ['groc'], 'mitjons': ['negre', 'marro']}
+		>>> armari.update(nous_elements)
 
 Opcions:
 
-	a. {'jeans': ['white'], 'scarf': ['yellow'], 'socks': ['black', 'brown']}
-	b. {'shirt': ['red', 'blue', 'white'], 'jeans': ['white'], 'scarf': ['yellow'], 'socks': ['black', 'brown']}
-	c. {'shirt': ['red', 'blue', 'white'], 'jeans': ['blue', 'black', 'white'], 'scarf': ['yellow'], 'socks': ['black', 'brown']}
-	d. {'shirt': ['red', 'blue', 'white'], 'jeans': ['blue', 'black'], 'jeans': ['white'], 'scarf': ['yellow'], 'socks': ['black', 'brown']}
+	a. {'pantalons': ['blanc'], 'bufanda': ['groc'], 'mitjons': ['negre', 'marro']}
+	b. {'samarreta': ['vermell', 'blau', 'blanc'], 'pantalons': ['blanc'], 'bufanda': ['groc'], 'mitjons': ['negre', 'marro']}
+	c. {'samarreta': ['vermell', 'blau', 'blanc'], 'pantalons': ['blau', 'negre', 'blanc'], 'bufanda': ['groc'], 'mitjons': ['negre', 'marro']}
+	d. {'samarreta': ['vermell', 'blau', 'blanc'], 'pantalons': ['blau', 'negre'], 'pantalons': ['blanc'], 'bufanda': ['groc'], 'mitjons': ['negre', 'marro']}
 
 8. La funció suma_preus retorna el preu total de tots els queviures del diccionari. Fes un programa per realitzar aquesta funció.
 
