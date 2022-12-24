@@ -13,11 +13,11 @@
 
 6. Crea una funció que converteixi el text en llatí: una simple transformació de text que modifica cada paraula movent el primer caràcter al final i afegint "ay" al final. Per exemple, python acaba com a ythonpay.
 
-    >>> def conv_anglesi(text):
-    >>> ...
+        >>> def conv_anglesi(text):
+        >>> ...
 
-    >>> print(conv_anglesi("hello how are you"))            # Retorna "ellohay owhay reaay ouyay"
-    >>> print(conv_anglesi("programming in python is fun")) # Retorna "rogrammingpay niay ythonpay siay unfay"
+        >>> print(conv_anglesi("hello how are you"))            # Retorna "ellohay owhay reaay ouyay"
+        >>> print(conv_anglesi("programming in python is fun")) # Retorna "rogrammingpay niay ythonpay siay unfay"
 
 7. Els permisos d'un fitxer en un sistema Linux es divideixen en tres conjunts de tres permisos: llegir, escriure i executar per al propietari, el grup i altres. Cadascun dels tres valors es pot expressar com un nombre octal que suma cada permís, amb 4 corresponents a llegir, 2 a escriure i 1 a executar. O es pot escriure amb una cadena utilitzant les lletres r, w i x o - quan no es concedeix el permís.
   Per exemple:
@@ -25,31 +25,31 @@
   755 és llegir/escriptura/executar per al propietari i llegir/executar per al grup i altres; convertit en una cadena, seria: "rwxr-xr-x"
   Crear un programa  converteixi un permís en format octal a un en format de cadena.
 
-    >>> def octal_to_string(octal):
-    >>> ...
+        >>> def octal_to_string(octal):
+        >>> ...
     
-    >>> print(octal_to_string(755)) # Retorna rwxr-xr-x
-    >>> print(octal_to_string(644)) # Retorna rw-r--r--
-    >>> print(octal_to_string(750)) # Retorna rwxr-x---
-    >>> print(octal_to_string(600)) # Retorna rw-------
+        >>> print(octal_to_string(755)) # Retorna rwxr-xr-x
+        >>> print(octal_to_string(644)) # Retorna rw-r--r--
+        >>> print(octal_to_string(750)) # Retorna rwxr-x---
+        >>> print(octal_to_string(600)) # Retorna rw-------
 
 
 8. La funció group_list accepta un nom de grup i una llista de membres, i retorna una cadena amb el format: nom_grup: membre1, membre2, … Per exemple, llista_grup("g", ["a","b","c"] ) retorna "g: a, b, c". Crear un programa per fer-ho.
 
-    >>> def group_list(group, users):
+        >>> def group_list(group, users):
     
-    >>> print(group_list("Marketing", ["Mike", "Karen", "Jake", "Tasha"]))  # Retorna "Marketing: Mike, Karen, Jake, Tasha"
-    >>> print(group_list("Engineering", ["Kim", "Jay", "Tom"]))             # Retorna "Engineering: Kim, Jay, Tom"
-    >>> print(group_list("Users", ""))                                      # Retorna "Users:"
+        >>> print(group_list("Marketing", ["Mike", "Karen", "Jake", "Tasha"]))  # Retorna "Marketing: Mike, Karen, Jake, Tasha"
+        >>> print(group_list("Engineering", ["Kim", "Jay", "Tom"]))             # Retorna "Engineering: Kim, Jay, Tom"
+        >>> print(group_list("Users", ""))                                      # Retorna "Users:"
 
 9. Utilitzeu una comprensió de llista per crear una llista de nombres al quadrat (n*n). La funció rep les variables inici i final, i retorna una llista de quadrats de nombres consecutius entre inici i final inclusivament. Per exemple, quadrats(2, 3) hauria de retornar [4, 9].
     
-    >>> def quadrats(start, end):
-	>>> ...
+        >>> def quadrats(start, end):
+	    >>> ...
 
-    >>> print(squares(2, 3))    # Retorna [4, 9]
-    >>> print(squares(1, 5))    # Retorna [1, 4, 9, 16, 25]
-    >>> print(squares(0, 10))   # Retorna [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+        >>> print(squares(2, 3))    # Retorna [4, 9]
+        >>> print(squares(1, 5))    # Retorna [1, 4, 9, 16, 25]
+        >>> print(squares(0, 10))   # Retorna [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
 ***
 [Index](../../../README.md)
