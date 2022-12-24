@@ -1,17 +1,17 @@
-# Métodos principales de diccionarios
+# Mètodes principals de diccionaris
 
 	dict1.clear       dict1.get         dict1.pop         dict1.update      
 	dict1.copy        dict1.items       dict1.popitem     dict1.values      
 	dict1.fromkeys    dict1.keys        dict1.setdefault  
 
-## Métodos de eliminación: clear
+## Mètodes d'eliminació: clear
 
 	>>> dict1 = dict(one=1, two=2, three=3)
 	>>> dict1.clear()
 	>>> dict1
 	{}
 
-## Métodos de agregado y creación: copy, dict.fromkeys, update, setdefault
+## Mètodes d'agregat i creació: copy, dict.fromkeys, update, setdefault
 
 	>>> dict1 = dict(one=1, two=2, three=3)
 	>>> dict2 = dict1.copy()
@@ -37,7 +37,7 @@
 	>>> dict1
 	{'one': 1, 'two': 2, 'three': 3, 'four': 4}
 
-## Métodos de retorno: get, pop, popitem, items, keys, values	
+## Mètodes de retorn: get, pop, popitem, items, keys, values	
 
 	>>> dict1 = dict(one=1, two=2, three=3)
 	>>> dict1.get("one")
@@ -71,11 +71,11 @@
 	dict_keys(['one', 'two', 'three'])
 
 	
-## El tipo de datos dictviews
+## El tipus de dades dictviews
 
-Los tres últimos métodos devuelven un objeto de tipo `dictviews`.
+Els tres darrers mètodes retornen un objecte de tipus `dictviews`.
 
-Esto devuelve una vista dinámica del ciccionario, por ejemplo:
+Això retorna una vista dinàmica del diccionari, per exemple:
 
 	>>> dict1 = dict(one=1, two=2, three=3)
 	>>> i = dict1.items()
@@ -85,15 +85,15 @@ Esto devuelve una vista dinámica del ciccionario, por ejemplo:
 	>>> i
 	dict_items([('one', 1), ('two', 2), ('three', 3), ('four', 4)])
 
-Es este tipo de datos podemos usar las siguientes funciones:
+Sobre aquest tipus de dades podem utilitzar les següents funcions:
 
-* `len()`: Devuelve número de elementos de la vista.
-* `iter()`: Nos devuelve un iterador de las claves, valores o ambas.
-* `x in dictview`: Devuelve True si x está en las claves o valores.
+* `len()`: Retorna número d'elements de la vista.
+* `iter()`: Ens retorna un iterador de les claus, valors o ambdos.
+* `x in dictview`: Retorna True si x està en les claus o valors.
 
-## Recorrido de diccionarios
+## Recorregut de diccionaris
 
-Podemos recorrer las claves:
+Podem recorrer les claus:
 
 	>>> for clave in dict1.keys():
 	...    print(clave)
@@ -101,7 +101,7 @@ Podemos recorrer las claves:
 	two
 	three
 
-Podemos recorrer los valores:
+Podem recorrer els valors:
 
 	>>> for valor in dict1.values():
 	...    print(valor) 
@@ -109,7 +109,7 @@ Podemos recorrer los valores:
 	2
 	3
 
-O podemos recorrer ambos:
+O podem recorrer ambdos:
 
 	>>> for clave,valor in dict1.items():
 	...   print(clave,"->",valor)
