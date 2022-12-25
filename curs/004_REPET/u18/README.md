@@ -50,8 +50,59 @@
    Entrada: Entra un numero per girar: 123456 
    Sortida esperada: 654321
 
-8. Escriu un programa que digui si un número introduit per teclado es o no primer. Un número primer es aquel que només es divisible per ell mateix i la unitat.
+8. Escriu un programa que digui si un número introduit per teclat es o no primer. Un número primer es aquel que només es divisible per ell mateix i la unitat.
 
+9. Escriu un programa que imprimeixi tots els factors primers d'un nombre. Un factor primer és un nombre que és primer i en divideix un altre sense resta.
+
+10. El codi següent pot conduir a un bucle infinit. Corregiu el codi perquè pugui acabar correctament per a tots els números.
+
+Exemple:
+
+      >>> print(is_power_of_two(0)) # Retorna False
+      >>> print(is_power_of_two(1)) # Retorna True
+      >>> print(is_power_of_two(8)) # Retorna True
+      >>> print(is_power_of_two(9)) # Retorna False
+
+Nota: proveu d'executar la vostra funció amb el número 0 com a entrada i mireu què obteniu!
+
+      >>> def is_power_of_two(n):
+      >>> # Check if the number can be divided by two without a remainder
+      >>>   while n!=0 and n % 2 == 0:
+      >>>      n = n / 2
+      >>> return False
+  
+
+      >>> print(is_power_of_two(0)) # Retorna False
+      >>> print(is_power_of_two(1)) # Retorna True
+      >>> print(is_power_of_two(8)) # Retorna True
+      >>> print(is_power_of_two(9)) # Retorna False
+
+
+11.   Crea un programa que retorni la suma de tots els divisors d'un nombre, sense incloure a si mateix. Un divisor és un nombre que es divideix en un altre sense resta.
+
+Exemple:
+      
+      >>> print(sum_divisors(0))
+      # 0
+      >>> print(sum_divisors(3)) # Retorna  1
+      # 1
+      >>> print(sum_divisors(36)) # Retorna 1+2+3+4+6+9+12+18
+      # 55
+      >>> print(sum_divisors(102)) # Retorna 2+3+6+17+34+51
+      # 114
+
+12.   Crea un programa que imprimeixi els resultats d'un nombre  multiplicat per 1 a 5. Un requisit addicional és que el resultat no superi 25 (Utilitza l'instrucció break.) 
+
+Exemple:
+
+      >>> taula_multiplicar(3) 
+      # Retorna: 3x1=3 3x2=6 3x3=9 3x4=12 3x5=15
+
+      >>> taula_multiplicar(5) 
+      # Retorna: 5x1=5 5x2=10 5x3=15 5x4=20 5x5=25
+
+      >>> taula_multiplicar(8)	
+      # Retorna: 8x1=8 8x2=16 8x3=24
 ***
 [Index](../../../README.md)
 

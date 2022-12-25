@@ -1,22 +1,42 @@
-# Ejercicios de programas sencillos
+# Exercicis de programes senzills
 
-1. Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
+1. Escriure un programa que pregunti a l'usuari el seu nom i retorni una salutació.
 
-2. Calcular el perímetro y área de un rectángulo dada su base y su altura.
+Exemple:
+    >>> Com et dius?
+    Francesc
+    >>> Hola Francesc!
 
-3. Calcular el perímetro y área de un círculo dado su radio.
+2. Calcular el perímetre i àrea d'un rectangle donada la seva base i la seva alçada.
 
-4. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
+Exemple:
+    >>> Introdueix la base:
+    12
+    >>> Introdueix l'alçada: 
+    10
+    >>> L'area del rectangle és: 120
 
-5. Escribir un programa que le pida una palabra al usuario, para luego imprimirla 1000 veces, con espacios intermedios.
 
-6. Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde. Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
+3. Calcular el perímetre i àrea d'un cercle donat el seu radi.
 
-7. Una juguetería tiene mucho éxito en dos de sus productos: payasos y muñecas. Suele hacer venta por correo y la empresa de logística les cobra por peso de cada paquete así que deben calcular el peso de los payasos y muñecas que saldrán en cada paquete a demanda. Cada payaso pesa 112 g y cada muñeca 75 g. Escribir un programa que lea el número de payasos y muñecas vendidos en el último pedido y calcule el peso total del paquete que será enviado.
+Exemple:
+    >>> Introdueix el radi del cercle:
+    12
+    >>> El perimetre es: xxx
+    >>> L'àrea es: yyy
 
-8. Imagina que acabas de abrir una nueva cuenta de ahorros que te ofrece el 4% de interés al año. Estos ahorros debido a intereses, que no se cobran hasta finales de año, se te añaden al balance final de tu cuenta de ahorros. Escribir un programa que comience leyendo la cantidad de dinero depositada en la cuenta de ahorros, introducida por el usuario. Después el programa debe calcular y mostrar por pantalla la cantidad de ahorros tras el primer, segundo y tercer años. Redondear cada cantidad a dos decimales.
 
-9. Una panadería vende barras de pan a 3.49€ cada una. El pan que no es el día tiene un descuento del 60%. Escribir un programa que comience leyendo el número de barras vendidas que no son del día. Después el programa debe mostrar el precio habitual de una barra de pan, el descuento que se le hace por no ser fresca y el coste final total.
+4. Donats dos números, mostrar la suma, resta, divisió i multiplicació d'ambdós.
+
+5. Escriure un programa que demani una paraula a l'usuari, per després imprimir-la 1000 vegades, amb espais intermitjos.
+
+6. Realiza un programa que rebi una quantitat de minuts i mostri per pantalla a quantes hores i minuts correspon. Per exemple: 1000 minuts son 16 hores i 40 minuts.
+
+7. Una botiga de joguines té molt èxit en dos dels seus productes: pallassos i nines. Sol fer venda per correu i l'empresa de logística els cobra per pes de cada paquet així que han de calcular el pes dels pallassos i nines que sortiran a cada paquet a demanda. Cada pallasso pesa 112 g i cada canell 75 g. Escriure un programa que llegeixi el nombre de pallassos i nines venuts a l'última comanda i calculi el pes total del paquet que serà enviat.
+
+8. Imagineu que acabeu d'obrir un nou compte d'estalvis que us ofereix el 4% d'interès a l'any. Aquests estalvis a causa d'interessos que no es cobren fins a finals d'any, s'afegeixen al balanç final del vostre compte d'estalvis. Escriure un programa que comenci llegint la quantitat de diners dipositada al compte d'estalvis, introduït per l'usuari. Després, el programa ha de calcular i mostrar per pantalla la quantitat d'estalvis després del primer, segon i tercer anys. Arrodonir cada quantitat a dos decimals.
+
+9.  Un fleca ven barres de pa a 3.49€ cadascuna. El pa que no és el dia té un descompte del 60%. Escriure un programa que comenci llegint el nombre de barres venudes que no són del dia. Després, el programa ha de mostrar el preu habitual d'una barra de pa, el descompte que se li fa per no ser fresca i el cost final total.
 
 
 ***
