@@ -47,7 +47,7 @@
 
 ### Introducció a l'algorismica
 
-Cridar al github d'algorismica
+[Cridar al github d'algorismica](curs/000_INTRO/u6/README.md)
 
 ### Estructura del llenguatge
 
