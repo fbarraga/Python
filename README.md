@@ -404,6 +404,8 @@ Cridar al github d'algorismica
 54. [Exercicis Programació orientada a objectes](curs/011_POOB//u54/README.md)
 
 
+# En construcció
+
 ## Desenvolupament d'aplicacions en entorn gràfic
 
 55. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
@@ -412,6 +414,8 @@ Cridar al github d'algorismica
 	* wxPython
 	* PyQt
 	* Kivy
+
+
 
 ## Desenvolupament d'aplicacions en entorn web
 

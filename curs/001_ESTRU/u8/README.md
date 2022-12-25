@@ -133,7 +133,7 @@ La precedència d'operadors és la següent:
 
 ## Funció eval()
 
-La funció `eval()` rep una expressió como una cadena i l'executa.
+La funció `eval()` rep una expressió com una cadena i l'executa.
 
 	>>> x=1
 	>>> eval("x + 1")

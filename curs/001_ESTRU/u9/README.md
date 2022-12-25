@@ -5,7 +5,7 @@ Podem concretar encara més els tipus de dades (o classes) dels objectes que ges
 * Tipus númerics
 	* Tipus enter (int)
 	* Tipus real (float)
-	* Tipus numéric (complex)
+	* Tipus numèric (complex)
 * Tipus booleans (bool)
 * Tipus de dades seqüència
 	* Tipus llista (list)

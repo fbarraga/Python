@@ -101,7 +101,7 @@ Desactivant el virtualenv fa que el binari de `python` i `pip` tornin a utilitza
 
 # Anaconda
 
-Anaconda es una distribució del llenguatge Python i R per temes de for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), que intenta simplificar la gestió de paquets i el seu desplegament. La distribució conté paquets per Windows, Linux, and macOS.
+Anaconda és una distribució del llenguatge Python i R per temes de for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), que intenta simplificar la gestió de paquets i el seu desplegament. La distribució conté paquets per Windows, Linux, and macOS.
 
 Podeu trobar és informació a la web [www.anaconda.com](https://www.anaconda.com/)
 
