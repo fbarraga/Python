@@ -15,12 +15,12 @@ A l'hora de decidir en quin entorn treballar, ens haurem de fer les següents pr
   *  vim
   *  nano
   *  emacs-nox 
-Per tasques de programació, es habitual es utilizar un editor gráfico con más funcionalidades: emacs, atom, sublime text, notepad++
+Per tasques de programació, es habitual es utilizar un editor gràfic amb més funcionalitats: emacs, atom, sublime text, notepad++
 
-* ¿Editor simple o IDE?. Habría que considerar que aprender a manejar un IDE lleva más tiempo que un simple editor y no es adecuado para aplicaciones sencillas como las que vamos a utilizar nosotros en este curso. Evidentemente el uso de un IDE se hace imprescindible en un entorno profesional.
-* ¿Qué funcionalidades básicas debe tener el editor?: resaltado de sintaxis, numeración de líneas, control de sangrado (indentación), manejo completo desde teclado
- Soporte para python.
-* ¿Es multiplataforma?. Permite que el mismo editor de texto se utilice en diferentes sistemas operativos y puede ser un aspecto determinante para nosotros.
+* ¿Editor simple o IDE?. S'hauria de considerar que aprendre a gestionar un IDE porta més temps que un simple editor i no és l'adequat per aplicacions senzilles com les que s'utilizen per aprendre un llenguatge. Evidentement l'us d'un IDE es fa imprescindible en un entorn professional.
+* ¿Quines funcionalitats bàsiques haurà de tenir l'editor?: resaltat de sintaxis, numeració de linees, control d'indentació, gestió completa des de teclat
+ Suport per python.
+* ¿És multiplataforma?. Permet que el mateix editor de texte s'utilitzi en diferents sistemes operatius? pot ser un aspecte determinant per nosaltres?.
 
 ## IDE per Python
 
@@ -41,7 +41,6 @@ Hi ha dos IDEs que s'utilitzen per la majoria de programadors de Python:
 
 
 Per la realització d'aquest curs utilitzarem Visual Studio Code. Podem trobar una guia de com configurar Python amb Visual Studio Code en aquest [link](https://code.visualstudio.com/docs/python/python-tutorial)
-
 
 
 # Entorns virtuals

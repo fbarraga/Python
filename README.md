@@ -8,7 +8,7 @@
 | Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [14](curs/002_TDNU/u14/README.md) |
 | Estructures de control Alternatives/Condicionals (IF) | [15](curs/003_ALTER/u15/README.md) | [16](curs/003_ALTER/u16/README.md) |
 | Estructures de control Repetitives (WHILE / FOR)      | [17](curs/004_REPET/u17/README.md) | [18](curs/004_REPET/u18/README.md) |
-| Tipus de dades seqüència : Llistes					| [19](curs/005_SEQUE/u19/README.md) [20](curs/005_SEQUE/u20/README.md)[21](curs/005_SEQUE/u21/README.md) | [22](curs/005_SEQUE/u22/README.md) |
+| Tipus de dades seqüència : Llistes					| [19](curs/005_SEQUE/u19/README.md) [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [22](curs/005_SEQUE/u22/README.md) |
 | Tipus de dades seqüència : Tuples i	Rangs				| [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
 | Tipus de dades seqüència : Cadenes			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[29](curs/005_SEQUE/u29/README.md) |
 
