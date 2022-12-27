@@ -211,7 +211,7 @@ El mòdul [shutil](https://docs.python.org/3.11/library/shutil.html#module-shuti
 
 ## Mòduls sys 
 
-El mòdul [sys](https://docs.python.org/3.11/library/sys.html#module-sys) és el encarregat de proveir variables i funcionalitats, directamentt relacionades amb l'intèrpret.
+El mòdul [sys](https://docs.python.org/3.11/library/sys.html#module-sys) és el encarregat de proveir variables i funcionalitats, directament relacionades amb l'intèrpret.
 
 Algunes variables definides en el mòdul:
 

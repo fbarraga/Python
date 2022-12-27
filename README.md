@@ -338,6 +338,7 @@
 	* Mòdul time
 	* Mòdul datetime
 	* Mòdul calendar
+	* Exemples
 
 44. [Instal·lació de mòduls](curs/009_MODU/u44/README.md)
     
@@ -423,8 +424,6 @@
 	* PyQt
 	* Kivy
 
-
-
 ## Desenvolupament d'aplicacions en entorn web
 
 
@@ -451,21 +450,28 @@
 	* Amb Flask
 
 
-### Intel.ligència artificial i Machine Learning
-
+### Data Science
 
 60. [Data Management](curs/012_IA/u100/README.md)
 
 	* Normalització de dades
 
-56. [Què és la Intel.ligència artificial](curs/IA/u101/README.md)
+61. [Llibreria Pandas](curs/017_PANDAS/README.md)
+
+	* Instal·lació 
+	* Ús
+
+
+### Intel.ligència artificial i Machine Learning
+
+62. [Què és la Intel.ligència artificial](curs/IA/u101/README.md)
 
 
 	* Aprenentatge supervisat
 	* Aprenentatge automàtic
 	* Aprenentatge semisupervisat
 
-56. [Algorsimes bàsics de IA](curs/IA/u102/README.md)
+56. [Algoritmes bàsics de IA](curs/IA/u102/README.md)
 
 
 	* Algorismes de regresió
@@ -483,10 +489,10 @@
 
 
 
-
-
-
 ### MarkDown
 
+58. [Treballant amb Markdown](curs/998_MARKDOWN/README.md)
 
+### Exercicis variats de programació
 
+59. [Exercicis variats](curs/999_EXERC/README.md)

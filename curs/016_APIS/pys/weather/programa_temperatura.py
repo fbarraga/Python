@@ -1,8 +1,6 @@
 import requests
 import os
 
-
-
 api_key=os.getenv("open_wheather_key")
 # Associada a Francescbarragan@msn.com
 # Es pot solicitar una apikey directament a traves del registre de openweathermap
