@@ -44,10 +44,7 @@
 	* Escrivim un programa
 	* Execució de programes utilitzant shebang
 	* Guía de estil
-
-### Introducció a l'algorismica
-
-[Cridar al github d'algorismica](curs/000_INTRO/u6/README.md)
+	* [Algorísmica](curs/000_INTRO/u5a/README.md)
 
 ### Estructura del llenguatge
 
@@ -251,9 +248,22 @@
 
 ### Treballar amb fitxers
 
-36. [Treball amb fitxers (texte o binaris)](curs/007_FILES/u36a/README.md)
+36. [Procés de serialització](curs/007_FILES/u36a/README.md)
 
-	[Lectura i escriptura de fitxers de texte](curs/007_FILES/u36b/README.md)
+	* Seqüència de bytes
+	* Procés de serialització
+	* Procés de deserialització
+  
+37. [Tipus de fitxers](curs/007_FILES/u36b/README.md))
+	
+	* Fitxers de texte
+	* Fitxers binaris
+
+38. [Treball amb fitxers binaris)](curs/007_FILES/u36d/README.md)
+
+	* Pickle
+
+39. [Treball amb fitxers de texte](curs/007_FILES/u36c/README.md)
     
 	* Fitxers de texte i fitxers binaris
 	* Fitxers de texte
@@ -265,9 +275,7 @@
     	* Recorregut de fitxers
   	* Fitxers binaris
 
-[Procés de serialització](curs/007_FILES/u36c/README.md)
-
-37. [Gestionar fitxers CSV](curs/007_FILES/u37/README.md)
+40. [Gestionar fitxers CSV](curs/007_FILES/u37/README.md)
     
 	* Procés de serialització
 	* Mòdul csv
@@ -275,14 +283,14 @@
 	* Escriure fitxers CSV
 	* Gestionar fitxers CSV amb el mòdul Panda
 
-38. [Gestionar fitxers json](curs/007_FILES/u38/README.md)
+41. [Gestionar fitxers JSON](curs/007_FILES/u38/README.md)
     
 	* Mòdul json
 	* Llegir fitxers json
 	* Escriure fitxers json
 	* Pretty Json
 
-39. [Gestionar fitxers xml](curs/007_FILES/u38b/README.md)
+42. [Gestionar fitxers xml](curs/007_FILES/u38b/README.md)
     
 	* Mòdul lxml i beautifulsoup
 	* Llegir fitxers xml
