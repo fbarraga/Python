@@ -417,7 +417,7 @@
 
 # En construcció
 
-## Crear un programa executable
+### Crear un programa executable
 
 54. [Creació d'un executable a partir d'un script de python](curs/018_PYINST/README.md)
     * Utilització de Pyinstaller  
