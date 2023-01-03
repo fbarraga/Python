@@ -420,13 +420,11 @@
 55. [Creació d'un executable a partir d'un script de python](curs/018_PYINST/README.md)
     * Utilització de Pyinstaller  
 
-
-
 # En construcció
 
 ## Desenvolupament d'aplicacions en entorn gràfic
 
-55. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
+56. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
 
 	* Tkinter
 	* wxPython
@@ -436,24 +434,24 @@
 ## Desenvolupament d'aplicacions en entorn web
 
 
-56. [Introducció a Django](curs/015_PYWEB/u56/README.md)
+57. [Introducció a Django](curs/015_PYWEB/u56/README.md)
 
 
 ### APIs REST
 
-57. [Descripció de les APIS](curs/016_APIS/u55/README.md)
+58. [Descripció de les APIS](curs/016_APIS/u55/README.md)
 
 	* Qué son
 	* Funcionament
 	* Seguretat
 
 
-58. [Consumir una API amb el modul requests](curs/016_APIS/u56/README.md)
+59. [Consumir una API amb el modul requests](curs/016_APIS/u56/README.md)
 
 	* Amb el mètode GET
 	* Amb el mètode POST
 
-59. Crear una API REST
+60. Crear una API REST
 
 	* Amb Swagger
 	* Amb Flask
@@ -461,11 +459,11 @@
 
 ### Data Science
 
-60. [Data Management](curs/012_IA/u100/README.md)
+61. [Data Management](curs/012_IA/u100/README.md)
 
 	* Normalització de dades
 
-61. [Llibreria Pandas](curs/017_PANDAS/README.md)
+62. [Llibreria Pandas](curs/017_PANDAS/README.md)
 
 	* Instal·lació 
 	* Ús
@@ -473,14 +471,14 @@
 
 ### Intel.ligència artificial i Machine Learning
 
-62. [Què és la Intel.ligència artificial](curs/IA/u101/README.md)
+63. [Què és la Intel.ligència artificial](curs/IA/u101/README.md)
 
 
 	* Aprenentatge supervisat
 	* Aprenentatge automàtic
 	* Aprenentatge semisupervisat
 
-56. [Algoritmes bàsics de IA](curs/IA/u102/README.md)
+64. [Algoritmes bàsics de IA](curs/IA/u102/README.md)
 
 
 	* Algorismes de regresió
@@ -488,13 +486,13 @@
 	* Algorismes de clustering
 	* Algorismes de xarxes neuronals
     
-57. [Machine learning](curs/IA/u56/README.md)
+65. [Machine learning](curs/IA/u56/README.md)
     
 	* Algorismes de Natural Language
 	* Algorismes de Image recognition
 
 
-57. [Microsoft Power BI i Python](curs/998_DATAAN)
+66. [Microsoft Power BI i Python](curs/998_DATAAN)
 
 
 
