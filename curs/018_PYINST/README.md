@@ -1,10 +1,10 @@
 
 # Com crear executables en Python
 
-Python és un popular llenguatge de programació utilitzat per molts desenvolupadors i organitzacions. De vegades és possible que hàgiu de fer executables independents a partir de l'script python, o crear executables amb dependències o convertir el fitxer python a exe. Això ajuda a fer que la vostra aplicació sigui portàtil a través de la plataforma Windows. Hi ha molts paquets python per ajudar-vos a aconseguir-ho. En aquest article, aprendrem a crear executables en Python mitjançant el mòdul PyInstaller.
+Python és un popular llenguatge de programació utilitzat per molts desenvolupadors i organitzacions. De vegades és possible que hàgiu de fer executables independents a partir de l'script python, o crear executables amb dependències o convertir el fitxer python a exe. Això ajuda a fer que la vostra aplicació sigui portàtil a través de la plataforma Windows. Hi ha molts paquets python per ajudar-vos a aconseguir-ho. En aquest article, aprendrem a crear executables en Python mitjançant el mòdul [PyInstaller](https://pyinstaller.org/en/stable/).
 
 
-Aquests són els passos per crear un fitxer executable en Python.
+Aquests són els passos per crear un fitxer executable en Python:
 
 ## Afegiu Python a PATH
 Si Python no s'afegeix a Windows PATH, primer l'heu d'afegir. Podeu fer-ho fàcilment descarregant una última instal·lació de Python i marcant la casella de selecció "Afegeix Python a PATH" al començament de la instal·lació.
@@ -19,6 +19,7 @@ Obriu el símbol del Windows fent clic al botó d'inici i escrivint cmd a la cai
 ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/commandprompt.png?raw=true) 
 
 ## Instal·leu PyInstaller
+
 El paquet PyInstaller inclou el vostre fitxer Python juntament amb les seves dependències en un executable. Instal·leu-lo amb l'ordre pip.
 
     $ pip install pyinstaller
@@ -68,7 +69,7 @@ Trobareu que PyInstaller va crear un fitxer .spec i 3 carpetes de compilació, d
 
 ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/distfolder.png?raw=true)
  
-Podeu fer-hi doble clic per executar el vostre programa Python. En el nostre cas, veuràs la següent finestra amb el botó 'Click Me' que podràs clicar per veure el missatge 'Hola Món'. Si rebeu un missatge d'error, és possible que hàgiu d'instal·lar el Visual C++ Redistributable. Si el vostre script python no utilitza cap aplicació de Windows com tkinter, veureu la sortida en una finestra de consola.
+Podeu fer-hi doble clic per executar el vostre programa Python. En el nostre cas, veuràs la següent finestra amb el botó 'Click Me' que podràs clicar per veure el missatge 'Hola Món'. Si rebeu un missatge d'error, és possible que hàgiu d'instal·lar el [Visual C++ Redistributable](https://www.microsoft.com/es-ES/download/details.aspx?id=48145). Si el vostre script python no utilitza cap aplicació de Windows com tkinter, veureu la sortida en una finestra de consola.
 
 És important tenir en compte que PyInstaller crearà un fitxer executable i no un instal·lador per al vostre fitxer Python. Si no utilitzeu l'opció -onefile, Pyinstaller crearà una llista de carpetes amb totes les dependències. Sigui com sigui, com que Pyinstaller inclourà l'intèrpret de Python i els mòduls necessaris per executar el vostre script python, la mida del vostre executable serà molt més gran que el vostre script python.
 Un cop creat l'executable, és autodependent i portable a altres sistemes Windows. PyInstaller és una eina pràctica per crear fàcilment executables a partir de fitxers Python.
