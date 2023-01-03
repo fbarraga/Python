@@ -9,6 +9,11 @@ La funció [open()](https://docs.python.org/3.11/library/functions.html#open) s'
 	<class '_io.TextIOWrapper'>
 	>>> f.close()
 
+
+Es molt important tancar els fitxers una vegada ja no els utilitzem per alliberar els recursos del sistema operatiu.
+Podeu veure més informació de que passa quan no tanquem els fitxers en aquest [link](https://realpython.com/why-close-file-python/)
+
+
 ### Modes d'accés
 
 Els modes què podem seleccionar son:
@@ -44,7 +49,7 @@ Si treballem amb fitxers de texte podem indicar també el paràmetre `encoding` 
 
 I per últim també podem indicar el parámetre `errors` que controla el comportament quan es troba algún error al codificar o decodificar caràcters.
 
-## Objecte fitxer
+## Objecte fitxer (obrir i tancar)
 
 Al obrir un fitxer amb un determinat mode d'accés la funció `open()` ens retorna un objecte de tipus fitxers. El fitxer obert sempre s'ha de tancar amb el mètode `close()`:
 
@@ -52,6 +57,11 @@ Al obrir un fitxer amb un determinat mode d'accés la funció `open()` ens retor
 	>>> type(f)
 	<class '_io.TextIOWrapper'>
 	>>> f.close()
+
+
+Es molt important tancar els fitxers una vegada ja no els utilitzem per alliberar els recursos del sistema operatiu.
+Podeu veure més informació de que passa quan no tanquem els fitxers en aquest [link](https://realpython.com/why-close-file-python/)
+
 
 Es poden accedir a les següents propietats d'un objecte file:
 

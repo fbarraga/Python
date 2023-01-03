@@ -10,8 +10,10 @@
 | Estructures de control Repetitives (WHILE / FOR)      | [17](curs/004_REPET/u17/README.md) | [18](curs/004_REPET/u18/README.md) |
 | Tipus de dades seqüència : Llistes					| [19](curs/005_SEQUE/u19/README.md) [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [22](curs/005_SEQUE/u22/README.md) |
 | Tipus de dades seqüència : Tuples i	Rangs				| [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
-| Tipus de dades seqüència : Cadenes			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[29](curs/005_SEQUE/u29/README.md) |
-
+| Tipus de dades seqüència : Cadenes			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[29](curs/005_SEQUE/u29/README.md) | 
+| Tipus de dades bytesarray,set,frozenset|[30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
+| Tipus de dades Diccionaris			| [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [35](curs/006_MAPES/u33/README.md)|
+| Treball amb fitxers | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md) 
 
 ### Introducció
 
@@ -414,6 +416,11 @@
 
 
 # En construcció
+
+## Crear un programa executable
+
+54. [Creació d'un executable a partir d'un script de python](curs/018_PYINST/README.md)
+    * Utilització de Pyinstaller  
 
 ## Desenvolupament d'aplicacions en entorn gràfic
 
