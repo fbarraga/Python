@@ -49,7 +49,7 @@ class Pelicula:
     def __str__(self):
         return f'Pelicila[{self.nombre}, {self.duracion}, {self.genero}]'
 
-def guadar(pelicula):
+def guardar(pelicula):
     conexion = ConexionDB()
 
     sql = f"""INSERT INTO peliculas (nombre, duracion, genero)

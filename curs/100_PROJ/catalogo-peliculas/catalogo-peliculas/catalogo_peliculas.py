@@ -4,7 +4,7 @@ import sys,os
 
 def main():
     root = tk.Tk()
-    root.title('Catalogo de Peliculas')
+    root.title('Catálogo de Películas')
     program_directory=sys.path[0]
     root.iconphoto(True,tk.PhotoImage(file=os.path.join(program_directory,"img/cp-logo.png")))
     #root.iconbitmap("cp-logo.ico")

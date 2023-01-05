@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from model.pelicula_dao import crear_tabla, borrar_tabla
-from model.pelicula_dao import Pelicula, guadar, listar, editar, eliminar
+from model.pelicula_dao import Pelicula, guardar, listar, editar, eliminar
 
 def barra_menu(root):
     barra_menu = tk.Menu(root)
@@ -10,25 +10,25 @@ def barra_menu(root):
     menu_inicio = tk.Menu(barra_menu, tearoff = 0)
     barra_menu.add_cascade(label ='Inicio', menu = menu_inicio)
 
-    menu_inicio.add_command(label='Crear Registro en DB', command=crear_tabla)
-    menu_inicio.add_command(label='Eliminar Registro en DB', command=borrar_tabla)
+    menu_inicio.add_command(label='Crear Tabla en DB', command=crear_tabla)
+    menu_inicio.add_command(label='Eliminar Tabla en DB', command=borrar_tabla)
     menu_inicio.add_command(label='Salir', command = root.destroy)
 
-    barra_menu.add_cascade(label='Consutas')
-    barra_menu.add_cascade(label='Configuracio')
+    barra_menu.add_cascade(label='Consultas')
+    barra_menu.add_cascade(label='Configuración')
     barra_menu.add_cascade(label='Ayuda')
 
 class Frame(tk.Frame):
     def __init__(self, root = None):
-        super().__init__(root, width=480, height=320)
+        super().__init__(root, width=640, height=480)
         self.root = root
         self.pack()
         #self.config(bg='green')
         self.id_pelicula = None
 
         self.campos_pelicula()
-        self.desabilitar_campos()
-        self.tabla_pelicilas()
+        self.deshabilitar_campos()
+        self.tabla_peliculas()
 
 
     def campos_pelicula(self):
@@ -82,7 +82,7 @@ class Frame(tk.Frame):
 
         # Botones Cancelar
         self.boton_cancelar = tk.Button(
-            self, text="Cancelar", command=self.desabilitar_campos)
+            self, text="Cancelar", command=self.deshabilitar_campos)
         self.boton_cancelar.config(width=20, font=('Arial', 12, 'bold'),
                                    fg='#DAD5D6', bg='#BD152E',
                                    cursor='hand2', activebackground='#E15370')
@@ -100,7 +100,7 @@ class Frame(tk.Frame):
         self.boton_guardar.config(state='normal')
         self.boton_cancelar.config(state='normal')
 
-    def desabilitar_campos(self):
+    def deshabilitar_campos(self):
         self.id_pelicula = None
         
         self.mi_nombre.set('')
@@ -123,23 +123,23 @@ class Frame(tk.Frame):
         )
 
         if self.id_pelicula == None:
-            guadar(self.pelicula)
+            guardar(self.pelicula)
         else:
             editar(self.pelicula, self.id_pelicula)
 
-        self.tabla_pelicilas()
+        self.tabla_peliculas()
 
         #Desabilira campos
-        self.desabilitar_campos()
+        self.deshabilitar_campos()
 
-    def tabla_pelicilas(self):
+    def tabla_peliculas(self):
         #Recuperar la lista de peliculas
         self.lista_peliculas = listar()
         self.lista_peliculas.reverse()
 
 
         self.tabla  = ttk.Treeview(self, 
-        column = ('Nombre', 'Duracion', 'Genero'))
+        column = ('Nombre', 'Duracion', 'Género'))
         self.tabla.grid(row=4, column=0, columnspan=4, sticky='nse')
 
         # Scrollbar para la tabla si exede 10 registros
@@ -151,7 +151,7 @@ class Frame(tk.Frame):
         self.tabla.heading('#0', text='ID')
         self.tabla.heading('#1', text='NOMBRE')
         self.tabla.heading('#2', text='DURACIÓN')
-        self.tabla.heading('#3', text='GENERO')
+        self.tabla.heading('#3', text='GÉNERO')
 
         # Iterar la lista de peliculas
         for p in self.lista_peliculas:
@@ -198,7 +198,7 @@ class Frame(tk.Frame):
             self.id_pelicula = self.tabla.item(self.tabla.selection())['text']
             eliminar(self.id_pelicula)
 
-            self.tabla_pelicilas()
+            self.tabla_peliculas()
             self.id_pelicula = None
         except:
             titulo = 'Eliminar un Registro'
