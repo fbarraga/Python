@@ -3,7 +3,6 @@
 
 Python és un popular llenguatge de programació utilitzat per molts desenvolupadors i organitzacions. De vegades és possible que hàgiu de fer executables independents a partir de l'script python, o crear executables amb dependències o convertir el fitxer python a exe. Això ajuda a fer que la vostra aplicació sigui portàtil a través de la plataforma Windows. Hi ha molts paquets python per ajudar-vos a aconseguir-ho. En aquest article, aprendrem a crear executables en Python mitjançant el mòdul [PyInstaller](https://pyinstaller.org/en/stable/).
 
-
 Aquests són els passos per crear un fitxer executable en Python:
 
 ## Afegiu Python a PATH

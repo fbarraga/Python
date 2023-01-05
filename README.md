@@ -422,7 +422,15 @@
 
 # En construcció
 
-## Desenvolupament d'aplicacions en entorn gràfic
+
+### Crear un entorn de proves
+
+
+### Utilització del modul logging DEBUG/INFO
+
+
+
+### Desenvolupament d'aplicacions en entorn gràfic
 
 56. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
 
@@ -431,7 +439,7 @@
 	* PyQt
 	* Kivy
 
-## Desenvolupament d'aplicacions en entorn web
+### Desenvolupament d'aplicacions en entorn web
 
 
 57. [Introducció a Django](curs/015_PYWEB/u56/README.md)
