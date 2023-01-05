@@ -414,10 +414,10 @@
 
 54. [Exercicis Programació orientada a objectes](curs/011_POOB//u54/README.md)
 
-
 ### Crear un programa executable
 
 55. [Creació d'un executable a partir d'un script de python](curs/018_PYINST/README.md)
+    
     * Utilització de Pyinstaller  
 
 # En construcció
