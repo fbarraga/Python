@@ -412,7 +412,7 @@
 	* Funcions issubclass() y isinstance() 
 	* Delegació
 
-54. [Exercicis Programació orientada a objectes](curs/011_POOB//u54/README.md)
+54. [Exercicis Programació orientada a objectes](curs/011_POOB/u54/README.md)
 
 ### Crear un programa executable
 
@@ -428,6 +428,20 @@
 
 ### Utilització del modul logging DEBUG/INFO
 
+### Treballar amb dades
+
+56. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
+
+	* Jupyter Notebook
+
+57. [Extracció de dades de la web](curs/013_DATA/Webscraler/README.md)
+
+	* Web Scraping i  Web Crawling
+    	* Navegadors web i HTTP
+    	* Scraping i parsing de webs HTTP
+    	* Web Crawlers
+    	* Scraping amb Selenium
+    	* exemples
 
 
 ### Desenvolupament d'aplicacions en entorn gràfic
