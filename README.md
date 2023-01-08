@@ -434,7 +434,7 @@
 
 	* Jupyter Notebook
 
-57. [Extracció de dades de la web](curs/013_DATA/Webscraler/README.md)
+57. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
 
 	* Web Scraping i  Web Crawling
     	* Navegadors web i HTTP
