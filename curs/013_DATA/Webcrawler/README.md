@@ -39,7 +39,7 @@ Funcionament:
 7. i repeteix...
 
 
-![webcrawler](https://github.com/fbarraga/Python/blob/master/master/assets/webcrawler.png?raw=true)
+![webcrawler](https://github.com/fbarraga/Python/blob/master/master/assets/crawler.png?raw=true)
 
 
 ## Problemes al extreure dades web 
