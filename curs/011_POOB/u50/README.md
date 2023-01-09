@@ -1,20 +1,20 @@
-# Programación orientada a objetos
+# Programació orientada a objectes
 
-## Introducción a la Programación Orientada a Objetos
+## Introducció a la Programació Orientada a Objectes
 
-La Programación Orientado a Objetos (POO) se basa en la agrupación de objetos de distintas clases que interactúan entre sí y que, en conjunto, consiguen que un programa cumpla su propósito. En Python cualquier elemento del lenguaje pertenece a una clase y todas las clases tienen el mismo rango y se utilizan del mismo modo.
+La Programació Orientada a Objectes (POO) es basa en l'agrupació d'objectes de diferents classes que interactuen entre sí i que, en conjunt, aconsegueixen que un programa compleixi el seu  propósit. A Python qualsevol element del llenguatge pertany a una classe i totes las classes tenen el mateix rang i s'utilitzen de la mateixa manera.
 
-## Definición de clase, objeto, atributos y métodos
+## Definició de classe, objecte, atributs i mètodes
 
-* Llamamos clase a la representación abstracta de un concepto. Por ejemplo, "perro", "número entero" o "servidor web".
-* Las clases se componen de atributos y métodos.
-* Un objeto es cada una de las instancias de una clase.
-* Los atributos definen las características propias del objeto y modifican su estado. Son datos asociados a las clases y a los objetos creados a partir de ellas.
-* Un atributo de clase es compartida por todas las instancias de una clase. Se definen dentro de la clase (después del encabezado de la clase) pero nunca dentro de un método. Este tipo de variables no se utilizan con tanta frecuencia como las variables de instancia.
-* Un atributo de objeto se define dentro de un método y pertenece a un objeto determinado de la clase instanciada.
-* Los métodos son bloques de código (o funciones) de una clase que se utilizan para definir el comportamiento de los objetos.
+* Anomenem classe a la representació abstracta d'un concepte. Per exemple, "perro", "número entero" o "servidor web".
+* Les classes es composen d'atributs i mètodes.
+* Un objecte és cadascuna de les instàncies d'una classe.
+* Els atributs defineixen les característiques propies de l'objecte i modifiquen el seu estat. Son dades associades a les classes i als objectes creats a partir d'elles.
+* Un atribut de classe es compartit por totes les instancies d'una classe. Es defineixen dintre de la classe (després de l'encapçalament de la classe) però mai dintre d'un mètode. Aquest tipus de variables no s'utilizen amb tanta freqüència como les variables d'instància.
+* Un atribut d'objecte es defineix dintre d'un mètode i pertany a un objecte determinat de la classe instanciada.
+* Els mètodes son blocs de codi (o funcions) d'una classe que s'utilitzen per definir el comportament dels objectes.
 
-Definimos nuestra primera clase:
+Definim la nostra primera classe:
 
 	>>> class clase():
 	...    at_clase=1
@@ -29,6 +29,7 @@ Definimos nuestra primera clase:
 	>>> objeto.at_clase
 	1
 	>>> objeto.at_objeto
+
 	Traceback (most recent call last):
 	  File "<stdin>", line 1, in <module>
 	AttributeError: 'clase' object has no attribute 'at_objeto'
@@ -36,23 +37,23 @@ Definimos nuestra primera clase:
 	>>> objeto.at_objeto
 	1
 
-## Atributos de objetos
+## Atributs de objectes
 
-Para definir atributos de objetos, basta con definir una variable dentro de los métodos, es una buena idea definir todos los atributos de nuestras instancias en el constructor, de modo que se creen con algún valor válido. 
+Per definir atributs d'objectes, ni ha prou amb definir una variable dintre dels mètodes, es una bona idea definir tots els atributs de les nostres instancies en el constructor, de manera que es crein amb algun valor vàlid. 
 
-## Método constructor __init__
+## Mètode constructor __init__
 
-Como hemos visto anteriormente los atributos de objetos no se crean hasta que no hemos ejecutado el método. Tenemos un método especial, llamado constructor `__init__`, que nos permite inicializar los atributos de objetos. Este método se llama cada vez que se crea una nueva instancia de la clase.
+Com hem vist anteriorment els atributs d'objectes no es creen fins que no hem executat el mètode. Tenim un mètode especial, anomenat constructor `__init__`, que ens permet inicialitzar els atributs de objectes. Aquest mètode es crida cada vegada que es crea una nova instancia de la classe.
 
-## Definiendo métodos. El parámetro self
+## Definint mètodes. El parámetre self
 
-El método construcutor, al igual que todos los métodos de cualquier clase, recibe como primer parámetro a la instancia sobre la que está trabajando. Por convención a ese primer parámetro se lo suele llamar `self` (que podríamos traducir como yo mismo), pero puede llamarse de cualquier forma.
+El mètode constructor, al igual que tots els mètodes de qualsevol classe, rep com  a primer paràmetre a la instancia sobre la que està treballant. Per convenció a aquest primer paràmetre se li sol cridar `self` (que podríem traduir com jo mateix), però pot anomenar-se de qualsevol manera.
 
-Para referirse a los atributos de objetos hay que hacerlo a partir del objeto `self`.
+Per referir-se als atributs d'objectes s'ha de fer a partir de l'objecte `self`.
 
-## Definición de objetos
+## Definició d'objectes
 
-Vamos a crear una nueva clase:
+Anem a crear una nova classe:
 
 	import math
 	class punto():
@@ -69,14 +70,14 @@ Vamos a crear una nueva clase:
 		dy = self.y - otro.y
 		return math.sqrt((dx*dx + dy*dy))
 		
-Para crear un objeto, utilizamos el nombre de la clase enviando como parámetro los valores que va a recibir el constructor.
+Per crear un objecte, utilitzem el nom de la classe enviant com paràmetre els valors que va a rebre el constructor.
 
 	>>> punto1=punto()
 	>>> punto2=punto(4,5)
 	>>> print(punto1.distancia(punto2))
 	6.4031242374328485
 
-Podemos acceder y modificar los atributos de objeto:
+Podem accedir i modificar els atributs de objecte:
 
 	>>> punto2.x
 	4

@@ -1,11 +1,11 @@
-# Conceptos avanzados de programación orientada a objetos I
+# Conceptes avançats de programació orientada a objectes I
 
-## Atributos de clase (estáticas)
+## Atributs de classe (estàtics)
 
-En Python, las variables definidas dentro de una clase, pero no dentro de un método, son llamadas variables estáticas o de clase. Estas variables son compartidas por todos los
-objetos de la clase.
+A Python, les variables definides dintre d'una classe, però no dintre d'un mètode, son anomenades variables estàtiques o de classe. Aquestes variables son compartidas per tots els
+objectes de la clase.
 
-Para acceder a una variable de clase podemos hacerlo escribiendo el nombre de la clase o a través de self.
+Per accedir a una variable de classe podem fer-ho escrivint el nom de la classe o mitjançant self.
 
 	>>> class Alumno():
 	...    contador=0
@@ -19,12 +19,11 @@ Para acceder a una variable de clase podemos hacerlo escribiendo el nombre de la
 	>>> Alumno.contador
 	1
 
-Usamos las variables estáticas (o de clase) para los atributos que son comunes a todos los atributos de la clase. Los atributos de los objetos se definen en el constructor.
+Utilitzem les variables estàtiques (o de classe) pels atributs que son comuns a tots els atributs de la classe. Els atributs dels objectes es defineixen en el constructor.
 
-## Atributos privados y ocultos
+## Atributs privados i ocultos
 
-Las variables que comienzan por un guión bajo `_` son
-consideradas privadas. Su nombre indica a otros programadores que no son públicas: son un detalle de implementación del que no se puede depender — entre otras cosas porque podrían desaparecer en cualquier momento. **Pero nada nos impide acceder a esas variables.**
+Les variables que comencen per un guió baix `_` son considerades privades. El seu nom indica a altres programadors que no son públiques: son un detall d'implementació del que no es pot dependre — entre altres coses perque podríen desapareixer en qualsevol moment. **Però res ens impideix accedir a aquestes variables.**
 
 	>>> class Alumno():
 	...    def __init__(self,nombre=""):
@@ -37,7 +36,7 @@ consideradas privadas. Su nombre indica a otros programadores que no son públic
 	>>> a1._secreto
 	'asdasd'
 
-Dos guiones bajos al comienzo del nombre `__` llevan el ocultamiento un paso más allá, "enmaráñando" (name-mangling ) la variable de forma que sea más difícil verla desde fuera.
+Dos guions baixo al començament del nom `__` porten l'ocultament un pas enllà, "enmaranyant" (name-mangling ) la variable de manera que sigui més difícil veure-la des de fora.
 
 	>>> class Alumno():
 	...    def __init__(self,nombre=""):
@@ -55,12 +54,12 @@ Pero en realidad sigue siendo posible acceder a la variable.
 	>>> a1._Alumno__secreto
 	'asdasd'
 
-Se suelen utilizar cuando una subclase define un atributo con el mismo nombre que la clase madre, para que no coincidan los nombres.
+Es solen utilitzar quan d'una subclasse defineix un atribut amb el mateix nom que la classe mare, per que no coincideixin els noms.
 
 
-## Métodos de clase (estáticos)
+## Mètodes de classe (estàtics)
 
-Los método estáticos (static methods) son aquellos que no necesitan acceso a ningún atributo de ningún objeto en concreto de la clase.
+Els mètodes estàtics (static methods) son aquells que no necesiten accès a cap atribut de cap objecte en concret de la classe.
 
 	>>> class Calculadora():
 	...   def __init__(self,nombre):
@@ -79,11 +78,11 @@ Los método estáticos (static methods) son aquellos que no necesitan acceso a n
 	>>> Calculadora.sumar(3,4)
 	7
 
-Nada nos impediría mover este método a una función fuera de la clase, ya que no hace uso de ningún atributo de ningún objeto, pero la dejamos dentro porque su lógica (hacer sumas) pertenece conceptualmente a Calculadora.
+Res ens impedeix moure aquest mètode a una funció fora de la classe, ja que no fa ús de cap atribut de cap objeto, però la deixem dintre perque la seva lògica (fer sumes) pertany conceptualment a Calculadora.
 
-Lo podemos llamar desde el objeto o desde la clase.
+Ho podem cridar des de l'objecte o des de la classe.
 
-## Funciones getattr,setattr,delattr,hasattr
+## Funcions getattr,setattr,delattr,hasattr
 
 	>>> a1=Alumno("jose")
 	>>> getattr(a1,"nombre")

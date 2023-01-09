@@ -153,7 +153,6 @@ Fixem-nos que a l'hora de fer el open del fitxer específiquem ('wb') això sign
 
 * [Classe cotxe](./pys/class/cotxe.py)
 * [Classe colleccio](./pys/class/colleccio.py)
-
 * [Programa](./pys/class/escriure_class.py)
 
 
