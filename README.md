@@ -335,14 +335,14 @@
 	* Mòdul statistics
 	* Mòdul random
 
-43. [Mòduls estàndards: móduls d' hora i dates](curs/009_MODU/u43/README.md)
+43. [Mòduls estàndards: móduls d'hora i data](curs/009_MODU/u43/README.md)
     
 	* Mòdul time
 	* Mòdul datetime
 	* Mòdul calendar
 	* Exemples
 
-44. [Instal·lació de mòduls](curs/009_MODU/u44/README.md)
+44. [Instal·lació de mòduls no estàndards](curs/009_MODU/u44/README.md)
     
 	* PyPI i pip
 	* Instal·lació de mòduls python
@@ -416,9 +416,41 @@
 
 ### Crear un programa executable
 
-55. [Creació d'un executable a partir d'un script de python](curs/018_PYINST/README.md)
+55. [Creació d'un executable a partir d'un script de python amb Pyinstaller](curs/018_PYINST/u018_01/README.md)
     
-    * Utilització de Pyinstaller  
+    * Utilització de Pyinstaller
+    * Utilització de py2exe  
+
+55. [Creació d'un executable a Linux](curs/018_PYINST/u018_02/README.md)
+
+	* Scripts en Linux
+
+### Treballar amb dades - DataScience
+
+56. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
+
+	* Jupyter Notebook
+
+61. [Data Management](curs/012_IA/u100/README.md)
+
+	* Normalització de dades
+
+62. [Llibreria Pandas](curs/017_PANDAS/README.md)
+
+	* Instal·lació 
+	* Ús
+
+57. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
+
+	* Web Scraping i  Web Crawling
+    	* Navegadors web i HTTP
+    	* Scraping i parsing de webs HTTP
+    	* Web Crawlers
+    	* Scraping amb Selenium
+    	* Exemples
+
+66. [Microsoft Power BI i Python](curs/998_DATAAN)
+
 
 # En construcció
 
@@ -428,20 +460,7 @@
 
 ### Utilització del modul logging DEBUG/INFO
 
-### Treballar amb dades
 
-56. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
-
-	* Jupyter Notebook
-
-57. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
-
-	* Web Scraping i  Web Crawling
-    	* Navegadors web i HTTP
-    	* Scraping i parsing de webs HTTP
-    	* Web Crawlers
-    	* Scraping amb Selenium
-    	* exemples
 
 
 ### Desenvolupament d'aplicacions en entorn gràfic
@@ -479,16 +498,6 @@
 	* Amb Flask
 
 
-### Data Science
-
-61. [Data Management](curs/012_IA/u100/README.md)
-
-	* Normalització de dades
-
-62. [Llibreria Pandas](curs/017_PANDAS/README.md)
-
-	* Instal·lació 
-	* Ús
 
 
 ### Intel.ligència artificial i Machine Learning
@@ -514,7 +523,6 @@
 	* Algorismes de Image recognition
 
 
-66. [Microsoft Power BI i Python](curs/998_DATAAN)
 
 
 

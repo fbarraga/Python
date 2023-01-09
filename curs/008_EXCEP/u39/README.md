@@ -2,7 +2,7 @@
 
 ## Errors sintàctics i errors d'execució
 
-Veim com és un exemple d'error sintàctic:
+Veiem com és un exemple d'error sintàctic:
 
 	>>> while True print('Hello world')
 	  File "<stdin>", line 1
