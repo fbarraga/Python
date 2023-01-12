@@ -1,9 +1,9 @@
-# Conceptos avanzados de programación orientada a objetos II
+# Conceptes avançats de programació orientada a objectes II
 
 
-## Propiedades: getters, setters, deleter
+## Propietats: getters, setters, deleter
 
-Para implementar la encapsulación y no permitir el acceso directo a los atributos, podemos poner los atributos ocultos y declarar métodos especificos para acceder y modificar los atributos (mutadores). Estos métodos se denominan getters y setters.
+Per implementar l'encapsulació i no permetre l'accés directe als atributs, podem posar els atributs ocults i declarar mètodes específics per accedir i modificar els atributs (mutadors). Aquests mètodes es denominen getters i setters.
 
 	class circulo():
 		def __init__(self,radio):
@@ -29,7 +29,7 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
 	    raise ValueError("Radio positivo")
 	ValueError: Radio positivo
 
-En Python, las propiedades nos permiten implementar la funcionalidad exponiendo estos métodos como atributos.
+A Python, les propietats ens permeten implementar la funcionalitat exposant aquests mètodes amb atributs.
 
 	class circulo():
 		def __init__(self,radio):
@@ -61,7 +61,7 @@ En Python, las propiedades nos permiten implementar la funcionalidad exponiendo 
 	    raise ValueError("Radio positivo")
 	ValueError: Radio positivo
 
-Hay un tercera property que podemos crear: el deleter
+Hi ha un tercera property que podem crear: **el deleter**
 
 	...
 	@radio.deleter
@@ -83,14 +83,14 @@ Hay un tercera property que podemos crear: el deleter
 	AttributeError: 'circulo' object has no attribute '_radio'
 	>>> c1.radio=3
 
-## Representación de objetos \_\_str\_\_ y \_\_repr\_\_
+## Representació d'objectes \_\_str\_\_ y \_\_repr\_\_
 
-La documentación de Python hace referencia a que el método `__str()__` ha de devolver la representación "informal" del objeto, mientras que `__repr()__` la "formal".
+La documentació de Python fa referencia a que el mètode `__str()__` ha de retornar la representació "informal" de l'objecte, mentres que `__repr()__` la "formal".
 
-* La función `__str()__` debe devolver la cadena de texto que se muestra por pantalla si llamamos a la función `str()`. Esto es lo que hace Python cuando usamos `print`. Suele devolver el nombre de la clase.
-* De `__repr()__`, por el otro lado, se espera que nos devuelva una cadena de texto con una representación única del objeto. Idealmente, la cadena devuelta por `__repr()__` debería ser aquella que, pasada a `eval()`, devuelve el mismo objeto.
+* La funció `__str()__` ha de retornar la cadena de texte que es mostra per pantalla si cridem a la funció `str()`. Això és lo que fa Python quan utilitzem `print`. Sol retornar el nom de la classe.
+* De `__repr()__`, per un altre costat, 'espera que ens retorni una cadena de texte amb una representació única de l'objecte. Idealment, la cadena retornada per `__repr()__` hauria de ser aquella que, passada a `eval()`, retorna el mateix objecte.
 
-Continuamos con la clase `circulo`:
+Continuem amb la classe `circulo`:
 
 	...
 	def __str__(self):
@@ -104,7 +104,7 @@ Continuamos con la clase `circulo`:
 		return msg.format(clase, self.radio)
 
 
-Suponemos que estamos utilizando la clase `circulo` sin la instrucción `print` en el getter. 
+Suposem que estem utilitzant la classe `circulo` sense la instrucció `print` en el getter. 
 
 	>>> c1=circulo(3)
 	>>> print(c1)
@@ -114,11 +114,11 @@ Suponemos que estamos utilizando la clase `circulo` sin la instrucción `print` 
 	>>> type(eval(repr(c1)))
 	<class 'circulo2.circulo'>
 
-## Comparación de objetos \_\_eq\_\_
+## Comparació d'objectes \_\_eq\_\_
 
-Tampoco podemos comparar dos `circulos` sin definir `__eq()__`, ya que sin este método Python comparará posiciones en memoria.
+Tampoc podem comparar dos `circulos` sense definir `__eq()__`, ja que sense aquest mètode Python compararà posicions en memòria.
 
-Continuamos con la clase `circulo`:
+Continuem amb la classe `circulo`:
 	
 	...
 	def __eq__(self,otro):
@@ -129,11 +129,11 @@ Continuamos con la clase `circulo`:
 	>>> c1 == c2
 	False
 
-Si queremos utilizar `<`, `<=`, `>` y `>=` tendremos que rescribir los métodos: `__lt()__`, `__le()__`, `__gt()__` y `__ge()__`
+Si volem utilitzar `<`, `<=`, `>` y `>=` haurem de reescriure els mètodes: `__lt()__`, `__le()__`, `__gt()__` i `__ge()__`
 
-## Operar con objetos \_\_add\_\_ y \_\_sub\_\_
+## Operar amb objectes \_\_add\_\_ y \_\_sub\_\_
 
-Si queremos operar con los operadores `+` y `-`:
+Si volem operar amb els operadors `+` i `-`:
 
 	def __add__(self,otro):
 		self.radio+=otro.radio
@@ -163,6 +163,6 @@ Si queremos operar con los operadores `+` y `-`:
 	    raise ValueError("No se pueden restar")
 	ValueError: No se pueden restar
 
-## Más métodos especiales
+## Més mètodes especials
 
-Existen muchos más métodos especiales que podemos sobreescibir en nuestras clases para añadir funcionalidad a las mismas. Puedes ver la [documentación oficial](https://docs.python.org/3.4/reference/datamodel.html#special-method-names) para aprender más sobre ellas.
+Existeixen molts més mètodes especials que podem sobreesciure en les nostres classes per afegir funcionalitat a les mateixes Pots veure la [documentació oficial](https://docs.python.org/3.11/reference/datamodel.html#special-method-names) per aprendre més sobre elles.

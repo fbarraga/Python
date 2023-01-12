@@ -497,6 +497,12 @@
 	* Amb Swagger
 	* Amb Flask
 
+61. Exemples de consumició APIs
+
+	* [Cinema](curs/016_APIS/pys/cinema)
+	* [Weather](curs/016_APIS/pys/weather)
+	* [La Liga](curs/016_APIS/pys/futbol)
+
 
 
 

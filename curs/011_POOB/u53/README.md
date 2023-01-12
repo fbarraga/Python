@@ -1,12 +1,12 @@
-# Polimorfismo, herencia y delegación
+# Polimorfisme, herencia i delegació
 	
-## Polimorfismo
+## Polimorfisme
 
-El polimorfismo es la técnica que nos posibilita que al invocar un determinado método de un objeto, podrán obtenerse distintos resultados según la clase del objeto. Esto se debe a que distintos objetos pueden tener un método con un mismo nombre, pero que realice distintas operaciones.
+El polimorfisme és la tècnica que ens possibilita que l'invocar un determinat mètode d'un objecte, podrán obtenir-se distints resultats segons la classe de l'objecte. Això es deu a que diferents objectes poden tenir un mètode amb un mateix nom, però que realitzi diferents operacions.
 
-Lo llevamos usando desde principio del curso, por ejemplo podemos recorrer con una estructura `for` distintas clases de objeto, debido a que el método especial `__iter__` está definida en cada una de las clases. Otro ejemplo sería que con la función `print` podemos imprimir distintas clases de objeto, en este caso, el método especial `__str__` está definido en todas las clases.
+Per exemple podems recórrer amb una estructura `for` diferents classes d'objecte, degut a que el mètode especial `__iter__` està definida en cadascuna de las classes. Un altre exemple sería que amb la funció `print` podem imprimir diferents classes d'objecte, en aquest cas, el mètode especial `__str__` està definit en totes les classes.
 
-Además esto es posible a que python es dinámico, es decir en tiempo de ejecución es cuando se determina el tipo de un objeto. Veamos un ejemplo:
+A més això és possible ja que python és dinàmic, és a dir en temps d'execució és quan es determina el tipus d'un objecte. Exemple:
 
 	class gato():
 		def hablar(self):
@@ -27,11 +27,11 @@ Además esto es posible a que python es dinámico, es decir en tiempo de ejecuci
 
 ## Herencia
 
-La herencia es un mecanismo de la programación orientada a objetos que sirve para crear clases nuevas a partir de clases preexistentes. Se toman (heredan) atributos y métodos de las clases viejas y se los modifica para modelar una nueva situación.
+La herencia es un mecanisme de la programació orientada a objectes que serveix per crear classes noves a partir de classes preexistents. Es prenen (hereden) atributs i mètodes de les classes antigues i se les modifica per modela una nova situació.
 
-La clase desde la que se hereda se llama clase base y la que se construye a partir de ella es una clase derivada.
+La classe des de la que s'hereda s'anomena classe base i la que es construeix a partir d'ella es una classe derivada.
 
-Si nuestra clase base es la clase `punto` estudiadas en unidades anteriores, puedo crear una nueva clase de la siguiente manera:
+Si la nostra classe base és la classe `punto`, podem crear una nova classe de la següent manera:
 
 	class punto3d(punto):
 		def __init__(self,x=0,y=0,z=0):
@@ -54,7 +54,7 @@ Si nuestra clase base es la clase `punto` estudiadas en unidades anteriores, pue
 			dz = self.z - otro.z
 			return (dx*dx + dy*dy + dz*dz)**0.5	
 
-Creemos dos objetos de cada clase y veamos los atributos y métodos que tienen definido:
+Creem dos objectes de cada classe i veiem els atributs i mètodes que tenen definit:
 
 	>>> p=punto(1,2)
 	>>> dir(p)
@@ -63,9 +63,9 @@ Creemos dos objetos de cada clase y veamos los atributos y métodos que tienen d
 	>>> dir(p3d)
 	['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_x', '_y', '_z', 'distancia', 'x', 'y', 'z']
 
-## La función super()
+## La funció super()
 
-La función `super()` me proporciona una referencia a la clase base. Y podemos observar también que hemos reescrito el método `distancia` y `__str__`.
+La funció `super()` em proporciona una referència a la classe base. I podem observar també que hem reescritt el mètode `distancia` i `__str__`.
 
 	>>> p.distancia(punto(5,6))
 	5.656854249492381
@@ -76,9 +76,9 @@ La función `super()` me proporciona una referencia a la clase base. Y podemos o
 	>>> print(p3d)
 	1:2:3
 
-## Herencia múltiple
+## Herència múltiple
 
-La herencia múltiple se refiere a la posibilidad de crear una clase a partir de múltiples clases superiores. Es importante nombrar adecuadamente los atributos y los métodos en cada clase para no crear conflictos.
+La herència múltiple es refereix a la possibilitat de crear una classe a partir de múltiples classes superiors. Es importante anomenar adequadament els atributs i els mètodes en cada classe per no crear conflicteszas.
 
 	class Telefono:
 	    "Clase teléfono"
