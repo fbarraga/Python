@@ -47,7 +47,7 @@ Com hem vist anteriorment els atributs d'objectes no es creen fins que no hem ex
 
 ## Definint mètodes. El parámetre self
 
-El mètode constructor, al igual que tots els mètodes de qualsevol classe, rep com  a primer paràmetre a la instancia sobre la que està treballant. Per convenció a aquest primer paràmetre se li sol cridar `self` (que podríem traduir com jo mateix), però pot anomenar-se de qualsevol manera.
+El mètode constructor, al igual que tots els mètodes de qualsevol classe, rep com a primer paràmetre a la instancia sobre la que està treballant. Per convenció a aquest primer paràmetre se li sol anomenar `self` (que podríem traduir com jo mateix), però pot anomenar-se de qualsevol manera.
 
 Per referir-se als atributs d'objectes s'ha de fer a partir de l'objecte `self`.
 
@@ -56,16 +56,17 @@ Per referir-se als atributs d'objectes s'ha de fer a partir de l'objecte `self`.
 Anem a crear una nova classe:
 
 	import math
+
 	class punto():
-	""" Representación de un punto en el plano, los atributos son x e y
-	que representan los valores de las coordenadas cartesianas."""
+	""" Representació d'un punto en el pla, els atributos son x e y
+	que representen els valors de les coordenades cartesianes."""
 
 	def __init__(self,x=0,y=0):
 		self.x=x
 		self.y=y
 
 	def distancia(self, otro):
-		""" Devuelve la distancia entre ambos puntos. """
+		""" Retorna la distància entre els dos punts. """
 		dx = self.x - otro.x
 		dy = self.y - otro.y
 		return math.sqrt((dx*dx + dy*dy))

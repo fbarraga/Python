@@ -2,10 +2,9 @@
 
 ## Atributs de classe (estàtics)
 
-A Python, les variables definides dintre d'una classe, però no dintre d'un mètode, son anomenades variables estàtiques o de classe. Aquestes variables son compartidas per tots els
-objectes de la clase.
+A Python, les variables definides dintre d'una classe, però no dintre d'un mètode, son anomenades variables estàtiques o de classe. **Aquestes variables son compartidas per tots els objectes de la classe.**
 
-Per accedir a una variable de classe podem fer-ho escrivint el nom de la classe o mitjançant self.
+Per accedir a una variable de classe podem fer-ho escrivint el nom de la classe o mitjançant `self`.
 
 	>>> class Alumno():
 	...    contador=0
@@ -19,7 +18,7 @@ Per accedir a una variable de classe podem fer-ho escrivint el nom de la classe 
 	>>> Alumno.contador
 	1
 
-Utilitzem les variables estàtiques (o de classe) pels atributs que son comuns a tots els atributs de la classe. Els atributs dels objectes es defineixen en el constructor.
+Utilitzem les **variables estàtiques** (o de classe) pels atributs que son comuns a tots els atributs de la classe. Els atributs dels objectes es defineixen en el constructor.
 
 ## Atributs privados i ocultos
 
@@ -36,7 +35,7 @@ Les variables que comencen per un guió baix `_` son considerades privades. El s
 	>>> a1._secreto
 	'asdasd'
 
-Dos guions baixo al començament del nom `__` porten l'ocultament un pas enllà, "enmaranyant" (name-mangling ) la variable de manera que sigui més difícil veure-la des de fora.
+Dos guions baixos al començament del nom `__` porten l'ocultament un pas enllà, "enmaranyant" (name-mangling ) la variable de manera que sigui més difícil veure-la des de fora.
 
 	>>> class Alumno():
 	...    def __init__(self,nombre=""):
@@ -49,12 +48,12 @@ Dos guions baixo al començament del nom `__` porten l'ocultament un pas enllà,
 	  File "<stdin>", line 1, in <module>
 	AttributeError: 'Alumno' object has no attribute '__secreto'
 
-Pero en realidad sigue siendo posible acceder a la variable.
+Però en realitat segueix siguent possible accedir a la variable.
 
 	>>> a1._Alumno__secreto
 	'asdasd'
 
-Es solen utilitzar quan d'una subclasse defineix un atribut amb el mateix nom que la classe mare, per que no coincideixin els noms.
+Es solen utilitzar quan una subclasse defineix un atribut amb el mateix nom que la classe mare, per que no coincideixin els noms.
 
 
 ## Mètodes de classe (estàtics)
@@ -78,7 +77,7 @@ Els mètodes estàtics (static methods) son aquells que no necesiten accès a ca
 	>>> Calculadora.sumar(3,4)
 	7
 
-Res ens impedeix moure aquest mètode a una funció fora de la classe, ja que no fa ús de cap atribut de cap objeto, però la deixem dintre perque la seva lògica (fer sumes) pertany conceptualment a Calculadora.
+Res ens impedeix moure aquest mètode a una funció fora de la classe, ja que no fa ús de cap atribut de cap objecte, però la deixem dintre perque la seva lògica (fer sumes) pertany conceptualment a Calculadora.
 
 Ho podem cridar des de l'objecte o des de la classe.
 
