@@ -14,6 +14,7 @@
 | Tipus de dades bytesarray,set,frozenset|[30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
 | Tipus de dades Diccionaris			| [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [35](curs/006_MAPES/u33/README.md)|
 | Treball amb fitxers | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|
+| Errors i excepcions | [43](curs/008_EXCEP/u01/README.md)| |
 | Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [54](curs/011_POOB/u54/README.md)|
 
 ### Introducció
@@ -301,7 +302,7 @@
 
 ### Errors i Excepcions
 
-39. [Excepcions](curs/008_EXCEP/u39/README.md)
+43. [Excepcions](curs/008_EXCEP/u01/README.md)
     
 	* Errors sintàctics i errors d'execució
 	* Gestionant excepcions. try, except, else, finally
@@ -310,7 +311,7 @@
 
 ### Móduls, paquets i namespaces
 
-40. [Móduls i paquets](curs/009_MODU/u40/README.md)
+44. [Móduls i paquets](curs/009_MODU/u40/README.md)
     
 	* Móduls, paquets
 	* Executant móduls amb scripts
@@ -321,7 +322,7 @@
 	* Función dir()
 	* ¿On es troben els mòduls?
 
-41. [Mòduls estàndards: mòduls de sistema](curs/009_MODU/u41/README.md)
+45. [Mòduls estàndards: mòduls de sistema](curs/009_MODU/u41/README.md)
     
 	* Mòdul os
 	* Executar comandes del sistema operatiu. Mòdul subprocess
@@ -329,21 +330,21 @@
 	* Mòduls sys 
 	* Execució de scripts amb arguments
 	
-42. [Mòduls estàndards: mòduls matemàtics](curs/009_MODU/u42/README.md)
+46. [Mòduls estàndards: mòduls matemàtics](curs/009_MODU/u42/README.md)
     
 	* Mòdul math
 	* Mòdul fractions
 	* Mòdul statistics
 	* Mòdul random
 
-43. [Mòduls estàndards: móduls d'hora i data](curs/009_MODU/u43/README.md)
+47. [Mòduls estàndards: móduls d'hora i data](curs/009_MODU/u43/README.md)
     
 	* Mòdul time
 	* Mòdul datetime
 	* Mòdul calendar
 	* Exemples
 
-44. [Instal·lació de mòduls no estàndards](curs/009_MODU/u44/README.md)
+48. [Instal·lació de mòduls no estàndards](curs/009_MODU/u44/README.md)
     
 	* PyPI i pip
 	* Instal·lació de mòduls python
@@ -353,7 +354,7 @@
 
 ### Programació estructurada i modular
 
-45. [Introducció a les funcions](curs/010_PESTR/u45/README.md)
+49. [Introducció a les funcions](curs/010_PESTR/u45/README.md)
 	* Introducció a la programació estructurada i modular
 	* Definició de funcions
 	* Àmbit de variables. Sentencia global
@@ -362,26 +363,26 @@
 	* Crides a una funció
 	* args and kwargs in Python
 
-46. [Conceptes avançats sobre funcions](curs/010_PESTR/u46/README.md)
+50. [Conceptes avançats sobre funcions](curs/010_PESTR/u46/README.md)
 	* Tipus d'arguments: posicionals o keyword
 	* Parámetre *
 	* Arguments arbitraris (*args y **kwargs)
 	* Desempaquetar arguments: passar llistes i diccionaris
 	* Retornar múltiples resultats
 	
-47. [Tipus especials de funcions](curs/010_PESTR/u47/README.md)
+51. [Tipus especials de funcions](curs/010_PESTR/u47/README.md)
 	* Funcions recursives
 	* Funcions lambda
 	* Decoradors
 	* Funcions generadores
 
-48. [Exercicis amb funcions](curs/010_PESTR/u48/README.md)
+52. [Exercicis amb funcions](curs/010_PESTR/u48/README.md)
     
-49. [Exercicis Programació estructurada i modular](curs/010_PESTR/u49/README.md)
+53. [Exercicis Programació estructurada i modular](curs/010_PESTR/u49/README.md)
 
 ### Programació orientada a objectes POO
 
-50. [Programació orientada a objectes](curs/011_POOB/u50(README.md))
+54. [Programació orientada a objectes](curs/011_POOB/u50(README.md))
 	* Introducció a la Programació Orientada a Objectes
 	* Definició de classe, objecte, atributs i mètodes
 	* Atributs d'objetos
@@ -389,14 +390,14 @@
 	* Definint mètodes. El paràmetre self
 	* Definició d'objectes
 
-51. [Conceptes avançats de programació orientada a objectes I](curs/011_POOB/u51/README.md)
+55. [Conceptes avançats de programació orientada a objectes I](curs/011_POOB/u51/README.md)
 	* Atributs de classe (estàtics)
 	* Atributs privats i ocults
 	* Mètodes estátics
 	* Mètodes de classe (estàtics)
 	* Funcions getattr,setattr,delattr,hasattr
 	
-52. [Conceptes avançats de programació orientada a objectes II](curs/011_POOB/u52/README.md)
+56. [Conceptes avançats de programació orientada a objectes II](curs/011_POOB/u52/README.md)
 
 	* Propietats: getters, setters, deleter
 	* Representació d'objetes \_\_str\_\_ y \_\_repr\_\_
@@ -404,7 +405,7 @@
 	* Operar amb objectes \_\_add\_\_ y \_\_sub\_\_
 	* Més mètodes especials
 
-53. [Polimorfisme, herencia i delegació](curs/011_POOB/u53/README.md)
+57. [Polimorfisme, herencia i delegació](curs/011_POOB/u53/README.md)
 	
 	* Polimorfisme 
 	* Herència
@@ -413,35 +414,35 @@
 	* Funcions issubclass() y isinstance() 
 	* Delegació
 
-54. [Exercicis Programació orientada a objectes](curs/011_POOB/u54/README.md)
+58. [Exercicis Programació orientada a objectes](curs/011_POOB/u54/README.md)
 
 ### Crear un programa executable
 
-55. [Creació d'un executable a partir d'un script de python amb Pyinstaller](curs/018_PYINST/u018_01/README.md)
+59. [Creació d'un executable a partir d'un script de python amb Pyinstaller](curs/018_PYINST/u018_01/README.md)
     
     * Utilització de Pyinstaller
     * Utilització de py2exe  
 
-55. [Creació d'un executable a Linux](curs/018_PYINST/u018_02/README.md)
+60. [Creació d'un executable a Linux](curs/018_PYINST/u018_02/README.md)
 
 	* Scripts en Linux
 
 ### Treballar amb dades - DataScience
 
-56. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
+61. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
 
 	* Jupyter Notebook
 
-61. [Data Management](curs/012_IA/u100/README.md)
+62. [Data Management](curs/012_IA/u100/README.md)
 
 	* Normalització de dades
 
-62. [Llibreria Pandas](curs/017_PANDAS/README.md)
+63. [Llibreria Pandas](curs/017_PANDAS/README.md)
 
 	* Instal·lació 
 	* Ús
 
-57. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
+64. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
 
 	* Web Scraping i  Web Crawling
     	* Navegadors web i HTTP
@@ -450,7 +451,7 @@
     	* Scraping amb Selenium
     	* Exemples
 
-66. [Microsoft Power BI i Python](curs/998_DATAAN)
+65. [Microsoft Power BI i Python](curs/998_DATAAN)
 
 
 # En construcció
