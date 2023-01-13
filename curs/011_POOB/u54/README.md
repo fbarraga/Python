@@ -1,22 +1,22 @@
-# Programación orientadas a objetos: Ejemplo completo
+# Programació orientada a objectes: Exemple complert
 
-Vamos a realizar la clase `DNI` donde vamos a guardar el número de DNI (lo vamos a guardar en una cadena de longitud 8) y la letra correspondiente.
+Anem a realitzar la classe `DNI` on anem a guadar el número de DNI (ho guardarem en una cadena de longitud de 8) i la lletra corresponent.
 
-* Vamos a crear el constructor, que recibe el número de DNI y calcula automáticamente la letra.
-* Crearemos también los métodos seters y getters.
-* Se debe definir el método `__str__` para imprimir los objetos.
+* Anem a crear el constructor, que rep el número de DNI i calcula automàticament la lletra.
+* Crearem també els mètodes seters i getters.
+* S'h de definir el mètode `__str__` per imprimir els objectes.
 
-A continuación creamos la clase `Persona`. Una persona tendrá un DNI, un nombre y una edad.
+A continuació crearem la classe `Persona`. Una persona tindrà un DNI, un nom i una edat.
 
-* Creamos el constructor.
-* Crearemos también los métodos seters y getters.
-* Se debe definir el método `__str__` para imprimir los objetos.
+* Creem el constructor.
+* Crearem també els mètodes seters i getters.
+* S'ha de definir el mètode `__str__` per imprimir els objectes.
 
-La clase `Notas` nos permite guardar una serie de notas por asignatura.
+La classe `Notas` ens permet guardar una sèrie de notes per assignatura.
 
-* Creamos el constructor, teniendo en cuenta que la estructura de datos que vamos a utilizar para guardar asignaturas y notas será un diccionario.
-* Creamos métodos para gestionar las notas: addnotas, modnotas, delnotas.
-* Creamos un método que nos devuelve la media de las notas guardadas.
-* Se debe definir el método `__str__` para imprimir las asignaturas y sus correspondientes notas.
+* Crearem el constructor, tenint en compte que l'estructura de dades que anem a utilitzar per guardar assignatures i notes serà un diccionari.
+* Crearem mètodes per gestionar les notes: addnotas, modnotas, delnotas.
+* Crearem un mètode que ens retorni la mitja de les notes guardades.
+* S'ha de definir el mètode `__str__` per imprimir les assignatures i les seves corresponents notes.
 
-La clase `Alumno` se hereda de las clases anteriores: `Alumno` y `Notas`.
+La classe `Alumno` s'hereda de las classes anteriors: `Persona` y `Notas`.

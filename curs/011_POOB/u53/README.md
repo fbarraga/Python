@@ -118,7 +118,7 @@ La herència múltiple es refereix a la possibilitat de crear una classe a parti
 	    def __str__(self):
 	        return "Número: {0}, Cámara: {1},Capacidad: {2}".format(Telefono.__str__(self),Camara.__str__(self),Reproductor.__str__(self))
 
-Veamos los atributos y métodos de un objeto `Movil`:
+Veiem els atributs i mètodes d'un objecte `Movil`:
 
 	>>> mimovil=Movil("645234567","5Mpx","1G")
 	>>> dir(mimovil)
@@ -126,23 +126,23 @@ Veamos los atributos y métodos de un objeto `Movil`:
 	>>> print(mimovil)
 	Número: 645234567, Cámara: 5Mpx,Capacidad: 1G
 
-## Funciones issubclass() y isinstance() 
+## Funcions issubclass() y isinstance() 
 
-La función `issubclass(SubClase, ClaseSup)` se utiliza para comprobar si una clase (SubClase) es hija de otra superior (ClaseSup), devolviendo True o False según sea el caso. 
+La funció `issubclass(SubClase, ClaseSup)` s'utilitza per comprovar si una classe (SubClasse) es filla d'una altra superior (ClaseSup), retornant True o False segons sigui el cas. 
 
 	>>> issubclass(Movil,Telefono)
 	True
 
-La función booleana `isinstance(Objeto, Clase)` se utiliza para comprobar si un objeto pertenece a una clase o clase superior. 
+La funció booleana `isinstance(Objeto, Clase)` s'utilitza per comprovar si un objecte pertany a una classe o classe superior. 
 
 	>>> isinstance(mimovil,Movil)
 	True
 
-## Delegación
+## Delegació
 
-Llamamos delegación a la situación en la que una clase contiene (como atributos) una o más instancias de otra clase, a las que delegará parte de sus funcionalidades.
+Anomenem delegació a la situació en la que una classe conté (com atributs) una o més instancies d'un altra classe, a les que delegarà part de les seves funcionalitats.
 
-A partir de la clase `punto`, podemos crear la clase `circulo` de esta forma:
+A partir de la classe `punto`, podem crear la classe `circulo` d'aquesta manera:
 
 	class circulo():	
 
@@ -153,7 +153,7 @@ A partir de la clase `punto`, podemos crear la clase `circulo` de esta forma:
 		def __str__(self):
 			return "Centro:{0}-Radio:{1}".format(self.centro.__str__(),self.radio)	
 
-Y creamos un objeto `circulo`:
+i creem un objecte `circulo`:
 
 	>>> c1=circulo(punto(2,3),5)
 	>>> print(c1)
