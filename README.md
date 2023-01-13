@@ -14,6 +14,7 @@
 | Tipus de dades bytesarray,set,frozenset|[30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
 | Tipus de dades Diccionaris			| [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [35](curs/006_MAPES/u33/README.md)|
 | Treball amb fitxers | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md) 
+| Programació OO | [50](curs/011_POOB/u50(README.md) [51](curs/011_POOB/u51(README.md) [52](curs/011_POOB/u52(README.md) [53](curs/011_POOB/u53(README.md) | [54](curs/011_POOB/u54(README.md)|
 
 ### Introducció
 
