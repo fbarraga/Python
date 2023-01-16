@@ -454,20 +454,13 @@
 65. [Microsoft Power BI i Python](curs/998_DATAAN)
 
 
-# En construcció
-
-
 ### Crear un entorn de proves
-
-
 ### Utilització del modul logging DEBUG/INFO
-
-
 
 
 ### Desenvolupament d'aplicacions en entorn gràfic
 
-56. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
+66. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
 
 	* Tkinter
 	* wxPython
@@ -476,68 +469,62 @@
 
 ### Desenvolupament d'aplicacions en entorn web
 
-
-57. [Introducció a Django](curs/015_PYWEB/u56/README.md)
-
+67. [Introducció a Django](curs/015_PYWEB/u56/README.md)
 
 ### APIs REST
 
-58. [Descripció de les APIS](curs/016_APIS/u55/README.md)
+68. [Descripció de les APIS](curs/016_APIS/u55/README.md)
 
 	* Qué son
 	* Funcionament
 	* Seguretat
 
-
-59. [Consumir una API amb el modul requests](curs/016_APIS/u56/README.md)
+69. [Consumir una API amb el modul requests](curs/016_APIS/u56/README.md)
 
 	* Amb el mètode GET
 	* Amb el mètode POST
 
-60. Crear una API REST
+70. Crear una API REST
 
 	* Amb Swagger
 	* Amb Flask
 
-61. Exemples de consumició APIs
+71. Exemples de consumició APIs
 
 	* [Cinema](curs/016_APIS/pys/cinema)
 	* [Weather](curs/016_APIS/pys/weather)
 	* [La Liga](curs/016_APIS/pys/futbol)
 
-
-
-
 ### Intel.ligència artificial i Machine Learning
 
-63. [Què és la Intel.ligència artificial](curs/IA/u101/README.md)
-
+72. [Què és la Intel.ligència artificial](curs/012_IA/u101/README.md)
 
 	* Aprenentatge supervisat
 	* Aprenentatge automàtic
 	* Aprenentatge semisupervisat
 
-64. [Algoritmes bàsics de IA](curs/IA/u102/README.md)
-
+73. [Algoritmes bàsics de IA](curs/012_IA/u102/README.md)
 
 	* Algorismes de regresió
 	* Algorismes basats en arbres de decisió
 	* Algorismes de clustering
 	* Algorismes de xarxes neuronals
     
-65. [Machine learning](curs/IA/u56/README.md)
+74. [Machine learning](curs/012_IA/u56/README.md)
     
 	* Algorismes de Natural Language
 	* Algorismes de Image recognition
 
+### Creació de Videojocs
 
+75.[Creació de videojocs](curs/101_GAME/README.md)
 
-
+	* Llibreria pygame
 
 ### MarkDown
 
-58. [Treballant amb Markdown](curs/998_MARKDOWN/README.md)
+76. [Treballant amb Markdown](curs/998_MARKDOWN/REEDME.md)
 
 ### Exercicis variats de programació
 
-59. [Exercicis variats](curs/999_EXERC/README.md)
+77. [Exercicis variats](curs/999_EXERC/README.md)
