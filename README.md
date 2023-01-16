@@ -455,8 +455,16 @@
 
 
 ### Crear un entorn de proves
+
+66. [Creació d'un entorn de proves/curs](curs/019_TEST/001/README.md)
+
+	* Utilització de la llibreria pytest 
+
 ### Utilització del modul logging DEBUG/INFO
 
+67. [Logging i debugging de l'aplicació](curs/020_LOGS/001/README.md)
+
+	* Utilització de la llibreria logging 
 
 ### Desenvolupament d'aplicacions en entorn gràfic
 
@@ -484,12 +492,12 @@
 	* Amb el mètode GET
 	* Amb el mètode POST
 
-70. Crear una API REST
+70. [Crear una API REST](curs_016_APIS/u56/README.md)
 
 	* Amb Swagger
 	* Amb Flask
 
-71. Exemples de consumició APIs
+71. [Exemples de consumició APIs](curs_016_APIS/u56/README.md)
 
 	* [Cinema](curs/016_APIS/pys/cinema)
 	* [Weather](curs/016_APIS/pys/weather)
