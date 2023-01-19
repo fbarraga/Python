@@ -486,22 +486,30 @@
 	* Qué son
 	* Funcionament
 	* Seguretat
+	* REST APIs vs SOAP API
 
-69. [Consumir una API amb el modul requests](curs/016_APIS/u56/README.md)
+69. [Consumir una REST API amb el modul requests](curs/016_APIS/u56/README.md)
 
 	* Amb el mètode GET
 	* Amb el mètode POST
 
-70. [Crear una API REST](curs_016_APIS/u56/README.md)
+70. [Crear una REST API](curs_016_APIS/u56/README.md)
 
 	* Amb Swagger
 	* Amb Flask
 
-71. [Exemples de consumició APIs](curs_016_APIS/u56/README.md)
+71. [Exemples de consumició REST APIs](curs_016_APIS/u56/README.md)
 
 	* [Cinema](curs/016_APIS/pys/cinema)
 	* [Weather](curs/016_APIS/pys/weather)
 	* [La Liga](curs/016_APIS/pys/futbol)
+
+
+72. [Consumir una SOAP API]
+
+73. [Consumir una SOAP API]
+
+
 
 ### Intel.ligència artificial i Machine Learning
 
