@@ -1,3 +1,6 @@
+#Pygame a data 20.01.2023 no està disponible per python 3.11
+# quan s'instal.li el modul s'ha de fer amb un pip install pygame --pre
+
 import pygame
 import time
 import random
@@ -11,8 +14,8 @@ red = (213, 50, 80)
 green = (0, 255, 0)
 blue = (50, 153, 213)
  
-dis_width = 600
-dis_height = 400
+dis_width = 800
+dis_height = 600
  
 dis = pygame.display.set_mode((dis_width, dis_height))
 pygame.display.set_caption('Snake Game')
@@ -20,7 +23,7 @@ pygame.display.set_caption('Snake Game')
 clock = pygame.time.Clock()
  
 snake_block = 10
-snake_speed = 15
+snake_speed = 10
  
 font_style = pygame.font.SysFont("bahnschrift", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
