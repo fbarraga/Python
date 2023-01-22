@@ -31,6 +31,40 @@ L'estructura `for` ens permet iterar els elements d'una seqüència (llista, ran
 	else:
         print ("Hem acabat")
 
+## Instrucció for en una linea exemples
+
+Crear una llista amb 10 elements i imprimir-los per pantalla
+
+```python
+# creating list through list comprehension method
+my_list = [number for number in range(1, 10)]
+
+# printing newly created list
+print(my_list)
+
+```
+
+Output:
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+exemple iterant sobre la llista imprimint
+
+```python
+# my  list
+my_list = ["b", "a", "s", "h", "i", "r"]
+
+# iterating using list comprehension
+print([element for element in my_list])
+```
+
+Output:
+
+Advertisement
+
+['b', 'a', 's', 'h', 'i', 'r']
+
+
 ## Instruccions break, continue i pass
 
 ### break

@@ -263,9 +263,9 @@ Y algunos métodos:
 </tbody>
 </table>
 
-## Ejecución de scripts con argumentos
+## Execució de scripts amb arguments
 
-Podemos enviar información (argumentos) a un programa cuando se ejecuta como un script, por ejemplo:
+Podem enviar informació (arguments) a un programa quan s'executa como un script, per exemple:
 
 	#!/usr/bin/env python	
 	import sys
