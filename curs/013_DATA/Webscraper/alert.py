@@ -20,7 +20,7 @@ def send_notification():
     
     datos = json.dumps(data.json())
     
-   # print(datos)
+    print(datos)
     for obj in data.json():
         if obj['price']<300:
             print("El producte: {} te un preu de {}. Pots consultar-ho en el link: {}".format(obj['title'],obj['price'],obj['url']))
