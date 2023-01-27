@@ -1,6 +1,6 @@
 # Curs: Introducció a python3
 
-##Introducció
+## Introducció
 
 Benvinguts al curs de Python. Aquest curs es un repositori de molta documentació trobada a través de la web (realpython.com,w3schools..., repositoris de github i altres) i vol servir com a introducció a un dels llenguatges més utilitzats avui en dia.
 
