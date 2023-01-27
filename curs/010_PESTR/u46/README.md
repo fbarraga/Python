@@ -140,4 +140,9 @@ La instrucció `return` pot retornar qualsevol tipus de resultats, per lo tant e
 	10
 
 ***
-[Index](../../../README.md)<div align="right">[Tipus Especials de funcions](../u47/README.MD)</div>
+<table>
+	<tr>
+		<td>[Index](../../../README.md)</td>
+		<td><div align="right">[Tipus Especials de funcions](../u47/README.MD)</div></td>
+	</tr>
+</table>
