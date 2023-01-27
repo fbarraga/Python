@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import csv
+
 def LeerPartidos():
 	"""Función que lee el fichero CSV y devuelve los datos del mismo en una 
 	lista de diccionarios con los datos de la liga."""
