@@ -4,6 +4,7 @@
 
 Tenim dos tipus de paràmetres: **els posicionals** on el paràmetre real ha de  coincidir en posició amb el paràmetre formal:
 
+```python
 	>>> def sumar(n1,n2):
 	...   return n1+n2
 	... 
@@ -13,6 +14,7 @@ Tenim dos tipus de paràmetres: **els posicionals** on el paràmetre real ha de 
 	Traceback (most recent call last):
 	  File "<stdin>", line 1, in <module>
 	TypeError: sumar() missing 1 required positional argument: 'n2'
+```
 
 A més podem tenir paràmetres amb valors per defecte:
 
