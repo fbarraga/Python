@@ -451,7 +451,7 @@
     	* Scraping amb Selenium
     	* Exemples
 
-65. [Microsoft Power BI i Python](curs/998_DATAAN)
+65. [Microsoft Power BI i Python](curs/013_DATA/PBI/README.md)
 
 
 ### Crear un entorn de proves
