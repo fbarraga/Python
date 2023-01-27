@@ -1,4 +1,4 @@
-# Tipus especials de funciones
+# Tipus especials de funcions
 
 ## Nested functions
 
