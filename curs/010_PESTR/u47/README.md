@@ -111,7 +111,7 @@ Els decoradors són funcions que reben com a paràmetres altres funcions i retor
 	# Muestra la tabla de multiplicar del 10
 	multiplicar(10)  
 
-## Funciones generadoras
+## Funciones generadores
 
 Un generador és un tipus concret de iterador. Es una funció que permet obtenir els resultats pas a pas.
 
