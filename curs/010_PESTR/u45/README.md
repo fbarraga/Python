@@ -63,7 +63,7 @@ Podem definir variables globals, que serán visibles en tot el mòdul. Es recoma
 	12.566
 
 
-## Paràmetros formals i realss
+## Paràmetres formals i reals
 
 * Paràmetres formals: Són les variables que rep la funció, es creen en definir la funció. El seu contingut el rep en realitzar la crida a la funció dels paràmetre reals. Els paràmetres formals són variables locals dins de la funció.
 
