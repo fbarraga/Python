@@ -1,6 +1,6 @@
 # Conceptes avançats sobre funcions
 
-## Tipus d'arguments: posicionales o keyword
+## Tipus d'arguments: posicionals o keyword
 
 Tenim dos tipus de paràmetres: els posicionals on el paràmetre real ha de  coincidir en posició amb el paràmetre formal:
 
