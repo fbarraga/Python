@@ -24,7 +24,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Errors i excepcions | [43](curs/008_EXCEP/u01/README.md)| |
 | Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [54](curs/011_POOB/u54/README.md)|
 
-### Introducció
+### Temari
 
 1. [Introducció a Python](curs/000_INTRO/u1/README.md)
 
