@@ -1,5 +1,12 @@
 # Curs: Introducció a python3
 
+##Introducció
+
+Benvinguts al curs de Python. Aquest curs es un repositori de molta documentació trobada a través de la web (realpython.com,w3schools..., repositoris de github i altres) i vol servir com a introducció a un dels llenguatges més utilitzats avui en dia.
+
+Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
+
+
 ## Unitats formatives
 | UF						| Unitats Teoria																  | Unitats pràctica |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
