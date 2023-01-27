@@ -1,8 +1,8 @@
-# Conceptos avanzados sobre funciones
+# Conceptes avançats sobre funcions
 
-## Tipos de argumentos: posicionales o keyword
+## Tipus d'arguments: posicionales o keyword
 
-Tenemos dos tipos de parámetros: los posiciónales donde el parámetro real debe coincidir en posición con el parámetro formal:
+Tenim dos tipus de paràmetres: els posicionals on el paràmetre real ha de  coincidir en posició amb el paràmetre formal:
 
 	>>> def sumar(n1,n2):
 	...   return n1+n2
@@ -14,7 +14,7 @@ Tenemos dos tipos de parámetros: los posiciónales donde el parámetro real deb
 	  File "<stdin>", line 1, in <module>
 	TypeError: sumar() missing 1 required positional argument: 'n2'
 
-Además podemos tener parámetros con valores por defecto:
+A més podem tenir paràmetres amb valors per defecte:
 
 	>>> def operar(n1,n2,operador='+',respuesta='El resultado es '):
 	...   if operador=="+":
@@ -32,7 +32,7 @@ Además podemos tener parámetros con valores por defecto:
 	'La resta es -2'
 
 
-Los parámetros keyword son aquellos donde se indican el nombre del parámetro formal y su valor, por lo tanto no es necesario que tengan la misma posición. Al definir una función o al llamarla, hay que indicar primero los argumentos posicionales y a continuación los argumentos con valor por defecto (keyword). 
+Els paràmetres keyword son aquells on s'indican el nom del paràmetre formal i el seu valor, per lo tant no es necesari que tinguin la mateixa posició. Al definir una funció o al cridar-la, s'ha d'indicar primer els arguments posicionals i a continuació els arguments amb valor per defecte (keyword). 
 
 	>>> operar(5,7)	# dos parámetros posicionales
 	>>> operar(n1=4,n2=6)	# dos parámetros keyword
@@ -61,9 +61,9 @@ Un parámetro `*` entre los parámetros formales de una función, nos obliga a i
 	-1
 
 
-## Argumentos arbitrarios (\*args y \*\*kwargs)
+## Arguments arbitraris (\*args y \*\*kwargs)
 
-Para indicar un número indefinido de argumentos posicionales al definir una función, utilizamos el símbolo `*`:
+Per indicar un número indefinit d'arguments posicionals al definir una funció, utilitzem el símbol `*`:
 
 	>>> def sumar(n,*args):
 	...   resultado=n
@@ -76,7 +76,7 @@ Para indicar un número indefinido de argumentos posicionales al definir una fun
 	>>> sumar(2,3,4)
 	9
 
-Para indicar un número indefinido de argumentos keyword al definir una función,  utilizamos el símbolo `**`:
+Per indicar un número indefinit d'arguments keyword al definir una funció,  utilitzem el símbol `**`:
 
 	>>> def saludar(nombre="pepe",**kwargs):
 	...   cadena=nombre
@@ -93,7 +93,7 @@ Para indicar un número indefinido de argumentos keyword al definir una función
 	>>> saludar(nombre="juan",nombre2="pepe",nombre3="maria")
 	'Hola juan maria pepe'
 
-Por lo tanto podríamos tener definiciones de funciones del tipo:
+Per lo tant podríem tenir definicions de funcions del tipus:
 
 	>>> def f()
 	>>> def f(a,b=1)
@@ -104,11 +104,11 @@ Por lo tanto podríamos tener definiciones de funciones del tipo:
 	>>> def f(*args)
 	>>> def f(*kwargs)
 
-## Desempaquetar argumentos: pasar listas y diccionarios
+## Desempaquetar arguments: passar llistes i diccionaris
 
-En caso contrario es cuando tenemos que pasar parámetros que lo tenemos guardados en una lista o en un diccionario.
+En caso contrari es quan hem de passar paràmetres que ho tenim guardat en una llista o en diccionari.
 
-Para pasar listas utilizamos el símbolo `*`:
+Per passar llistes utilitzem el símbol `*`:
 
 	>>> lista=[1,2,3]
 	>>> sumar(*lista)
@@ -118,15 +118,15 @@ Para pasar listas utilizamos el símbolo `*`:
 	>>> sumar(2,3,*lista)
 	11
 
-Podemos tener parámetros keyword guardados en un diccionario, para enviar un diccionario utilizamos el símbolo `**`:
+Podem tenir paràmetres keyword guardats en un diccionari, per enviar un diccionari utilitzem el símbol `**`:
 
 	>>> datos={"nombre":"jose","nombre2":"pepe","nombre3":"maria"}
 	>>> saludar(**datos)
 	'Hola jose maria pepe'
 
-## Devolver múltiples resultados
+## Retornar múltiples resultats
 
-La instrucción `return` puede devolver cualquier tipo de resultados, por lo tanto es fácil devolver múltiples datos guardados en una lista o en un diccionario. Veamos un ejemplo en que devolvemos los datos en una tupla:
+La instrucció `return` pot retornar qualsevol tipus de resultats, per lo tant es fàcil retornar múltiples dades guardades en una llista o en un diccionari. Veiem un exemple en que retornem les dades en una tupla:
 
 	>>> def operar(n1,n2):
 	...   return (n1+n2,n1-n2,n1*n2)	

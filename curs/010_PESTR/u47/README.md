@@ -1,8 +1,8 @@
-# Tipos especiales de funciones
+# Tipus especials de funciones
 
-## Funciones recursivas
+## Funcions recursives
 
-Una función recursiva es aquella que al ejecutarse hace llamadas a ella misma. Por lo tento tenemos que tener "un caso base" que hace terminar el bucle de llamadas. Veamos un ejemplo:
+Una funció recursiva es aquella que al executar-se fa crides a si mateixa. Per lo tant hem de tenir "un cas base" que fa terminar el bucle de crides. Veiem un exemple:
 
 	>>> def factorial(numero):
 	...     if(numero == 0 or numero == 1):
@@ -13,14 +13,14 @@ Una función recursiva es aquella que al ejecutarse hace llamadas a ella misma. 
 	>>> factorial(5)
 	120
 
-## Funciones lambda
+## Funcions lambda
 
-Las funciones lambda nos sirven para crear pequeñas funciones anónimas, de una sola línea sobre la marcha.
+Las funcions lambda ens serveix per crear petites funcions anònimes, de una sola línea sobre la marxa.
 
 	>>> cuadrado = lambda x: x**2
 	>>> cuadrado(2)
 
-Como podemos notar las funciones lambda no tienen nombre. Pero gracias a que lambda crea una referencia a un objeto función, la podemos llamar.
+Com podem veure les funcions lambda no tenen nom. Pero gràcies a que lambda crea una referència a un objecte funció, la podem cridar.
 
 	>>> lambda x: x**2
 	<function <lambda> at 0xb74469cc>
@@ -28,16 +28,16 @@ Como podemos notar las funciones lambda no tienen nombre. Pero gracias a que lam
 	>>> (lambda x: x**2)(3)
 	9
 
-Otro ejemplo:
+Un altre exemple:
 
 	>>> pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
 	>>> pairs.sort(key=lambda pair: pair[1])
 	>>> pairs
 	[(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
 
-## Decoradores
+## Decoradors
 
-Los decoradores son funciones que reciben como parámetros otras funciones y retornan como resultado otras funciones con el objetivo de alterar el funcionamiento original de la función que se pasa como parámetro. Hay funciones que tienen en común muchas funcionalidades, por ejemplo las de manejo de errores de conexión de recursos I/O (que se deben programar siempre que usemos estos recursos) o las de validación de permisos en las respuestas de peticiones de servidores, en vez de repetir el código de rutinas podemos abstraer, bien sea el manejo de error o la respuesta de peticiones, en una función decorador.
+Els decoradors són funcions que reben com a paràmetres altres funcions i retornen com a resultat altres funcions amb l'objectiu d' alterar el funcionament original de la funció que es passa com a paràmetre. Hi ha funcions que tenen en comú moltes funcionalitats, per exemple les de maneig d'errors de connexió de recursos I/O (que s'han de programar sempre que usem aquests recursos) o les de validació de permisos en les respostes de peticions de servidors, en comptes de repetir el codi de rutines podem abstreure, bé sigui el maneig d'error o la resposta de peticions,  en una funció decorador.
 
 	>>> def tablas(funcion):
 	...     def envoltura(tabla=1):
@@ -67,7 +67,7 @@ Los decoradores son funciones que reciben como parámetros otras funciones y ret
 
 ## Funciones generadoras
 
-Un generador es un tipo concreto de iterador. Es una función que permite obtener sus resultados paso a paso.
+Un generador és un tipus concret de iterador. Es una funció que permet obtenir els resultats pas a pas.
 
 	>>> def par(inicio,fin):
 	...   for i in range(inicio,fin):

@@ -2,17 +2,18 @@
 
 ## Introducció a la programació estructurada i modular
 
-La programació estructurada es un paradigma de programación orientado a mejorar la claridad, calidad y tiempo de desarrollo de un programa de ordenador, utilizando únicamente subrutinas (funciones o procedimientos) y tres estructuras: secuencia, alternativas y repetitivas. 
+La programació és un paradigma de programació orientat a millorar la claredat, qualitat i temps de desenvolupament d'un programa d'ordinador, utilitzant únicament subrutines (funcions o procediments) i tres estructures: seqüència, alternatives i repetitives. 
 
-La programación modular es un paradigma de programación que consiste en dividir un programa en módulos o subprogramas con el fin de hacerlo más legible y manejable.
+La programació modular és un paradigma de programació que consisteix a dividir un programa en mòduls o subprogrames per tal de fer-lo més llegible i manejable.
 
-Al aplicar la programación modular, un problema complejo debe ser dividido en varios subproblemas más simples, y estos a su vez en otros subproblemas más simples. Esto debe hacerse hasta obtener subproblemas lo suficientemente simples como para poder ser resueltos fácilmente con algún lenguaje de programación (divide y vencerás).
+En aplicar la programació modular, un problema complex ha de ser dividit en diversos subproblemes més simples, i aquests al seu torn en altres subproblemes més simples. Això s'ha de fer fins a obtenir subproblemes prou simples com per poder ser resolts fàcilment amb algun llenguatge de programació (divideix i venceràs).
 
-La programación estructural y modular se lleva a cabo en python3 con la definición de funciones.
+La programació estructural i modular es duu a terme en python3 amb la definició de funcions.
 
-## Definición de funciones
 
-Veamos un ejemplo de definición de función:
+## Definició de funcions
+
+Veiem un exemple de definició de funció:
 
 	>>> def factorial(n):
 	...   """Calcula el factorial de un número"""
@@ -21,21 +22,21 @@ Veamos un ejemplo de definición de función:
 	...     resultado*=i
 	...   return resultado
 
-Podemos obtener información de la función:
+Podem obtenir informació de la funció:
 
 	>>> help(factorial)
 	Help on function factorial in module __main__:
 	factorial(n)
     	Calcula el factorial de un número
 
-Y para utilizar la función:
+i per utilitzar la funció:
 
 	>>> factorial(5)
 	120
 
-## Ámbito de variables. Sentencia global
+## Àmbit de variables. Sentència global
 
-Una variable local se declara en su ámbito de uso (en el programa principal y dentro de una función) y una global fuera de su ámbito para que se pueda utilizar en cualquier función que la declare como global. 
+Una variable local es declara en el seu àmbit d'ús (en el programa principal i dins d'una funció) i una global fora del seu àmbit perquè es pugui utilitzar en qualsevol funció que la declari com a global.
 
 	>>> def operar(a,b):
 	...    global suma
@@ -52,7 +53,7 @@ Una variable local se declara en su ámbito de uso (en el programa principal y d
 	>>> suma
 	9
 
-Podemos definir variables globales, que serán visibles en todo el módulo. Se recomienda declararlas en mayúsculas:
+Podem definir variables globals, que serán visibles en tot el mòdul. Es recomana declarar-les en majúscules:
 
 	>>> PI = 3.1415
 	>>> def area(radio):
@@ -62,17 +63,19 @@ Podemos definir variables globales, que serán visibles en todo el módulo. Se r
 	12.566
 
 
-## Parámetros formales y reales
+## Paràmetros formals i realss
 
-* Parámetros formales: Son las variables que recibe la función, se crean al definir la función. Su contenido lo recibe al realizar la llamada a la función de los parámetro reales. Los parámetros formales son variables locales dentro de la función.
+* Paràmetres formals: Són les variables que rep la funció, es creen en definir la funció. El seu contingut el rep en realitzar la crida a la funció dels paràmetre reals. Els paràmetres formals són variables locals dins de la funció.
 
-* Parámetros reales: Son la expresiones que se utilizan en la llamada de la función, sus valores se copiarán en los parámetros formales.
+* Paràmetres reals: Són les expressions que s' utilitzen en la trucada de la funció, els seus valors es copiaran en els paràmetres formals.
 
-## Paso de parámetro por valor o por referencia
 
-En Python el paso de parámetros es siempre por referencia. El lenguaje no trabaja con el concepto de variables sino objetos y referencias. Al realizar la asignación a = 1 no se dice que "a contiene el valor 1" sino que "a referencia a 1". Así, en comparación con otros lenguajes, podría decirse que en Python los parámetros siempre se pasan por referencia.
+## Pas de paràmetre per valor o per referència
 
-Evidentemente si se pasa un valor de un objeto inmutable, su valor no se podrá cambiar dentro de la función:
+A Python el pas de paràmetres és sempre per referència. El llenguatge no treballa amb el concepte de variables sinó objectes i referències. En realitzar l'assignació a = 1 no es diu que "a conté el valor 1" sinó que "a referència a 1". Així, en comparació amb altres llenguatges, es podria dir que a Python els paràmetres sempre es passen per referència.
+
+Evidentment si es passa un valor d' un objecte immutable, el seu valor no es podrà canviar dins la funció:
+
 
 	>>> def f(a):
 	...     a=5
@@ -81,7 +84,7 @@ Evidentemente si se pasa un valor de un objeto inmutable, su valor no se podrá 
 	>>> a
 	1
 
-Sin embargo si pasamos un objeto de un tipo mutable, si podremos cambiar su valor:
+No obstant si passem un objecte d'un tipus mutable, si podrem canviar el seu valor:
 
 	>>> def f(lista):
 	...   lista.append(5)
@@ -91,11 +94,12 @@ Sin embargo si pasamos un objeto de un tipo mutable, si podremos cambiar su valo
 	>>> l
 	[1, 2, 5]
 
-Aunque podemos cambiar el parámetro real cuando los objetos pasados son de tipo mutables, no es recomendable hacerlo en Python. En otros lenguajes es necesario porque no tenemos opción de devolver múltiples valores, pero como veremos en Python podemos devolver tuplas o lista con la instrucción `return`.
+Tot i que podem canviar el paràmetre real quan els objectes passats són de tipus mutables, no és recomanable fer-ho a Python. En altres llenguatges és necessari perquè no tenim opció de retornar múltiples valors, però com veurem a Python podem tornar tuplas o llista amb la instrucció 'return'.
 
-## Llamadas a una función
+## Crides a una funció
 
-Cuando se llama a una función se tienen que indicar los parámetros reales que se van a pasar. La llamada a una función se puede considerar una expresión cuyo valor y tipo es el retornado por la función. Si la función no tiene una instrucción `return` el tipo de la llamada sera `None`.
+Quan es crida a una funció s' han d' indicar els paràmetres reals que s' han de passar. La crida a una funció es pot considerar una expressió el valor i el tipus de la qual és el retornat per la funció. Si la funció no té una instrucció 'return' el tipus de l'anomenada sera 'None'.
+
 
 	>>> def cuadrado(n):
 	...   return n*n
@@ -108,12 +112,12 @@ Cuando se llama a una función se tienen que indicar los parámetros reales que 
 	>>> type(cuadrado(2))
 	<class 'int'>
 
-Cuando estamos definiendo una función estamos creando un objeto de tipo `function`.
+Quan estem definint una funció estem creant un objecte de tipus `function`.
 
 	>>> type(cuadrado)
 	<class 'function'>
 
-Y por lo tanto puedo guardar el objeto función en otra variable:
+I per lo tant pot guardar el objecte funció en una alra variable:
 
 	>>> c=cuadrado
 	>>> c(4)
