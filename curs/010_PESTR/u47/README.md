@@ -1,5 +1,51 @@
 # Tipus especials de funciones
 
+## Nested functions
+
+En python podem tenir una funció dintre d'una altra. Per exemple
+
+```python
+def outer(x):
+    def inner(y):
+        return x + y
+    return inner
+
+add_five = outer(5)
+result = add_five(6)
+print(result)  # prints 11
+```
+
+ Output: 11
+
+
+## Funcions passats com a argument o retornar valor
+
+Una altra opció es passar la funció com un argument més.Això en alguns casos ens pots servir per reduir codi. Un exemple el podem trobar:
+
+```python
+def add(x, y):
+    return x + y
+
+def calculate(func, x, y):
+    return func(x, y)
+
+result = calculate(add, 4, 6)
+print(result)  # prints 10
+```
+Un exemple de retorn de funció com a valor el tenim:
+
+```python
+def greeting(name):
+    def hello():
+        return "Hello, " + name + "!"
+    return hello
+
+greet = greeting("Atlantis")
+print(greet())  # prints "Hello, Atlantis!"
+ Output: Hello, Atlantis!
+
+```
+
 ## Funcions recursives
 
 Una funció recursiva es aquella que al executar-se fa crides a si mateixa. Per lo tant hem de tenir "un cas base" que fa terminar el bucle de crides. Veiem un exemple:
