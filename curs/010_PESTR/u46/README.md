@@ -2,7 +2,7 @@
 
 ## Tipus d'arguments: posicionals o keyword
 
-Tenim dos tipus de paràmetres: els posicionals on el paràmetre real ha de  coincidir en posició amb el paràmetre formal:
+Tenim dos tipus de paràmetres: **els posicionals** on el paràmetre real ha de  coincidir en posició amb el paràmetre formal:
 
 	>>> def sumar(n1,n2):
 	...   return n1+n2
@@ -32,16 +32,16 @@ A més podem tenir paràmetres amb valors per defecte:
 	'La resta es -2'
 
 
-Els paràmetres keyword son aquells on s'indican el nom del paràmetre formal i el seu valor, per lo tant no es necesari que tinguin la mateixa posició. Al definir una funció o al cridar-la, s'ha d'indicar primer els arguments posicionals i a continuació els arguments amb valor per defecte (keyword). 
+Els paràmetres **keyword** son aquells on s'indican el nom del paràmetre formal i el seu valor, per lo tant no es necesari que tinguin la mateixa posició. Al definir una funció o al cridar-la, s'ha d'indicar primer els arguments posicionals i a continuació els arguments amb valor per defecte (keyword). 
 
 	>>> operar(5,7)	# dos parámetros posicionales
 	>>> operar(n1=4,n2=6)	# dos parámetros keyword
 	>>> operar(4,6,respuesta="La suma es")	# dos parámetros posicionales y uno keyword
 	>>> operar(4,6,respuesta="La resta es",operador="-")	# dos parámetros posicionales y dos keyword
 
-## Parámetro *
+## Paràmetre *
 
-Un parámetro `*` entre los parámetros formales de una función, nos obliga a indicar los parámetros reales posteriores como keyword:
+Un paràmetre `*` entre els paràmetres formals d'una funció, ens obliga a indicar els paràmetres reals posteriors amb **keyword**:
 
 	>>> def sumar(n1,n2,*,op="+"):
 	...   if op=="+":
@@ -140,4 +140,4 @@ La instrucció `return` pot retornar qualsevol tipus de resultats, per lo tant e
 	10
 
 ***
-[Index](../../../README.md)
+[Index](../../../README.md)						[Tipus Especials de funcions](../u47/README.MD)
