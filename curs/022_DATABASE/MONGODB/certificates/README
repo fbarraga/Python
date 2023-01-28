@@ -1,0 +1,4 @@
+# S'ha d'instalar el certificat annexe per evitar
+# que python doni error al connectar a Mongo Atlas
+
+# pymongo.errors.ServerSelectionTimeoutError: ac-lffe6fx-shard-00-01.c5vvpgj.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: cer5

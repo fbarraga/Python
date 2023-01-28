@@ -1,0 +1,15 @@
+# Francesc Barragan
+# Version: 1.0  
+# Date: 04.Nov.2022
+# Mongo Script to create database parking
+# MongoDB is created when some we create collections.
+
+
+use parking 
+db;
+db.createCollection("places");
+db.createCollection("preus_minut");
+db.createCollection("historial");
+show collections;
+
+db.createUser( { user: "adminbdd", pwd: "12345678", roles:["dbAdmin"] })

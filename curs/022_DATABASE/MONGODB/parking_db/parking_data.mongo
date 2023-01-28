@@ -1,0 +1,39 @@
+# Francesc Barragan
+# Version: 1.0 
+# Date: 04.Nov.2022
+# Sample Data for parking database
+
+
+
+db.places.insertMany([ {id: "01", grandaria: "petita", planta: "1", ocupada: "no"}, 
+                       {id: "02", grandaria: "petita", planta: "1", ocupada: "no"}, 
+                       {id: "03", grandaria: "normal", planta: "1", ocupada: "no"}, 
+                       {id: "04", grandaria: "normal", planta: "1", ocupada: "no"}, 
+                       {id: "05", grandaria: "normal", planta: "1", ocupada: "no"}, 
+                       {id: "06", grandaria: "normal", planta: "1", ocupada: "no"}, 
+                       {id: "07", grandaria: "gran", planta: "1", ocupada: "no"},
+                       {id: "08", grandaria: "gran", planta: "1", ocupada: "no"}, 
+                       {id: "09", grandaria: "normal", planta: "2", ocupada: "no"}, 
+                       {id: "10", grandaria: "normal", planta: "2", ocupada: "no"}, 
+                       {id: "11", grandaria: "normal", planta: "2", ocupada: "no"}, 
+                       {id: "12", grandaria: "normal", planta: "2", ocupada: "no"},
+                       {id: "13", grandaria: "normal", planta: "2", ocupada: "no"}, 
+                       {id: "14", grandaria: "normal", planta: "2", ocupada: "no"}, 
+                       {id: "15", grandaria: "normal", planta: "2", ocupada: "no"}, 
+                       {id: "16", grandaria: "normal", planta: "2", ocupada: "no"}, 
+                       {id: "17", grandaria: "gran", planta: "3", ocupada: "no"}, 
+                       {id: "18", grandaria: "gran", planta: "3", ocupada: "no"}, 
+                       {id: "19", grandaria: "gran", planta: "3", ocupada: "no"}, 
+                       {id: "20", grandaria:  "gran", planta: "3", ocupada: "no"} ]);
+
+db.preus_minut.insertMany([ {data: ISODate("2021-01-01T00:00Z"), preu: 0.29},
+                            {data: ISODate("2022-01-01T00:00Z"), preu: 0.30},
+                            {data: ISODate("2023-01-01T00:00Z"), preu: 0.35}]);
+
+db.historial.insertMany([{moment: ISODate("2023-01-03T13:45Z"), matricula: "4321BXF", moviment: "entrar", lloc: "07"},
+                         {moment: ISODate("2023-01-03T14:34Z"), matricula: "4321BXF", moviment: "sortir", lloc: "07"},
+                         {moment: ISODate("2023-03-23T21:05Z"), matricula: "1242FGH", moviment: "entrar", lloc: "03"},
+                         {moment: ISODate("2023-03-24T07:15Z"), matricula: "1242FGH", moviment: "sortir", lloc: "03"},
+                         {moment: ISODate("2023-02-15T15:00Z"), matricula: "4799KGB", moviment: "entrar", lloc: "11"},
+                         {moment: ISODate("2023-02-15T17:01Z"), matricula: "4799KGB", moviment: "sortir", lloc: "11"}]);
+
