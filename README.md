@@ -47,7 +47,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 	* Extensions de Visual Studio Code 
 	* Virtual Environments
     	* Virtualenv
-    	* AnaConda
+    	* Anaconda
 
 5. [El meu primer programa en Python3](curs/000_INTRO/u5/README.md)
    
