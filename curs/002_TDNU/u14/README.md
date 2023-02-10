@@ -19,13 +19,13 @@ Exemple:
 ```
 
 3. Calcular el perímetre i àrea d'un cercle donat el seu radi.
-
+```
 Exemple:
     >>> Introdueix el radi del cercle:
     12
     >>> El perimetre es: xxx
     >>> L'àrea es: yyy
-
+```
 
 4. Donats dos números, mostrar la suma, resta, divisió i multiplicació d'ambdós.
 
