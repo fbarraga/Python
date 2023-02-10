@@ -1,4 +1,5 @@
-# Exercicis d'alternatives
+# Activitat 2 
+## Exercicis d'alternatives
 
 
 1. Realitza un programa que demani dos números ‘a’ i ‘b’ i indiqui si la suma és positiva, negativa o zero.
