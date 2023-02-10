@@ -7,8 +7,8 @@ Python és un llenguatge:
 * Interpretat
 * Alt nivell
 * Multiparadigma, ja que suporta :
-  * **orientació a objectes**
   * **programació imperativa**
+  * **orientació a objectes**
   * **programació funcional**
 * Multiplataforma
 * Lliure
