@@ -32,7 +32,7 @@ Python és un llenguatge:
 * Gran quantitat de mòduls, moltíssimes funcionalitats
 * Una gran comunitat que recolza el projecte
 * Està preinstal·lat en la majoria de sistemes
-* Molt utilitzat per l'anàlisi i accès de dades
+* Molt utilitzat per l'anàlisi i **accès de dades**
 
 
 ## Índex Tiobe
