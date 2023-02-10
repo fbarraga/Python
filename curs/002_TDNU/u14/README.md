@@ -1,4 +1,5 @@
-# Exercicis de programes senzills
+# Activitat 1
+## Exercicis de programes senzills
 
 1. Escriure un programa que pregunti a l'usuari el seu nom i retorni una salutació.
 
