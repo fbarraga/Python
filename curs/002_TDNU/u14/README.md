@@ -2,21 +2,21 @@
 ## Exercicis de programes senzills
 
 1. Escriure un programa que pregunti a l'usuari el seu nom i retorni una salutació.
-
+```
 Exemple:
     >>> Com et dius?
     Francesc
     >>> Hola Francesc!
-
+```
 2. Calcular el perímetre i àrea d'un rectangle donada la seva base i la seva alçada.
-
+```
 Exemple:
     >>> Introdueix la base:
     12
     >>> Introdueix l'alçada: 
     10
     >>> L'area del rectangle és: 120
-
+```
 
 3. Calcular el perímetre i àrea d'un cercle donat el seu radi.
 
