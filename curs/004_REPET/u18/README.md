@@ -1,4 +1,5 @@
-# Exercicis de repetitives
+# Activitat 3
+## Exercicis de repetitives
 
 1. Demanar un número per teclat i mostrar la taula de multiplicar amb un while
 
