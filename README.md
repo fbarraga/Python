@@ -265,7 +265,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 	* Procés de serialització
 	* Procés de deserialització
   
-37. [Tipus de fitxers](curs/007_FILES/u36b/README.md))
+37. [Tipus de fitxers](curs/007_FILES/u36b/README.md)
 	
 	* Fitxers de texte
 	* Fitxers binaris
