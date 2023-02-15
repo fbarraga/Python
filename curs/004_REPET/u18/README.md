@@ -66,9 +66,8 @@
 
 10. El codi següent pot conduir a un bucle infinit. Corregiu el codi perquè pugui acabar correctament per a tots els números.
 
-```
 Exemple:
-
+```
       >>> print(is_power_of_two(0)) # Retorna False
       >>> print(is_power_of_two(1)) # Retorna True
       >>> print(is_power_of_two(8)) # Retorna True
