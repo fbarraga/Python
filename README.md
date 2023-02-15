@@ -25,7 +25,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 | Activitat						| Unitats Teoria																  | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
-| Treball amb fitxers | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|
+| Treball amb fitxers                                   | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|
 
 
 
