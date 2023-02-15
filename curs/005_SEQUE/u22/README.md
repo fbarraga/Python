@@ -1,4 +1,5 @@
-# Exercicis de llistes
+# Introducció a Python
+## Activitat de llistes
 
 1. Realitzar un programa que llegeix per teclat números i guarda-ho en una llista, el procés finalitza quan introduim un número negatiu. Mostra el màxim dels números que hem guardat a la llista, i després mostra els números pars.
 
