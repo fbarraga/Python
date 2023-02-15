@@ -2,6 +2,7 @@
 # Activitat 3: Estructures Repetitives
 
 1. Demanar un número per teclat i mostrar la taula de multiplicar amb un while
+
 ```
 	Entrada: Entra un número:
 	Sortida: 1 x 1 = 1	
@@ -10,6 +11,7 @@
 ```
 
 2. Demanar un número per teclat i mostrar la taula de multiplicar amb un for
+
 ```   
    Entrada: Entra un número:
 	Sortida: 1 x 1 = 1	
@@ -18,12 +20,14 @@
 ```
 
 3. Crea un programa que demani un número i calculi el seu factorial (El factorial d'un número és el producte de tots els enters entre 1 i el propi número i es representa pel nombre seguit d'un signe d'exclamació. 
-   
+
+```
    Entrada: Entra el numero: 5
    Sortida: 5! = 1x2x3x4x5 = 120
-
+```
 
 4. Crea un programa que permeti endivinar un número. En primer lloc l'aplicació demana un número sencer per teclat. A continuació va demanant números i va responent si el número a endivinar és major o menor que l' introduït. El programa acaba quan s'encerta el número.
+
 ```
 	Entrada: Entra el numero secret: 9
 	Entrada: Entra un número: 4
