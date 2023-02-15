@@ -1,4 +1,5 @@
-# Exercicis de diccionaris
+# Introducció a Python
+# Activitat 5: Diccionaris
 
 1. Escriu un programa que llegeixi una cadena i retorni un diccionari amb la quantitat d'aparicions de cada paraula a la cadena. Per exemple, si rep "Qué lindo día que hace hoy" haurà de  retornar: 'que': 2, 'lindo': 1, 'día': 1, 'hace': 1, 'hoy': 1
 
