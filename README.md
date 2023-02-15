@@ -12,10 +12,10 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
 | Introducció               | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md) | |
 | Estructura del llenguatge |[6](curs/001_ESTRU/u6/README.md) [7](curs/001_ESTRU/u7/README.md) [8](curs/001_ESTRU/u8/README.md) [9](curs/001_ESTRU/u9/README.md) [10](curs/001_ESTRU/u10/README.md)| |
-| Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [14](curs/002_TDNU/u14/README.md) |
-| Estructures de control Alternatives/Condicionals (IF) | [15](curs/003_ALTER/u15/README.md) | [16](curs/003_ALTER/u16/README.md) |
-| Estructures de control Repetitives (WHILE / FOR)      | [17](curs/004_REPET/u17/README.md) | [18](curs/004_REPET/u18/README.md) |
-| Tipus de dades seqüència : Llistes					| [19](curs/005_SEQUE/u19/README.md) [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [22](curs/005_SEQUE/u22/README.md) |
+| Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [A1](curs/002_TDNU/u14/README.md) |
+| Estructures de control Alternatives/Condicionals (IF) | [15](curs/003_ALTER/u15/README.md) | [A2](curs/003_ALTER/u16/README.md) |
+| Estructures de control Repetitives (WHILE / FOR)      | [17](curs/004_REPET/u17/README.md) | [A3](curs/004_REPET/u18/README.md) |
+| Tipus de dades seqüència : Llistes					| [19](curs/005_SEQUE/u19/README.md) [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [A4](curs/005_SEQUE/u22/README.md) |
 | Tipus de dades seqüència : Tuples i	Rangs				| [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
 | Tipus de dades seqüència : Cadenes			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[29](curs/005_SEQUE/u29/README.md) | 
 | Tipus de dades bytesarray,set,frozenset|[30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
