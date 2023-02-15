@@ -8,7 +8,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 
 ## Unitats formatives
-| Activitats UF0						| Unitats Teoria																  | Exercicis |
+|  UF0						| Unitats Teoria																  | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
 | Introducció               | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md) | |
 | Estructura del llenguatge |[6](curs/001_ESTRU/u6/README.md) [7](curs/001_ESTRU/u7/README.md) [8](curs/001_ESTRU/u8/README.md) [9](curs/001_ESTRU/u9/README.md) [10](curs/001_ESTRU/u10/README.md)| |
@@ -23,7 +23,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Errors i excepcions | [43](curs/008_EXCEP/u01/README.md)| |
 | Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [A7](curs/011_POOB/u54/README.md)|
 
-| Activitats UF1					| Unitats Teoria																        | Exercicis |
+|  UF1					| Unitats Teoria																        | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
 | Treball amb fitxers                                   | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|
 
