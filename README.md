@@ -16,10 +16,10 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Estructures de control Alternatives/Condicionals (IF) | [15](curs/003_ALTER/u15/README.md) | [A2](curs/003_ALTER/u16/README.md) |
 | Estructures de control Repetitives (WHILE / FOR)      | [17](curs/004_REPET/u17/README.md) | [A3](curs/004_REPET/u18/README.md) |
 | Tipus de dades seqüència : Llistes					| [19](curs/005_SEQUE/u19/README.md) [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [A4](curs/005_SEQUE/u22/README.md) |
+| Tipus de dades Diccionaris			| [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [A5](curs/006_MAPES/u35/README.md)|
 | Tipus de dades seqüència : Tuples i	Rangs				| [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
 | Tipus de dades seqüència : Cadenes			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[29](curs/005_SEQUE/u29/README.md) | 
 | Tipus de dades bytesarray,set,frozenset|[30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
-| Tipus de dades Diccionaris			| [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [35](curs/006_MAPES/u35/README.md)|
 | Treball amb fitxers | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|
 | Errors i excepcions | [43](curs/008_EXCEP/u01/README.md)| |
 | Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [54](curs/011_POOB/u54/README.md)|
