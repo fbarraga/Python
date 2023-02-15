@@ -1,6 +1,5 @@
-# Activitat 2 
-## Exercicis d'alternatives
-
+# Introducció a Python
+# Activitat 2: Condicionals
 
 1. Realitza un programa que demani dos números ‘a’ i ‘b’ i indiqui si la suma és positiva, negativa o zero.
 
