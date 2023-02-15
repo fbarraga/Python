@@ -1,5 +1,5 @@
-# Activitat 3
-## Exercicis de repetitives
+# Introducció a Python
+# Activitat 3: Estructures Repetitives
 
 1. Demanar un número per teclat i mostrar la taula de multiplicar amb un while
 
