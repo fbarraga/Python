@@ -1,5 +1,5 @@
-# Activitat 1
-## Exercicis de programes senzills
+# Introducció a Python
+## Activitat 1: Programes senzills
 
 1. Escriure un programa que pregunti a l'usuari el seu nom i retorni una salutació.
 ```
