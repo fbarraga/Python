@@ -1,4 +1,5 @@
-# Exercicis de cadenes
+# Introducció a Python
+## Activitat 6: Cadenes
 
 1. Crear un programa que llegeixi per teclat una cadena i un carácter, i insereixi el caracter entre cada lletra de la cadena.
    
