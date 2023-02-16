@@ -61,8 +61,6 @@ Exemple
     3
     >>> El cost es: 6,2€
 ```
-```
-
 
 ***
 [Index](../../../README.md)
