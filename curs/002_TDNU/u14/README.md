@@ -37,7 +37,7 @@ Exemple:
 
 8. Imagineu que acabeu d'obrir un nou compte d'estalvis que us ofereix el 4% d'interès a l'any. Aquests estalvis a causa d'interessos que no es cobren fins a finals d'any, s'afegeixen al balanç final del vostre compte d'estalvis. Escriure un programa que comenci llegint la quantitat de diners dipositada al compte d'estalvis, introduït per l'usuari. Després, el programa ha de calcular i mostrar per pantalla la quantitat d'estalvis després del primer, segon i tercer anys. Arrodonir cada quantitat a dos decimals.
 
-9.  Un fleca ven barres de pa a 3.49€ cadascuna. El pa que no és el dia té un descompte del 60%. Escriure un programa que comenci llegint el nombre de barres venudes que no són del dia. Després, el programa ha de mostrar el preu habitual d'una barra de pa, el descompte que se li fa per no ser fresca i el cost final total.
+9.  Un fleca ven barres de pa a 3.49€ cadascuna. El pa que no és el dia té un descompte del 60%. Escriure un programa que comenci llegint el nombre de barres d'avui i el número de barres que no són del dia. Després, el programa ha de demanar quantes barres vol l'usuari i restar-ho de les disponibles, mostrant-li el cost que ha de pagar. (Haurà de tenir en compte el descompte i que no es poden vendre més barres de les disponibles.
 
 
 ***
