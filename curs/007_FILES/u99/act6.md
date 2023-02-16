@@ -1,5 +1,5 @@
 # Introducció a Python
-## Activitat 5
+## Activitat 5: Treball amb fitxers
 
 ### Explicació
 
