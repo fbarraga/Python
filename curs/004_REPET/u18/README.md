@@ -5,18 +5,20 @@
 
 ```
 	Entrada: Entra un número:
-	Sortida: 1 x 1 = 1	
-             1 x 2 = 2     
-			 ...
+	Sortida: 
+		1 x 1 = 1	
+             	1 x 2 = 2     
+		 ...
 ```
 
 2. Demanar un número per teclat i mostrar la taula de multiplicar amb un for
 
 ```   
-   Entrada: Entra un número:
-	Sortida: 1 x 1 = 1	
-             1 x 2 = 2     
-			 ...
+   	Entrada: Entra un número:
+	Sortida: 
+		1 x 1 = 1	
+             	1 x 2 = 2     
+		 ...
 ```
 
 3. Crea un programa que demani un número i calculi el seu factorial (El factorial d'un número és el producte de tots els enters entre 1 i el propi número i es representa pel nombre seguit d'un signe d'exclamació. 
@@ -42,10 +44,11 @@
 
 ```
    Entrada: -
-   Sortida: 1 x 1 = 1	
-            1 x 2 = 2     
-			...
-			2 x 1 = 2
+   Sortida: 
+   		1 x 1 = 1	
+            	1 x 2 = 2     
+	     	...
+	    	2 x 1 = 2
 ```
 
 6. Escriu un programa que digui si un número introduït per teclat és o no primer. Un número primer és aquell que només és divisible entre ell mateix i la unitat.
