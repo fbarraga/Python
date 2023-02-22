@@ -69,28 +69,33 @@
 
 8. Escriu un programa que imprimeixi tots els factors primers d'un nombre. Un factor primer és un nombre que és primer i en divideix un altre sense resta.
 
+``` 
+Entrada: Entra un número: 100
+Sortida: Els factors primers son 2,5
+```
+
 9. El codi següent pot conduir a un bucle infinit. Corregiu el codi perquè pugui acabar correctament per a tots els números.
 
 Exemple:
 ```
-      >>> print(is_power_of_two(0)) # Retorna False
-      >>> print(is_power_of_two(1)) # Retorna True
-      >>> print(is_power_of_two(8)) # Retorna True
-      >>> print(is_power_of_two(9)) # Retorna False
+      >>> print(es_potencia_de_dos(0)) # Retorna False
+      >>> print(es_potencia_de_dos(1)) # Retorna True
+      >>> print(es_potencia_de_dos(8)) # Retorna True
+      >>> print(es_potencia_de_dos(9)) # Retorna False
 ```
 Nota: proveu d'executar la vostra funció amb el número 0 com a entrada i mireu què obteniu!
 ```
-      >>> def is_power_of_two(n):
-      >>> # Check if the number can be divided by two without a remainder
+      >>> def es_potencia_de_dos(n):
+      >>> 
       >>>   while n!=0 and n % 2 == 0:
       >>>      n = n / 2
       >>> return False
  ```
 ```
-      >>> print(is_power_of_two(0)) # Retorna False
-      >>> print(is_power_of_two(1)) # Retorna True
-      >>> print(is_power_of_two(8)) # Retorna True
-      >>> print(is_power_of_two(9)) # Retorna False
+      >>> print(es_potencia_de_dos(0)) # Retorna False
+      >>> print(es_potencia_de_dos(1)) # Retorna True
+      >>> print(es_potencia_de_dos(8)) # Retorna True
+      >>> print(es_potencia_de_dos(9)) # Retorna False
 ```
 
 10.   Crea un programa que retorni la suma de tots els divisors d'un nombre, sense incloure a si mateix. Un divisor és un nombre que es divideix en un altre sense resta.
