@@ -64,11 +64,9 @@
    Sortida esperada: 654321
 ```
 
-8. Escriu un programa que digui si un número introduit per teclat es o no primer. Un número primer es aquel que només es divisible per ell mateix i la unitat.
+8. Escriu un programa que imprimeixi tots els factors primers d'un nombre. Un factor primer és un nombre que és primer i en divideix un altre sense resta.
 
-9. Escriu un programa que imprimeixi tots els factors primers d'un nombre. Un factor primer és un nombre que és primer i en divideix un altre sense resta.
-
-10. El codi següent pot conduir a un bucle infinit. Corregiu el codi perquè pugui acabar correctament per a tots els números.
+9. El codi següent pot conduir a un bucle infinit. Corregiu el codi perquè pugui acabar correctament per a tots els números.
 
 Exemple:
 ```
@@ -92,7 +90,7 @@ Nota: proveu d'executar la vostra funció amb el número 0 com a entrada i mireu
       >>> print(is_power_of_two(9)) # Retorna False
 ```
 
-11.   Crea un programa que retorni la suma de tots els divisors d'un nombre, sense incloure a si mateix. Un divisor és un nombre que es divideix en un altre sense resta.
+10.   Crea un programa que retorni la suma de tots els divisors d'un nombre, sense incloure a si mateix. Un divisor és un nombre que es divideix en un altre sense resta.
 
 Exemple:
 ```      
@@ -106,7 +104,7 @@ Exemple:
       # 114
 ```
 
-12.   Crea un programa que imprimeixi els resultats d'un nombre  multiplicat per 1 a 5. Un requisit addicional és que el resultat no superi 25 (Utilitza l'instrucció break.) 
+11.   Crea un programa que imprimeixi els resultats d'un nombre  multiplicat per 1 a 5. Un requisit addicional és que el resultat no superi 25 (Utilitza l'instrucció break.) 
 
 Exemple:
 ```
