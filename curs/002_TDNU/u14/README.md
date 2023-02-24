@@ -23,7 +23,7 @@ Exemple:
 Exemple:
     >>> Introdueix el radi del cercle:
     12
-    >>> El perimetre es: 75.4
+    >>> El perímetre es: 75.4
     >>> L'àrea es: 452.4
 ```
 
