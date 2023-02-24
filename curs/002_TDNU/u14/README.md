@@ -16,7 +16,7 @@ Exemple:
     >>> Introdueix l'alçada: 
     10
     >>> El perímetre del rectangle és: 44
-    >>> L'area del rectangle és: 120
+    >>> L'àrea del rectangle és: 120
 
 ```
 
@@ -45,6 +45,14 @@ Exemple:
 5. Escriure un programa que demani una paraula a l'usuari, per després imprimir-la 1000 vegades, amb espais intermitjos.
 
 6. Realiza un programa que rebi una quantitat de minuts i mostri per pantalla a quantes hores i minuts correspon. Per exemple: 1000 minuts son 16 hores i 40 minuts.
+
+Exemple:
+>>> Entra el nombre de minuts:
+    90
+    >>> Hores: 1
+    >>> Minuts: 30
+    >>> Segons: 0
+``` 
 
 7. Una botiga de joguines té molt èxit en dos dels seus productes: pallassos i nines. Sol fer venda per correu i l'empresa de logística els cobra per pes de cada paquet així que han de calcular el pes dels pallassos i nines que sortiran a cada paquet a demanda. Cada pallasso pesa 112 g i cada nina 75 g. Escriure un programa que llegeixi el nombre de pallassos i nines venuts a l'última comanda i calculi el pes total del paquet que serà enviat.
 
