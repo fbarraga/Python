@@ -45,7 +45,7 @@ Exemple:
 5. Escriure un programa que demani una paraula a l'usuari, per després imprimir-la 1000 vegades, amb espais intermitjos.
 
 6. Realiza un programa que rebi una quantitat de minuts i mostri per pantalla a quantes hores i minuts correspon. Per exemple: 1000 minuts son 16 hores i 40 minuts.
-
+```
 Exemple:
 >>> Entra el nombre de minuts:
     90
