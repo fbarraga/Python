@@ -28,10 +28,9 @@ Exemple:
 ```
 
 4. Donats dos números, mostrar la suma, resta, divisió i multiplicació d'ambdós.
-Exemple:
-
 ```
-    >>> Entra el primer número:
+Exemple:
+>>> Entra el primer número:
     12
     >>> Entra el segon número:
     2
