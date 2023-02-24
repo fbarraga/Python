@@ -23,8 +23,8 @@ Exemple:
 Exemple:
     >>> Introdueix el radi del cercle:
     12
-    >>> El perimetre es: xxx
-    >>> L'àrea es: yyy
+    >>> El perimetre es: 75.4
+    >>> L'àrea es: 452.4
 ```
 
 4. Donats dos números, mostrar la suma, resta, divisió i multiplicació d'ambdós.
