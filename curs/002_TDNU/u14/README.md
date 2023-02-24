@@ -15,7 +15,9 @@ Exemple:
     12
     >>> Introdueix l'alçada: 
     10
+    >>> El perímetre del rectangle és: 44
     >>> L'area del rectangle és: 120
+
 ```
 
 3. Calcular el perímetre (P = 2 × π × r) i àrea (A = π × r^2) d'un cercle donat el seu radi.
