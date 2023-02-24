@@ -44,7 +44,7 @@ Exemple:
 
 6. Realiza un programa que rebi una quantitat de minuts i mostri per pantalla a quantes hores i minuts correspon. Per exemple: 1000 minuts son 16 hores i 40 minuts.
 
-7. Una botiga de joguines té molt èxit en dos dels seus productes: pallassos i nines. Sol fer venda per correu i l'empresa de logística els cobra per pes de cada paquet així que han de calcular el pes dels pallassos i nines que sortiran a cada paquet a demanda. Cada pallasso pesa 112 g i cada canell 75 g. Escriure un programa que llegeixi el nombre de pallassos i nines venuts a l'última comanda i calculi el pes total del paquet que serà enviat.
+7. Una botiga de joguines té molt èxit en dos dels seus productes: pallassos i nines. Sol fer venda per correu i l'empresa de logística els cobra per pes de cada paquet així que han de calcular el pes dels pallassos i nines que sortiran a cada paquet a demanda. Cada pallasso pesa 112 g i cada nina 75 g. Escriure un programa que llegeixi el nombre de pallassos i nines venuts a l'última comanda i calculi el pes total del paquet que serà enviat.
 
 8. Imagineu que acabeu d'obrir un nou compte d'estalvis que us ofereix el 4% d'interès a l'any. Aquests estalvis a causa d'interessos que no es cobren fins a finals d'any, s'afegeixen al balanç final del vostre compte d'estalvis. Escriure un programa que comenci llegint la quantitat de diners dipositada al compte d'estalvis, introduït per l'usuari. Després, el programa ha de calcular i mostrar per pantalla la quantitat d'estalvis després del primer, segon i tercer anys. Arrodonir cada quantitat a dos decimals.
 
