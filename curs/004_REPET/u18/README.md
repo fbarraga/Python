@@ -67,7 +67,7 @@
    Sortida esperada: 654321
 ```
 
-8. Escriu un programa que imprimeixi tots els factors primers d'un nombre. Un factor primer és un nombre que és primer i en divideix un altre sense resta.
+8. Escriu un programa que imprimeixi tots els factors primers d'un nombre. Considerarem que és factor primer si és un nombre primer més petit que el nombre introduit i a la vegada aquest nombre primer divideix al nombre de tal manera que la resta és zero.
 
 ``` 
 Entrada: Entra un número: 100
