@@ -20,7 +20,7 @@ Exemple:
 
 ```
 
-3. Calcular el perímetre (P = 2 × π × r) i àrea (A = π × r^2) d'un cercle donat el seu radi.
+3. Calcular el perímetre (P = 2 × π × r) i àrea (A = π × r<sup>2</sup>) d'un cercle donat el seu radi.
 ```
 Exemple:
     >>> Introdueix el radi del cercle:
