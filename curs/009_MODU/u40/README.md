@@ -6,7 +6,7 @@
 
 ## Executant mòduls amb scripts
 
-Si hem creat un mòdul, on hem definit dos funcions i hem fet un programa principal on s'utilitzzen aquestes funcions, tenim dos opcions: executar aquest mòdul com un script o importar aquest mòdul des d'un altre, per utilitzar les seves funcions. Per exemple, si tenim un fitxer anomenat `potencias.py`:
+Si hem creat un mòdul, on hem definit dos funcions i hem fet un programa principal on s'utilitzen aquestes funcions, tenim dos opcions: executar aquest mòdul com un script o importar aquest mòdul des d'un altre, per utilitzar les seves funcions. Per exemple, si tenim un fitxer anomenat `potencias.py`:
 
 	#!/usr/bin/env python	
 
