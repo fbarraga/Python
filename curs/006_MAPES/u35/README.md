@@ -45,10 +45,10 @@
 
 6. La funció groups_per_user rep un diccionari, que conté noms de grups amb la llista d'usuaris. Els usuaris poden pertànyer a diversos grups. Crear un programa per tornar un diccionari amb els usuaris com a claus i una llista dels seus grups com a valors.
 
-		>>> def groups_per_user(group_dictionary):
+		>>> def grups_per_usuari(grup_dictionary):
 		>>> ...
 
-		>>> print(groups_per_user({"local": ["admin", "userA"],"public":  ["admin", "userB"],"administrator": ["admin"] }))
+		>>> print(grups_per_usuari({"local": ["admin", "userA"],"public":  ["admin", "userB"],"administrator": ["admin"] }))
 
 
 7. El mètode dict.update actualitza un diccionari amb els elements procedents de l'altre diccionari, de manera que se substitueixen les entrades existents i s'afegeixen noves entrades. Quin és el contingut del diccionari "armari" al final del codi següent?
@@ -73,12 +73,12 @@ Opcions:
 		>>> print(suma_preus(super)) # Ha d'imprimir 28.44
 
 
-9. Realitza el codi per iterar a través de les claus i valors del diccionari car_prices, imprimint informació sobre cadascun.
+9. Realitza el codi per iterar a través de les claus i valors del diccionari preus_cotxe, imprimint informació sobre cadascun.
 
-		>>> def car_listing(car_prices):
+		>>> def llistar_cotxes(preus_cotxe):
 		>>> ...
 	
-		>>> print(car_listing({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":13000, "Toyota Prius":24000}))
+		>>> print(llistar_cotxes({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":13000, "Toyota Prius":24000}))
 
 10. Pere i Marta organitzen una festa. Van enviar invitacions als seus amics i cadascun va recopilar les respostes en diccionaris de python, amb els noms dels seus amics i quants convidats porta cada amic. Cada diccionari és una llista parcial, però la llista de Marta té informació més actualitzada sobre el nombre de convidats. Crear un programa per combinar els dos diccionaris en un sol, amb cada amic llistat només una vegada, i el nombre de convidats del diccionari de Marta té prioritat, si hi ha un nom repetit als dos diccionaris. A continuació, imprimiu el diccionari resultant.
 
@@ -88,7 +88,7 @@ Opcions:
 		>>> Pere_invitats = { "Joan":2, "Maite":3, "David":1, "Josep":3, "Carla":2, "Terry":1, "Robert":4}
 		>>> Marta_invitats = { "David":4, "Laia":1, "Robert":2, "Joan":1, "Mar":3, "Erik":5}
 
-		>>> print(combine_invitats(Marta_invitats, Pere_invitats))
+		>>> print(combina_invitats(Marta_invitats, Pere_invitats))
 
 ***
 [Index](../../../README.md)
