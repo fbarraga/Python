@@ -38,7 +38,7 @@ Com veiem en el apartat "Tipus de dades seqüència" podem realitzar les següen
 		>>> lista[-1]
 		6
 
-* Slice: S'utilitza de la següent manera
+* Slice: s'utilitza de la següent manera:
 
 	* `llista[start:end]` 	  # Elements des de la posició start fins end-1
 	* `llista[start:]`    	  # Elements desde la posició start fins el final
