@@ -20,7 +20,7 @@ Per crear una llista puc utilitzar diferents mètodes:
 
 ## Operacions bàsiques amb llistes
 
-Com veiem en el apartado "Tipo de datos secuencia" podemos realizar las siguientes operaciones:
+Com veiem en el apartat "Tipus de dades seqüència" podem realitzar les següents operacions:
 
 * Les seqüències es poden recórrer.
 * Operadors de pertanyença: `in` i `not in`.
@@ -43,8 +43,8 @@ Com veiem en el apartado "Tipo de datos secuencia" podemos realizar las siguient
 	* `llista[start:end]` 	  # Elements des de la posició start fins end-1
 	* `llista[start:]`    	  # Elements desde la posició start fins el final
 	* `llista[:end]`      	  # Elements des de el principio fins la posició end-1
-	* `llista[:]` 		 	  # Tots els elements
-	* `llista[start:end:step]` # Igual que l'anterior pero donant step salts.
+	* `llista[:]` 		  # Tots els elements
+	* `llista[start:end:step]`# Igual que l'anterior pero donant step salts.
  		
  	Es poden utilitzar també indexs negatius, per exemple: `llista[::-1]`
 
@@ -108,7 +108,7 @@ Si volem copiar una llista en una altra podem fer-ho de moltes maneres:
 
 ## Llistes multidimensionals
 
-A la hora de definir les llistes hem indicat que podem guardar en elles dades de qualsevol tipus, i evidentement podem guardar llistes dintre de llistes. 
+A la hora de definir les llistes hem indicat que podem guardar en elles dades de qualsevol tipus, i evidentment podem guardar llistes dintre de llistes. 
 
 	>>> taula = [[1,2,3],[4,5,6],[7,8,9]]
 	>>> taula[1][1]
