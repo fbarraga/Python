@@ -23,12 +23,24 @@ Exemple:
 ```
 Exemple:
 	Entrada:
-		Llista [‘Digues’, ‘bon’, ‘día’, ‘al’, ‘pare’], 
+		Llista [‘Digues’, ‘bon’, ‘dia’, ‘al’, ‘pare’], 
 	Sortida:
-		[‘pare’, ‘al’, ‘día’, ‘bon’, ‘Digues’].
+		[‘pare’, ‘al’, ‘dia’, ‘bon’, ‘Digues’].
 ```
 
-3. Donada una llista de cadenes, es demana una cadena por teclat i s'indica si está a la llista, indica quantes vegades apareix a la llista,  llegeix una altra cadena i substitueix la primera per la segona en la llista, y al final borra la cadena de la llista
+3. Donada una llista de cadenes, es demana una cadena por teclat, i s'indica si está a la llista, indica quantes vegades apareix a la llista,  llegeix una altra cadena i substitueix la primera per la segona en la llista, y al final borra la cadena de la llista
+
+```
+Exemple:
+	Entrada:
+		Llista de Cadenes: ['Hola','Adeu','bon','dia,'Francesc']
+		Entra una cadena: Hola
+	Sortida:
+		'Hola' Apareix 1 vegada.
+	Entrada: Entra una nova cadena: "Joan"
+	Sortida: Llista de Cadenes: ['Joan','Adeu','bon','dia','Francesc']
+		 Llista de Cadenes: ['Adeu','bon','dia','Francesc'] 
+```
 
 4. Donada una llista, fer un programa que indiqui si està ordenada o no.
 
