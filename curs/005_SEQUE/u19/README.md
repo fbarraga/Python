@@ -4,7 +4,7 @@ Els tipus de dades sequència em permet guardar una successió de dades de difer
 
 * Les llistes (`list`): Em permeten guardar un conjunt de dades que es poden repetir i que poden ser de diferents tipus. Es un tipus mutable.
 * Les tuples (`tuple`): Serveixen per lo mateix que les llistes, per en aquest cas es un tipus inmutable.
-* Els rangs (`range`): Es un tipus de seqüència que ens permet crear seqüèncias de números. Es un tipus inmutable i es sol utilitzar per realitzar bucles.
+* Els rangs (`range`): Es un tipus de seqüència que ens permet crear seqüències de números. Es un tipus inmutable i es sol utilitzar per realitzar bucles.
 * Las cadenes de caràcters (`str`): Ens permeten guardar seqüències de caràcters. És un tipus inmutable. 
 * Les seqüències de bytes (`byte`): Em permet guardar valors binaris representats per caracters ASCII.És un tipus inmutable.
 * Les seqüències de bytes (`bytearray`): En aquest cas son iguals que les anteriors, pero son de tipus mutable.
