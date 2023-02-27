@@ -2,7 +2,7 @@
 
 Els tipus de dades sequència em permet guardar una successió de dades de diferents tipus. Els tipus de dades seqüències en python son: 
 
-* Les llistes (`list`): Em permeten guardar un conjunt de dades que es poden repetir i que poden ser de diferents tipus. Es un tipus mutable.
+* Les llistes (`list`): Em permeten guardar un conjunt de dades que es poden repetir i que poden ser de diferents tipus. Es un tipus *mutable*.
 * Les tuples (`tuple`): Serveixen per lo mateix que les llistes, per en aquest cas es un tipus inmutable.
 * Els rangs (`range`): Es un tipus de seqüència que ens permet crear seqüències de números. Es un tipus inmutable i es sol utilitzar per realitzar bucles.
 * Las cadenes de caràcters (`str`): Ens permeten guardar seqüències de caràcters. És un tipus inmutable. 
