@@ -90,8 +90,19 @@ Per activar i desactivar l'entorn virtual:
 	$ 
 
 
-## Creants entorns virutals en Windows amb virtualenv
+## Creants entorns virtuals en Windows amb virtualenv
 
+S'instal·la el mòdul de virtual env
+
+```
+pip install virtualenv
+```
+
+Desde la carpeta del nostre projecte executem:
+```
+virtualenv .venv
+```
+On `.venv` es la carpeta del nostre entorn virtual. Es recomana utilitzar aquest nom (.venv)
 
 ## Instal·lant paquets en el nostre entorn virtual
 
