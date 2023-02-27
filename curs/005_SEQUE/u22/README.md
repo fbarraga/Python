@@ -69,7 +69,7 @@ Exemple:
         >>> print(octal_a_string(600))                                          # Retorna rw-------
 
 
-8. La funció group_list accepta un nom de grup i una llista de membres, i retorna una cadena amb el format: nom_grup: membre1, membre2, … Per exemple, llista_grup("g", ["a","b","c"] ) retorna "g: a, b, c". Crear un programa per fer-ho.
+8. La funció *grup_llista* accepta un nom de grup i una llista de membres, i retorna una cadena amb el format: nom_grup: membre1, membre2, … Per exemple, *grup_llista*("g", ["a","b","c"] ) retorna "g: a, b, c". Crear un programa per fer-ho.
 
         >>> def grup_llista(group, users):
     
