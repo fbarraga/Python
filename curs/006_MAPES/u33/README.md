@@ -12,7 +12,7 @@ Els [diccionaris](https://docs.python.org/3/library/stdtypes.html#mapping-types-
 	>>> a == b == c == d == e
 	True
 
-Si tenim un diccionari buit, al ser un objecte mutable, també podem construir el dicccionar de la següent manera:
+Si tenim un diccionari buit, al ser un objecte mutable, també podem construir el diccionari de la següent manera:
 
 	>>> dict1 = {}
 	>>> dict1["one"]=1
