@@ -444,7 +444,9 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 61. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
 
+	* Jupyter Lab
 	* Jupyter Notebook
+	* Jupyter Voilà
 
 62. [Data Management](curs/012_IA/u100/README.md)
 
