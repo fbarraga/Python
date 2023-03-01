@@ -1,7 +1,7 @@
 # Introducció a Jupyter
 
 * Jupyter es un framework per la creació de documents on es barregen càlculs, textes, codi, imatges etc.
-Es pot consultar el procés d'instal·lació en el següent [link](https://jupyter.org/insta
+Es pot consultar el procés d'instal·lació en el següent [link](https://jupyter.org/install)
 
 ### Jupyter Notebook
 
