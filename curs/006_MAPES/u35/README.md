@@ -3,7 +3,7 @@
 
 1. Escriu un programa que llegeixi una cadena i retorni un diccionari amb la quantitat d'aparicions de cada paraula a la cadena. Per exemple, si rep "Qué lindo día que hace hoy" haurà de  retornar: 'que': 2, 'lindo': 1, 'día': 1, 'hace': 1, 'hoy': 1
 
-2. Tenim guardat en un diccionari els codis morse coresponents a cada caràcter. Escriu un programa que llegeixi una paraula i la mostri utilitzant el codi morse.
+2. Tenim guardat en un diccionari els codi MORSE corresponent a cada caràcter. Escriu un programa que llegeixi una paraula i la mostri utilitzant el codi MORSE.
 
 		>>> codi = {
 	    	'A': '.-',     'B': '-...',    'C': '-.-.',
@@ -29,21 +29,21 @@
 
 3. Continuant amb el programa: ara feu que el programa demani un codi morse separat per espais i retorni la cadena corresponent.
 
-4. Crea un diccionari que contingui com a clau el nom d'una persona i coma valor una llista amb totes les seves aficions.  Desenvolupa un programa que agregi aficions a la persona:
+4. Crea un diccionari que contingui com a clau el nom d'una persona i coma valor una llista amb totes les seves aficions. Desenvolupa un programa que agregi aficions a la persona:
     * Si la persona no existeix l'agregui al diccionari amb una lista que conté un sol element.
     * Si la persona existeix i l'afició existeix en la llista, no tingui cap efecte.
     * Si la persona existeix i l'afició no existeix en la llista, agregui l'afició a la llista.
 	* Es deixa de demanar persones quan introduim el caràcter "*".
 
-5. La funció email_list rep un diccionari, que conté noms de domini com a claus i una llista d'usuaris com a valors. Crear un programa per generar una llista que contingui adreces de correu electrònic completes (p. ex., diana.prince@gmail.com).
+5. La funció email_llista rep un diccionari, que conté noms de domini com a claus i una llista d'usuaris com a valors. Crear un programa per generar una llista que contingui adreces de correu electrònic completes (p. ex., diana.prince@gmail.com).
 
-		>>> def email_list(domains):
+		>>> def email_llista(dominis):
 		>>> ...
 
-		>>>print(email_list({"gmail.com": ["clark.kent", "diana.prince", "peter.parker"], "yahoo.com": ["barbara.gordon", "jean.grey"], "hotmail.com": ["bruce.wayne"]}))
+		>>>print(email_llista({"gmail.com": ["clark.kent", "diana.prince", "peter.parker"], "yahoo.com": ["barbara.gordon", "jean.grey"], "hotmail.com": ["bruce.wayne"]}))
 
 
-6. La funció groups_per_user rep un diccionari, que conté noms de grups amb la llista d'usuaris. Els usuaris poden pertànyer a diversos grups. Crear un programa per tornar un diccionari amb els usuaris com a claus i una llista dels seus grups com a valors.
+6. La funció grups_per_usuari rep un diccionari, que conté noms de grups amb la llista d'usuaris. Els usuaris poden pertànyer a diversos grups. Crear un programa per tornar un diccionari amb els usuaris com a claus i una llista dels seus grups com a valors.
 
 		>>> def grups_per_usuari(grup_dictionary):
 		>>> ...
