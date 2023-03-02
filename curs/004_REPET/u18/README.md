@@ -129,7 +129,19 @@ Exemple:
 #### Grup A:
 12. Crea un programa que et digui quins son els propers anys bisiests en els propers 50 anys.
 
-   
+13. Fer un programa que demani de quantes caselles te un tauler d'escacs i imprimeixi per pantalla el resultat.
+
+Exemple:
+```
+   Entrada: Número de Caselles: 8
+   Sortida: BNBNBNBN
+            NBNBNBNB
+            BNBNBNBN  
+            NBNBNBNB
+	    BNBNBNBN
+	    NBNBNBNB
+	    BNBNBNBN
+	    NBNBNBNB
 
 ***
 [Index](../../../README.md)
