@@ -1,7 +1,7 @@
 # Introducció a Python
 ## Activitat 5: Diccionaris
 
-1. Escriu un programa que llegeixi una cadena i retorni un diccionari amb la quantitat d'aparicions de cada paraula a la cadena. Per exemple, si rep "Qué lindo día que hace hoy" haurà de  retornar: 'que': 2, 'lindo': 1, 'día': 1, 'hace': 1, 'hoy': 1
+1. Escriu un programa que llegeixi una cadena i retorni un diccionari amb la quantitat d'aparicions de cada paraula a la cadena. Per exemple, si rep "que lindo día que hace hoy" haurà de  retornar: 'que': 2, 'lindo': 1, 'día': 1, 'hace': 1, 'hoy': 1
 
 2. Tenim guardat en un diccionari els codi MORSE corresponent a cada caràcter. Escriu un programa que llegeixi una paraula i la mostri utilitzant el codi MORSE.
 
