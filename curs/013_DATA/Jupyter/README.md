@@ -12,6 +12,10 @@ Es pot consultar tota la informació sobre Jupyter en el següent [link](https:/
 ```python
 pip install notebook
 ```
+Per executar-ho, des del simbol de sistema
+```
+jupyter-notebook
+```
 
 ### JupyterLab
 
