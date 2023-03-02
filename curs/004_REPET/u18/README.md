@@ -126,6 +126,11 @@ Exemple:
       # Retorna: 8x1=8 8x2=16 8x3=24
 ```
 
+Grup A:
+12. Crea un programa que et digui quins son els propers anys bisiests en els propers 50 anys.
+
+   
+
 ***
 [Index](../../../README.md)
 
