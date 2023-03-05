@@ -16,7 +16,7 @@ El mòdul [os](https://docs.python.org/3.11/library/os.html#module-os) ens perme
 <tbody>
 <tr>
   <td>Saber si es pot accedir a un arxiu o directori</td>
-  <td><code>os.access(path, modo_de_acceso)</code></td>
+  <td><code>os.access(path, mode_de_acces)</code></td>
 </tr>
 <tr>
   <td>Conèixer el directori actual</td>
@@ -36,15 +36,15 @@ El mòdul [os](https://docs.python.org/3.11/library/os.html#module-os) ens perme
 </tr>
 <tr>
   <td>Canviar el propietari d'un arxiu o directorio</td>
-  <td><code>os.chown(path, permisos)</code></td>
+  <td><code>os.chown(path, permissos)</code></td>
 </tr>
 <tr>
   <td>Crear un directori</td>
-  <td><code>os.mkdir(path[, modo])</code></td>
+  <td><code>os.mkdir(path[, mode])</code></td>
 </tr>
 <tr>
   <td>Crear directoris recursivament</td>
-  <td><code>os.mkdirs(path[, modo])</code></td>
+  <td><code>os.mkdirs(path[, mode])</code></td>
 </tr>
 <tr>
   <td>Eliminar un fitxer</td>
@@ -60,21 +60,21 @@ El mòdul [os](https://docs.python.org/3.11/library/os.html#module-os) ens perme
 </tr>
 <tr>
   <td>Renombrar un fitxer</td>
-  <td><code>os.rename(actual, nuevo)</code></td>
+  <td><code>os.rename(actual, nou)</code></td>
 </tr>
 <tr>
   <td>Crear un enllaç simbòlic</td>
-  <td><code>os.symlink(path, nombre_destino)</code></td>
+  <td><code>os.symlink(path, nom_desti)</code></td>
 </tr>
 </tbody>
 </table>
 
 	>>> import os
 	>>> os.getcwd()
-	'/home/jose/github/curso_python3/curso/u40'
+	'/home/francesc/github/python/curs/u40'
 	>>> os.chdir("..")
 	>>> os.getcwd()
-	'/home/jose/github/curso_python3/curso'
+	'/home/francesc/github/python/curs'
 
 El mòdul os també ens proveeix del submòdul path (os.path) el qual ens permet accedir a certes funcionalitats relacionades amb els noms de les rutes de fitxers i directoris.
 
@@ -134,7 +134,7 @@ El mòdul os també ens proveeix del submòdul path (os.path) el qual ens permet
 Amb la funció `system()` del mòdul `os` ens permet executar comandes del sistema operatiu.
 
 	>>> os.system("ls")
-	curso  modelo.odp  README.md
+	curs  model.odp  README.md
 	0
 
 La funció ens retorna un codi per indicar si l'instrucció s'ha executat amb èxit.
@@ -143,13 +143,13 @@ Tenim una altre manera d'executar comandes del sistema operatiu que ens dona mé
 
 	>>> import subprocess
 	>>> subprocess.call("ls")
-	curso  modelo.odp  README.md
+	curs  model.odp  README.md
 	0
 
 	>>> salida=subprocess.check_output("ls")
 	>>> print(salida.decode())
-	curso
-	modelo.odp
+	curs
+	model.odp
 	README.md
 
 	>>> salida=subprocess.check_output(["df","-h"])
