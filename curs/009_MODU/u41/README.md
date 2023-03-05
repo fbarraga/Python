@@ -1,4 +1,4 @@
-# Mòduls estándars: mòduls de sistema
+# Mòduls estàndards: mòduls de sistema
 
 Python té els seus propis mòduls, els quals formen part de la seva llibreria de mòduls estàndard, que també poden ser importats. En aquesta unitat anem a estuir les funcions principals de mòduls relacionats amb el sistema operatiu i especialment amb el treball amb fitxers i directoris.
 
