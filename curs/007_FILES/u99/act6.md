@@ -8,15 +8,15 @@ L’elecció del bloc d’exercicis es realitzarà en funció del següents càl
 	A	són els dos darrers números del vostre any de naixement.
     M	és el número que correspon al mes de la vostra data de naixement
 
-N = (D+A+M) mod 4
+N = (D+A+M) mod 5
 
-| N	  |BLOC|
-|-----|----|
-| 0	  | A  |
-| 1	  | B  |
-| 2   | C  |
-| 3   | D  |
-
+| N   | BLOC |
+|-----|------|
+| 0   |  A   |
+| 1   |  B   |
+| 2   |  C   |
+| 3   |  D   |
+| 4   |  E   |
 
 ### A. GESTOR DE FITXERS
 
@@ -81,4 +81,20 @@ l’aparcament.
 * Es recomana que totes les operacions que realitzi el programa hauràn de estar implementades mitjançant 
 funcions.
 * L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
+
+
+### E. GESTIÓ D'UNA BIBLIOTECA
+
+Crear un programa que permeti gestionar una biblioteca i el procés de prestec de llibres.
+
+Aclaracions:
+* Les dades dels llibres que hi ha a la biblioteca  (isbn,nom,autor) estaran disponibles a un fitxer CSV. 
+* Els llibres es podran prestar gratuitament per un periode de 7 dies. En cas d'entrega posterior s'haurà de pagar 5€ per dia de retras. Tots els préstecs s'hauran de guardar en un fitxer CSV.
+* Els socis de la biblioteca (DNI, nom, idsoci, telefon) els guardarem a un fitxer JSON.
+* El programa haurà de permetre prestar llibres i fer el retorn.En el cas de retorn amb penalització, s'haurà d'informar al soci que ha de pagar l'import.
+* Es recomana que totes les operacions que realitzi el programa hauràn de estar implementades mitjançant 
+funcions.
+* L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
+
+
 
