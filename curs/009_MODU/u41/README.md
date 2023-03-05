@@ -24,7 +24,7 @@ El mòdul [os](https://docs.python.org/3.11/library/os.html#module-os) ens perme
 </tr>
 <tr>
   <td>Canviar de directori de treball</td>
-  <td><code>os.chdir(nuevo_path)</code></td>
+  <td><code>os.chdir(nou_path)</code></td>
 </tr>
 <tr>
   <td>Canviar el directori de treball arrel</td>
@@ -32,7 +32,7 @@ El mòdul [os](https://docs.python.org/3.11/library/os.html#module-os) ens perme
 </tr>
 <tr>
   <td>Canviar els permissos d'un arxiu o directori</td>
-  <td><code>os.chmod(path, permisos)</code></td>
+  <td><code>os.chmod(path, permissos)</code></td>
 </tr>
 <tr>
   <td>Canviar el propietari d'un arxiu o directorio</td>
