@@ -1,0 +1,37 @@
+version: '3.9'
+services:
+    php-apache:
+        image: mitlabs/apache-php7.3
+        volumes:
+            - http-data:/var/www/html
+            - type: bind
+              source: /mydir/index.php
+              target: /var/www/html/index.php
+        deploy:
+          resources:
+            limits:
+             cpus: '0.50'
+             memory: 1024M
+            reservations:
+             cpus: '0.25'
+             memory: 512M
+
+    mariadb:
+        image: mariadb:10.4
+        volumes:
+            - maria-data:/var/lib/mysql
+            - type: bind
+              source: /conf/my.cnf
+              target: /etc/mysql/my.cnf    
+        environment:
+            MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+            MYSQL_ROOT_PASSWORD: "mypassword"
+            MYSQL_USER: 'myuser'
+            MYSQL_PASSWORD: 'mypasswd'
+            MYSQL_DATABASE: 'enquestes'
+        ports:
+            - target: 3306
+              published: 3306
+volumes:
+  http-data:
+  maria-data:
