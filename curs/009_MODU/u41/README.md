@@ -2,7 +2,7 @@
 
 Python té els seus propis mòduls, els quals formen part de la seva llibreria de mòduls estàndard, que també poden ser importats. En aquesta unitat anem a estuir les funcions principals de mòduls relacionats amb el sistema operatiu.
 
-## Mòdulo os
+## Mòdul os
 
 El mòdul [os](https://docs.python.org/3.11/library/os.html#module-os) ens permet accedir a funcionalitats dependenes del Sistema Operatiu. Sobre tot, aquelles que ens refereixen informació sobre l'entorn del mateix i ens permeten manipular l'estructura de directoris.
 
@@ -279,7 +279,20 @@ Podem enviar informació (arguments) a un programa quan s'executa como un script
 	Has introducido 4 argumento
 	La suma es  12
 
+## Altres mòduls interessants
 
+### pathlib
+Permet manipular rutes de sistemes d'arxius de forma agnòstica en qualsevol sistema 
+operatiu. El mòdul pathlib és similar a l'os.path, però pathlib ofereix una interfície de 
+nivell més alt, i, sovint, més convenient, que os.path.
+
+### glob
+Inclou funcions per buscar en una ruta tots els noms d'arxius i/o directoris que 
+coincideixin amb un determinat patró que pot contenir comodins com els que s'utilitzen 
+en un intèrpret de comandaments tipus Unix (*,?, []).
+
+### filecmp
+Defineix funcions per comparar fitxers i directoris
 
 ***
 [Index](../../../README.md)
