@@ -25,6 +25,35 @@ Beautiful Soup admet l'analitzador HTML inclòs a la biblioteca estàndard de Py
 
 `pip install lxml`
 
+## Exemple de fitxer XML (dict.xml)
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<saranghe>
+    <child name="Frank" test="0">
+     FRANK lives EVERYONE
+    </child>
+    <unique>
+     Add a video URL here
+    </unique>
+    <child name="Texas" test="1">
+     Exclusively
+    </child>
+    <unique>
+     Add a workbook URL here
+    </unique>
+    <data>
+     Add the content of your article here
+        <family>
+        Add the font of your text here
+        </family>
+        <size>
+        Add the font size of your text here
+        </size>
+    </data>
+</saranghe>
+```
+
+
 ## Lectura de fitxers XML amb BeautifulSoup
 
 Lectura de dades d'un fitxer XML
@@ -71,6 +100,30 @@ print(value)
 
 Escriure un fitxer xml és un procés primitiu, raó per la qual això és el fet que els fitxers xml no estan codificats d'una manera especial. La modificació de seccions d'un document xml requereix que s'analitzi a través d'ell al principi. E
 
+```python
+from bs4 import BeautifulSoup
+
+# Reading data from the xml file
+with open('../dicto.xml', 'r') as f:
+	data = f.read()
+
+# Passing the data of the xml
+# file to the xml parser of
+# beautifulsoup
+bs_data = BeautifulSoup(data, 'xml')
+
+# A loop for replacing the value
+# of attribute `test` to WHAT !!
+# The tag is found by the clause
+# `bs_data.find_all('child', {'name':'Frank'})`
+for tag in bs_data.find_all('child', {'name':'Frank'}):
+	tag['test'] = "WHAT !!"
+
+
+# Output the contents of the
+# modified xml file
+print(bs_data.prettify())
+```
 
 
 ## Lectura de fitxers XML amb ElementTree
@@ -86,32 +139,6 @@ Per llegir un fitxer XML utilitzant ElementTree seguirem aquestes passes:
 5. Mostreu els atributs de la subetiqueta de la nostra etiqueta principal utilitzant root[0].attrib. root[0] per a la primera etiqueta d'arrel pare i attrib per obtenir els seus atributs.
 6. Mostrar el text inclòs dins de la 1a subetiqueta de la 5a subetiqueta de l'arrel de l'etiqueta.
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<saranghe>
-    <child name="Frank" test="0">
-     FRANK lives EVERYONE
-    </child>
-    <unique>
-     Add a video URL here
-    </unique>
-    <child name="Texas" test="1">
-     Exclusively
-    </child>
-    <unique>
-     Add a workbook URL here
-    </unique>
-    <data>
-     Add the content of your article here
-        <family>
-        Add the font of your text here
-        </family>
-        <size>
-        Add the font size of your text here
-        </size>
-    </data>
-</saranghe>
-```
 
 
 ```python
