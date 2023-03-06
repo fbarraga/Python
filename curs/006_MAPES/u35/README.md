@@ -53,7 +53,7 @@
 
 7. El mètode dict.update actualitza un diccionari amb els elements procedents de l'altre diccionari, de manera que se substitueixen les entrades existents i s'afegeixen noves entrades. Quin és el contingut del diccionari "armari" al final del codi següent?
 
-		>>> armari = {'samarreta': ['vermell', 'blau', 'blanc'], 'pantalans': ['blau', 'negre']}
+		>>> armari = {'samarreta': ['vermell', 'blau', 'blanc'], 'pantalons': ['blau', 'negre']}
 		>>> nous_elements = {'pantalons': ['blanc'], 'bufana': ['groc'], 'mitjons': ['negre', 'marro']}
 		>>> armari.update(nous_elements)
 
