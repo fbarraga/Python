@@ -51,6 +51,34 @@ Per llegir un fitxer XML utilitzant ElementTree seguirem aquestes passes:
 5. Mostreu els atributs de la subetiqueta de la nostra etiqueta principal utilitzant root[0].attrib. root[0] per a la primera etiqueta d'arrel pare i attrib per obtenir els seus atributs.
 6. Mostrar el text inclòs dins de la 1a subetiqueta de la 5a subetiqueta de l'arrel de l'etiqueta.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<saranghe>
+    <child name="Frank" test="0">
+     FRANK lives EVERYONE
+    </child>
+    <unique>
+     Add a video URL here
+    </unique>
+    <child name="Texas" test="1">
+     Exclusively
+    </child>
+    <unique>
+     Add a workbook URL here
+    </unique>
+    <data>
+     Add the content of your article here
+        <family>
+        Add the font of your text here
+        </family>
+        <size>
+        Add the font size of your text here
+        </size>
+    </data>
+</saranghe>
+```
+
+
 ```python
 # importem el mòdul element tree
 # sota l'alias ET
