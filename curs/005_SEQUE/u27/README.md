@@ -59,7 +59,7 @@ Les cadenes es comparen caràcter a caràcter, en el moment en que dos caràcter
 
 ## Funcions repr, ascii, bin
 
-* `repr(objecte)`: Retorna una cadena de caràcters que representa la información d'un objecte.
+* `repr(objecte)`: Retorna una cadena de caràcters que representa la informació d'un objecte.
 
 		>>> repr(range(10))
 		'range(0, 10)'

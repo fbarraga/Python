@@ -21,11 +21,11 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Tipus de dades seqüència : Cadenes			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[A6](curs/005_SEQUE/u29/README.md) | 
 | Tipus de dades bytesarray,set,frozenset|[30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
 | Errors i excepcions | [43](curs/008_EXCEP/u01/README.md)| |
-| Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [A7](curs/011_POOB/u54/README.md)|
+| Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [A10](curs/011_POOB/u54/README.md)|
 
 |  Persistència de dades amb fitxers					| Unitats Teoria																        | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
-| Treball amb fitxers                                   | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|
+| Treball amb fitxers                                   | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|[A7](curs/007_FILES/u99/act6.md)
 
 
 
