@@ -73,7 +73,8 @@ Quan creem una cadena de caràcters estem creant un objecte de la classe `str`, 
 El mètode `index()` i `rindex()` son similars als anteriors pero provoquen una excepció `ValueError` quan no troba la subcadena. 
 
 ## Mètodes de validació
-
+	
+	>>> cad = "bienvenido a mi aplicación"
 	>>> cad.startswith("b")
 	True
 	>>> cad.startswith("m")
