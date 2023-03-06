@@ -23,7 +23,7 @@ Amb el propòsit de llegir i escriure el fitxer xml, estaríem utilitzant una bi
 
 Beautiful Soup admet l'analitzador HTML inclòs a la biblioteca estàndard de Python, però també admet una sèrie d'analitzadors Python de tercers. Un és l'analitzador lxml (utilitzat per analitzar documents XML/HTML). lxml es podria instal·lar executant l'ordre següent al processador d'ordres del vostre sistema operatiu:
 
-pip install lxml
+`pip install lxml`
 
 ## Lectura de fitxers XML amb BeautifulSoup
 
