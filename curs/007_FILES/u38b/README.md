@@ -89,7 +89,44 @@ print(root[5][0].text)
 4. A continuació, hem afegit text entre les  etiquetes E4 i D4 utilitzant el text de l'atribut que es troba dins de la funció SubElement. Al final vam convertir el tipus de dades dels continguts que estàvem creant des de 'xml.etree.ElementTree.Element' a objecte de bytes, utilitzant l'ordre ET.tostring() (tot i que el nom de la funció és tostring() en determinades implementacions converteix el tipus de dades a 'bytes' en lloc de 'str'). 
 5. Finalment, hem rentat les dades a un fitxer anomenat gameofsquares.xml que és una obertura en mode 'wb' per permetre escriure-hi dades binàries. Al final, vam guardar les dades al nostre fitxer.
 
+```python
+import xml.etree.ElementTree as ET
 
+# This is the parent (root) tag
+# onto which other tags would be
+# created
+data = ET.Element('chess')
+
+# Adding a subtag named `Opening`
+# inside our root tag
+element1 = ET.SubElement(data, 'Opening')
+
+# Adding subtags under the `Opening`
+# subtag
+s_elem1 = ET.SubElement(element1, 'E4')
+s_elem2 = ET.SubElement(element1, 'D4')
+
+# Adding attributes to the tags under
+# `items`
+s_elem1.set('type', 'Accepted')
+s_elem2.set('type', 'Declined')
+
+# Adding text between the `E4` and `D5`
+# subtag
+s_elem1.text = "King's Gambit Accepted"
+s_elem2.text = "Queen's Gambit Declined"
+
+# Converting the xml data to byte object,
+# for allowing flushing data to file
+# stream
+b_xml = ET.tostring(data)
+
+# Opening a file under the name `items2.xml`,
+# with operation mode `wb` (write + binary)
+with open("GFG.xml", "wb") as f:
+	f.write(b_xml)
+
+```
 
 ***
 [Index](../../../README.md)
