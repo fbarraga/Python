@@ -1,7 +1,7 @@
 
 ## Introducció
 
-Extensible Markup Language, comunment conegut com XML és un llenguatge dissenyat específicament per ser fàcil d'interpretar tant per humans com per ordinadors en conjunt. 
+E**X**tensible **M**arkup **L**anguage, comunment conegut com XML és un llenguatge dissenyat específicament per ser fàcil d'interpretar tant per humans com per ordinadors en conjunt. 
 
 El llenguatge defineix un conjunt de regles que s'utilitzen per codificar un document en un format específic. 
 
