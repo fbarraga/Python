@@ -21,11 +21,11 @@ Exemple:
 3. Crea un programa python que llegeixi una cadena de caràcters i mostri la següent informació:
 
    1. La primera lletra de cada paraula. 
-   	* Per exemple, si rep Universal Serial Bus ha de tornar USB.
+   		* Per exemple, si rep Universal Serial Bus ha de tornar USB.
    2. La cadena amb la primera lletra de cada paraula en majúscules. 
-   	* Per exemple, si rep república argentina ha de retornar República Argentina.
+   		* Per exemple, si rep república argentina ha de retornar República Argentina.
    3. Lae paraules que comencin amb la lletra A. 
-   	* Per exemple, si rep "Antes de ayer" ha de retornar "Antes ayer".
+   		* Per exemple, si rep "Antes de ayer" ha de retornar "Antes ayer".
 
 4. Escriure funcions que donades dos cadenes de caràcters:
 
