@@ -19,7 +19,7 @@ Hi ha dues biblioteques que es podrien utilitzar amb el propòsit d'analitzar xm
 
 Amb el propòsit de llegir i escriure el fitxer xml, estaríem utilitzant una biblioteca Python anomenada BeautifulSoup. Per instal·lar la biblioteca, escriviu l'ordre següent al terminal.
 
-pip install beautifulsoup4
+`pip install beautifulsoup4`
 
 Beautiful Soup admet l'analitzador HTML inclòs a la biblioteca estàndard de Python, però també admet una sèrie d'analitzadors Python de tercers. Un és l'analitzador lxml (utilitzat per analitzar documents XML/HTML). lxml es podria instal·lar executant l'ordre següent al processador d'ordres del vostre sistema operatiu:
 
