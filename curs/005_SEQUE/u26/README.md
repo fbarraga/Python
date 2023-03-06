@@ -22,7 +22,7 @@ En Python 3.x les cadenes de caràcters poden ser de tres tipus: Unicode, Byte i
 * El tipus `byte` només permetrà caràcteres ASCII i els caràcteres son també inmutables.
 * El tipus `bytearray` es como el tipus `byte` però, en aquest cas, els caràcters de una cadena si son mutables.
 
-Una cosa important a entendre, (insisteix Mark Pilgrim en su libro *Dive into Python*) es que "els bytes no son caracters, elss bytes son bytes; un carácter és en realitat una abstracció; i una cadena de caràcters és una successió d'abstraccions".
+Una cosa important a entendre, (tret del llibre *Dive into Python*) es que "els bytes no son caràcters, els bytes son bytes; un carácter és en realitat una abstracció; i una cadena de caràcters és una successió d'abstraccions".
 
 ## Funcions chr() y ord()
 
