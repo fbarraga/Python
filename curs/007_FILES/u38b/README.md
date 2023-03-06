@@ -32,6 +32,41 @@ Es requereixen dos passos per analitzar un fitxer xml:
 1.	Cerca d'etiquetes
 2.	Extracció d'etiquetes
 
+```python
+from bs4 import BeautifulSoup
+
+# Reading the data inside the xml
+# file to a variable under the name
+# data
+with open('../dict.xml', 'r') as f:
+	data = f.read()
+
+# Passing the stored data inside
+# the beautifulsoup parser, storing
+# the returned object
+Bs_data = BeautifulSoup(data, "xml")
+
+# Finding all instances of tag
+# `unique`
+b_unique = Bs_data.find_all('unique')
+
+print(b_unique)
+
+# Using find() to extract attributes
+# of the first instance of the tag
+b_name = Bs_data.find('child', {'name':'Frank'})
+
+print(b_name)
+
+# Extracting the data stored in a
+# specific attribute of the
+# `child` tag
+value = b_name.get('test')
+
+print(value)
+```
+
+
 ## Escriptura de fitxers XML amb BeautifulSoup
 
 Escriure un fitxer xml és un procés primitiu, raó per la qual això és el fet que els fitxers xml no estan codificats d'una manera especial. La modificació de seccions d'un document xml requereix que s'analitzi a través d'ell al principi. E
