@@ -40,11 +40,45 @@ Escriure un fitxer xml és un procés primitiu, raó per la qual això és el fe
 
 ## Lectura de fitxers XML amb ElementTree
 
-Ús d'Elementree
+
 El mòdul Elementree ens proporciona una gran quantitat d'eines per manipular fitxers XML. La millor part d'això és la seva inclusió a la biblioteca integrada estàndard de Python. Per tant, no cal instal·lar cap mòdul extern per al propòsit. Com que el xmlformat és un format de dades inherentment jeràrquic, és molt més fàcil representar-lo per un arbre. El mòdul proporciona ElementTree proporciona mètodes per representar tot el document XML com un sol arbre. 
 
-Per llegir un fitxer XML utilitzant ElementTree, en primer lloc, importem la classe ElementTree que es troba dins de la biblioteca XML, sota el nom ET (common convension). A continuació, passeu el nom del fitxer xml al mètode ElementTree.parse(), per habilitar l'anàlisi del nostre fitxer xml. A continuació, obteniu l'arrel (etiqueta principal) del nostre fitxer xml mitjançant getroot(). A continuació, es mostrarà (imprès) l'etiqueta arrel del nostre fitxer xml (de manera no explícita). A continuació, mostreu els atributs de la subetiqueta de la nostra etiqueta principal utilitzant root[0].attrib. root[0] per a la primera etiqueta d'arrel pare i attrib per obtenir els seus atributs. A continuació, mostrem el text inclòs dins de la 1a subetiqueta de la 5a subetiqueta de l'arrel de l'etiqueta.
+Per llegir un fitxer XML utilitzant ElementTree seguirem aquestes passes:
+1. Importem la classe ElementTree que es troba dins de la biblioteca XML, sota el nom ET (common convension).
+2. Passem el nom del fitxer xml al mètode ElementTree.parse(), per habilitar l'anàlisi del nostre fitxer xml. 
+3. Obtenir l'arrel (etiqueta principal) del nostre fitxer xml mitjançant getroot(). 
+4. Es mostrarà (imprès) l'etiqueta arrel del nostre fitxer xml (de manera no explícita). 
+5. Mostreu els atributs de la subetiqueta de la nostra etiqueta principal utilitzant root[0].attrib. root[0] per a la primera etiqueta d'arrel pare i attrib per obtenir els seus atributs.
+6. Mostrar el text inclòs dins de la 1a subetiqueta de la 5a subetiqueta de l'arrel de l'etiqueta.
 
+```python
+# importem el mòdul element tree
+# sota l'alias ET
+import xml.etree.ElementTree as ET
+
+# Passem el path del fitxers xml
+# xper poder inciiar el proces de parsing
+
+tree = ET.parse('../data/dict.xml')
+
+# Agafem el tag de pare del document xml
+root = tree.getroot()
+
+# Imprimim el root (parent) tag
+# del document xmls, along with
+# its memory location
+print(root)
+
+# Imprimim els atributs del primer tag des
+# del pare
+print(root[0].attrib)
+
+# Imprimim el text contingut dintre
+# del primer subtage en el 5e tag des del
+# pare
+
+print(root[5][0].text)
+```
 
 
 ## Escriptura de fitxers XML amb ElementTree
