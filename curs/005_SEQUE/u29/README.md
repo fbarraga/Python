@@ -24,7 +24,7 @@ Exemple:
    		* Per exemple, si rep Universal Serial Bus ha de tornar USB.
    2. La cadena amb la primera lletra de cada paraula en majúscules. 
    		* Per exemple, si rep república argentina ha de retornar República Argentina.
-   3. Lae paraules que comencin amb la lletra A. 
+   3. Lae paraules que comencin amb la lletra A (majúscula o minúscula). 
    		* Per exemple, si rep "Antes de ayer" ha de retornar "Antes ayer".
 
 4. Escriure funcions que donades dos cadenes de caràcters:
