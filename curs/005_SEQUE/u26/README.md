@@ -14,7 +14,7 @@ La codificació unicode  ens permet representar tots els caràcters de tots els 
 
 UTF-8 es un sistema de codificació de longitud variable per Unicode. Això significa que els caràcters poden utilitzar diferent número de bytes.
 
-## La codificación de caracteres en python3
+## La codificació de caràcters amb python3
 
 En Python 3.x les cadenes de caràcters poden ser de tres tipus: Unicode, Byte i Bytearray.
 
