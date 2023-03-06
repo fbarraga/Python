@@ -3,7 +3,9 @@
 
 ### Explicació
 
-L’elecció del bloc d’exercicis es realitzarà en funció del següents càlcul:
+* Aquesta pràctica s'haurà d'explicar al professor i s'haurà de fer funcionar amb Linux.
+
+* L’elecció del bloc d’exercicis es realitzarà en funció del següents càlcul:
 	D	són els dos darrers números del DNI de l’alumne.
 	A	són els dos darrers números del vostre any de naixement.
     M	és el número que correspon al mes de la vostra data de naixement
