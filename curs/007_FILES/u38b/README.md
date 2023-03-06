@@ -49,11 +49,11 @@ Per llegir un fitxer XML utilitzant ElementTree, en primer lloc, importem la cla
 
 ## Escriptura de fitxers XML amb ElementTree
 
-1).-En primer lloc, creem una etiqueta arrel (pare) amb el nom d'escacs utilitzant l'ordre ET. Element('escacs'). Totes les etiquetes caurien per sota d'aquesta etiqueta, és a dir, un cop definida una etiqueta arrel, es podrien crear altres subelements a sota. A continuació, vam crear un subtag/subelement anomenat Obertura dins de l'etiqueta d'escacs utilitzant l'ordre ET. SubElement(). 
-2).-A continuació, hem creat dues subetiquetes més que es troben a sota de l'etiqueta Obertura anomenada E4 i D4. 
-3).-A continuació, hem afegit atributs a les  etiquetes E4 i D4 mitjançant set() que és un mètode que es troba dins de SubElement(), que s'utilitza per definir atributs a una etiqueta. 
-4).-A continuació, hem afegit text entre les  etiquetes E4 i D4 utilitzant el text de l'atribut que es troba dins de la funció SubElement. Al final vam convertir el tipus de dades dels continguts que estàvem creant des de 'xml.etree.ElementTree.Element' a objecte de bytes, utilitzant l'ordre ET.tostring() (tot i que el nom de la funció és tostring() en determinades implementacions converteix el tipus de dades a 'bytes' en lloc de 'str'). 
-5).-Finalment, hem rentat les dades a un fitxer anomenat gameofsquares.xml que és una obertura en mode 'wb' per permetre escriure-hi dades binàries. Al final, vam guardar les dades al nostre fitxer.
+1. En primer lloc, creem una etiqueta arrel (pare) amb el nom d'escacs utilitzant l'ordre ET. Element('escacs'). Totes les etiquetes caurien per sota d'aquesta etiqueta, és a dir, un cop definida una etiqueta arrel, es podrien crear altres subelements a sota. A continuació, vam crear un subtag/subelement anomenat Obertura dins de l'etiqueta d'escacs utilitzant l'ordre ET. SubElement(). 
+2. A continuació, hem creat dues subetiquetes més que es troben a sota de l'etiqueta Obertura anomenada E4 i D4. 
+3. A continuació, hem afegit atributs a les  etiquetes E4 i D4 mitjançant set() que és un mètode que es troba dins de SubElement(), que s'utilitza per definir atributs a una etiqueta. 
+4. A continuació, hem afegit text entre les  etiquetes E4 i D4 utilitzant el text de l'atribut que es troba dins de la funció SubElement. Al final vam convertir el tipus de dades dels continguts que estàvem creant des de 'xml.etree.ElementTree.Element' a objecte de bytes, utilitzant l'ordre ET.tostring() (tot i que el nom de la funció és tostring() en determinades implementacions converteix el tipus de dades a 'bytes' en lloc de 'str'). 
+5. Finalment, hem rentat les dades a un fitxer anomenat gameofsquares.xml que és una obertura en mode 'wb' per permetre escriure-hi dades binàries. Al final, vam guardar les dades al nostre fitxer.
 
 
 
