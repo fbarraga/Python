@@ -45,7 +45,6 @@ Si treballem amb fitxers de texte podem indicar també el paràmetre `encoding` 
 
 
 	>>> f = open("exemple.txt","w",encoding="utf-8")
-	>>> type(f)
 
 	>>> import locale
 	>>> locale.getpreferredencoding()
