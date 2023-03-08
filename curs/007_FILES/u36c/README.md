@@ -43,6 +43,10 @@ Els modes què podem seleccionar son:
 
 Si treballem amb fitxers de texte podem indicar també el paràmetre `encoding` que serà la codificació de caràcters utilitzats al treballar amb el fitxer. Per defecte s'utilitzarà la que estigui indicada pel sistema:
 
+
+	>>> f = open("exemple.txt","w",encoding="utf-8")
+	>>> type(f)
+
 	>>> import locale
 	>>> locale.getpreferredencoding()
 	'UTF-8'
