@@ -5,7 +5,7 @@
 La funció [open()](https://docs.python.org/3.11/library/functions.html#open) s'utilitza normalment amb dos paràmetres (fitxer amb el que anem a treballar i mode d'accés) i ens retorna un objecte de tipus fitxer.
 
 	>>> f = open("exemple.txt","w")
-	>>> type(f)
+	
 	<class '_io.TextIOWrapper'>
 	>>> f.close()
 
