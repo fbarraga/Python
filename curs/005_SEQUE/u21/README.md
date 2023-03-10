@@ -76,6 +76,8 @@ Quan creem una llista estem creant un objecte de la classe `list`, que té defin
 
 ## Mètodes de cerca: count, index
 
+*count(n)*: compta les vegades que apareix el valor n a la llista
+
 	>>> llista.count(5)
 	1
 
