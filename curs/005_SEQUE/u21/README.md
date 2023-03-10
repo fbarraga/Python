@@ -43,7 +43,7 @@ Quan creem una llista estem creant un objecte de la classe `list`, que té defin
 	>>> llista
 	[1, 2, 3, 4, 5]
 
-*Remove*^: Elimina el valor de la llista
+*Remove*: Elimina el valor de la llista
 
 	>>> llista.remove(3)
 	>>> llista
@@ -82,14 +82,14 @@ Quan creem una llista estem creant un objecte de la classe `list`, que té defin
 	>>> llista.append(5)
 	>>> llista
 	[5, 4, 2, 1, 5]
+
+*index(n)*: retorna la primera posició on es troba el valor n
 	>>> llista.index(5)
 	0
+*index(n,i): retorna la següent posició on es troba el valor n	
 	>>> llista.index(5,1)
 	4
-	>>> llista.index(5,1,4)
-	Traceback (most recent call last):
-	  File "<stdin>", line 1, in <module>
-	ValueError: 5 is not in list
+
 
 ## Mètode de copia: copy
 
