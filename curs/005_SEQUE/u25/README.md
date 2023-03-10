@@ -11,22 +11,30 @@ Al crear un rang (seqüència de números) obtenim un objecte que es de la class
 	<class 'range'>
 
 Exemples, convertint el rang en llista per veure la seqüència:
-
+```python
 	>>> list(range(10))
 	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-	
+```
+
+```python
 	>>> list(range(1, 11))
 	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-	
+```
+
+```python
 	>>> list(range(0, 30, 5))
 	[0, 5, 10, 15, 20, 25]
-	
+```
+
+```python
 	>>> list(range(0, 10, 3))
 	[0, 3, 6, 9]
-	
+```
+
+```python
 	>>> list(range(0, -10, -1))
 	[0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
-
+```
 ## Recorregut d'un rang
 
 Els rangs es solen utilitzar per ser recorregut, quan tinc que crear un bucle el número de iteracions del qual el sabem per avançat puc utilitzar una estructura com aquesta:
