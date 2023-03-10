@@ -7,15 +7,21 @@ Quan creem una llista estem creant un objecte de la classe `list`, que té defin
 
 ## Mètodes d'inserció: append, extend, insert
 
+*Append*: Afegeix al final de la llista:
+
 	>>> llista = [1,2,3]
 	>>> llista.append(4)
 	>>> llista
 	[1, 2, 3, 4]
 
+*Extend*: Esten la llista amb una nova llista
+
 	>>> llista2 = [5,6]
 	>>> llista.extend(lista2)
 	>>> llista
 	[1, 2, 3, 4, 5, 6]	
+
+*Insert*: Inserta en una posició un valor
 
 	>>> llista.insert(1,100)
 	>>> llista
@@ -23,15 +29,21 @@ Quan creem una llista estem creant un objecte de la classe `list`, que té defin
 
 ## Mètodes d'eliminació: pop, remove
 
+*Pop*: Elimina l'últim valor de la llista
+	
 	>>> llista.pop()
 	6
 	>>> llista
 	[1, 100, 2, 3, 4, 5]
 
+*Pop(n)*: Elimina el valor de la posició n
+
 	>>> llista.pop(1)
 	100
 	>>> llista
 	[1, 2, 3, 4, 5]
+
+*Remove*^: Elimina el valor de la llista
 
 	>>> llista.remove(3)
 	>>> llista
