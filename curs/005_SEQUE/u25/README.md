@@ -38,11 +38,11 @@ Exemples, convertint el rang en llista per veure la seqüència:
 ## Recorregut d'un rang
 
 Els rangs es solen utilitzar per ser recorregut, quan tinc que crear un bucle el número de iteracions del qual el sabem per avançat puc utilitzar una estructura com aquesta:
-
+```python
 	>>> for i in range(11):
 	...    print(i,end=" ")
 	0 1 2 3 4 5 6 7 8 9 10  
-
+```
 ## Operacions bàsiques amb range
 
 En les tuples es poden realitzar les següents operacions:
