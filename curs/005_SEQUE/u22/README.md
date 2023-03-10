@@ -44,9 +44,9 @@ Exemple:
 
 4. Donada una llista, fer un programa que indiqui si està ordenada o no.
 
-5. Donada una llista de noms de fitxers, volem canviar el nom de tots els fitxers amb extensió hpp a l'extensió h. Per fer-ho, ens agradaria generar una nova llista anomenada newfilenames, que constarà dels nous noms de fitxer. Omple els espais en blanc del codi utilitzant qualsevol dels mètodes que has après fins ara, com ara un bucle for o una comprensió de llista.
+5. Donada una llista de noms de fitxers, volem canviar el nom de tots els fitxers amb extensió hpp a l'extensió h. Per fer-ho, ens agradaria generar una nova llista anomenada newfilenames, que constarà dels nous noms de fitxer.
 
-6. Crea una funció que converteixi el text en `anglesí`: una simple transformació de text que modifica cada paraula movent el primer caràcter al final i afegint "ay" al final. Per exemple, python acaba com a ythonpay.
+7. Crea una funció que converteixi el text en `anglesí`: una simple transformació de text que modifica cada paraula movent el primer caràcter al final i afegint "ay" al final. Per exemple, python acaba com a ythonpay.
 
         >>> def conv_anglesi(text):
         >>> ...
