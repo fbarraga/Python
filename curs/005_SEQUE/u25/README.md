@@ -6,9 +6,11 @@ Els rangs (`range`): és un tipus de seqüències que ens permet crear seqüènc
 
 Al crear un rang (seqüència de números) obtenim un objecte que es de la classe `range`:
 
+```python
 	>>> rang = range(0,10,2)
 	>>> type(rang)
 	<class 'range'>
+```
 
 Exemples, convertint el rang en llista per veure la seqüència:
 ```python
