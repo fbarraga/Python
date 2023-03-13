@@ -24,7 +24,7 @@ Exemple de fitxer JSON que retorna **Google Maps**:
 }
 ```
 
-La correspondència entre JSON i Python la podemos resumir en la següent taula:
+La correspondència entre JSON i Python la podem resumir en la següent taula:
 <table>
 	<tr><td>JSON</td><td>Python</td></tr>
 	<tr><td>object</td><td>dict</td></tr>
