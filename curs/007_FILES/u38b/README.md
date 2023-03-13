@@ -108,7 +108,9 @@ value = b_name.get('test')
 
 print(value)
 ```
-
+```
+0
+```
 
 ## Escriptura de fitxers XML amb BeautifulSoup
 
