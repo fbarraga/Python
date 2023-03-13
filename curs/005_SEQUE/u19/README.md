@@ -11,6 +11,7 @@ Els tipus de dades sequència em permet guardar una successió de dades de difer
 * Els conjunts (`set`): Em permeten guardar conjunts de dades, en els que no existeixen repeticions. Es un tipo **mutable**.
 * Els conjunt congelats (`frozenset`): Son iguals que els anteriors, pero son tipus **inmutables**.
 
+Pots consultar més informació dels tipus mutables/inmutables en aquest [link](https://realpython.com/python-mutable-vs-immutable-types/)
 
 ## Característiques principals de las seqüències
 
