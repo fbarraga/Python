@@ -46,7 +46,7 @@ Si tenim un diccionari buit, al ser un objecte mutable, també podem construir e
 
 		>>> "two" in a
 		True
-
+		
 * `iter()`: Ens retorna un iterador de les claus. 
 
 		>>> next(iter(a))
