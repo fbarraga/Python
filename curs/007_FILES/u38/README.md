@@ -20,7 +20,10 @@ La correspondència entre JSON i Python la podemos resumir en la següent taula:
 Des d'una cadena de caràcters:
 
 	>>> import json
-	>>> datos_json='{"nombre":"carlos","edad":23}'
+	>>> datos_json='{
+			"nombre":"carlos",
+			"edad":23
+			}'
 	>>> datos = json.loads(datos_json)
 	>>> type(datos)
 	<class 'dict'>
@@ -69,7 +72,11 @@ Codificació de jerarquies bàsiques en Python.
 	>>> print(json.dumps('\\'))
 	"\\"
 
-	>>> print(json.dumps({"c": 0, "b": 0, "a": 0}, sort_keys=True))
+	>>> print(json.dumps({
+				"c": 0, 
+				"b": 0, 
+				"a": 0
+			      }, sort_keys=True))
 	{"a": 0, "b": 0, "c": 0}
 
 	>>> from io import StringIO
