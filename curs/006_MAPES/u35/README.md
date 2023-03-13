@@ -29,7 +29,7 @@
 
 3. Continuant amb el programa: ara feu que el programa demani un codi morse separat per espais i retorni la cadena corresponent.
 
-4. Crea un diccionari que contingui com a clau el nom d'una persona i coma valor una llista amb totes les seves aficions. Desenvolupa un programa que agregi aficions a la persona:
+4. Crea un diccionari que contingui com a clau el nom d'una persona i com a valor una llista amb totes les seves aficions. Desenvolupa un programa que agregi aficions a la persona:
     * Si la persona no existeix l'agregui al diccionari amb una lista que conté un sol element.
     * Si la persona existeix i l'afició existeix en la llista, no tingui cap efecte.
     * Si la persona existeix i l'afició no existeix en la llista, agregui l'afició a la llista.
