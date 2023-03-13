@@ -82,7 +82,7 @@ Opcions:
 
 10. Pere i Marta organitzen una festa. Van enviar invitacions als seus amics i cadascun va recopilar les respostes en diccionaris de python, amb els noms dels seus amics i quants convidats porta cada amic. Cada diccionari és una llista parcial, però la llista de Marta té informació més actualitzada sobre el nombre de convidats. Crear un programa per combinar els dos diccionaris en un sol, amb cada amic llistat només una vegada, i el nombre de convidats del diccionari de Marta té prioritat, si hi ha un nom repetit als dos diccionaris. A continuació, imprimiu el diccionari resultant.
 
-		>>> def combina_invitats(guests1, guests2):
+		>>> def combina_invitats(invitats1, invitats2):
 		>>> ...
 
 		>>> Pere_invitats = { "Joan":2, "Maite":3, "David":1, "Josep":3, "Carla":2, "Terry":1, "Robert":4}
