@@ -67,7 +67,12 @@ Fixe'm nos que quan llegim d'una cadena de caràcters es json.loads i quan llegi
 	
 ## Escriure fitxers json
 
-	>>> datos = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie','felineIQ': None}
+	>>> datos = {
+		     'isCat': True, 
+		     'miceCaught': 0, 
+		     'name': 'Zophie',
+		     'felineIQ': None
+		     }
 	>>> fichero = open("exemple2.json","w")
 	>>> json.dump(datos,fichero)
 	>>> fichero.close()
