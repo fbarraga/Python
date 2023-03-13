@@ -2,6 +2,28 @@
 
 El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](http://json.org/).
 
+Els fitxers JSON son molt utilitzats per recuperar dades de diferents websites mitjançant REST APIs. Per exemple utilitzant les APIs de Twitter, Youtube, o Google maps.
+
+Exemple de fitxer JSON que retorna Google Maps.
+```json
+{
+  "markers": [
+    {
+      "name": "Rixos The Palm Dubai",
+      "position": [25.1212, 55.1535],
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "location": [25.2084, 55.2719]
+    },
+    {
+      "name": "Grand Hyatt",
+      "location": [25.2285, 55.3273]
+    }
+  ]
+}
+```
+
 La correspondència entre JSON i Python la podemos resumir en la següent taula:
 <table>
 	<tr><td>JSON</td><td>Python</td></tr>
