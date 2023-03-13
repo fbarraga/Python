@@ -136,9 +136,12 @@ for tag in bs_data.find_all('child', {'name':'Frank'}):
 	tag['test'] = "WHAT !!"
 
 
-# Output the contents of the
-# modified xml file
+# Output the contents of the # modified xml file
 print(bs_data.prettify())
+
+f = open("myxmlfile.xml", "w")
+f.write(bsdata.prettify())
+f.close()
 ```
 
 
