@@ -65,10 +65,12 @@ Els diccionaris, al igual que les llistes, son tipus de dades mutables. Per lo t
 
 	>>> a = dict(one=1, two=2, three=3)
 	>>> b = a
-	>>> del(a["one"])
+	>>> del(b["one"])
 	>>> b
 	{'three': 3, 'two': 2}	
-
+	>>> a
+	{'three': 3, 'two': 2, 'one': 1 }
+	
 En aquest cas per copiar diccionaris anem a utilitzar el mètode `copy()`:
 
 	>>> a = dict(one=1, two=2, three=3)

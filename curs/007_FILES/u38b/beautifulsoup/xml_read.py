@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 # Reading the data inside the xml
 # file to a variable under the name
 # data
-with open('../dict.xml', 'r') as f:
+with open('./data/dict.xml', 'r') as f:
 	data = f.read()
 
 # Passing the stored data inside
@@ -16,13 +16,13 @@ Bs_data = BeautifulSoup(data, "xml")
 # `unique`
 b_unique = Bs_data.find_all('unique')
 
-print(b_unique)
+#print(b_unique)
 
 # Using find() to extract attributes
 # of the first instance of the tag
 b_name = Bs_data.find('child', {'name':'Frank'})
 
-print(b_name)
+#print(b_name)
 
 # Extracting the data stored in a
 # specific attribute of the
