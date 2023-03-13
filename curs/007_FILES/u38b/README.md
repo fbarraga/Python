@@ -80,13 +80,25 @@ Bs_data = BeautifulSoup(data, "xml")
 b_unique = Bs_data.find_all('unique')
 
 print(b_unique)
-
+```
+   [<unique>
+     Add a video URL here
+    </unique>, <unique>
+     Add a workbook URL here
+    </unique>]
+```python
 # Using find() to extract attributes
 # of the first instance of the tag
 b_name = Bs_data.find('child', {'name':'Frank'})
 
 print(b_name)
+```
 
+<child name="Frank" test="0">
+     FRANK lives EVERYONE
+    </child>
+    
+```python
 # Extracting the data stored in a
 # specific attribute of the
 # `child` tag
