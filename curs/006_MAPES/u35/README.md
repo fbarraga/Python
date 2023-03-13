@@ -89,6 +89,7 @@ Opcions:
 		>>> Marta_invitats = { "David":4, "Laia":1, "Robert":2, "Joan":1, "Mar":3, "Erik":5}
 
 		>>> print(combina_invitats(Marta_invitats, Pere_invitats))
+		>>>  {"David":4, "Laia":1, "Robert":2, "Joan":1, "Mar":3, "Erik":5, "Maite":3, "Josep":3, "Carla":2, "Terry":1}
 
 ***
 [Index](../../../README.md)
