@@ -69,7 +69,7 @@ Els diccionaris, al igual que les llistes, son tipus de dades mutables. Per lo t
 	>>> b
 	{'three': 3, 'two': 2}	
 	>>> a
-	{'three': 3, 'two': 2, 'one': 1 }
+	{'three': 3, 'two': 2}
 	
 En aquest cas per copiar diccionaris anem a utilitzar el mètode `copy()`:
 
