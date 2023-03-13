@@ -1,10 +1,10 @@
 # Gestionar fitxers json
 
-El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](http://json.org/).
+El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](https://www.json.org/json-es.html).
 
 Els fitxers JSON son molt utilitzats per recuperar dades de diferents websites mitjançant REST APIs. Per exemple utilitzant les APIs de Twitter, Youtube, o Google maps.
 
-Exemple de fitxer JSON que retorna Google Maps.
+Exemple de fitxer JSON que retorna **Google Maps**:
 ```json
 {
   "markers": [
@@ -24,7 +24,7 @@ Exemple de fitxer JSON que retorna Google Maps.
 }
 ```
 
-La correspondència entre JSON i Python la podemos resumir en la següent taula:
+La correspondència entre JSON i Python la podem resumir en la següent taula:
 <table>
 	<tr><td>JSON</td><td>Python</td></tr>
 	<tr><td>object</td><td>dict</td></tr>
@@ -67,7 +67,12 @@ Fixe'm nos que quan llegim d'una cadena de caràcters es json.loads i quan llegi
 	
 ## Escriure fitxers json
 
-	>>> datos = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie','felineIQ': None}
+	>>> datos = {
+		     'isCat': True, 
+		     'miceCaught': 0, 
+		     'name': 'Zophie',
+		     'felineIQ': None
+		     }
 	>>> fichero = open("exemple2.json","w")
 	>>> json.dump(datos,fichero)
 	>>> fichero.close()

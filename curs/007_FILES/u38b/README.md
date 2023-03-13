@@ -1,7 +1,7 @@
 
 ## Introducció
 
-E**X**tensible **M**arkup **L**anguage, comunment conegut com XML és un llenguatge dissenyat específicament per ser fàcil d'interpretar tant per humans com per ordinadors en conjunt. 
+E**X**tensible **M**arkup **L**anguage, comunment conegut com XML és un llenguatge dissenyat específicament per ser fàcil d'interpretar tant per humans com per ordinadors en conjunt. Podeu consultar més informació en aquest [link](https://www.w3.org/XML/)
 
 El llenguatge defineix un conjunt de regles que s'utilitzen per codificar un document en un format específic. 
 
@@ -80,13 +80,27 @@ Bs_data = BeautifulSoup(data, "xml")
 b_unique = Bs_data.find_all('unique')
 
 print(b_unique)
-
+```
+```
+[<unique>
+     Add a video URL here
+    </unique>, <unique>
+     Add a workbook URL here
+    </unique>]
+```
+```python
 # Using find() to extract attributes
 # of the first instance of the tag
 b_name = Bs_data.find('child', {'name':'Frank'})
 
 print(b_name)
-
+```
+```
+<child name="Frank" test="0">
+     FRANK lives EVERYONE
+    </child>
+```     
+```python
 # Extracting the data stored in a
 # specific attribute of the
 # `child` tag
@@ -94,7 +108,9 @@ value = b_name.get('test')
 
 print(value)
 ```
-
+```
+0
+```
 
 ## Escriptura de fitxers XML amb BeautifulSoup
 
@@ -120,9 +136,12 @@ for tag in bs_data.find_all('child', {'name':'Frank'}):
 	tag['test'] = "WHAT !!"
 
 
-# Output the contents of the
-# modified xml file
+# Output the contents of the # modified xml file
 print(bs_data.prettify())
+
+f = open("myxmlfile.xml", "w")
+f.write(bsdata.prettify())
+f.close()
 ```
 
 

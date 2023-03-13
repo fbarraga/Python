@@ -29,7 +29,7 @@
 
 3. Continuant amb el programa: ara feu que el programa demani un codi morse separat per espais i retorni la cadena corresponent.
 
-4. Crea un diccionari que contingui com a clau el nom d'una persona i coma valor una llista amb totes les seves aficions. Desenvolupa un programa que agregi aficions a la persona:
+4. Crea un diccionari que contingui com a clau el nom d'una persona i com a valor una llista amb totes les seves aficions. Desenvolupa un programa que agregi aficions a la persona:
     * Si la persona no existeix l'agregui al diccionari amb una lista que conté un sol element.
     * Si la persona existeix i l'afició existeix en la llista, no tingui cap efecte.
     * Si la persona existeix i l'afició no existeix en la llista, agregui l'afició a la llista.
@@ -82,13 +82,14 @@ Opcions:
 
 10. Pere i Marta organitzen una festa. Van enviar invitacions als seus amics i cadascun va recopilar les respostes en diccionaris de python, amb els noms dels seus amics i quants convidats porta cada amic. Cada diccionari és una llista parcial, però la llista de Marta té informació més actualitzada sobre el nombre de convidats. Crear un programa per combinar els dos diccionaris en un sol, amb cada amic llistat només una vegada, i el nombre de convidats del diccionari de Marta té prioritat, si hi ha un nom repetit als dos diccionaris. A continuació, imprimiu el diccionari resultant.
 
-		>>> def combina_invitats(guests1, guests2):
+		>>> def combina_invitats(invitats1, invitats2):
 		>>> ...
 
 		>>> Pere_invitats = { "Joan":2, "Maite":3, "David":1, "Josep":3, "Carla":2, "Terry":1, "Robert":4}
 		>>> Marta_invitats = { "David":4, "Laia":1, "Robert":2, "Joan":1, "Mar":3, "Erik":5}
 
 		>>> print(combina_invitats(Marta_invitats, Pere_invitats))
+		>>>  {"David":4, "Laia":1, "Robert":2, "Joan":1, "Mar":3, "Erik":5, "Maite":3, "Josep":3, "Carla":2, "Terry":1}
 
 ***
 [Index](../../../README.md)
