@@ -1,6 +1,6 @@
 # Gestionar fitxers json
 
-El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](https://www.json.org/json-es.html){:target="_blank"}.
+El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](https://www.json.org/json-es.html).
 
 Els fitxers JSON son molt utilitzats per recuperar dades de diferents websites mitjançant REST APIs. Per exemple utilitzant les APIs de Twitter, Youtube, o Google maps.
 
