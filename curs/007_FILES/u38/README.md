@@ -4,7 +4,7 @@ El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gest
 
 Els fitxers JSON son molt utilitzats per recuperar dades de diferents websites mitjançant REST APIs. Per exemple utilitzant les APIs de Twitter, Youtube, o Google maps.
 
-Exemple de fitxer JSON que retorna Google Maps.
+Exemple de fitxer JSON que retorna **Google Maps**(c).
 ```json
 {
   "markers": [
