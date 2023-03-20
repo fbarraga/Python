@@ -23,12 +23,25 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Errors i excepcions | [43](curs/008_EXCEP/u01/README.md)| |
 | Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [A10](curs/011_POOB/u54/README.md)|
 
+
+***
+
+### UF1
+
+
 |  Persistència de dades amb fitxers					| Unitats Teoria																        | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
 | Treball amb fitxers                                   | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|[A7](curs/007_FILES/u99/act6.md)
 
 
+### UF2
 
+|  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria	| Exercicis |
+|-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
+| Connectors a Bases de dades                                  | [60](curs/007_FILES/u36a/README.md)|
+
+
+***
 
 ### Temari
 
@@ -440,22 +453,21 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 	* Scripts en Linux
 
-
 ### Treballar amb Bases de Dades (BDR,BDOR,BDOO)
 
-60. [Drivers i connectors de BD](curs/022_DATABASE/README.md)
+61. [Drivers i connectors de BD](curs/022_DATABASE/README.md)
 
 	* Què és un connector?
 	* Connectors als principals SGBR en Python
 	* ODBC i JDBC
 
-61. [ORM](curs/022_DATABASE/README.md)
+62. [ORM](curs/022_DATABASE/README.md)
 
 	* Què és un ORM?
 	* [PeeWee](curs/022_DATABASE/peewee/README.md)
 	* [Alchemy](curs/022_DATABASE/alchemy/README.md)
 
-62. [Connectar a BD XML](curs/022_DATABASE/mongodb/README.md)
+63. [Connectar a BD XML](curs/022_DATABASE/mongodb/README.md)
 
 	* MongoDB
 

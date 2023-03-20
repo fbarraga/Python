@@ -34,3 +34,8 @@ Per Windows podem utilitzar el ODBC que es una manera standard d'accedir a quals
 Connectors creats per Sun Microsystems, es tracta d’un API connector de bases de dades, implementat específicament per usar amb el llenguatge `Java`. Es tracta d’un API forca similar a ODBC quant a funcionalitat, però adaptat a les especificitats de Java.
 
 ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/jdbc.png?raw=true)
+
+
+
+***
+[Index](../../../README.md)
