@@ -31,7 +31,14 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 |  Persistència de dades amb fitxers					| Unitats Teoria																        | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
-| Treball amb fitxers                                   | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|[A7](curs/007_FILES/u99/act6.md)
+| Procés de Serialització| [36a](curs/007_FILES/u36a/README.md)|
+| Treball amb fitxers | [36b](curs/007_FILES/u36b/README.md)|
+| Treball amb fitxers texte | [36c](curs/007_FILES/u36c/README.md)|
+| Treball amb fitxers binari | [36d](curs/007_FILES/u36c/README.md)|
+| Fitxers CSV | [CSV](curs/007_FILES/u37/README.md)|
+| Fitxers JSON| [JSON] (curs/007_FILES/u38/README.md)|
+| Fitxers XML | [XML](curs/007_FILES/u38b/README.md)|
+| Treball de fitxers |[A7](curs/007_FILES/u99/act6.md)|
 
 
 ### UF2
@@ -320,7 +327,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 	* Escriure fitxers json
 	* Pretty Json
 
-42. [Gestionar fitxers xml](curs/007_FILES/u38b/README.md)
+42. [Gestionar fitxers XML](curs/007_FILES/u38b/README.md)
     
 	* Mòdul lxml i beautifulsoup
 	* Llegir fitxers xml
