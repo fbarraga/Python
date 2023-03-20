@@ -35,7 +35,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Procés de Serialització| [36a](curs/007_FILES/u36a/README.md)|
 | Treball amb fitxers | [36b](curs/007_FILES/u36b/README.md)|
 | Treball amb fitxers texte | [36c](curs/007_FILES/u36c/README.md)|
-| Treball amb fitxers binari | [36d](curs/007_FILES/u36c/README.md)|
+| Treball amb fitxers binari | [36d](curs/007_FILES/u36d/README.md)|
 | Fitxers CSV | [CSV](curs/007_FILES/u37/README.md)|
 | Fitxers JSON| [JSON](curs/007_FILES/u38/README.md)|
 | Fitxers XML | [XML](curs/007_FILES/u38b/README.md)|
