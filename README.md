@@ -46,7 +46,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 |  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria	| Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
-| Connectors a Bases de dades                                  | [60](curs/007_FILES/u36a/README.md)|
+| Connectors a Bases de dades                                  | [60](curs/022_DATABASE/README.md)|
 
 
 ***
