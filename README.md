@@ -26,7 +26,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 ***
 
-### UF1
+### UF1: Persistència de dades amb fitxers
 
 
 |  Persistència de dades amb fitxers					| Unitats Teoria																        | Exercicis |
@@ -41,7 +41,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Treball de fitxers ||[A7](curs/007_FILES/u99/act6.md)|
 
 
-### UF2
+### UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO
 
 |  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria	| Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
