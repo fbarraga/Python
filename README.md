@@ -36,9 +36,9 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Treball amb fitxers texte | [36c](curs/007_FILES/u36c/README.md)|
 | Treball amb fitxers binari | [36d](curs/007_FILES/u36c/README.md)|
 | Fitxers CSV | [CSV](curs/007_FILES/u37/README.md)|
-| Fitxers JSON| [JSON] (curs/007_FILES/u38/README.md)|
+| Fitxers JSON| [JSON](curs/007_FILES/u38/README.md)|
 | Fitxers XML | [XML](curs/007_FILES/u38b/README.md)|
-| Treball de fitxers |[A7](curs/007_FILES/u99/act6.md)|
+| Treball de fitxers ||[A7](curs/007_FILES/u99/act6.md)|
 
 
 ### UF2
