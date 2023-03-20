@@ -440,24 +440,44 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 	* Scripts en Linux
 
+
+### Treballar amb Bases de Dades (BDR,BDOR,BDOO)
+
+60. [Drivers i connectors de BD](curs/022_DATABASE/README.md)
+
+	* Què és un connector?
+	* Connectors als principals SGBR en Python
+	* ODBC i JDBC
+
+61. [ORM](curs/022_DATABASE/README.md)
+
+	* Què és un ORM?
+	* [PeeWee](curs/022_DATABASE/peewee/README.md)
+	* [Alchemy](curs/022_DATABASE/alchemy/README.md)
+
+62. [Connectar a BD XML](curs/022_DATABASE/mongodb/README.md)
+
+	* MongoDB
+
+
 ### Treballar amb dades - DataScience
 
-61. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
+63. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
 
 	* Jupyter Lab
 	* Jupyter Notebook
 	* Jupyter Voilà
 
-62. [Data Management](curs/012_IA/u100/README.md)
+64. [Data Management](curs/012_IA/u100/README.md)
 
 	* Normalització de dades
 
-63. [Llibreria Pandas](curs/017_PANDAS/README.md)
+65. [Llibreria Pandas](curs/017_PANDAS/README.md)
 
 	* Instal·lació 
 	* Ús
 
-64. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
+66. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
 
 	* Web Scraping i  Web Crawling
     	* Navegadors web i HTTP
@@ -466,24 +486,24 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
     	* Scraping amb Selenium
     	* Exemples
 
-65. [Microsoft Power BI i Python](curs/013_DATA/PBI/README.md)
+67. [Microsoft Power BI i Python](curs/013_DATA/PBI/README.md)
 
 
 ### Crear un entorn de proves
 
-66. [Creació d'un entorn de proves/curs](curs/019_TEST/001/README.md)
+68. [Creació d'un entorn de proves/curs](curs/019_TEST/001/README.md)
 
 	* Utilització de la llibreria pytest 
 
 ### Utilització del modul logging DEBUG/INFO
 
-67. [Logging i debugging de l'aplicació](curs/020_LOGS/001/README.md)
+69. [Logging i debugging de l'aplicació](curs/020_LOGS/001/README.md)
 
 	* Utilització de la llibreria logging 
 
 ### Desenvolupament d'aplicacions en entorn gràfic
 
-66. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
+70. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
 
 	* Tkinter
 	* wxPython
