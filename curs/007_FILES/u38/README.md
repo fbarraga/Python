@@ -1,4 +1,6 @@
-# Gestionar fitxers json
+# Fitxers JSON
+
+## Introducció
 
 El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](https://www.json.org/json-es.html).
 
