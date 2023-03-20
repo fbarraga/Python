@@ -7,7 +7,8 @@ Benvinguts al curs de Python. Aquest curs es un repositori de molta documentaci�
 Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
 
 
-## Unitats formatives
+## UF0: Introducció a Python
+
 |  Conceptes bàsics						| Unitats Teoria																  | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
 | Introducció               | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md) | |
