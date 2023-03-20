@@ -1,7 +1,7 @@
 
-# Gestionar fitxers CSV
+# Fitxers CSV
 
-## Mòdul CSV
+## Introducció
 
 El mòdul [csv](https://docs.python.org/3.4/library/csv.html) ens permet treballar amb fitxers csv.
 Un fitxer CSV (comma-separated values)  es un tipus de document en format obert senzill per representar dades en format de taula, en la que les columnes es separen per comes(o per un altre caràcter).
