@@ -28,4 +28,4 @@ Els arxius i directoris faciliten l'accés a la informació a partir de noms ass
 * En els sistemes operatius Windows l'organització respon a decisions arbitraries de Microsoft
 
 ***
-[Index](../../../README.md)
+[Index](../../README.md)
