@@ -1,5 +1,5 @@
 # Introducció a Python
-## Activitat 8: Programació orientada a objectes
+## Activitat 10: Programació orientada a objectes
 
 Anem a realitzar la classe `DNI` on anem a guadar el número de DNI (ho guardarem en una cadena de longitud de 8) i la lletra corresponent.
 
