@@ -31,9 +31,9 @@ Exemple:
 
    a. Indiqui si la segona cadena és una subcadena de la primera. 
 
-	  	cadena 
-	 	subcadena
-	  	>>> És subcadena.
+	  	gayo 
+	 	papagayo
+	  	>>> gayo és subcadena de papagayo.
 
    b. Retorni la que sigui anterior en ordre alfabètic. 
   	Per exemple:
