@@ -32,8 +32,10 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 |  Persistència de dades amb fitxers					| Unitats Teoria																        | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
+| Sistema de fitxers| [36](curs/007_FILES/README.md)|
+| Mòduls de python per la gestió de fitxers |[45](curs/009_MODU/u41/README.md)|
 | Procés de Serialització| [36a](curs/007_FILES/u36a/README.md)|
-| Treball amb fitxers | [36b](curs/007_FILES/u36b/README.md)|
+| Tipus de fitxers | [36b](curs/007_FILES/u36b/README.md)|
 | Treball amb fitxers texte | [36c](curs/007_FILES/u36c/README.md)|
 | Treball amb fitxers binari | [36d](curs/007_FILES/u36d/README.md)|
 | Fitxers CSV | [CSV](curs/007_FILES/u37/README.md)|
