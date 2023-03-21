@@ -1,4 +1,4 @@
-# Curs d'introducció a Python
+# UF1 Persistència de dades amb fitxers
 
 ## Introducció al sistema de fitxers
 
