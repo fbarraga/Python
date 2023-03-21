@@ -40,7 +40,7 @@ Exemple:
 	
   	  	kde
 	  	gnome 
-	  	>>> gnome.
+	  	>>> gnome
 
 5. Escriure un programa en Python que donada una paraula ens digui si es un palíndrom. Un palídrom és una paraula, número o frase que es llegeix igual cap en davant que cap enrera. Exemple: reconocer
 
