@@ -21,3 +21,5 @@ La classe `Notas` ens permet guardar una sèrie de notes per assignatura.
 * S'ha de definir el mètode `__str__` per imprimir les assignatures i les seves corresponents notes.
 
 La classe `Alumno` s'hereda de las classes anteriors: `Persona` y `Notas`.
+***
+[Index](../../README.md)
