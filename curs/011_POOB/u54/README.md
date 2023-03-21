@@ -22,4 +22,4 @@ La classe `Notas` ens permet guardar una sèrie de notes per assignatura.
 
 La classe `Alumno` s'hereda de las classes anteriors: `Persona` y `Notas`.
 ***
-[Index](../../README.md)
+[Index](../../../README.md)
