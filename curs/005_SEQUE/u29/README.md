@@ -13,10 +13,10 @@ Exemple:
 
 Exemple: 
 
-		>>> La teva clau és: 1540 
+		>>> La teva clau és: fran1540cesc 
 		>>> X 
 	
-		>>> La teva clau és: XXXX
+		>>> La teva clau és: franXXXXcesc
 
 3. Crea un programa python que llegeixi una cadena de caràcters i mostri la següent informació:
 
