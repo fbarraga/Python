@@ -45,10 +45,10 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 ## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO
 
 |  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria	| Exercicis |
-|-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
-| Connectors a Bases de dades                                  | [60](curs/022_DATABASE/README.md)|
-
-
+|------------------------------------------------|------------------|-----------|
+| Connectors a Bases de dades 				     | [60](curs/022_DATABASE/README.md)|
+| Connectar a Postgres 							 | [60a](curs/022_DATABASE/POSTGRES/README.md)|
+| Connectar a MongoDB							 | [60b](curs/022_DATABASE/MONGODB/README.md)
 ***
 
 ### Temari

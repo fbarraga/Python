@@ -37,6 +37,5 @@ Connectors creats per Sun Microsystems, es tracta d’un API connector de bases 
 ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/jdbc.png?raw=true)
 
 
-
 ***
 [Index](../../../README.md)
