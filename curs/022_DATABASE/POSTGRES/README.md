@@ -2,7 +2,7 @@
 
 ## Exemple
 
-Creem dintre del postgres una base de dades d'exemple:
+Creem dintre del Postgres una base de dades d'exemple:
 
 ```sql
 CREATE DATABASE dbprova;  
@@ -26,7 +26,11 @@ Per connectar a la base de dades haurem d'especificar com a mínim aquests parà
 |**password**| password per connectar a la bd|
 
 
+# FETCHONE Seleccionem un registre de la base de dades
+
+
 ```python
+# programa.py
 import psycopg2
 
 connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
@@ -47,3 +51,31 @@ regular@debian:~$ python3 programa.py
 2,bbbbb  
 3,ccccc
 ```
+
+# FETCHALL Seleccionem tots els registres
+
+
+```python
+# programa.py
+import psycopg2
+connexio = psycopg2.connect(host="localhost", dbname="dbprova", user="usuariprova", password="12345")  
+cur = connexio.cursor()
+cur.execute("SELECT * FROM tprova;")  
+registres = cur.fetchall()
+
+for reg in registres:  
+    print(f"{reg[0]},{reg[1]}");
+    cur.close()  connexio.close()
+```
+
+Sortida:
+```
+regular@debian:~$ python3 programa.py
+1,aaaaa  
+2,bbbbb  
+3,ccccc
+```
+
+
+
+
