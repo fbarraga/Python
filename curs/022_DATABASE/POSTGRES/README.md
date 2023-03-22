@@ -41,7 +41,7 @@ while reg is not None:
 ```
 
 Sortida:
-```cmd
+```
 regular@debian:~$ python3 programa.py
 1,aaaaa  
 2,bbbbb  
