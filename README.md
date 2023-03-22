@@ -53,8 +53,9 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Connectar a Postgres 					 | [60a](curs/022_DATABASE/POSTGRES/README.md)|		  		|
 | Connectar a MongoDB					 | [60b](curs/022_DATABASE/MONGODB/README.md) |		  		|
 | Què és un ORM							 |					    					  |		  		|
-| ORM: Peewee							 |											  |				|
-| ORM: Alchemy							 |											  |				|
+| 	ORM: Peewee							 |											  |				|
+| 	ORM: Alchemy						 |											  |				|
+| Treball amb Bases de Dades			 | 					|[A15](curs/022_DATABASE/EXERCICIS.md)	  |				
 
 ***
 
