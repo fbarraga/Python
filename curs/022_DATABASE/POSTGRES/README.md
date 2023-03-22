@@ -20,10 +20,10 @@ pip install psycopg2
 Per connectar a la base de dades haurem d'especificar com a mínim aquests paràmetres:
 |Paràmetre| Valor |
 |---------|-------|
-|host:| ip o nom del servidor de base de dades|
-|dbname:| nom de la base de dades|
-|user:| usuari per connectar a la bd|
-|password:| password per connectar a la bd|
+|**host**| ip o nom del servidor de base de dades|
+|**dbname**| nom de la base de dades|
+|**user**| usuari per connectar a la bd|
+|**password**| password per connectar a la bd|
 
 
 ```python
@@ -42,5 +42,7 @@ while reg is not None:
 
 ```cmd
 regular@debian:~$ python3 programa.py
-1,aaaaa  2,bbbbb  3,ccccc
+1,aaaaa  
+2,bbbbb  
+3,ccccc
 ```
