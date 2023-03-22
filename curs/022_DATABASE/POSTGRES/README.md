@@ -39,3 +39,8 @@ while reg is not None:
     reg = cur.fetchone()
     cur.close()  connexio.close()
 ```
+
+```cmd
+regular@debian:~$ python3 programa.py
+1,aaaaa  2,bbbbb  3,ccccc
+```
