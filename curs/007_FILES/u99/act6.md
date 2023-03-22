@@ -98,5 +98,6 @@ Aclaracions:
 funcions.
 * L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
 
-
+***
+[Index](../../../README.md)
 

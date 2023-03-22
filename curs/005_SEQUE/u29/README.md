@@ -13,10 +13,10 @@ Exemple:
 
 Exemple: 
 
-		>>> La teva clau és: 1540 
+		>>> La teva clau és: fran1540cesc 
 		>>> X 
 	
-		>>> La teva clau és: XXXX
+		>>> La teva clau és: franXXXXcesc
 
 3. Crea un programa python que llegeixi una cadena de caràcters i mostri la següent informació:
 
@@ -31,16 +31,16 @@ Exemple:
 
    a. Indiqui si la segona cadena és una subcadena de la primera. 
 
-	  	cadena 
-	 	subcadena
-	  	>>> És subcadena.
+	  	gayo 
+	 	papagayo
+	  	>>> gayo és subcadena de papagayo.
 
    b. Retorni la que sigui anterior en ordre alfabètic. 
   	Per exemple:
 	
   	  	kde
 	  	gnome 
-	  	>>> gnome.
+	  	>>> gnome
 
 5. Escriure un programa en Python que donada una paraula ens digui si es un palíndrom. Un palídrom és una paraula, número o frase que es llegeix igual cap en davant que cap enrera. Exemple: reconocer
 

@@ -1,4 +1,4 @@
-# Curs d'introducció a Python
+# UF1 Persistència de dades amb fitxers
 
 ## Introducció al sistema de fitxers
 
@@ -26,3 +26,6 @@ Els arxius i directoris faciliten l'accés a la informació a partir de noms ass
 * Tots els sistemes operatius disposen d'una organització que és convenient conèixer perquè tots els fitxers que s'afegeixen a el sistema el fan respectant aquesta organització.
 * En els sistemes operatius GNU/Linux, afins i altres de la família Unix es segueix l'estàndard FHS (Filesystem Hierarchy Standard).
 * En els sistemes operatius Windows l'organització respon a decisions arbitraries de Microsoft
+
+***
+[Index](../../README.md)

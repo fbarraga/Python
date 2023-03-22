@@ -16,7 +16,8 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [A1](curs/002_TDNU/u14/README.md) |
 | Estructures de control Condicionals: IF / ELSE | [15](curs/003_ALTER/u15/README.md) | [A2](curs/003_ALTER/u16/README.md) |
 | Estructures de control Repetitives: WHILE / FOR      | [17](curs/004_REPET/u17/README.md) | [A3](curs/004_REPET/u18/README.md) |
-| Tipus de dades seqüència: *Llistes*					| [19](curs/005_SEQUE/u19/README.md) [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [A4](curs/005_SEQUE/u22/README.md) |
+| Tipus de dades seqüencia | [19](curs/005_SEQUE/u19/README.md)|
+| Tipus de dades seqüència: *Llistes*					|  [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [A4](curs/005_SEQUE/u22/README.md) |
 | Tipus de dades seqüència: *Diccionaris*			| [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [A5](curs/006_MAPES/u35/README.md)|
 | Tipus de dades seqüència: *Tuples i	Rangs*				| [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
 | Tipus de dades seqüència: *Cadenes*			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[A6](curs/005_SEQUE/u29/README.md) | 
@@ -32,8 +33,10 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 |  Persistència de dades amb fitxers					| Unitats Teoria																        | Exercicis |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
+| Sistema de fitxers| [36](curs/007_FILES/README.md)|
+| Mòduls de python per la gestió de fitxers |[45](curs/009_MODU/u41/README.md)|
 | Procés de Serialització| [36a](curs/007_FILES/u36a/README.md)|
-| Treball amb fitxers | [36b](curs/007_FILES/u36b/README.md)|
+| Tipus de fitxers | [36b](curs/007_FILES/u36b/README.md)|
 | Treball amb fitxers texte | [36c](curs/007_FILES/u36c/README.md)|
 | Treball amb fitxers binari | [36d](curs/007_FILES/u36d/README.md)|
 | Fitxers CSV | [CSV](curs/007_FILES/u37/README.md)|

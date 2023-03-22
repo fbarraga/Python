@@ -142,7 +142,7 @@ Exemple:
 	    NBNBNBNB
 	    BNBNBNBN
 	    NBNBNBNB
-
+```
 ***
 [Index](../../../README.md)
 
