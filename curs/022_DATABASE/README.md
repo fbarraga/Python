@@ -1,5 +1,5 @@
 # UF2
-## Acces a Base de Dades (BDR,BDOR,BDOO)
+## Accés a Base de Dades (BDR,BDOR,BDOO)
 
 ### Introducció
 
@@ -38,4 +38,4 @@ Connectors creats per Sun Microsystems, es tracta d’un API connector de bases 
 
 
 ***
-[Index](../../../README.md)
+[Index](../../README.md)
