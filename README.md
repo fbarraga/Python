@@ -10,7 +10,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 ## UF0: Introducció a Python
 
 |  Conceptes bàsics | Unitats Teoria  | Exercicis |
-|---------------------------|-----------------|-----------|
+|----------------------------|-----------------|-----------|
 | Introducció               | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md) | |
 | Estructura del llenguatge |[6](curs/001_ESTRU/u6/README.md) [7](curs/001_ESTRU/u7/README.md) [8](curs/001_ESTRU/u8/README.md) [9](curs/001_ESTRU/u9/README.md) [10](curs/001_ESTRU/u10/README.md)| |
 | Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [A1](curs/002_TDNU/u14/README.md) |
@@ -49,9 +49,10 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 |  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria			      | Exercicis |
 |------------------------------------------------|--------------------------------------------|-----------|
-| Connectors a Bases de dades    		 | [60](curs/022_DATABASE/README.md)	      |
-| Connectar a Postgres 				 | [60a](curs/022_DATABASE/POSTGRES/README.md)|
-| Connectar a MongoDB				 | [60b](curs/022_DATABASE/MONGODB/README.md) |
+| Connectors a Bases de dades    		 | [60](curs/022_DATABASE/README.md)	      |		  |
+| Connectar a Postgres 				 | [60a](curs/022_DATABASE/POSTGRES/README.md)|		  |
+| Connectar a MongoDB				 | [60b](curs/022_DATABASE/MONGODB/README.md) |		  |
+|						 |					      |		  |
 ***
 
 ### Temari
