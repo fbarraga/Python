@@ -1,4 +1,4 @@
-# Introducció a Python
+# UF1 Persistència de dades amb fitxers
 ## Activitat 7: Treball amb fitxers
 
 ### Explicació
