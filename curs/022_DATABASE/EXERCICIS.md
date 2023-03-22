@@ -23,17 +23,17 @@ N = (D+A+M) mod 5
 Crear un programa, amb Python i Pyscopg, que permeti gestionar les dades referents als comptes corrents 
 dels clients d’una entitat bancària.
 El programa permetrà les següents operacions:
-	* Llistar les dades personals de tots els clients.
-	* Llistar les dades personals dels clients amb una edad inferior a N anys.
-	* Llistar les dades personals dels clients amb una edad superior a N anys.
-	* Llistar els comptes corrents dels que disposa una persona.
-	* Llistar el saldo dels comptes corrents del que disposa una persona.
-	* Ingressar diners a un compte corrent.
-	* Retirar diners d’un compte corrent.
-	* Realitzar un traspàs de diners entre dos comptes corrents d’una mateixa persona.
-	* Realitzar una transferència de diners d’un compte corrent d’una persona a un compte corrent d’una 
+  * Llistar les dades personals de tots els clients.
+  * Llistar les dades personals dels clients amb una edad inferior a N anys.
+  * Llistar les dades personals dels clients amb una edad superior a N anys.
+  * Llistar els comptes corrents dels que disposa una persona.
+  * Llistar el saldo dels comptes corrents del que disposa una persona.
+  * Ingressar diners a un compte corrent.
+  * Retirar diners d’un compte corrent.
+  * Realitzar un traspàs de diners entre dos comptes corrents d’una mateixa persona.
+  * Realitzar una transferència de diners d’un compte corrent d’una persona a un compte corrent d’una 
 altre persona.
-	* Llistar l’historial d’operacions d’un compte corrent.
+  * Llistar l’historial d’operacions d’un compte corrent.
 
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
 
@@ -41,14 +41,15 @@ L’usuari interactuarà amb el programa mitjançant menús i l’introducció d
 Crear un programa, amb Python i PeeWee, que permeti gestionar les dades referents a l’ús d’un 
 aparcament públic.
 El programa permetrà les següents operacions:
-● Obtenir el número de places disponibles.
-● Obtenir el número de places ocupades.
-● Donat el número de matrícula d’un vehicle que vol sortir de l’aparcament, l’import que ha de pagar.
-● Donades una data i una hora, el número de places ocupades.
-● Donat el número de matrícula d’un vehicle, l’historial d’estacionaments a l’aparcament.
-● Donat el número d’una plaça d’aparcament, l’historial d’estacionaments.
-● Donada una data, llistat de les deu places més ocupades durant la data, indicant el número 
+  * Obtenir el número de places disponibles.
+  * Obtenir el número de places ocupades.
+  * Donat el número de matrícula d’un vehicle que vol sortir de l’aparcament, l’import que ha de pagar.
+  * Donades una data i una hora, el número de places ocupades.
+  * Donat el número de matrícula d’un vehicle, l’historial d’estacionaments a l’aparcament.
+  * Donat el número d’una plaça d’aparcament, l’historial d’estacionaments.
+  * Donada una data, llistat de les deu places més ocupades durant la data, indicant el número 
 d’ocupacions i ordenat de més a menys.
+
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 
 
@@ -56,10 +57,11 @@ L’usuari interactuarà amb el programa mitjançant menús i l’introducció d
 Crear un programa, amb Python i TinyDB, que permeti gestionar les dades referents als béns culturals d’un 
 museu.
 El programa permetrà les següents operacions:
-● Llistat de tots els béns.
-● Llistat de les diferents col·leccions.
-● Afegir un bé a una col·lecció.
-● Donat el nom d’una col·lecció, un llistat de tots els seus béns.
-● Donat una data, llistat de tots els béns que són anteriors a la data indicada.
+* Llistat de tots els béns.
+* Llistat de les diferents col·leccions.
+* Afegir un bé a una col·lecció.
+* Donat el nom d’una col·lecció, un llistat de tots els seus béns.
+* Donat una data, llistat de tots els béns que són anteriors a la data indicada.
+
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
 
