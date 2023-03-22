@@ -9,8 +9,8 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 ## UF0: Introducció a Python
 
-|  Conceptes bàsics						| Unitats Teoria																  | Exercicis |
-|-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
+|  Conceptes bàsics | Unitats Teoria  | Exercicis |
+|---------------------------|-----------------|-----------|
 | Introducció               | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md) | |
 | Estructura del llenguatge |[6](curs/001_ESTRU/u6/README.md) [7](curs/001_ESTRU/u7/README.md) [8](curs/001_ESTRU/u8/README.md) [9](curs/001_ESTRU/u9/README.md) [10](curs/001_ESTRU/u10/README.md)| |
 | Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [A1](curs/002_TDNU/u14/README.md) |
@@ -31,27 +31,27 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 ## UF1: Persistència de dades amb fitxers
 
 
-|  Persistència de dades amb fitxers					| Unitats Teoria																        | Exercicis |
-|-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
-| Sistema de fitxers| [36](curs/007_FILES/README.md)|
-| Mòduls de python per la gestió de fitxers |[45](curs/009_MODU/u41/README.md)|
-| Procés de Serialització| [36a](curs/007_FILES/u36a/README.md)|
-| Tipus de fitxers | [36b](curs/007_FILES/u36b/README.md)|
-| Treball amb fitxers texte | [36c](curs/007_FILES/u36c/README.md)|
-| Treball amb fitxers binari | [36d](curs/007_FILES/u36d/README.md)|
-| Fitxers CSV | [CSV](curs/007_FILES/u37/README.md)|
-| Fitxers JSON| [JSON](curs/007_FILES/u38/README.md)|
-| Fitxers XML | [XML](curs/007_FILES/u38b/README.md)|
-| Treball de fitxers ||[A7](curs/007_FILES/u99/act6.md)|
+|  Persistència de dades amb fitxers            | Unitats Teoria  			| Exercicis 			  |
+|-----------------------------------------------|---------------------------------------|---------------------------------|
+| Sistema de fitxers		     		| [36](curs/007_FILES/README.md)	|				  |
+| Mòduls de python per la gestió de fitxers 	| [45](curs/009_MODU/u41/README.md)	|				  |
+| Procés de Serialització			| [36a](curs/007_FILES/u36a/README.md)	|				  |
+| Tipus de fitxers 				| [36b](curs/007_FILES/u36b/README.md)	|				  |
+| Treball amb fitxers texte 			| [36c](curs/007_FILES/u36c/README.md)	|   				  |
+| Treball amb fitxers binari 			| [36d](curs/007_FILES/u36d/README.md)	|  				  |
+| Fitxers CSV 					| [CSV](curs/007_FILES/u37/README.md)	|				  |
+| Fitxers JSON					| [JSON](curs/007_FILES/u38/README.md)	|				  |
+| Fitxers XML 					| [XML](curs/007_FILES/u38b/README.md)	|				  |
+| Treball de fitxers 				|					|[A7](curs/007_FILES/u99/act6.md) |
 
 
 ## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO
 
-|  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria	| Exercicis |
-|------------------------------------------------|------------------|-----------|
-| Connectors a Bases de dades 				     | [60](curs/022_DATABASE/README.md)|
-| Connectar a Postgres 							 | [60a](curs/022_DATABASE/POSTGRES/README.md)|
-| Connectar a MongoDB							 | [60b](curs/022_DATABASE/MONGODB/README.md)
+|  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria			      | Exercicis |
+|------------------------------------------------|--------------------------------------------|-----------|
+| Connectors a Bases de dades    		 | [60](curs/022_DATABASE/README.md)	      |
+| Connectar a Postgres 				 | [60a](curs/022_DATABASE/POSTGRES/README.md)|
+| Connectar a MongoDB				 | [60b](curs/022_DATABASE/MONGODB/README.md) |
 ***
 
 ### Temari
