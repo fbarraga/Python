@@ -1,5 +1,5 @@
 # UF2
-## Acces a Base de Dades (BDR,BDOR,BDOO)
+## Accés a Base de Dades (BDR,BDOR,BDOO)
 
 ### Introducció
 
