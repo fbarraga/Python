@@ -40,6 +40,7 @@ while reg is not None:
     cur.close()  connexio.close()
 ```
 
+Sortida:
 ```cmd
 regular@debian:~$ python3 programa.py
 1,aaaaa  
