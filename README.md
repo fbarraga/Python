@@ -61,7 +61,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 ## UF3: Persistència amb Bases de Dades XML
 |  Persistència amb Bases de Dades XML | Unitats Teoria			    	  | Exercicis   |
 |------------------------------------------------|------------------------------------|-------------|
-| Bases de dades XML				 | [mongo](curs/022_DATABASE/MONGODB/README.md)     |		  		|
+| Bases de dades XML				 | [bdxml](curs/022_DATABASE/MONGODB/README.md)     |		  		|
 | Instal·lar i connectar a MongoDB	         | [mongo](curs/022_DATABASE/MONGODB/INSTALACIO.md) |		  		|
 | Treball amb Bases de Dades			 | 					|[A3-1](curs/022_DATABASE/MONGODB/EXERCICIS.md)	  |	
 ***
