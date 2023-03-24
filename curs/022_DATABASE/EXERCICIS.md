@@ -35,6 +35,7 @@ El programa permetrà les següents operacions:
 altre persona.
   * Llistar l’historial d’operacions d’un compte corrent.
 
+
 * L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
 * +2Punts si utilitzeu un ORM
 
@@ -51,6 +52,7 @@ El programa permetrà les següents operacions:
   * Donada una data, llistat de les deu places més ocupades durant la data, indicant el número 
 d’ocupacions i ordenat de més a menys.
 
+
 * L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 * +2Punts si utilitzeu un ORM
 
@@ -65,10 +67,6 @@ El programa permetrà les següents operacions:
 * Donat el nom d’una col·lecció, un llistat de tots els seus béns.
 * Donat una data, llistat de tots els béns que són anteriors a la data indicada.
 
+
 * L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 * +2Punts si utilitzeu un ORM
-
-
-
-L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
-
