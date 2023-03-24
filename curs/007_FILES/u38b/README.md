@@ -11,8 +11,8 @@ En general, el procés de lectura de les dades d'un fitxer XML i l'anàlisi dels
 ## Instal·lació de llibreries necessaries
 
 Hi ha dues biblioteques que es podrien utilitzar amb el propòsit d'analitzar xml. Són:
-1.	BeautifulSoup utilitzat al costat de l'analitzador xml lxml
-2.	Biblioteca Elementtree.
+1.	[BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/) utilitzat al costat de l'analitzador xml lxml
+2.	Biblioteca [Elementtree](https://docs.python.org/3/library/xml.etree.elementtree.html).
 
 
 Ús de BeautifulSoup juntament amb l'analitzador lxml
