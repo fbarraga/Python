@@ -111,7 +111,7 @@ regular@debian:~$ python3 programa.py
 Després de treballar amb la nostra base de dades, i al igual que fem amb els fitxers hem de tancar la connexió per tal d'alliberar els recursos.
 
 
-### Inserir registres
+## Inserir registres
 
 ```python
 posts = [
