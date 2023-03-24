@@ -62,7 +62,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 |  Persistència amb Bases de Dades XML | Unitats Teoria			    	  | Exercicis   |
 |------------------------------------------------|------------------------------------|-------------|
 | Connectar a MongoDB					 | [60b](curs/022_DATABASE/MONGODB/README.md) |		  		|
-| Treball amb Bases de Dades			 | 					|[A3-1](curs/022_DATABASE/ACTIVITAT1.md)	  |	
+| Treball amb Bases de Dades			 | 					|[A3-1](curs/022_DATABASE/MONGODB/EXERCICIS.md)	  |	
 ***
 
 ## UF4: Components d'accés a dades
