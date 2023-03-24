@@ -41,6 +41,11 @@ Creem dintre del Postgres una base de dades d'exemple que farem servir amb els e
 CREATE DATABASE dbprova;  
 CREATE USER usuariprova WITH PASSWORD '12345'; 
 GRANT ALL PRIVILEGES ON DATABASE dbprova TO usuariprova;
+CREATE TABLE tprova(codi integer,descripcio varchar(100));
+INSERT INTO tprova(1,'aaaa');
+INSERT INTO tprova(2,'bbbb');
+INSERT INTO tprova(3,'cccc');
+
 ```
 
 
