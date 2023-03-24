@@ -42,4 +42,4 @@ class Telefon(BaseModel):
 Si anem a mirar la base de dades després d'executar el programa veure'm que ens ha creat les taules.
 
 ***
-[Index](../../README.md)
+[Index](../../../README.md)
