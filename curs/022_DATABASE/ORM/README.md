@@ -7,7 +7,7 @@ definició de les correspondències entre els diferents sistemes.
 
 El seu ús s'ha incrementat en els darrers anys, millorant el SQL per la capacitat de delimitar el nombre de registres d'una consulta a més d'alliberar al programador de l'escriptura mnual per crear les consultes i gestionar les dades en el RDBMS
 
-L'ORM coné eines que permeten la conversió d'objectes per ser enmmagatzemats en una BDR. També dona la possibilitat de utilitzar les característiques propies de POO, especialment l'herencia i el polimorfisme. Igualment recuperar les dades emmagatzemades de la BDR, ja que converteix els registres en objectes.
+L'ORM conté eines que permeten la conversió d'objectes per ser enmmagatzemats en una BDR. També dona la possibilitat de utilitzar les característiques propies de POO, especialment l'herencia i el polimorfisme. Igualment recuperar les dades emmagatzemades de la BDR, ja que converteix els registres en objectes.
 
 Com a resum, podem dir que un ORM funciona como una solució intermitja que  facilitando la tarea del programador  accedint a les dades d'una manera senzilla i agnòstica del SGBDR que utilitzis.
 
@@ -38,5 +38,5 @@ Algunos ejemplos específicos serían:
 # Python y ORM
 
 Python disposa de varis ORM pero els més populars i utilitzats son:
-* PeeWee és un ORM lleuger que permet interactuar amb bases de dades MySQL, PostgreSQL i SQLite
-* Alchemy és un ORM complet que permet interactuar amb 
+* [PeeWee](https://docs.peewee-orm.com/en/latest/) és un ORM lleuger que permet interactuar amb bases de dades MySQL, PostgreSQL i SQLite
+* [Alchemy](https://www.sqlalchemy.org/) és un ORM complet que permet interactuar amb 
