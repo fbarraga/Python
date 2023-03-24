@@ -10,7 +10,7 @@
 	A	són els dos darrers números del vostre any de naixement.
     M	és el número que correspon al mes de la vostra data de naixement
 
-N = (D+A+M) mod 5
+N = (D+A+M) mod 3
 
 | N   | BLOC |
 |-----|------|
