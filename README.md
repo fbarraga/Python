@@ -52,8 +52,8 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Connectors a Bases de dades    		 | [60](curs/022_DATABASE/README.md)		  |				|
 | Connectar a Postgres 					 | [60a](curs/022_DATABASE/POSTGRES/README.md)|		  		|
 | Què és un ORM							 | [60c](curs/022_DATABASE/ORM/README.md)     |		  		|
-| --ORM: Peewee							 | [60d](curs/022_DATABASE/ORM/peewee/README.md)											  |				|
-| --ORM: Alchemy						 | [60e](curs/022_DATABASE/ORM/alchemy/README.md)											  |				|
+| --ORM: Peewee							 | [60d](curs/022_DATABASE/ORM/PEEWEE.md)											  |				|
+| --ORM: Alchemy						 | [60e](curs/022_DATABASE/ORM/ALCHEMY.md)											  |				|
 | Bases de dades Orientades a Objectes   | [60f](curs/022_DATABASE/BDOO/README.md)
 | Treball amb Bases de Dades BDR,BDOR,BDOO			 | 					|[A15](curs/022_DATABASE/EXERCICIS.md)	  |				
 
