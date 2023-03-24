@@ -74,8 +74,6 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 ***
 
 
-
-
 ### Temari
 
 1. [Introducció a Python](curs/000_INTRO/u1/README.md)
