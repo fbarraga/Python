@@ -64,6 +64,18 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Treball amb Bases de Dades			 | 					|[A16](curs/022_DATABASE/EXERCICIS22.md)	  |	
 ***
 
+## UF4: Components d'accés a dades
+|  Components d'accés a dades                    | Unitats Teoria	    	      | Exercicis   |
+|------------------------------------------------|------------------------------------|-------------|
+| Jupyter Notebooks				 |				      |		    |
+| Datascience					 |				      |             |
+| Recuperar informació d'una API		 |  		  		      |             |
+| Treball Final d'accés a dades			 | 				      |             |
+***
+
+
+
+
 ### Temari
 
 1. [Introducció a Python](curs/000_INTRO/u1/README.md)
