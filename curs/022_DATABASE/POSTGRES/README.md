@@ -17,7 +17,15 @@ GRANT ALL PRIVILEGES ON DATABASE dbprova TO usuariprova;
 pip install psycopg2
 ```
 
+## Connectar a la base de dades
+
 Per connectar a la base de dades haurem d'especificar com a mínim aquests paràmetres:
+
+```python
+import psycopg2
+connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
+```
+
 |Paràmetre| Valor |
 |---------|-------|
 |**host**| ip o nom del servidor de base de dades|
@@ -25,8 +33,21 @@ Per connectar a la base de dades haurem d'especificar com a mínim aquests parà
 |**user**| usuari per connectar a la bd|
 |**password**| password per connectar a la bd|
 
+## Cursors
 
-# FETCHONE Seleccionem un registre de la base de dades
+Un cop hagim establert la connexió contra la Base de Dades podem obrir un cursor i executar comandes SQL
+
+```python
+import psycopg2
+
+connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
+cur = connexio.cursor()
+cur.execute("SELECT * FROM tprova;")  
+```
+
+El cursor recuperarà de la base de dades tots els registres que retorni la sentència SQL. A partir d'aquí podem fer el recorregut del cursor a través de les comandes fetchone, y fetchall
+
+### Seleccionem un registre de la base de dades: FETCHONE
 
 
 ```python
@@ -52,7 +73,7 @@ regular@debian:~$ python3 programa.py
 3,ccccc
 ```
 
-# FETCHALL Seleccionem tots els registres
+### Seleccionem tots els registres: FETCHALL
 
 
 ```python
