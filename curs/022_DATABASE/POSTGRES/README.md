@@ -17,7 +17,16 @@ GRANT ALL PRIVILEGES ON DATABASE dbprova TO usuariprova;
 pip install psycopg2
 ```
 
+## Connectar a la base de dades
+
 Per connectar a la base de dades haurem d'especificar com a mínim aquests paràmetres:
+
+```python
+import psycopg2
+
+connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
+```
+
 |Paràmetre| Valor |
 |---------|-------|
 |**host**| ip o nom del servidor de base de dades|
