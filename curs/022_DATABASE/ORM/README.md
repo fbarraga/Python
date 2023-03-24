@@ -40,3 +40,8 @@ Algunos ejemplos específicos serían:
 Python disposa de varis ORM pero els més populars i utilitzats son:
 * [PeeWee](https://docs.peewee-orm.com/en/latest/) és un ORM lleuger que permet interactuar amb bases de dades MySQL, PostgreSQL i SQLite
 * [Alchemy](https://www.sqlalchemy.org/) és un ORM complet que permet interactuar amb 
+
+***
+[Index](../../../README.md)
+
+
