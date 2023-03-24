@@ -7,6 +7,11 @@ NoSQL és una àmplia classe de sistemes de gestió de bases de dades que difere
 
 [TinyDB](https://tinydb.readthedocs.io/en/latest/index.html) és una base de dades lleugera orientada a documents, tipus NoSQL, dissenyada per a ser simple, fàcil d'usar i amb una API senzilla. Amb una alta capacitat per estendre les seves  funcionalitats i no necessita un servidor extern.
 
+Pots consultar tota la informació de TinyDB en els següents links:
+* [pypi](https://pypi.org/project/tinydb/)
+* [github](https://github.com/msiemens/tinydb)
+* [readthedocs](https://tinydb.readthedocs.io/en/latest/)
+
 ## Instal·lació de TinyDB
 
 Per treball amb TinyDB haurem d'instal·lar el mòdul a través del pip
