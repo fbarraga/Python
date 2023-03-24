@@ -42,7 +42,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Fitxers CSV 					| [CSV](curs/007_FILES/u37/README.md)	|				  |
 | Fitxers JSON					| [JSON](curs/007_FILES/u38/README.md)	|				  |
 | Fitxers XML 					| [XML](curs/007_FILES/u38b/README.md)	|				  |
-| Treball de fitxers 				|					|[A7](curs/007_FILES/u99/act6.md) |
+| Treball de fitxers 				|					|[A1-1](curs/007_FILES/u99/act6.md) |
 
 
 ## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO 
@@ -52,16 +52,18 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Connectors a Bases de dades    		 | [60](curs/022_DATABASE/README.md)		  |				|
 | Connectar a Postgres 					 | [60a](curs/022_DATABASE/POSTGRES/README.md)|		  		|
 | Què és un ORM							 | [60c](curs/022_DATABASE/ORM/README.md)     |		  		|
-| --ORM: Peewee							 | [60d](curs/022_DATABASE/ORM/peewee/README.md)											  |				|
-| --ORM: Alchemy						 | [60e](curs/022_DATABASE/ORM/alchemy/README.md)											  |				|
+| --ORM: Peewee							 | [60d](curs/022_DATABASE/ORM/PEEWEE.md)											  |				|
+| --ORM: Alchemy						 | [60e](curs/022_DATABASE/ORM/ALCHEMY.md)											  |				|
 | Bases de dades Orientades a Objectes   | [60f](curs/022_DATABASE/BDOO/README.md)
-| Treball amb Bases de Dades BDR,BDOR,BDOO			 | 					|[A15](curs/022_DATABASE/EXERCICIS.md)	  |				
+| --BDOO: TinyDB Samples			 | [60f](curs/022_DATABASE/BDOO/pys)											  |				|
+| Treball amb Bases de Dades BDR,BDOR,BDOO			 | 					|[A2-1](curs/022_DATABASE/EXERCICIS.md)	  |				
 
 ## UF3: Persistència amb Bases de Dades XML
 |  Persistència amb Bases de Dades XML | Unitats Teoria			    	  | Exercicis   |
 |------------------------------------------------|------------------------------------|-------------|
-| Connectar a MongoDB					 | [60b](curs/022_DATABASE/MONGODB/README.md) |		  		|
-| Treball amb Bases de Dades			 | 					|[A16](curs/022_DATABASE/EXERCICIS22.md)	  |	
+| Bases de dades XML				 | [bdxml](curs/022_DATABASE/MONGODB/README.md)     |		  		|
+| Instal·lar i connectar a MongoDB	         | [mongo](curs/022_DATABASE/MONGODB/INSTALACIO.md) |		  		|
+| Treball amb Bases de Dades			 | 					|[A3-1](curs/022_DATABASE/MONGODB/EXERCICIS.md)	  |	
 ***
 
 ## UF4: Components d'accés a dades
