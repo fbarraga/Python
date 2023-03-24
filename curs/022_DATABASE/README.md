@@ -37,5 +37,10 @@ Connectors creats per Sun Microsystems, es tracta d’un API connector de bases 
 ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/jdbc.png?raw=true)
 
 
+## Python Llibreries SQL
+
+Pots consultar aquest link per tenir més informació sobre les llibreries més utilitzades en Python [Realpython](https://realpython.com/python-sql-libraries/)
+
+
 ***
 [Index](../../README.md)
