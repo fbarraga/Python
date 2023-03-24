@@ -20,7 +20,7 @@ N = (D+A+M) mod 5
 
 
 ## A GESTOR DE COMPTES BANCARIS
-Crear un programa, amb Python i Pyscopg, que permeti gestionar les dades referents als comptes corrents 
+Crear un programa, amb **Python i Pyscopg**, que permeti gestionar les dades referents als comptes corrents 
 dels clients d’una entitat bancària.
 El programa permetrà les següents operacions:
   * Llistar les dades personals de tots els clients.
@@ -35,10 +35,11 @@ El programa permetrà les següents operacions:
 altre persona.
   * Llistar l’historial d’operacions d’un compte corrent.
 
-L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
+* L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
+* +2Punts si utilitzeu un ORM
 
 ## B GESTOR D’UN APARCAMENT PÚBLIC
-Crear un programa, amb Python i PeeWee, que permeti gestionar les dades referents a l’ús d’un 
+Crear un programa, amb **Python i Pyscopg**, que permeti gestionar les dades referents a l’ús d’un 
 aparcament públic.
 El programa permetrà les següents operacions:
   * Obtenir el número de places disponibles.
@@ -50,11 +51,12 @@ El programa permetrà les següents operacions:
   * Donada una data, llistat de les deu places més ocupades durant la data, indicant el número 
 d’ocupacions i ordenat de més a menys.
 
-L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
+* L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
+* +2Punts si utilitzeu un ORM
 
 
 ## C GESTOR D’UN MUSEU
-Crear un programa, amb Python i TinyDB, que permeti gestionar les dades referents als béns culturals d’un 
+Crear un programa, amb **Python i Pyscopg**, que permeti gestionar les dades referents als béns culturals d’un 
 museu.
 El programa permetrà les següents operacions:
 * Llistat de tots els béns.
@@ -62,6 +64,11 @@ El programa permetrà les següents operacions:
 * Afegir un bé a una col·lecció.
 * Donat el nom d’una col·lecció, un llistat de tots els seus béns.
 * Donat una data, llistat de tots els béns que són anteriors a la data indicada.
+
+* L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
+* +2Punts si utilitzeu un ORM
+
+
 
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
 
