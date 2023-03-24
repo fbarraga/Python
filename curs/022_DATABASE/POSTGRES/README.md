@@ -99,7 +99,7 @@ registres = cur.fetchall()
 
 for reg in registres:  
     print(f"{reg[0]},{reg[1]}");
-    cur.close()  
+cur.close()  
 connexio.close()
 ```
 
