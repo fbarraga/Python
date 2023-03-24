@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<idiomes>
+ <missatge salutacio="ca">Benvingut</missatge>
+ <missatge salutacio="es">Bienvenido</missatge>
+ <missatge salutacio="fr">Soyez le bienvenu</missatge>
+ <missatge salutacio="en">Welcome</missatge>
+ <missatge comiat="ca">Adeu</missatge>
+ <missatge comiat="es">Adios</missatge>
+ <missatge comiat="fr">Adieu</missatge>
+ <missatge comiat="en">Bye</missatge>
+</idiomes>
