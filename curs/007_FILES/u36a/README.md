@@ -3,7 +3,7 @@
 ## Procés de serialització/ deserialització
 
 El procés de serialització consisteix a transformar un objecte determinat en un text a partir d'un llenguatge específic, per ser emmagatzemat o bé transferit i, finalment, restablert a l'objecte original.
-Per exemple, desar una llista de Python en un arxiu de text o base de dades, i després carregar quan sigui necessari. Formats comuns entre els diferents llenguatges de programació inclouen CSV, XML i JSON
+Per exemple, desar una llista de Python en un arxiu de text o base de dades, i després carregar quan sigui necessari. Existeixen formats comuns entre els diferents llenguatges de programació com per exemple CSV, XML i JSON
 
 Igual que el Transporter a Star Trek, es tracta d'agafar quelcom complicat i convertir-lo en una seqüència plana d'1 i 0, després agafar aquesta seqüència d'1 i 0 (possiblement en un altre lloc, possiblement en un altre moment) i reconstruir el complicat original ". alguna cosa.”
 

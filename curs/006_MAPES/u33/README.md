@@ -12,7 +12,7 @@ Els [diccionaris](https://docs.python.org/3/library/stdtypes.html#mapping-types-
 	>>> a == b == c == d == e
 	True
 
-Si tenim un diccionari buit, al ser un objecte mutable, també podem construir el dicccionar de la següent manera:
+Si tenim un diccionari buit, al ser un objecte mutable, també podem construir el diccionari de la següent manera:
 
 	>>> dict1 = {}
 	>>> dict1["one"]=1
@@ -46,7 +46,7 @@ Si tenim un diccionari buit, al ser un objecte mutable, també podem construir e
 
 		>>> "two" in a
 		True
-
+		
 * `iter()`: Ens retorna un iterador de les claus. 
 
 		>>> next(iter(a))
@@ -65,10 +65,12 @@ Els diccionaris, al igual que les llistes, son tipus de dades mutables. Per lo t
 
 	>>> a = dict(one=1, two=2, three=3)
 	>>> b = a
-	>>> del(a["one"])
+	>>> del(b["one"])
 	>>> b
 	{'three': 3, 'two': 2}	
-
+	>>> a
+	{'three': 3, 'two': 2}
+	
 En aquest cas per copiar diccionaris anem a utilitzar el mètode `copy()`:
 
 	>>> a = dict(one=1, two=2, three=3)

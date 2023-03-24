@@ -30,7 +30,7 @@ Si es té una tupla de longitud k, es po assignar la tupla a k variables diferen
 	>>> a
 	1
 
-## Operacions bàsiques amb tuplas
+## Operacions bàsiques amb tuples
 
 A les tuples es poden realitzar les següents operacions:
 
@@ -43,7 +43,7 @@ A les tuples es poden realitzar les següents operacions:
 
 Entre les funcions definides podem utilitzar: `len`, `max`, `min`, `sum`, `sorted`.
 
-## Las tuplas son inmutables
+## Las tuples son inmutables
 
 	>>> tupla = (1,2,3)
 	>>> tupla[1]=5
@@ -51,9 +51,9 @@ Entre les funcions definides podem utilitzar: `len`, `max`, `min`, `sum`, `sorte
 	  File "<stdin>", line 1, in <module>
 	TypeError: 'tuple' object does not support item assignment
 
-## Mètodes principales
+## Mètodes principals
 
-Mètodos de cerca: `count`, `index`
+Mètodes de cerca: `count`, `index`
 
 	>>> tupla = (1,2,3,4,1,2,3)
 	>>> tupla.count(1)

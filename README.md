@@ -7,22 +7,74 @@ Benvinguts al curs de Python. Aquest curs es un repositori de molta documentaci�
 Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
 
 
-## Unitats formatives
-| UF						| Unitats Teoria																  | Unitats pràctica |
-|-------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
+## UF0: Introducció a Python
+
+|  Conceptes bàsics | Unitats Teoria  | Exercicis |
+|----------------------------|-----------------|-----------|
 | Introducció               | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md) | |
 | Estructura del llenguatge |[6](curs/001_ESTRU/u6/README.md) [7](curs/001_ESTRU/u7/README.md) [8](curs/001_ESTRU/u8/README.md) [9](curs/001_ESTRU/u9/README.md) [10](curs/001_ESTRU/u10/README.md)| |
-| Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [14](curs/002_TDNU/u14/README.md) |
-| Estructures de control Alternatives/Condicionals (IF) | [15](curs/003_ALTER/u15/README.md) | [16](curs/003_ALTER/u16/README.md) |
-| Estructures de control Repetitives (WHILE / FOR)      | [17](curs/004_REPET/u17/README.md) | [18](curs/004_REPET/u18/README.md) |
-| Tipus de dades seqüència : Llistes					| [19](curs/005_SEQUE/u19/README.md) [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [22](curs/005_SEQUE/u22/README.md) |
-| Tipus de dades seqüència : Tuples i	Rangs				| [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
-| Tipus de dades seqüència : Cadenes			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[29](curs/005_SEQUE/u29/README.md) | 
+| Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [A1](curs/002_TDNU/u14/README.md) |
+| Estructures de control Condicionals: IF / ELSE | [15](curs/003_ALTER/u15/README.md) | [A2](curs/003_ALTER/u16/README.md) |
+| Estructures de control Repetitives: WHILE / FOR      | [17](curs/004_REPET/u17/README.md) | [A3](curs/004_REPET/u18/README.md) |
+| Tipus de dades seqüencia | [19](curs/005_SEQUE/u19/README.md)|
+| Tipus de dades seqüència: *Llistes*					|  [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [A4](curs/005_SEQUE/u22/README.md) |
+| Tipus de dades seqüència: *Diccionaris*			| [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [A5](curs/006_MAPES/u35/README.md)|
+| Tipus de dades seqüència: *Tuples i	Rangs*				| [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
+| Tipus de dades seqüència: *Cadenes*			| [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[A6](curs/005_SEQUE/u29/README.md) | 
 | Tipus de dades bytesarray,set,frozenset|[30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
-| Tipus de dades Diccionaris			| [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [35](curs/006_MAPES/u33/README.md)|
-| Treball amb fitxers | [36](curs/007_FILES/u36a/README.md) [37](curs/007_FILES/u36b/README.md) [38](curs/007_FILES/u36c/README.md) [39](curs/007_FILES/u36d/README.md)|
 | Errors i excepcions | [43](curs/008_EXCEP/u01/README.md)| |
-| Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [54](curs/011_POOB/u54/README.md)|
+| Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [A10](curs/011_POOB/u54/README.md)|
+
+
+***
+
+## UF1: Persistència de dades amb fitxers
+
+
+|  Persistència de dades amb fitxers            | Unitats Teoria  			| Exercicis 			  |
+|-----------------------------------------------|---------------------------------------|---------------------------------|
+| Sistema de fitxers		     		| [36](curs/007_FILES/README.md)	|				  |
+| Mòduls de python per la gestió de fitxers 	| [45](curs/009_MODU/u41/README.md)	|				  |
+| Procés de Serialització			| [36a](curs/007_FILES/u36a/README.md)	|				  |
+| Tipus de fitxers 				| [36b](curs/007_FILES/u36b/README.md)	|				  |
+| Treball amb fitxers texte 			| [36c](curs/007_FILES/u36c/README.md)	|   				  |
+| Treball amb fitxers binari 			| [36d](curs/007_FILES/u36d/README.md)	|  				  |
+| Fitxers CSV 					| [CSV](curs/007_FILES/u37/README.md)	|				  |
+| Fitxers JSON					| [JSON](curs/007_FILES/u38/README.md)	|				  |
+| Fitxers XML 					| [XML](curs/007_FILES/u38b/README.md)	|				  |
+| Treball de fitxers 				|					|[A7](curs/007_FILES/u99/act6.md) |
+
+
+## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO 
+
+|  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria			    	  | Exercicis   |
+|------------------------------------------------|------------------------------------|-------------|
+| Connectors a Bases de dades    		 | [60](curs/022_DATABASE/README.md)		  |				|
+| Connectar a Postgres 					 | [60a](curs/022_DATABASE/POSTGRES/README.md)|		  		|
+| Què és un ORM							 | [60c](curs/022_DATABASE/ORM/README.md)     |		  		|
+| --ORM: Peewee							 | [60d](curs/022_DATABASE/ORM/peewee/README.md)											  |				|
+| --ORM: Alchemy						 | [60e](curs/022_DATABASE/ORM/alchemy/README.md)											  |				|
+| Bases de dades Orientades a Objectes   | [60f](curs/022_DATABASE/BDOO/README.md)
+| Treball amb Bases de Dades BDR,BDOR,BDOO			 | 					|[A15](curs/022_DATABASE/EXERCICIS.md)	  |				
+
+## UF3: Persistència amb Bases de Dades XML
+|  Persistència amb Bases de Dades XML | Unitats Teoria			    	  | Exercicis   |
+|------------------------------------------------|------------------------------------|-------------|
+| Connectar a MongoDB					 | [60b](curs/022_DATABASE/MONGODB/README.md) |		  		|
+| Treball amb Bases de Dades			 | 					|[A16](curs/022_DATABASE/EXERCICIS22.md)	  |	
+***
+
+## UF4: Components d'accés a dades
+|  Components d'accés a dades                    | Unitats Teoria	    	      | Exercicis   |
+|------------------------------------------------|------------------------------------|-------------|
+| Jupyter Notebooks				 |				      |		    |
+| Datascience					 |				      |             |
+| Recuperar informació d'una API		 |  		  		      |             |
+| Treball Final d'accés a dades			 | 				      |             |
+***
+
+
+
 
 ### Temari
 
@@ -47,7 +99,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 	* Extensions de Visual Studio Code 
 	* Virtual Environments
     	* Virtualenv
-    	* AnaConda
+    	* Anaconda
 
 5. [El meu primer programa en Python3](curs/000_INTRO/u5/README.md)
    
@@ -265,7 +317,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 	* Procés de serialització
 	* Procés de deserialització
   
-37. [Tipus de fitxers](curs/007_FILES/u36b/README.md))
+37. [Tipus de fitxers](curs/007_FILES/u36b/README.md)
 	
 	* Fitxers de texte
 	* Fitxers binaris
@@ -301,7 +353,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 	* Escriure fitxers json
 	* Pretty Json
 
-42. [Gestionar fitxers xml](curs/007_FILES/u38b/README.md)
+42. [Gestionar fitxers XML](curs/007_FILES/u38b/README.md)
     
 	* Mòdul lxml i beautifulsoup
 	* Llegir fitxers xml
@@ -434,22 +486,43 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 	* Scripts en Linux
 
+### Treballar amb Bases de Dades (BDR,BDOR,BDOO)
+
+61. [Drivers i connectors de BD](curs/022_DATABASE/README.md)
+
+	* Què és un connector?
+	* Connectors als principals SGBR en Python
+	* ODBC i JDBC
+
+62. [ORM](curs/022_DATABASE/README.md)
+
+	* Què és un ORM?
+	* [PeeWee](curs/022_DATABASE/peewee/README.md)
+	* [Alchemy](curs/022_DATABASE/alchemy/README.md)
+
+63. [Connectar a BD XML](curs/022_DATABASE/mongodb/README.md)
+
+	* MongoDB
+
+
 ### Treballar amb dades - DataScience
 
-61. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
+63. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
 
+	* Jupyter Lab
 	* Jupyter Notebook
+	* Jupyter Voilà
 
-62. [Data Management](curs/012_IA/u100/README.md)
+64. [Data Management](curs/012_IA/u100/README.md)
 
 	* Normalització de dades
 
-63. [Llibreria Pandas](curs/017_PANDAS/README.md)
+65. [Llibreria Pandas](curs/017_PANDAS/README.md)
 
 	* Instal·lació 
 	* Ús
 
-64. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
+66. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
 
 	* Web Scraping i  Web Crawling
     	* Navegadors web i HTTP
@@ -458,24 +531,24 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
     	* Scraping amb Selenium
     	* Exemples
 
-65. [Microsoft Power BI i Python](curs/013_DATA/PBI/README.md)
+67. [Microsoft Power BI i Python](curs/013_DATA/PBI/README.md)
 
 
 ### Crear un entorn de proves
 
-66. [Creació d'un entorn de proves/curs](curs/019_TEST/001/README.md)
+68. [Creació d'un entorn de proves/curs](curs/019_TEST/001/README.md)
 
 	* Utilització de la llibreria pytest 
 
 ### Utilització del modul logging DEBUG/INFO
 
-67. [Logging i debugging de l'aplicació](curs/020_LOGS/001/README.md)
+69. [Logging i debugging de l'aplicació](curs/020_LOGS/001/README.md)
 
 	* Utilització de la llibreria logging 
 
 ### Desenvolupament d'aplicacions en entorn gràfic
 
-66. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
+70. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
 
 	* Tkinter
 	* wxPython
@@ -486,7 +559,6 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 67. [Introducció a Django](curs/015_PYWEB/u56/README.md)
 
-### APIs REST
 
 68. [Descripció de les APIS](curs/016_APIS/u55/README.md)
 
@@ -495,28 +567,21 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 	* Seguretat
 	* REST APIs vs SOAP API
 
-69. [Consumir una REST API amb el modul requests](curs/016_APIS/u56/README.md)
+69. [REST API: Consumició amb el modul requests](curs/016_APIS/u56/README.md)
 
 	* Amb el mètode GET
 	* Amb el mètode POST
 
-70. [Crear una REST API](curs_016_APIS/u56/README.md)
-
-	* Amb Swagger
-	* Amb Flask
-
-71. [Exemples de consumició REST APIs](curs_016_APIS/u56/README.md)
+71. [REST API: Exemples de consumició](curs_016_APIS/u56/README.md)
 
 	* [Cinema](curs/016_APIS/pys/cinema)
 	* [Weather](curs/016_APIS/pys/weather)
 	* [La Liga](curs/016_APIS/pys/futbol)
 
+70. [REST API: Creació d'una API](curs_016_APIS/u56/README.md)
 
-72. [Consumir una SOAP API]
-
-73. [Consumir una SOAP API]
-
-
+	* Amb Swagger
+	* Amb Flask
 
 ### Intel.ligència artificial i Machine Learning
 

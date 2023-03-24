@@ -17,6 +17,13 @@ Podem descarregar-nos un instal·lador (paquet MSI) de les diferents versions de
 
 [Per més informació](https://docs.python.org/3/using/windows.html)
 
+Amb Windows hem de desactivar la seguretat en l'execució d'scripts, sino Python ens donarà error. Després d'instal·lar-ho des de Powershell i amb permissos d'administrador executem:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+```
+
+
 ## Instal·lació en Mac OS
 
 Mac OS X 10.8 ve amb Python 2.7 pre-instal·lat. Si vols instal·lar Python3 pots trobar el paquet de la versió desitjada a la pàgina de descàrrega: [www.python.org/downloads/](https://www.python.org/downloads/).

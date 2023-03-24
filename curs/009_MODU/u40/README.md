@@ -6,7 +6,7 @@
 
 ## Executant mòduls amb scripts
 
-Si hem creat un mòdul, on hem definit dos funcions i hem fet un programa principal on s'utilitzzen aquestes funcions, tenim dos opcions: executar aquest mòdul com un script o importar aquest mòdul des d'un altre, per utilitzar les seves funcions. Per exemple, si tenim un fitxer anomenat `potencias.py`:
+Si hem creat un mòdul, on hem definit dos funcions i hem fet un programa principal on s'utilitzen aquestes funcions, tenim dos opcions: executar aquest mòdul com un script o importar aquest mòdul des d'un altre, per utilitzar les seves funcions. Per exemple, si tenim un fitxer anomenat `potencias.py`:
 
 	#!/usr/bin/env python	
 
@@ -22,7 +22,7 @@ En aquest cas, quan l'executo com un script:
 
 	$ python3 potencias.py
 
-El nom que té el mòdul és `__main__`, per lo tant s'executarà el programa principal.
+El nom que té el mòdul és `__main__`, per lo tant s'executarà el programa principal. Si vols entendre perque s'ha d'indicar el `__main__` pots adreçar-te al següent link de StackOverflow [link](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
 
 A més aquest mòdul es podrà importar (com veurem en el següent apartat) i el programa principal no es tindrá en compte.
 

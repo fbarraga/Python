@@ -5,7 +5,7 @@
 La funció [open()](https://docs.python.org/3.11/library/functions.html#open) s'utilitza normalment amb dos paràmetres (fitxer amb el que anem a treballar i mode d'accés) i ens retorna un objecte de tipus fitxer.
 
 	>>> f = open("exemple.txt","w")
-	>>> type(f)
+	
 	<class '_io.TextIOWrapper'>
 	>>> f.close()
 
@@ -42,6 +42,9 @@ Els modes què podem seleccionar son:
 ### Codificació de caràcters
 
 Si treballem amb fitxers de texte podem indicar també el paràmetre `encoding` que serà la codificació de caràcters utilitzats al treballar amb el fitxer. Per defecte s'utilitzarà la que estigui indicada pel sistema:
+
+
+	>>> f = open("exemple.txt","w",encoding="utf-8")
 
 	>>> import locale
 	>>> locale.getpreferredencoding()

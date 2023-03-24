@@ -1,16 +1,52 @@
-# Exercicis de llistes
 
-1. Realitzar un programa que llegeix per teclat números i guarda-ho en una llista, el procés finalitza quan introduim un número negatiu. Mostra el màxim dels números que hem guardat a la llista, i després mostra els números pars.
+# Introducció a Python
+## Activitat 4: Treballem amb llistes
 
-2. Realitzar un programa que, donada una llista, retorni una nova llista on el contingut sigui igual a la original però invertida. Així, donada la llista [‘Digues’, ‘bon’, ‘día’, ‘al’, ‘pare’], haurà de tornar per pantalla[‘pare’, ‘al’, ‘día’, ‘bon’, ‘Digues’].
+1. Realitzar un programa que llegeix per teclat números i els guarda en una llista, el procés finalitza quan introduim un número negatiu. Mostra el màxim dels números que hem guardat a la llista, i després mostra els números parells.
 
-3. Donada una llista de cadenes, es demana una cadena por teclat i s'indica si está a la llista, indica quantes vegades apareix a la llista,  llegeix una altra cadena i substitueix la primera per la segona en la llista, y al final borra la cadena de la llista
+```
+Exemple:
+	Entrada
+		Entra un número: 1
+		Entra un número: 4
+		Entra un número: 6
+		Entra un número: -1
+
+	Sortida:
+		Llista: [1,4,6]
+		Maxim: 6
+		Parells: [4,6]
+```
+
+2. Realitzar un programa que, donada una llista, retorni una nova llista on el contingut sigui igual a la original però invertida. 
+
+```
+Exemple:
+	Entrada:
+		Llista [‘Digues’, ‘bon’, ‘dia’, ‘al’, ‘pare’], 
+	Sortida:
+		[‘pare’, ‘al’, ‘dia’, ‘bon’, ‘Digues’].
+```
+
+3. Donada una llista de cadenes, es demana una cadena por teclat, i s'indica si está a la llista, indica quantes vegades apareix a la llista,  llegeix una altra cadena i substitueix la primera per la segona en la llista, y al final borra la cadena de la llista
+
+```
+Exemple:
+	Entrada:
+		Llista de Cadenes: ['Hola','Adeu','bon','dia,'Francesc']
+		Entra una cadena: Hola
+	Sortida:
+		'Hola' Apareix 1 vegada.
+	Entrada: Entra una nova cadena: "Joan"
+	Sortida: Llista de Cadenes: ['Joan','Adeu','bon','dia','Francesc']
+		 Llista de Cadenes: ['Adeu','bon','dia','Francesc'] 
+```
 
 4. Donada una llista, fer un programa que indiqui si està ordenada o no.
 
-5. Donada una llista de noms de fitxers, volem canviar el nom de tots els fitxers amb extensió hpp a l'extensió h. Per fer-ho, ens agradaria generar una nova llista anomenada newfilenames, que constarà dels nous noms de fitxer. Omple els espais en blanc del codi utilitzant qualsevol dels mètodes que has après fins ara, com ara un bucle for o una comprensió de llista.
+5. Donada una llista de noms de fitxers, volem canviar el nom de tots els fitxers amb extensió hpp a l'extensió h. Per fer-ho, ens agradaria generar una nova llista anomenada newfilenames, que constarà dels nous noms de fitxer.
 
-6. Crea una funció que converteixi el text en `anglesí`: una simple transformació de text que modifica cada paraula movent el primer caràcter al final i afegint "ay" al final. Per exemple, python acaba com a ythonpay.
+7. Crea una funció que converteixi el text en `anglesí`: una simple transformació de text que modifica cada paraula movent el primer caràcter al final i afegint "ay" al final. Per exemple, python acaba com a ythonpay.
 
         >>> def conv_anglesi(text):
         >>> ...
@@ -33,7 +69,7 @@
         >>> print(octal_a_string(600))                                          # Retorna rw-------
 
 
-8. La funció group_list accepta un nom de grup i una llista de membres, i retorna una cadena amb el format: nom_grup: membre1, membre2, … Per exemple, llista_grup("g", ["a","b","c"] ) retorna "g: a, b, c". Crear un programa per fer-ho.
+8. La funció *grup_llista* accepta un nom de grup i una llista de membres, i retorna una cadena amb el format: nom_grup: membre1, membre2, … Per exemple, *grup_llista*("g", ["a","b","c"] ) retorna "g: a, b, c". Crear un programa per fer-ho.
 
         >>> def grup_llista(group, users):
     

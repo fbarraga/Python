@@ -20,3 +20,8 @@ for tag in bs_data.find_all('child', {'name':'Frank'}):
 # Output the contents of the
 # modified xml file
 print(bs_data.prettify())
+
+# Write to external file
+f = open("myxmlfile.xml", "w")
+f.write(bs_data.prettify())
+f.close()

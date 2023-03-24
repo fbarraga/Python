@@ -7,8 +7,8 @@ Python és un llenguatge:
 * Interpretat
 * Alt nivell
 * Multiparadigma, ja que suporta :
-  * **orientació a objectes**
   * **programació imperativa**
+  * **orientació a objectes**
   * **programació funcional**
 * Multiplataforma
 * Lliure
@@ -32,7 +32,7 @@ Python és un llenguatge:
 * Gran quantitat de mòduls, moltíssimes funcionalitats
 * Una gran comunitat que recolza el projecte
 * Està preinstal·lat en la majoria de sistemes
-* Molt utilitzat per l'anàlisi i accès de dades
+* Molt utilitzat per l'anàlisi i **accès de dades**
 
 
 ## Índex Tiobe

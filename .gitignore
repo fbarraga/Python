@@ -1,1 +1,7 @@
 __pycache__
+**/*.py
+/curs/002_TDNU/u14/pys/*.py
+/curs/003_ALTER/u16/pys/*.py
+/curs/004_REPET/u18/pys/*.py
+/curs/005_SEQUE/u22/pys/*.py
+/curs/006_MAPEE/u35/pys/*.py

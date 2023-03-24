@@ -1,8 +1,32 @@
-# Gestionar fitxers json
+# Fitxers JSON
 
-El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](http://json.org/).
+## Introducció
 
-La correspondència entre JSON i Python la podemos resumir en la següent taula:
+El mòdul [json](https://docs.python.org/3.11/library/json.html) ens permet gestionar fitxers amb format [JSON (JavaScript Object Notation)](https://www.json.org/json-es.html).
+
+Els fitxers JSON son molt utilitzats per recuperar dades de diferents websites mitjançant REST APIs. Per exemple utilitzant les APIs de Twitter, Youtube, o Google maps.
+
+Exemple de fitxer JSON que retorna **Google Maps**:
+```json
+{
+  "markers": [
+    {
+      "name": "Rixos The Palm Dubai",
+      "position": [25.1212, 55.1535],
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "location": [25.2084, 55.2719]
+    },
+    {
+      "name": "Grand Hyatt",
+      "location": [25.2285, 55.3273]
+    }
+  ]
+}
+```
+
+La correspondència entre JSON i Python la podem resumir en la següent taula:
 <table>
 	<tr><td>JSON</td><td>Python</td></tr>
 	<tr><td>object</td><td>dict</td></tr>
@@ -20,7 +44,10 @@ La correspondència entre JSON i Python la podemos resumir en la següent taula:
 Des d'una cadena de caràcters:
 
 	>>> import json
-	>>> datos_json='{"nombre":"carlos","edad":23}'
+	>>> datos_json='{
+			"nombre":"carlos",
+			"edad":23
+			}'
 	>>> datos = json.loads(datos_json)
 	>>> type(datos)
 	<class 'dict'>
@@ -42,7 +69,12 @@ Fixe'm nos que quan llegim d'una cadena de caràcters es json.loads i quan llegi
 	
 ## Escriure fitxers json
 
-	>>> datos = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie','felineIQ': None}
+	>>> datos = {
+		     'isCat': True, 
+		     'miceCaught': 0, 
+		     'name': 'Zophie',
+		     'felineIQ': None
+		     }
 	>>> fichero = open("exemple2.json","w")
 	>>> json.dump(datos,fichero)
 	>>> fichero.close()
@@ -69,7 +101,11 @@ Codificació de jerarquies bàsiques en Python.
 	>>> print(json.dumps('\\'))
 	"\\"
 
-	>>> print(json.dumps({"c": 0, "b": 0, "a": 0}, sort_keys=True))
+	>>> print(json.dumps({
+				"c": 0, 
+				"b": 0, 
+				"a": 0
+			      }, sort_keys=True))
 	{"a": 0, "b": 0, "c": 0}
 
 	>>> from io import StringIO
