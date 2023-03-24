@@ -20,7 +20,7 @@ Per connectar a la base de dades haurem d'especificar com a mínim aquests parà
 
 ```python
 import psycopg2
-connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
+connexio = psycopg2.connect(host="localhost", dbname="dbprova", user="usuariprova", password="12345")  
 ```
 
 |Paràmetre| Valor |
@@ -52,7 +52,7 @@ INSERT INTO tprova VALUES (3,'cccc');
 ```python
 import psycopg2
 
-connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
+connexio = psycopg2.connect(host="localhost", dbname="dbprova", user="usuariprova", password="12345")  
 cur = connexio.cursor()
 cur.execute("SELECT * FROM tprova;")  
 ```
@@ -66,7 +66,7 @@ El cursor recuperarà de la base de dades tots els registres que retorni la sent
 # programa.py
 import psycopg2
 
-connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
+connexio = psycopg2.connect(host="localhost", dbname="dbprova", user="usuariprova", password="12345")  
 cur = connexio.cursor()
 cur.execute("SELECT * FROM tprova;")  
 reg = cur.fetchone()
