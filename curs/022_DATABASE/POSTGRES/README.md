@@ -33,8 +33,21 @@ connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", p
 |**user**| usuari per connectar a la bd|
 |**password**| password per connectar a la bd|
 
+## Cursors
 
-## Seleccionem un registre de la base de dades: FETCHONE
+Un cop hagim establert la connexió contra la Base de Dades podem obrir un cursor i executar comandes SQL
+
+```python
+import psycopg2
+
+connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
+cur = connexio.cursor()
+cur.execute("SELECT * FROM tprova;")  
+```
+
+El cursor recuperarà de la base de dades tots els registres que retorni la sentència SQL. A partir d'aquí podem fer el recorregut del cursor a través de les comandes fetchone, y fetchall
+
+### Seleccionem un registre de la base de dades: FETCHONE
 
 
 ```python
@@ -60,7 +73,7 @@ regular@debian:~$ python3 programa.py
 3,ccccc
 ```
 
-## Seleccionem tots els registres: FETCHALL
+### Seleccionem tots els registres: FETCHALL
 
 
 ```python
