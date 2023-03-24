@@ -55,6 +55,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | --ORM: Peewee							 | [60d](curs/022_DATABASE/ORM/PEEWEE.md)											  |				|
 | --ORM: Alchemy						 | [60e](curs/022_DATABASE/ORM/ALCHEMY.md)											  |				|
 | Bases de dades Orientades a Objectes   | [60f](curs/022_DATABASE/BDOO/README.md)
+| --BDOO: TinyDB Samples			 | [60f](curs/022_DATABASE/BDOO/pys)											  |				|
 | Treball amb Bases de Dades BDR,BDOR,BDOO			 | 					|[A2-1](curs/022_DATABASE/EXERCICIS.md)	  |				
 
 ## UF3: Persistència amb Bases de Dades XML
