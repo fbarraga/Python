@@ -26,6 +26,14 @@ Pero no tot son avantatges, també té algunes desavantages com:
 *L'aprenentatge del llenguatge de l' eina ORM pot resultar ser complex ja que, per poder treure el màxim partit a l' eina, cal conèixer en profunditat com funciona la mateixa.
 * En entorns de gran càrrega, aquest tipus de solució penalitza el rendiment a causa dels processos de transformació de les consultes que es facin cap a la base de dades.
 
+## Eines ORM 
+
+Cada llenguatge de programació té els seus propis ORM i inclús moltes vegades ens pot ser interessant desenvolupar el propi nostre. Els mes coneguts son:
+Algunos ejemplos específicos serían:
+
+* Java: Hibérnate, iBatis, Ebean, Torque
+* .Net: nHibernate, Entity Framework, DataObjects.NET
+*  PHP: Doctrine, Propel , Torpor
 
 # Python y ORM
 
