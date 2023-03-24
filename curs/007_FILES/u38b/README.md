@@ -247,7 +247,7 @@ pip install python
 ```
 Exemple de funcionament:
 
-````python
+```python
 # Import the required modules
 import xmltodict
 import pprint
