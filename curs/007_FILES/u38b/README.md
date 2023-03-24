@@ -237,5 +237,33 @@ with open("GFG.xml", "wb") as f:
 
 ```
 
+## XML a un dicctionari de python
+
+Existeix una llibreria anomenada [xmltodict](https://github.com/martinblech/xmltodict) que pot simplificar molt el treball amb fitxers xml si coneixem com moure'ns amb diccionaris de python.
+Per instal·lar-ho el mòdul farem:
+
+```python
+pip install python
+```
+Exemple de funcionament:
+
+````python
+# Import the required modules
+import xmltodict
+import pprint
+
+# Open the file and read the contents
+with open('example.xml', 'r', encoding='utf-8') as file:
+my_xml = file.read()
+
+# Use xmltodict to parse and convert
+# the XML document
+my_dict = xmltodict.parse(my_xml)
+```
+
+La funció pprint (prettyprint) ens serveix per fer la sortida formatejada.
+
+
+
 ***
 [Index](../../../README.md)
