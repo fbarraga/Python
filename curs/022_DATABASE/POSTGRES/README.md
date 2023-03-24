@@ -23,7 +23,6 @@ Per connectar a la base de dades haurem d'especificar com a mínim aquests parà
 
 ```python
 import psycopg2
-
 connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", password="12345")  
 ```
 
@@ -35,7 +34,7 @@ connexio = psycopg2.connect(host="localhost", dbname="hr", user="usuariprova", p
 |**password**| password per connectar a la bd|
 
 
-# FETCHONE Seleccionem un registre de la base de dades
+## Seleccionem un registre de la base de dades: FETCHONE
 
 
 ```python
@@ -61,7 +60,7 @@ regular@debian:~$ python3 programa.py
 3,ccccc
 ```
 
-# FETCHALL Seleccionem tots els registres
+## Seleccionem tots els registres: FETCHALL
 
 
 ```python
