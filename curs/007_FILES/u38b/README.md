@@ -263,7 +263,24 @@ my_dict = xmltodict.parse(my_xml)
 
 La funció pprint (prettyprint) ens serveix per fer la sortida formatejada.
 
+## Diccionari a XML
 
+Podem fer la operació en sentit contrari i a partir d'un diccionari generar el xml.
+
+```python
+#import module
+import xmltodict
+ 
+#define dictionary with all the attributes
+mydict={'plane':{'year': '1977', 'make': 'Cessna', 'model': 'Skyhawk', 'color':'Light blue and white'}}
+print("Original Dictionary of plane data is:")
+print(mydict)
+ 
+#create xml format
+xml_format= xmltodict.unparse(my_ordered_dict,pretty=True)
+print("XML format data is:")
+print(xml_format)
+```
 
 ***
 [Index](../../../README.md)
