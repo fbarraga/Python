@@ -45,20 +45,34 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Treball de fitxers 				|					|[A7](curs/007_FILES/u99/act6.md) |
 
 
-## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO
+## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO 
 
 |  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria			    	  | Exercicis   |
 |------------------------------------------------|------------------------------------|-------------|
 | Connectors a Bases de dades    		 | [60](curs/022_DATABASE/README.md)		  |				|
 | Connectar a Postgres 					 | [60a](curs/022_DATABASE/POSTGRES/README.md)|		  		|
-| Connectar a MongoDB					 | [60b](curs/022_DATABASE/MONGODB/README.md) |		  		|
 | Què és un ORM							 | [60c](curs/022_DATABASE/ORM/README.md)     |		  		|
 | --ORM: Peewee							 | [60d](curs/022_DATABASE/ORM/peewee/README.md)											  |				|
 | --ORM: Alchemy						 | [60e](curs/022_DATABASE/ORM/alchemy/README.md)											  |				|
 | Bases de dades Orientades a Objectes   | [60f](curs/022_DATABASE/BDOO/README.md)
-| Treball amb Bases de Dades			 | 					|[A15](curs/022_DATABASE/EXERCICIS.md)	  |				
+| Treball amb Bases de Dades BDR,BDOR,BDOO			 | 					|[A15](curs/022_DATABASE/EXERCICIS.md)	  |				
 
+## UF3: Persistència amb Bases de Dades XML
+|  Persistència amb Bases de Dades XML | Unitats Teoria			    	  | Exercicis   |
+|------------------------------------------------|------------------------------------|-------------|
+| Connectar a MongoDB					 | [60b](curs/022_DATABASE/MONGODB/README.md) |		  		|
+| Treball amb Bases de Dades			 | 					|[A16](curs/022_DATABASE/EXERCICIS22.md)	  |	
 ***
+
+## UF4: Components d'accés a dades
+|  Components d'accés a dades                    | Unitats Teoria	    	      | Exercicis   |
+|------------------------------------------------|------------------------------------|-------------|
+| Jupyter Notebooks				 |				      |		    |
+| Datascience					 |				      |             |
+| Recuperar informació d'una API		 |  		  		      |             |
+| Treball Final d'accés a dades			 | 				      |             |
+***
+
 
 ### Temari
 

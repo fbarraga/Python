@@ -24,7 +24,7 @@ Per llegir un fitxer CSV utilitzem la funció `reader()`:
 Quan fem el csv.reader podem especificar quin es el delimitador que separa els camps. A vegades ens trobarem que enlloc d'utilitzar el delimitador ',' s'utilitza un altre per exemple ';'
 
 	>>>    csv_reader = csv.reader(csv_file, delimiter=';')
-
+	
 Podem guardar la llista obtinguda en una variable i accedir amb ella indicant fila i columna.
 
 	...
@@ -100,6 +100,9 @@ Quan fem el csv.writer podem especificar també les opcions *delimiter*, *quotec
  	
 	>>> contingut = csv.writer(fitxer,delimiter=',', quotechar='"')
 
+Si volem que no ens faci un doble salt de linia al gravar el fitxer podem posar el paràmetre
+
+    >>> contingut = csv.writer(f,delimiter=';',lineterminator="\r")
 
 També ho podem escriure directament des d'un diccionari a través del mètode *DictWriter*:
 
