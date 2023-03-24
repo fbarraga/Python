@@ -40,3 +40,6 @@ class Telefon(BaseModel):
     bdd_agenda.close()
 ```
 Si anem a mirar la base de dades després d'executar el programa veure'm que ens ha creat les taules.
+
+***
+[Index](../../README.md)
