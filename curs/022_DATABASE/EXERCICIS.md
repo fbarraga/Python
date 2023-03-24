@@ -36,7 +36,7 @@ altre persona.
   * Llistar l’historial d’operacions d’un compte corrent.
 
 
-* L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
+L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
 * +2Punts si utilitzeu un ORM
 
 ## B GESTOR D’UN APARCAMENT PÚBLIC
@@ -53,7 +53,7 @@ El programa permetrà les següents operacions:
 d’ocupacions i ordenat de més a menys.
 
 
-* L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
+L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 * +2Punts si utilitzeu un ORM
 
 
@@ -68,5 +68,5 @@ El programa permetrà les següents operacions:
 * Donat una data, llistat de tots els béns que són anteriors a la data indicada.
 
 
-* L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
+L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 * +2Punts si utilitzeu un ORM
