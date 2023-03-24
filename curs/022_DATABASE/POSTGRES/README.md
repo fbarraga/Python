@@ -74,7 +74,7 @@ reg = cur.fetchone()
 while reg is not None:  
     print(f"{reg[0]},{reg[1]}");  
     reg = cur.fetchone()
-    cur.close()  
+cur.close()  
 connexio.close()
 ```
 
