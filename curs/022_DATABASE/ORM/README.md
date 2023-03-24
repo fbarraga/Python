@@ -23,7 +23,7 @@ Les eines ORM ofereixen una sèrie d' avantatges per al programador com són:
 
 Pero no tot son avantatges, també té algunes desavantages com:
 
-*L'aprenentatge del llenguatge de l' eina ORM pot resultar ser complex ja que, per poder treure el màxim partit a l' eina, cal conèixer en profunditat com funciona la mateixa.
+* L'aprenentatge del llenguatge de l' eina ORM pot resultar ser complex ja que, per poder treure el màxim partit a l' eina, cal conèixer en profunditat com funciona la mateixa.
 * En entorns de gran càrrega, aquest tipus de solució penalitza el rendiment a causa dels processos de transformació de les consultes que es facin cap a la base de dades.
 
 ## Eines ORM 
