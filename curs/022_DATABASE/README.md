@@ -8,10 +8,10 @@ Un connector per tant és un element del programa que permet que un  llenguatge 
 
 Existeix un connector diferent per cadascun dels sistemes gestors de base de dades al que ens volem connectar. Així per exemple tenim:
 
-   1. PostGreSQL: psycopg2
-   2. MySQL:mysql.connector
-   3. SQLServer: pymssql
-   4. Oracle: oracledb
+   1. PostGreSQL: **psycopg2**
+   2. MySQL:**mysql.connector**
+   3. SQLServer: **pymssql**
+   4. Oracle: **oracledb**
 
 Tots aquests connectors es poden instal·lar mitjançant la comanda:
 
