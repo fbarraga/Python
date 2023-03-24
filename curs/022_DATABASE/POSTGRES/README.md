@@ -39,7 +39,7 @@ Creem dintre del Postgres una base de dades d'exemple que farem servir amb els e
 
 ```sql
 CREATE DATABASE dbprova;  
-CREATE USER usuariprova WITH PASSWORD '12345';  CREATE ROLE
+CREATE USER usuariprova WITH PASSWORD '12345'; 
 GRANT ALL PRIVILEGES ON DATABASE dbprova TO usuariprova;
 ```
 
