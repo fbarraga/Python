@@ -20,7 +20,7 @@ N = (D+A+M) mod 3
 
 
 
-## GESTOR D’UN APARCAMENT PÚBLIC
+## A GESTOR D’UN APARCAMENT PÚBLIC
 Crear un programa, amb Python i PyMongo, que permeti gestionar les dades referents a l’ús d’un 
 aparcament públic.
 El programa permetrà les següents operacions:
@@ -33,7 +33,7 @@ El programa permetrà les següents operacions:
 
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 
-## GESTOR DE COMPTES BANCARIS
+## B GESTOR DE COMPTES BANCARIS
 Crear un programa, amb Python i PyMongo, que permeti gestionar les dades referents als comptes corrents dels clients d’una entitat bancària.
 El programa permetrà les següents operacions:
 * Llistar les dades personals de tots els clients.
@@ -51,7 +51,7 @@ altre persona.
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 
 
-## GESTOR DEL TRANSPORT MUNICIPAL
+## C GESTOR DEL TRANSPORT MUNICIPAL
 Crear un programa, amb Python i PyMongo, que permeti gestionar les dades referents al transport municipal 
 (bus urbà) d’una població.
 El programa permetrà les següents operacions:
