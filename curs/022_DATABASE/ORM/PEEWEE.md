@@ -131,7 +131,7 @@ bdd_agenda.close()
 ```
 ## Exemple: Eliminar registres
 
-````python
+```python
 from peewee import *
 bdd_agenda = PostgresqlDatabase(
                         'db_agenda',
@@ -158,11 +158,6 @@ bdd_agenda.connect()
 Telefon.delete().where(Telefon.numero == '972356758').execute()
 bdd_agenda.close()
 ```
-
-
-
-
-
 
 ***
 [Index](../../../README.md)
