@@ -78,7 +78,7 @@ class Persona(BaseModel):
     data_naixement = DateField()
 
 class Telefon(BaseModel):
-     id_t = AutoField()
+    id_t = AutoField()
     persona_id = ForeignKeyField(Persona)
     numero = CharField()
 
