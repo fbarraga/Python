@@ -97,7 +97,7 @@ tel_agarica.save()
 bdd_agenda.close()
 ```
 
-## Modificació de registres
+## Exemple: Modificació de registres
 
 ```python
 from peewee import *
@@ -127,7 +127,7 @@ bdd_agenda.connect()
 Telefon.update(numero = '972356758').where(Telefon.id_t == 1).execute()
 bdd_agenda.close()
 ```
-## Eliminar registres
+## Exemple: Eliminar registres
 
 ````python
 from peewee import *
