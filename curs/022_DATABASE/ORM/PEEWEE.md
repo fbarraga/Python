@@ -34,7 +34,7 @@ bdd_agenda = PostgresqlDatabase(
 
 class BaseModel(Model):
     class Meta:
-    database = bdd_agenda
+      database = bdd_agenda
 
 class Persona(BaseModel):
     id_p = AutoField()
