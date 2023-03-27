@@ -1,7 +1,7 @@
 # ORM : Peewee
 
 ## Instal·lació de Peewee
-Per instal·lar Peewee podem utilitzar el pip:
+Per instal·lar [Peewee](https://docs.peewee-orm.com/en/latest/) podem utilitzar el pip:
 
 ```python
 pip install peewee
