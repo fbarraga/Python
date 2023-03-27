@@ -46,7 +46,7 @@ print("Les dades de les persones menors d'edat")
 consulta = bdd_persones.search(Query().edat < 18)
 for p in consulta:
     print(p)
-bdd_persones.close(
+bdd_persones.close()
 ```
 
 ## Mostrar les dades
