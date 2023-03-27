@@ -53,6 +53,7 @@ bdd_agenda.create_tables([Persona, Telefon])
 bdd_agenda.close()
 ```
 Si anem a mirar la base de dades després d'executar el programa veure'm que ens ha creat les taules.
+
 Es poden consultar quins tipus de dades podem tenir en el model, en el següent [link](https://docs.peewee-orm.com/en/latest/peewee/models.html)
 
 
