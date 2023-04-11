@@ -53,9 +53,8 @@ Es una eina GUI que permet administrar la base de dades des d'una interfície gr
 * `db.dropdatabase()`: Borra la base de dades en ús
 * `db.createCollection()`: Crea una col·lecció (equivalent a una taula SQL)
 * `show collections`: Mostra les col·leccions en ús
-* `db.collection.drop`: Borra la col·lecció en ús de la base de dades en ús
-* `db.collection.insertOne`: Insereix un document dintre de la col·lecció en ús
-
+* `db.collection.drop`: Borra la col·lecció de la base de dades en ús
+* `db.collection.insertOne`: Insereix un document dintre de la col·lecció
 ```mongo
 > db
 biblioteca
@@ -69,7 +68,30 @@ llibres
 }
 >
 ``` 
-
+* `db.collection.insertMany()`: Insereix n documents dintre de la col·lecció
+* `db.collection.find()`:Buscar els elements d'una col·lecció
+```
+> db.autors.find()
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "català", "nom" : "víctor" }
+> db.autors.find({ id: {$eq: "1"}})
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+> db.autors.find({ id: {$eq: "3"}})
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
+> db.autors.find({ nom: {$eq: "víctor"}})
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "català", "nom" : "víctor" }
+> db.autors.find({ id: {$lte: "3"}})
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
+> db.autors.find({ id: {$gte: "2"}})
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "català", "nom" : "víctor" }
+>
+```
 
 ***
 [Index](../../../README.md)
