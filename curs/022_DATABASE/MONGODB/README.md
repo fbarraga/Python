@@ -1,6 +1,15 @@
-# Bases de Dades NOSQL : MongoDB
+# Bases de Dades Documentals 
 
 ## Introducció
+
+Una base de dades documental està constituïda per un conjunt de programes que emmagatzemen, recuperen i gestionen dades de documents o dades d'alguna manera estructurats.
+
+Aquest tipus de bases de dades constitueixen una de les principals subcategories dins de les anomenades bases de dades NoSQL. Els sistemes NoSQL proveeixen un sistema d'emmagatzematge molt més flexible i concurrent, permeten manipular grans quantitats d'informació de manera molt més 
+ràpida que les bases de dades relacionals.
+
+![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/bdnosql2.png?raw=true)
+
+## Bases de dades NOSQL: MongoDB
 
 MongoDB (de l'anglès Humongous, "enorme") és un sistema de base de dades multiplataforma, NoSQL, orientat a documents i de codi obert.
 
