@@ -2,7 +2,7 @@
 
 ## MongoDB "on premise"
 
-MongoDB es pot instal3lar sobre plataforma Windows / Linux encara que es preferible utilitzar Linux. El procediment d'instal·lació  el podeu consultar en la [documentació oficial de MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-debian/)
+MongoDB es pot instal·lar sobre plataforma Windows / Linux encara que es preferible utilitzar Linux. El procediment d'instal·lació per distribució Linux/Debian el podeu consultar en la [documentació oficial de MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-debian/)
 
 
 ## MongoDB SaaS "cloud"
