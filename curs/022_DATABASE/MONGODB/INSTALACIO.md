@@ -1,4 +1,4 @@
-# MongodB
+# MongoDB
 
 ## MongoDB "on premise"
 
@@ -161,8 +161,8 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 ```
 * `db.collection.distinct`: Retorna els documents únics
   
-  ```mongodb
-  > db.autors.find()
+```
+> db.autors.find()
 { "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
 { "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
 > db.autors.insertOne( { id: "1", cognoms: "oller y moragas", nom: "narcís" });
