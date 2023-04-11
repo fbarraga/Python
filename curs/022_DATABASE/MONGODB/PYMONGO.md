@@ -1,4 +1,4 @@
-# MongoDB y Python
+# MongoDB i Python
 
 ## Preparar python per connectar a MongoDB
 
