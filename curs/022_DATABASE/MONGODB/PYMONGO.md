@@ -13,6 +13,7 @@ pip install pymongo
 # Exemple bàsic
 
 Crearem una base de dades "personal" que ens servirà per anar introduint mongo amb Python.
+Totes les opcions de pymongo les podeu trobar a la [documentació oficial](https://www.mongodb.com/docs/drivers/pymongo/)
 
 * Pas 1: Creem la base de dades i les col·leccions
 ```
@@ -182,5 +183,9 @@ for doc in base_de_dades["dades_persones"].find().sort("cognoms"):
     print(f"{doc['cognoms']}, {doc['nom']}")
 client.close()
 ```
+
+
+
 ***
+
 [Index](../../../README.md)
