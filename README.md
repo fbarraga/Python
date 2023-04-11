@@ -63,7 +63,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 |------------------------------------------------|------------------------------------|-------------|
 | Bases de dades XML				 | [bdxml](curs/022_DATABASE/MONGODB/README.md)     |		  		|
 | MongoDB on Premise / on Cloud	         | [mongo](curs/022_DATABASE/MONGODB/INSTALACIO.md) |		  		|
-| MongoDB i Python			 | [mongopython](curs/022_DATABASE/MONGODB/MONGOPYTHON.md) |
+| MongoDB i Python			 | [mongopython](curs/022_DATABASE/MONGODB/PYMONGO.md) |
 | Treball amb Bases de Dades			 | 					|[A3-1](curs/022_DATABASE/MONGODB/EXERCICIS.md)	  |	
 ***
 
