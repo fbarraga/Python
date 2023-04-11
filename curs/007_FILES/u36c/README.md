@@ -73,12 +73,15 @@ Es poden accedir a les següents propietats d'un objecte file:
 * `name`: retorna el nom del fitxer
 * `encoding`: retorna la codificació de caràcteres d'un fitxer de texte
 
-Podem obrir-lo i tancar-lo amb la mateixa instrucció amb la següent estructura:
+Podem **obrir-lo i tancar-lo** amb la mateixa instrucció amb la següent estructura:
 
 	>>> with open("ejemplo.txt", "r") as fitxer: 
 	...    contenido = fitxer.read()
 	>>> fitxer.closed
 	True
+
+Quan utilitzem el "with" el fitxer es tancarà al trobar la primera instrucció fora de la estructura (menys indentació) .
+
 
 ## Mètodes principals
 
