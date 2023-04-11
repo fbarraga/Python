@@ -91,7 +91,95 @@ llibres
 { "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
 { "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "català", "nom" : "víctor" }
 >
+> db.autors.find({ nom: {$regex: /^m/}})
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
 ```
+* `db.collection.find().pretty()`: Mostra el resultat en un format amigable
+* `db.collection.update()`: Actualitza un document d’una col·lecció
+  
+```
+> db.autors.find()
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "català", "nom" : "víctor" }
+> db.autors.update({"id": "4"},{$set : {"nom": "Caterina"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.autors.find()
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "català", "nom" : "Caterina" }
+> db.autors.update({"id": "4"},{$set : {"cognoms": "albert i paradis"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.autors.find()
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
+>
+```
+
+* `db.collection.deleteOne()`: Elimina un document d’una col·lecció
+
+```
+> db.autors.find()
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3f"), "id" : "3", "cognoms" : "carner i puig-oriol", "nom" : "josep" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "català", "nom" : "víctor" }
+> db.autors.deleteOne({"nom" : "josep"})
+{ "acknowledged" : true, "deletedCount" : 1 }
+> db.autors.find()
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
+>
+```
+* `db.collection.deleteMany()`: Elimina varis documents d’una col·lecció
+```
+> db.autors.find()
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
+> db.autors.insertOne( { id: "1", cognoms: "rodoreda i gurguí", nom: "mercè" });
+{
+"acknowledged" : true,
+"insertedId" : ObjectId("605dc6e489603c835a1a6fb4")
+}
+> db.autors.find()
+{ "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
+{ "_id" : ObjectId("605dc6e489603c835a1a6fb4"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
+> db.autors.deleteMany({"nom" : "mercè"})
+{ "acknowledged" : true, "deletedCount" : 2 }
+> db.autors.find()
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
+>
+```
+* `db.collection.distinct`: Retorna els documents únics
+  
+  ```
+  > db.autors.find()
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
+> db.autors.insertOne( { id: "1", cognoms: "oller y moragas", nom: "narcís" });
+{
+"acknowledged" : true,
+"insertedId" : ObjectId("605dc7e789603c835a1a6fb5")
+}
+> db.autors.find()
+{ "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
+{ "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
+{ "_id" : ObjectId("605dc7e789603c835a1a6fb5"), "id" : "1", "cognoms" : "oller y moragas", "nom" : "narcís" }
+> db.autors.distinct("nom")
+[ "Caterina", "narcís" ]
+> db.autors.distinct("id")
+[ "1", "2", "4" ]
+```
+
 
 ***
 [Index](../../../README.md)
