@@ -12,7 +12,7 @@ Per poder desplegar una base de dades en Cloud, utilitzarem [Mongo Atlas](https:
 * Crear una organització.
 * Crear un projecte. (per agrupar les bases de dades/Aplicacions que creem)
 * Definir un cluster. Un cluster es un conjunt de servidors que executarà la teva base de dades. Amb la opció gratuita només podem seleccionar l'opció més simple, pero podriem tenir una base de dades replicada en diferents llocs, backups, polítiques de contingència,etc.
-    ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_inst00.png.png?raw=true)
+    ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_inst00.png?raw=true)
 * Escollim el nom de la base de dades i la ubicació.
 * Assignem usuari i password a la base de dades.
 * Especifiquem des d'on ens connectarem. Podem aplicar filtres de IPs.
