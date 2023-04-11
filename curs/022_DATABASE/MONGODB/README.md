@@ -26,7 +26,7 @@ Els diferents documents s'emmagatzemen en format BSON, o Binary JSON, que és un
 
 ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb.png?raw=true)
 
-
+Podeu consultar més informació sobre MongoDB en aquest [link](https://www.educba.com/what-is-mongodb/)
 
 ***
 [Index](../../../README.md)
