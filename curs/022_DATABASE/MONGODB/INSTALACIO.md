@@ -7,6 +7,7 @@
 MongoDB pot ser utilitzada desplegant la base de dades al cloud i connectant-nos des del nostre ordinador. És un servei gratuit per una base de dades simple, i de pagament quan volem fer definicions més complexes.
 
 Per poder desplegar una base de dades en Cloud, utilitzarem [Mongo Atlas](https://www.mongodb.com/atlas). Els passos que haurem de fer per poder-la crear son:
+
     1. Crear un usuari dintre de Mongo Atlas (És aconsellable utilitzar el compte de Google o Github)
     2. Crear una organització.
     3. Crear un projecte. (per agrupar les bases de dades/Aplicacions que creem)
