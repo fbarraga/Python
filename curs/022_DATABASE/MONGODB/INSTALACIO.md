@@ -45,16 +45,16 @@ Es una eina GUI que permet administrar la base de dades des d'una interfície gr
 
 ## Ordres bàsiques a MongoDB
 
-`help`: Mostra informació sobre l'ajuda
-`db`: Mostra la base de dades en ús
-`db.stats`: Mostra informació sobre la base de dades en ús
-`use database`: Crea una base de dades (si el nom indicat existeix, fa la connexió a aquesta bd)
-`show dbs`: Mostra les bases de dades amb contingut (no buides)
-`db.dropdatabase()`: Borra la base de dades en ús
-`db.createCollection()`: Crea una col·lecció (equivalent a una taula SQL)
-`show collections`: Mostra les col·leccions en ús
-`db.collection.drop`: Borra la col·lecció en ús de la base de dades en ús
-`db.collection.insertOne`: Insereix un document dintre de la col·lecció en ús
+* `help`: Mostra informació sobre l'ajuda
+* `db`: Mostra la base de dades en ús
+* `db.stats`: Mostra informació sobre la base de dades en ús
+* `use database`: Crea una base de dades (si el nom indicat existeix, fa la connexió a aquesta bd)
+* `show dbs`: Mostra les bases de dades amb contingut (no buides)
+* `db.dropdatabase()`: Borra la base de dades en ús
+* `db.createCollection()`: Crea una col·lecció (equivalent a una taula SQL)
+* `show collections`: Mostra les col·leccions en ús
+* `db.collection.drop`: Borra la col·lecció en ús de la base de dades en ús
+* `db.collection.insertOne`: Insereix un document dintre de la col·lecció en ús
 
 ```mongo
 > db
