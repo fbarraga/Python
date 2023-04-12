@@ -1,7 +1,7 @@
 # ORM : Peewee
 
 ## Instal·lació de Peewee
-Per instal·lar Peewee podem utilitzar el pip:
+Per instal·lar [Peewee](https://docs.peewee-orm.com/en/latest/) podem utilitzar el pip:
 
 ```python
 pip install peewee
@@ -34,7 +34,7 @@ bdd_agenda = PostgresqlDatabase(
 
 class BaseModel(Model):
     class Meta:
-    database = bdd_agenda
+      database = bdd_agenda
 
 class Persona(BaseModel):
     id_p = AutoField()
@@ -53,6 +53,8 @@ bdd_agenda.create_tables([Persona, Telefon])
 bdd_agenda.close()
 ```
 Si anem a mirar la base de dades després d'executar el programa veure'm que ens ha creat les taules.
+
+Es poden consultar quins tipus de dades podem tenir en el model, en el següent [link](https://docs.peewee-orm.com/en/latest/peewee/models.html)
 
 
 ## Exemple: Inserció de registres
@@ -78,7 +80,7 @@ class Persona(BaseModel):
     data_naixement = DateField()
 
 class Telefon(BaseModel):
-     id_t = AutoField()
+    id_t = AutoField()
     persona_id = ForeignKeyField(Persona)
     numero = CharField()
 
@@ -97,7 +99,7 @@ tel_agarica.save()
 bdd_agenda.close()
 ```
 
-## Modificació de registres
+## Exemple: Modificació de registres
 
 ```python
 from peewee import *
@@ -127,9 +129,9 @@ bdd_agenda.connect()
 Telefon.update(numero = '972356758').where(Telefon.id_t == 1).execute()
 bdd_agenda.close()
 ```
-## Eliminar registres
+## Exemple: Eliminar registres
 
-````python
+```python
 from peewee import *
 bdd_agenda = PostgresqlDatabase(
                         'db_agenda',
@@ -156,11 +158,6 @@ bdd_agenda.connect()
 Telefon.delete().where(Telefon.numero == '972356758').execute()
 bdd_agenda.close()
 ```
-
-
-
-
-
 
 ***
 [Index](../../../README.md)

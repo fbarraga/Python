@@ -1,0 +1,9 @@
+{"_default": 
+{
+"1": {"nom": "laura", "cognoms": "garcia sanchez", "edat": 17}, 
+"2": {"nom": "pere", "cognoms": "sanchez velez", "edat": 19}, 
+"3": {"nom": "marta", "cognoms": "garcia vidal", "edat": 21}, 
+"4": {"nom": "joan", "cognoms": "moreno garcia", "edat": 13}, 
+"5": {"nom": "anna", "cognoms": "garcia mendez", "edat": 23}
+}
+}
