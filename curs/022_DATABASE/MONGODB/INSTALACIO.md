@@ -55,6 +55,7 @@ Es una eina GUI que permet administrar la base de dades des d'una interfície gr
 * `show collections`: Mostra les col·leccions en ús
 * `db.collection.drop`: Borra la col·lecció de la base de dades en ús
 * `db.collection.insertOne`: Insereix un document dintre de la col·lecció
+
 ```mongo
 > db
 biblioteca
@@ -68,7 +69,25 @@ llibres
 }
 >
 ``` 
+
 * `db.collection.insertMany()`: Insereix n documents dintre de la col·lecció
+
+```
+> db.autors.insertMany([
+... { id: "2", cognoms: "oller y moragas", nom: "narcís"},
+... { id: "3", cognoms: "carner i puig-oriol", nom: "josep"},
+... { id: "4", cognoms: "català", nom: "víctor"}
+... ]);
+{
+"acknowledged" : true,
+"insertedIds" : [
+ObjectId("605c75912e50ebf3923f1b3e"),
+ObjectId("605c75912e50ebf3923f1b3f"),
+ObjectId("605c75912e50ebf3923f1b40")
+]
+}>
+```
+
 * `db.collection.find()`:Buscar els elements d'una col·lecció
 ```
 > db.autors.find()
