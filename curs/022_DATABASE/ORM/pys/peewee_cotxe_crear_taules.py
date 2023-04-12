@@ -1,4 +1,5 @@
 from peewee import *
+
 bdd_cotxes = PostgresqlDatabase('db_cotxes', user='uscot', password='12345', host='localhost', port=5432)
 class BaseModel(Model):
  class Meta:
