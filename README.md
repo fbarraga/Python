@@ -70,7 +70,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 ## UF4: Components d'accés a dades
 |  Components d'accés a dades                    | Unitats Teoria	    	      | Exercicis   |
 |------------------------------------------------|------------------------------------|-------------|
-| Jupyter Notebooks				 | [jupyter](curs/013_DATA/Jupyter/README.md     |		    |
+| Jupyter Notebooks				 | [jupyter](curs/013_DATA/Jupyter/README.md)     |		    |
 | Datascience					 |				      |             |
 | Recuperar informació d'una API		 |  		  		      |             |
 | Treball Final d'accés a dades			 | 				      |             |
