@@ -15,7 +15,7 @@ Per executar-ho, des del simbol de sistema
 ```
 jupyter-notebook
 ```
-Pots descarregar-te un exemple de Jupyter-Notebook en aquest [link](/El meu primer Notebook.ipynb)
+Pots descarregar-te un exemple de Jupyter-Notebook en aquest [link](/ElmeuprimerNotebook.ipynb)
 
 
 ### JupyterLab
