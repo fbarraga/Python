@@ -42,3 +42,6 @@ Instal·lació de Jupyter Voila amb pip:
 ```python
 pip install voila
 ```
+
+***
+[Index](../../../README.md)
