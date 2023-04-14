@@ -118,7 +118,7 @@ with open('employee_file2.csv', mode='w') as csv_file:
 	writer.writerow({'emp_name': 'Erica Meyers', 'dept': 'IT', 'birth_month': 'March'})
 ```
 
-El proces per actualitzar un csv obert amb un dictreader sería com aquest
+El proces per actualitzar un csv obert amb un dictreader sería com aquest. Primer carregaríem les dades en una llista on el seus elements serien un diccionari i després ho gravariem amb el dictwriter.
 
 ```python
 
