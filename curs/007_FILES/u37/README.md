@@ -106,15 +106,47 @@ Si volem que no ens faci un doble salt de linia al gravar el fitxer podem posar 
 
 També ho podem escriure directament des d'un diccionari a través del mètode *DictWriter*:
 
-	>>> import csv
+```python
+import csv
 
-	>>> with open('employee_file2.csv', mode='w') as csv_file:
-	>>>     fieldnames = ['emp_name', 'dept', 'birth_month']
-	>>>     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+with open('employee_file2.csv', mode='w') as csv_file:
+     	fieldnames = ['emp_name', 'dept', 'birth_month']
+     	writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
-    >>> writer.writeheader()
-    >>> writer.writerow({'emp_name': 'John Smith', 'dept': 'Accounting', 'birth_month': 'November'})
-    >>> writer.writerow({'emp_name': 'Erica Meyers', 'dept': 'IT', 'birth_month': 'March'})
+     	writer.writeheader()
+	writer.writerow({'emp_name': 'John Smith', 'dept': 'Accounting', 'birth_month': 'November'})
+	writer.writerow({'emp_name': 'Erica Meyers', 'dept': 'IT', 'birth_month': 'March'})
+```
+
+El proces per actualitzar un csv obert amb un dictreader sería com aquest
+
+```python
+
+import csv
+  
+op = open("AllDetails.csv", "r")
+dt = csv.DictReader(op)
+print(dt)
+up_dt = []
+for r in dt:
+    print(r)
+    row = {'Sno': r['Sno'],
+           'Registration Number': r['Registration Number'],
+           'Name': r['Name'],
+           'RollNo': r['RollNo'],
+           'Status': 'P'}
+    up_dt.append(row)
+print(up_dt)
+op.close()
+op = open("AllDetails.csv", "w", newline='')
+headers = ['Sno', 'Registration Number', 'Name', 'RollNo', 'Status']
+data = csv.DictWriter(op, delimiter=',', fieldnames=headers)
+data.writerow(dict((heads, heads) for heads in headers))
+data.writerows(up_dt)
+  
+op.close()
+```python
+
 
 
 ## Mòdul Pandas
