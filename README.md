@@ -612,7 +612,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 ### MarkDown
 
-76. [Treballant amb Markdown](curs/998_MARKDOWN/REEDME.md)
+76. [Treballant amb Markdown](curs/998_MARKDOWN/README.md)
 
 ### Exercicis variats de programació
 
