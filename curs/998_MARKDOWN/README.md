@@ -1,8 +1,8 @@
 # Markdown Cheat Sheet
 
-Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
+Pots consultar tota la informació en aquesta guia: [The Markdown Guide](https://www.markdownguide.org)!
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
+Aquest Markdown cheat sheet dona una visió rpaida de tots els Markdown elements.No cobreix totes les opcions, si necessites més informació pots adreçar-te al guia de referencia que pots trobara  [basic syntax](https://www.markdownguide.org/basic-syntax) i [extended syntax](https://www.markdownguide.org/extended-syntax).
 
 ## Basic Syntax
 
