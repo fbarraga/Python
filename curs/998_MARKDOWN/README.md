@@ -2,7 +2,7 @@
 
 Pots consultar tota la informació en aquesta guia: [The Markdown Guide](https://www.markdownguide.org)!
 
-Aquest Markdown cheat sheet dona una visió rpaida de tots els Markdown elements.No cobreix totes les opcions, si necessites més informació pots adreçar-te al guia de referencia que pots trobara  [basic syntax](https://www.markdownguide.org/basic-syntax) i [extended syntax](https://www.markdownguide.org/extended-syntax).
+Aquest Markdown cheat sheet dona una visió ràpida de tots els Markdown elements.No cobreix totes les opcions, si necessites més informació pots adreçar-te al guia de referencia que pots trobar a  [basic syntax](https://www.markdownguide.org/basic-syntax) i [extended syntax](https://www.markdownguide.org/extended-syntax).
 
 ## Basic Syntax
 
