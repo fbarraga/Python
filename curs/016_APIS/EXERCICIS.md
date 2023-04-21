@@ -21,7 +21,7 @@ N = (D+A+M) mod 3
 
 
 ## L'HOME DEL TEMPS
-Crear un programa, amb **Python** , que permeti recuperar la temperatura de les 4 provincies catalanes i inserti les dades una base de dades MongoDB.
+Crear un programa, amb **Python** , que permeti recuperar la temperatura de les 4 provincies catalanes i inserti les dades en una base de dades MongoDB.
 
 El programa permetrà les següents operacions:
   * Introduir les ciutats d'on es vol consultat la temperatura
@@ -29,11 +29,11 @@ El programa permetrà les següents operacions:
   * Llistar les temperatures de totes les ciutats.
   * Llistar les temperatures d'una ciutat entre dues dates.
 
-L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
+L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 Podeu consultar l'ajuda de l'API a https://openweathermap.org/api
 
 ## LA LIGA DE FUTBOL
-Crear un programa, amb **Python**, que permeti recuperar els resultats dels partits de la Liga de futbol i inserti les dades a una base de dades MongoDB.
+Crear un programa, amb **Python**, que permeti recuperar els resultats dels partits de la Liga de futbol i inserti les dades en una base de dades MongoDB.
 
 El programa permetrà les següents operacions:
   * Consultar els resultats a la web de resultados-futbol.com.
@@ -57,3 +57,6 @@ El programa permetrà les següents operacions:
 
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 Podeu consultar l'ajuda de l'API a https://api.themoviedb.org
+
+
+
