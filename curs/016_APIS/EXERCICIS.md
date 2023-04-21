@@ -59,4 +59,6 @@ L’usuari interactuarà amb el programa mitjançant menús i l’introducció d
 Podeu consultar l'ajuda de l'API a https://api.themoviedb.org
 
 
+**Nota important:** Per podernos connectar a una API normalment ens hem de registrar a la web que suministra l'API. Una vegada registrats ens donarà una KEY que haurem de fer servir dintre del nostre programa. Aquesta KEY es personal i intransferible. A partir de que us generin la KEY potser que no la pogueu fer servir durant un parell d'hores.
+
 
