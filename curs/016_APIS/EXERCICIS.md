@@ -1,6 +1,6 @@
-# UF4: Recuperació de dades accedint a APIS
+# UF4: Recuperació de dades accedint a APIs
 
-## Activitat 1: Treball amb APIS
+## Activitat 1: Treball amb APIs
 
 ### Explicació
 
