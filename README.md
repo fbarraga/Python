@@ -73,7 +73,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Jupyter Notebooks				 | [jupyter](curs/013_DATA/Jupyter/README.md)     |		    |
 | Datascience					 |				      |             |
 | Recuperar informació d'una API		 |  		  		      |             |
-| Treball Final d'accés a dades			 | 				      |             |
+| Treball Final d'accés a dades			 |   				      |     [A4-1](curs/016_APIS/EXERCICIS.md)        |
 ***
 
 
