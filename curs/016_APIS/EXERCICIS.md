@@ -1,6 +1,6 @@
-# UF4: Recuperació de dades de'APIS
+# UF4: Recuperació de dades accedint a APIs
 
-## Activitat 1: Treball amb APIS
+## Activitat 1: Treball amb APIs
 
 ### Explicació
 
@@ -20,8 +20,8 @@ N = (D+A+M) mod 3
 | 2   |  C   |
 
 
-## L'HOME DEL TEMPS
-Crear un programa, amb **Python** , que permeti recuperar la temperatura de les 4 provincies catalanes i inserti les dades una base de dades MongoDB.
+## A - L'HOME DEL TEMPS
+Crear un programa, amb **Python** , que permeti recuperar la temperatura de les 4 provincies catalanes i inserti les dades en una base de dades MongoDB.
 
 El programa permetrà les següents operacions:
   * Introduir les ciutats d'on es vol consultat la temperatura
@@ -29,11 +29,11 @@ El programa permetrà les següents operacions:
   * Llistar les temperatures de totes les ciutats.
   * Llistar les temperatures d'una ciutat entre dues dates.
 
-L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat
+L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 Podeu consultar l'ajuda de l'API a https://openweathermap.org/api
 
-## LA LIGA DE FUTBOL
-Crear un programa, amb **Python**, que permeti recuperar els resultats dels partits de la Liga de futbol i inserti les dades a una base de dades MongoDB.
+## B - LA LIGA DE FUTBOL
+Crear un programa, amb **Python**, que permeti recuperar els resultats dels partits de la Liga de futbol i inserti les dades en una base de dades MongoDB.
 
 El programa permetrà les següents operacions:
   * Consultar els resultats a la web de resultados-futbol.com.
@@ -45,8 +45,8 @@ L’usuari interactuarà amb el programa mitjançant menús i l’introducció d
 Podeu consultar l'ajuda de l'API a https://www.resultados-futbol.com/api/documentacion
 
 
-## LA FESTA DEL CINEMA
-Crear un programa, amb **Python**, que permeti recuperar la cartellera de pel·lícules que hi ha a Girona.
+## C - LA FESTA DEL CINEMA
+Crear un programa, amb **Python**, que permeti recuperar la cartellera de pel·lícules que hi ha les poblacions escollides.
 
 El programa permetrà les següents operacions:
   * Introduir les ciutats d'on es vol consultar la cartellera
@@ -57,3 +57,10 @@ El programa permetrà les següents operacions:
 
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 Podeu consultar l'ajuda de l'API a https://api.themoviedb.org
+
+
+**Nota important:** Per podernos connectar a una API normalment ens hem de registrar a la web que suministra l'API. Una vegada registrats ens donarà una KEY que haurem de fer servir dintre del nostre programa. Aquesta KEY es personal i intransferible. A partir de que us generin la KEY potser que no la pogueu fer servir durant un parell d'hores.
+
+***
+[Index](../../../README.md)
+
