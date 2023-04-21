@@ -46,7 +46,7 @@ Podeu consultar l'ajuda de l'API a https://www.resultados-futbol.com/api/documen
 
 
 ## C - LA FESTA DEL CINEMA
-Crear un programa, amb **Python**, que permeti recuperar la cartellera de pel·lícules que hi ha a Girona.
+Crear un programa, amb **Python**, que permeti recuperar la cartellera de pel·lícules que hi ha les poblacions escollides.
 
 El programa permetrà les següents operacions:
   * Introduir les ciutats d'on es vol consultar la cartellera
