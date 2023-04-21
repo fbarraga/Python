@@ -1,4 +1,4 @@
-# UF4: Recuperació de dades de'APIS
+# UF4: Recuperació de dades accedint a APIS
 
 ## Activitat 1: Treball amb APIS
 
