@@ -37,3 +37,4 @@ tel_agarica = Telefon(
 agarcia.save()
 tel_agarica.save()
 bdd_agenda.close()
+te
