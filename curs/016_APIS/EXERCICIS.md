@@ -20,7 +20,7 @@ N = (D+A+M) mod 3
 | 2   |  C   |
 
 
-## L'HOME DEL TEMPS
+## A - L'HOME DEL TEMPS
 Crear un programa, amb **Python** , que permeti recuperar la temperatura de les 4 provincies catalanes i inserti les dades en una base de dades MongoDB.
 
 El programa permetrà les següents operacions:
@@ -32,7 +32,7 @@ El programa permetrà les següents operacions:
 L’usuari interactuarà amb el programa mitjançant menús i l’introducció de dades a través del teclat.
 Podeu consultar l'ajuda de l'API a https://openweathermap.org/api
 
-## LA LIGA DE FUTBOL
+## B - LA LIGA DE FUTBOL
 Crear un programa, amb **Python**, que permeti recuperar els resultats dels partits de la Liga de futbol i inserti les dades en una base de dades MongoDB.
 
 El programa permetrà les següents operacions:
@@ -45,7 +45,7 @@ L’usuari interactuarà amb el programa mitjançant menús i l’introducció d
 Podeu consultar l'ajuda de l'API a https://www.resultados-futbol.com/api/documentacion
 
 
-## LA FESTA DEL CINEMA
+## C - LA FESTA DEL CINEMA
 Crear un programa, amb **Python**, que permeti recuperar la cartellera de pel·lícules que hi ha a Girona.
 
 El programa permetrà les següents operacions:
