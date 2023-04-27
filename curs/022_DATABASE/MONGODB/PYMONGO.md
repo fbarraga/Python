@@ -185,6 +185,15 @@ client.close()
 ```
 
 
+* Exemple 6: Consulta el numero de documents en una col·lecció
+```python
+   # Connexió a MongoDB Atlas
+    conn = pymongo.MongoClient("mongodb+srv://xxxxx:xxxxxx@cluster0.xxxxxx.mongodb.net/?retryWrites=true&w=majority")
+    db=conn.get_database('parking')
+    records = db.atopic
+    print(records.count_documents({}))
+```
+
 
 ***
 
