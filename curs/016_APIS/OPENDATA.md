@@ -23,9 +23,8 @@ Exemples d'aquests datasets els podem consultar a :
     * https://opendata-ajuntament.barcelona.cat/data/ca/dataset
     * https://governobert.gencat.cat/ca/dades_obertes/inici
      
-Aquests organismes publiquen la informació agrupada en diferents catàlegs, i accessible mitjançant diferents mètodes i formats. El més habitual es que poguem consultar-la mitjançant la crida a una API REST o mitjançant la descarrega de fitxers en formats XML, JSON o CSV.
-
 Per exemple les dades obertes de la Generalitat de Catalunya ens ofereix les següents categories entre altres:
+
     * Ciencia i Tecnologia
     * Comerç
     * Cultura i oci
@@ -34,6 +33,8 @@ Per exemple les dades obertes de la Generalitat de Catalunya ens ofereix les seg
     * ...
 
 ## Quins son els formats de dades
+
+Aquests organismes publiquen la informació agrupada en diferents catàlegs, i accessible mitjançant diferents mètodes i formats. El més habitual es que poguem consultar-la mitjançant la crida a una API REST o descàrrega directe de fitxer.
 
 Els datasets disponibles a la plataforma de dades obertes es poden exportar en múltiples formats. A continuació es detallen breument:
 
