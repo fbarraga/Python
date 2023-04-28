@@ -618,11 +618,11 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 76.  [Treballant amb Markdown](curs/998_MARKDOWN/README.md)
 
-### Exercicis variats de programació
-
-77. [Exercicis variats](curs/999_EXERC/README.md)
-
 ### BOTS
 
-78. [BOTS]((curs/103_BOTS/TELEGRAM/README.md)  )
+77. [BOTS]((curs/103_BOTS/TELEGRAM/README.md)  )
     * BOTS amb TELEGRAM
+
+### Exercicis variats de programació
+
+78. [Exercicis variats](curs/999_EXERC/README.md)
