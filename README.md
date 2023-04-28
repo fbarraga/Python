@@ -612,10 +612,11 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 ### Creació de Videojocs
 
 75. [Creació de videojocs](curs/101_GAME/README.md)
+    
 	* Llibreria pygame
 ### MarkDown
 
-76. [Treballant amb Markdown](curs/998_MARKDOWN/README.md)
+76.  [Treballant amb Markdown](curs/998_MARKDOWN/README.md)
 
 ### Exercicis variats de programació
 
@@ -623,5 +624,5 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 ### BOTS
 
-78. [BOTS](curs/103_BOTS/README.md)
-    * [BOTS amb TELEGRAM](curs/103_BOTS/TELEGRAM/README.md)  
+78. [BOTS]((curs/103_BOTS/TELEGRAM/README.md)  )
+    * BOTS amb TELEGRAM
