@@ -74,7 +74,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Datascience					 |				      |             |
 | Recuperar informació d'una font oberta		 | [opendata](curs/016_APIS/OPENDATA.md) 		  		      |             |
 | Recuperar informació d'una API		 |  		  		      |             |
-| Treball Final d'accés a dades			 | 				      |   [A4-1](curs/016_APIS/EXERCICIS.md          |
+| Treball Final d'accés a dades			 | 				      |   [A4-1](curs/016_APIS/EXERCICIS.md)         |
 ***
 
 
