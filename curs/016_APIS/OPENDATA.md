@@ -33,7 +33,7 @@ Per exemple les dades obertes de la Generalitat de Catalunya ens ofereix les seg
     * Economia
     * ...
 
-## Quins son els formats de dades
+## Quins son els formats de dades?
 
 Aquests organismes publiquen la informació agrupada en diferents catàlegs, i accessible mitjançant diferents mètodes i formats. El més habitual es que poguem consultar-la mitjançant la crida a una API REST o descàrrega directe de fitxer.
 
@@ -76,3 +76,4 @@ Les dades obertes es poden utilitzar per a qualsevol tipus de finalitat: per exe
 Entre altres usos, es poden fer estudis estadístics socioeconòmics, que, a posteriori, seran utilitzats per moltes empreses amb propòsits d’anàlisi de mercats i avaluació de risc comercial, màrqueting i vendes.
 
 Els periodistes de dades empren les dades obertes com a matèria primera en comptes d’altres fonts d’informació, i treballen en l’anàlisi crítica de la informació, amb l’objectiu d’oferir representacions de la informació comprensibles i molt intuïtives.
+
