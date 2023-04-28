@@ -28,12 +28,10 @@ Intermedio
 
 ## Servicio web
 Servicios Web
-▸ Es un método de comunicación entre máquinas/programas a 
-través de la red (normalmente Internet)
+▸ Es un método de comunicación entre máquinas/programas a través de la red (normalmente Internet)
 ▹ Las páginas web la usan las personas.
 ▹ Los servicios web lo usan los programas.
-▸ WEB PROGRAMABLE: mediante diferentes APIs (web API) 
-podemos configurar gran cantidad de aplicaciones basadas en 
+▸ WEB PROGRAMABLE: mediante diferentes APIs (web API) podemos configurar gran cantidad de aplicaciones basadas en 
 recursos de la Web
 ▹ Podemos consumir (solo lectura) recursos de un servicio 
 web
