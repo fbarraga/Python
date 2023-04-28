@@ -1,6 +1,6 @@
 # Open Data 
 
-## Què és OpenData o dades Obertes?
+## Què és OpenData o Dades Obertes?
 
 Les dades obertes (open data en anglès) són conjunts de dades produïdes o recopilades per organismes públics que les administracions públiques posen a disposició de la ciutadania perquè les pugui utilitzar lliurement de manera senzilla i còmoda.
 
