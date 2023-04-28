@@ -131,4 +131,70 @@ Pretty printing:
 
 
 ***
+
+
+## Format JSON al núvol
+
+JSON s’utilitza habitualment intercanviar dades entre un servidor i una aplicació web. Per exemple, a http://wservice.viabicing.cat/v2/stations podeu trobar la informació en temps real de les estacions de Bicing de la ciutat de Barcelona. Aquesta adreça conté un fitxer JSON amb la ubicació (coordenades longitud-latitud) de les estacions de bicing, la seva adreça (carrer i número), llistat de les estacions més pròximes, estat de l’estació, nombre d’aparcaments i nombre de bicicletes disponibles, mecàniques i elèctriques.
+
+Aquí en teniu un fragment:
+```
+{
+  "stations": [
+    {
+      "id": "1",
+      "type": "BIKE",
+      "latitude": "41.397952",
+      "longitude": "2.180042",
+      "streetName": "Gran Via Corts Catalanes",
+      "streetNumber": "760",
+      "altitude": "21",
+      "slots": "14",
+      "bikes": "14",
+      "nearbyStations": "24, 369, 387, 426",
+      "status": "OPN"
+    },
+    {
+      "id": "2",
+      "type": "BIKE",
+      "latitude": "41.39553",
+      "longitude": "2.17706",
+      "streetName": "Roger de Flor/ Gran Vía",
+      "streetNumber": "126",
+      "altitude": "21",
+      "slots": "8",
+      "bikes": "18",
+      "nearbyStations": "360, 368, 387, 414",
+      "status": "OPN"
+    },
+    /* dades omeses */
+  ],
+  "updateTime": 1530802508
+}
+```
+
+El programa següent (que després comentem) escriu el nombre de bicis i de llocs disponibles al Bicing de Barcelona:
+
+```python
+import json
+import urllib.request
+
+response = urllib.request.urlopen('http://wservice.viabicing.cat/v2/stations')
+bicing = json.load(response)
+bikes = 0
+slots = 0
+for station in bicing['stations']:
+    bikes += int(station['bikes'])
+    slots += int(station['slots'])
+print(bikes, slots)
+
+```python 
+
+En aquest cas, com que les dades no són en un fitxer del propi ordinador, no usem open() sinó urllib.request.urlopen() que funciona de forma semblant a open(), però enlloc d’obrir un fitxer local obre una pàgina de web a través de la seva URL. El valor que retorna urlopen() és una reposta response que podem utilitzar, si fa no fa, com un fitxer. En particular, la podem passar a json.load() perquè descodifiqui les dades en JSON i les desi en una variable de Python anomenada bicing.
+
+Després, ja només cal recórrer l’estructura de dades bicing per calcular la suma de bicis aparcades i llocs disponibles. Noteu que, en aquest cas, hem hagut de convertir a enters els valors numèrics perquè el proveïdor del fitxer els ha proporcionat com a textos (😱!).
+
+
+
+
 [Index](../../../README.md)

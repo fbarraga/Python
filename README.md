@@ -73,6 +73,7 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 | Jupyter Notebooks				 | [jupyter](curs/013_DATA/Jupyter/README.md)     |		    |
 | Datascience					 |				      |             |
 | Recuperar informació d'una API		 |  		  		      |             |
+| Recuperar informació d'una font oberta		 | [opendata](curs/016_APIS/bicing/README.md) 		  		      |             |
 | Treball Final d'accés a dades			 | 				      |             |
 ***
 
@@ -617,3 +618,8 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 ### Exercicis variats de programació
 
 77. [Exercicis variats](curs/999_EXERC/README.md)
+
+### BOTS
+
+78. [BOTS](curs/103_BOTS/README.md)
+    * [BOTS amb TELEGRAM](curs/103_BOTS/TELEGRAM/README.md)  
