@@ -21,6 +21,7 @@ ELs organismes publics integren datasets organitzats en diversos formats, catego
 Exemples d'aquests datasets els podem consultar a :
 
 https://opendata-ajuntament.barcelona.cat/data/ca/dataset
+
 https://governobert.gencat.cat/ca/dades_obertes/inici
      
 Per exemple les dades obertes de la Generalitat de Catalunya ens ofereix les següents categories entre altres:
