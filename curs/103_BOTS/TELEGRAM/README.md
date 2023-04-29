@@ -6,12 +6,12 @@ Aquesta lliçó explica com escriure un bot de Telegram utilitzant Python. Inclo
 
 ## Requeriments
 
-1. Evidentment, us heu d’instal·lar i configurar Telegram al vostre telèfon mòbil.
+1. Primer us heu d’instal·lar i configurar Telegram al vostre telèfon mòbil.
 Nota: Si sou menors, consulteu la Guia de menors a Internet i demaneu permís als vostres pares o tutors legals.
 
 2. També us serà útil instal·lar Telegram al vostre ordinador, per no haver d’anar provant les coses al telèfon.
 
-3. A l’ordinador on s’executarà el vostre bot, heu d’instal·lar la llibreria python-telegram-bot. Ho heu de fer amb
+3. A l’ordinador on s’executarà el vostre bot, heu d’instal·lar la llibreria python-telegram-bot. Aquests exercicis estan provats amb la darrera versió de la llibreria (20.2). Per instal·lar-jo heu de fer:
 
 ```python
 pip3 install python-telegram-bot
@@ -33,7 +33,7 @@ Les instruccions completes les podeu trobar a <https://core.telegram.org/bots#6-
 
 ## Provant un primer bot (Hello bot)
 
-Escriviu aquest programa en un fitxer bot1.py:
+Escriviu aquest programa en un fitxer [bot1.py](./bot1.py):
 
 ```python
 # importa l'API de Telegram
@@ -77,7 +77,7 @@ i amb un navegador, visiteu l’adreça del vostre bot que us ha donat el @BotFa
 
 Nota: Sempre va una mica lent a engegar-se.
 
-Si no funciona, comproveu el vostre access token.
+Si no funciona, comproveu el vostre access token o mireu si ha canviat alguna cosa a la llibreria de Telegram. Moltes vegades amb les noves versions hi ha canvis en les crides o mètodes.
 
 Podeu aturar el vostre bot interrompent el vostre programa (amb Control+C). Llavors els usuaris ja no hi podran interactuar fins que no el torneu a encendre.
 
@@ -137,13 +137,15 @@ Tot bot ha de tenir una comanda /start.
 
 Anem a modificar el programa anterior per tal de reconèixer dues comandes més: /help que ha de donar informació sobre el vostre bot i /hora, que ha de retornar l’hora actual. Així:
 
-Teniu la solució completa a bot2.py. Fixeu-vos com Telegram entén les comandes /start i /help.
+Teniu la solució completa a [bot2.py](./bot2.py). Fixeu-vos com Telegram entén les comandes /start i /help.
 
 ## Missatges multimèdia
 
 Els missatges de resposta poden ser més rics que un trist missatge de text (que pot incloure emojis):
 
-Per enviar missatges formatejats en Markdown, cal usar el mètode send_message tot indicant `parse_mode=telegram.ParseMode.MARKDOWN`. Per enviar missatges formatejats en HTML, cal usar el mètode send_message tot indicant `parse_mode=telegram.ParseMode.HTML`. Per enviar missatges amb imatges, cal usar el mètode `send_photo` tot indicant la URL de la imatge amb photo=URL. Si enlloc d’una URL es passa un fitxer local obert amb open, s’enviarà aquell fitxer (comproveu que existeixi per provar-ho!). També hi ha formes semblants d’enviar audio o vídeo.
+* Per enviar missatges formatejats en *Markdown*, cal usar el mètode send_message tot indicant `parse_mode=telegram.ParseMode.MARKDOWN`. Per enviar missatges formatejats en HTML, cal usar el mètode send_message tot indicant `parse_mode=telegram.ParseMode.HTML`. 
+
+* Per enviar missatges amb imatges, cal usar el mètode `send_photo` tot indicant la URL de la imatge amb photo=URL. Si enlloc d’una URL es passa un fitxer local obert amb open, s’enviarà aquell fitxer (comproveu que existeixi per provar-ho!). També hi ha formes semblants d’enviar audio o vídeo.
 
 La funció start següent ho demostra amb alguns exemples:
 
@@ -157,12 +159,34 @@ Aquí es pot escriure en MarkDown:
 * En *negreta*
 * En *cursiva*
 
-'''
-    context.bot.send_photo(chat_id=update.effective_chat.id, photo='https://jutge.org/ico/semafor.png')
+```python
+    context.bot.send_photo(chat_id=update.effective_chat.id, photo='https://github.com/fbarraga/Python/blob/master/master/assets/telegram_campalanet.png')
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=open('imatge.png', 'rb'))
     context.bot.send_message(chat_id=update.effective_chat.id, text=info, parse_mode=telegram.ParseMode.MARKDOWN)
     context.bot.send_message(chat_id=update.effective_chat.id, text=" 🎗️ ")
-Assegureu-vos de tenir un fitxer imatge.png al mateix directori perquè l’open el pugui llegir.
+```
+
+Assegureu-vos de tenir un fitxer `imatge.png` al mateix directori perquè l’open el pugui llegir.
+
+## Altres opcions
+
+Al nostre bot també podem demanar-li que faci altres opcions per defecte, com per exemple enquestes:
+
+```python 
+async def poll(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Sends a predefined poll"""
+    questions = ["Muy Malo", "Malo", "Bueno", "Muy Bueno"]
+    message = await context.bot.send_poll(
+        update.effective_chat.id,
+        "Que tipo de estudiante eres?",
+        questions,
+        is_anonymous=False,
+        allows_multiple_answers=True,
+    )
+```
+
+Pots consultar el codi en el [bot3.py](./bot3.py).
+
 
 ## Informació del bot i de la conversa
 
@@ -177,14 +201,14 @@ Com s’ha dit, els objectes bot i update que reben les funcions per tractar com
 La funció start següent demostra aquestes facilitats:
 
 ```python
-def start(update, context):
+async def start(update, context):
     print(update)
     print(context)
-    botname = context.bot.username
+    botname = await context.bot.username
     username = update.effective_chat.username
     fullname = update.effective_chat.first_name + ' ' + update.effective_chat.last_name
     missatge = "Tu ets en %s (%s) i jo soc el %s." % (fullname, username, botname)
-    context.bot.send_message(chat_id=update.effective_chat.id, text=missatge)
+    message = await context.bot.send_message(chat_id=update.effective_chat.id, text=missatge)
 ```
 
 Fixeu-vos que aquesta funció també escriu els valors d’update i de context. Volcar-ne el contingut és la manera més senzilla de saber què contenen!
@@ -193,7 +217,7 @@ Fixeu-vos que aquesta funció també escriu els valors d’update i de context. 
 
 Considereu que volem dotar el nostre bot d’una comanda /trad per traduir textos a l’anglès. Per exemple:
 
-Per a fer-ho, instal·leu el mòdul googletrans amb
+Per a fer-ho, instal·leu el mòdul `googletrans` amb
 
 ```python
 pip3 install googletrans
@@ -217,15 +241,15 @@ dispatcher.add_handler(CommandHandler('trad', trad))
 amb aquesta implementació:
 
 ```python
-def trad(update, context):
+async def trad(update, context):
     miss_orig = update.message.text[6:]  # esborra el "/trad " del començament del missatge
     miss_trad = translator.translate(miss_orig).text
-    context.bot.send_message(
+    message= await context.bot.send_message(
         chat_id=update.effective_chat.id,
         text=miss_trad)
 ```
 
-Teniu el programa complet a bot-trad.py.
+Teniu el programa complet a [bot-trad.py](./bot_trad.py).
 
 ## Arguments a les comandes
 
@@ -234,17 +258,17 @@ Com s’ha dit abans, el missatge complet enviat per l’usuari es pot obtenir c
 Les comandes que s’envien al bot poden tenir arguments que reben a la funció que s’encarrega del seu tractament a la llista context.args. Per exemple, si volem fer una comanda /suma que calculi la suma de dos nombres donats (amb una comanda com ara /suma 21 3.5), podríem definir aquesta funció:
 
 ```python
-def suma(update, context):
+async def suma(update, context):
     try:
         x = float(context.args[0])
         y = float(context.args[1])
         s = x + y
-        context.bot.send_message(
+        message = await context.bot.send_message(
             chat_id=update.effective_chat.id,
             text=str(s))
     except Exception as e:
         print(e)
-        context.bot.send_message(
+        message = await context.bot.send_message(
             chat_id=update.effective_chat.id,
             text='💣')
 ```
@@ -253,112 +277,6 @@ Fixeu-vos que la funció suma utilitza un bloc try-except. Si es produeix qualse
 
 *Exercici*: Afegiu una comanda /fibo que calculi el nombre de Fibonacci de l’argument donat. Per exemple, el bot ha de contestar 6765 per a la comanda /fibo 20. Controleu els errors.
 
-Teniu el programa complet a bot3.py.
-
-# Un bot amb cotitzacions de borsa
-
-Considerem ara que volem fer un bot que ens dongui el preu de diverses accions a la borsa. Per a obtenir-les, usarem el mòdul iexfinance que cal instal·lar amb un cop de pip3.
-
-Usar el mòdul no és gaire difícil:
-
-```python
->>> from iexfinance.stocks import Stock
->>> quote = Stock("AAPL")
->>> quote.get_price()
-195.09
->>> quote.get_company()['companyName']
-'Apple Inc.'
->>> quote.get_logo()
-{'url': 'https://storage.googleapis.com/iex/api/logos/AAPL.png'}
-```
-
-Per fer el nostre bot, vinculem una funció preus a la comanda /preus, demanant de passar els arguments:
-
-```python
-dispatcher.add_handler(CommandHandler('preus', preus))
-```
-
-I implementem aquesta funció que llista el logo, nom i preu de cada símbol demanat:
-
-```python
-def preus(update, context):
-    try:
-        for simbol in context.args:
-            quote = Stock(simbol)
-            preu = quote.get_price()
-            nom = quote.get_company()['companyName']
-            missatge = "%s %s %s\n" % (simbol, nom, preu)
-            context.bot.send_photo(
-                chat_id=update.effective_chat.id,
-                photo=quote.get_logo()['url'])
-            context.bot.send_message(
-                chat_id=update.effective_chat.id,
-                text=missatge)
-    except Exception as e:
-        print(e)
-        context.bot.send_message(
-            chat_id=update.effective_chat.id,
-            text='💣')
-```
-
-Genial!
-
-Considerem ara que, a més, volem mostrar una gràfica amb la cotització intradia d’un símbol donat. Podem fer-ho així utilitzant Pandas i Matplotlib (havent instal·lat el mòdul matplotlib amb un altre cop de pip3):
-
->>> from iexfinance.stocks import get_historical_intraday
->>> import matplotlib.pyplot as plt
->>> dataframe = get_historical_intraday("TSLA", output_format='pandas')
->>> dataframe
-                     average  changeOverTime    close      date   ...       notional numberOfTrades     open  volume
-2019-03-21 09:30:00  272.416        0.000000  272.160  20190321   ...     164811.520              8  272.300     605
-2019-03-21 09:32:00  271.800       -0.002261  271.800  20190321   ...       8154.000              1  271.800      30
-2019-03-21 09:33:00  272.450        0.000125  272.500  20190321   ...      54490.000              2  272.400     200
-⋮
->>> dataframe = dataframe.filter(items=['close'])
->>> dataframe
-                       close
-2019-03-21 09:30:00  272.160
-2019-03-21 09:32:00  271.800
-2019-03-21 09:33:00  272.500
-⋮
->>> dataframe.plot()
->>> plt.show()
-
-Per fer el nostre bot, vinculem una funció grafica a la comanda /grafica, demanant de passar els arguments (esperem un nom de símbol):
-
-```
-dispatcher.add_handler(CommandHandler('grafica', grafica))
-```
-
-I implementem aquesta funció que crea la gràfica i l’envia:
-
-```python
-def grafica(update, context):
-    try:
-        fitxer = "%d.png" % random.randint(1000000, 9999999)
-        dataframe = get_historical_intraday(
-            context.args[0],
-            output_format='pandas')
-        dataframe = dataframe.filter(items=['close'])
-        dataframe.plot()
-        plt.savefig(fitxer, bbox_inches='tight')
-        context.bot.send_photo(
-            chat_id=update.effective_chat.id,
-            photo=open(fitxer, 'rb'))
-        os.remove(fitxer)
-    except Exception as e:
-        print(e)
-        context.bot.send_message(
-            chat_id=update.effective_chat.id,
-            text='💣')
-```
-
-Noteu que en aquest cas, hem hagut de desar la gràfica en un fitxer. A més, per evitar que hi hagi errors quan més d’un usuari demani gràfiques a l’hora, el nom del fitxer es crea aleatòriament (es podria fer millor, però així ja farà el fet). El fitxer amb la gràfica és esborrat un cop enviat.
-
-Nota: En Mac, la llibreria Matplotlib s’enfada al córrer dins de l’API de Telegram. Perquè funcioni, cal inicialitzar-la amb aquesta crida: matplotlib.use('Agg').
-
-Teniu el programa complet a bot-borsa.py. I aquests són uns exemples d’ús del bot:
-
 # Mantenir l’estat de la conversa amb un usuari
 
 En algunes situacions, es vol mantenir informació sobre l’estat d’una conversa amb un usuari entre dues comandes. Per a fer-ho, s’utilitza context.user_data, que és un diccionari per desar informacions per l’usuari amb qui ens estem comunicant (aquest diccionari és diferent per a cada usuari amb qui el bot estigui comunicant-se).
@@ -366,10 +284,10 @@ En algunes situacions, es vol mantenir informació sobre l’estat d’una conve
 Per exemple, suposem que cada vegada que l’usuari envïi una comanda /counter, volguem incrementar un comptador que comenci a zero i retornar-lo com a resposta. Ho podríem implementar així:
 
 ```python
-def counter(update, context):
+async def counter(update, context):
     if 'counter' not in user_data:
         context.user_data['counter'] = 0
-    context.user_data['counter'] += 1
+    message = await context.user_data['counter'] += 1
     bot.send_message(
         chat_id=update.effective_chat.id,
         text=str(context.user_data['counter']))
@@ -384,16 +302,16 @@ Fixeu-vos que aquests objectes només viuen a la memòria mentre el procés s’
 Si l’usuari decideix enviar al bot la seva posició (clicant l’opció Localització 📌 que surt al clicar el clip), el bot reb una petició especial que es pot vincular a una funció per tractar-la així:
 
 ```python
-dispatcher.add_handler(MessageHandler(Filters.location, where))
+application.add_handler(MessageHandler(Filters.location, where))
 ```
 
 La funció de tractament vinculada (where, en aquest exemple) reb un update amb la latitud i la longitud de la posició de l’usuari:
 
 ```python
-def where(update, context):
+async def where1(update, context):
     lat, lon = update.message.location.latitude, update.message.location.longitude
     print(lat, lon)
-    context.bot.send_message(
+    message = await context.bot.send_message(
         chat_id=update.effective_chat.id,
         text='Ets a les coordenades %f %f' % (lat, lon))
 ```
@@ -401,7 +319,7 @@ def where(update, context):
 Ara podem ampliar la funció where perquè torni com a resposta un mapa centrat a la posició de l’usuari. Per a fer-ho, usarem el mòdul staticmap descrit a Fitxers i formats en Python:
 
 ```python
-def where(update, context):
+async def where2(update, context):
     try:
         lat, lon = update.message.location.latitude, update.message.location.longitude
         print(lat, lon)
@@ -410,7 +328,7 @@ def where(update, context):
         mapa.add_marker(CircleMarker((lon, lat), 'blue', 10))
         imatge = mapa.render()
         imatge.save(fitxer)
-        context.bot.send_photo(
+        message = await context.bot.send_photo(
             chat_id=update.effective_chat.id,
             photo=open(fitxer, 'rb'))
         os.remove(fitxer)
@@ -451,4 +369,3 @@ Amb això ja teniu les bases necessàries per fer bots en Telegram. Evidentment,
 
 <https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions-%E2%80%93-Your-first-Bot>
 
-Teniu els exemples complets d’aquesta lliçó a <https://github.com/jordi-petit/exemples-telegram>
