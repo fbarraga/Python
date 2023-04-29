@@ -1,8 +1,8 @@
 # Bots de Telegram
---
+
 Basat en Lliçons Jordi Petit UPC https://xn--llions-yua.jutge.org/python/telegram.html
-Actualització de llibreries a Maig 2023
---
+Actualitzat per Francesc Barragan amb noves llibreries de Telegram-BOT v20.2  llibreries a Maig 2023
+
 
 Telegram és una aplicació de missatgeria instantània gratuïta i feta amb programari lliure que permet enviar i rebre missatges a través d’Internet. Un dels seus objectius és proveir una major privadesa i seguretat en comparació amb altres aplicacions similars. Telegram permet crear grups, enviar imatges o vídeos i programar bots (robots) que atenen peticions dels usuaris.
 
