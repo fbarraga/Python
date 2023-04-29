@@ -2,7 +2,8 @@
 
 # importa l'API de Telegram
 from telegram.ext import Application, CommandHandler,ContextTypes
-from telegram import Update
+from telegram import Update,Location
+from telegram import InputMessageContent 
 import datetime
 from staticmap import StaticMap, CircleMarker
 import os,random
@@ -46,8 +47,9 @@ async def trad(update, context):
         chat_id=update.effective_chat.id,
         text=miss_trad)
 
-async def where1(update, context):
+async def where1(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print("1")
+     lat = Location
     lat = await update.message.location.latitude
     print("2")
     lon = await update.message.location.longitude
@@ -108,8 +110,8 @@ def main():
     application.add_handler(CommandHandler("encuesta", poll))
     application.add_handler(CommandHandler("traduir", trad))
     application.add_handler(CommandHandler("suma", suma))
-    application.add_handler(CommandHandler("where1", suma))
-    application.add_handler(MessageHandler)
+    application.add_handler(CommandHandler("where1", where1))
+
     # Run the bot until the user presses Ctrl-C
     application.run_polling()
 
