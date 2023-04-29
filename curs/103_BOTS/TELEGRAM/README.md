@@ -5,6 +5,7 @@ Telegram és una aplicació de missatgeria instantània gratuïta i feta amb pro
 Aquesta lliçó explica com escriure un bot de Telegram utilitzant Python. Inclou exemples per fer bots amb traducció de llengües, tickers de borsa i mapes, entre d’altres.
 
 ## Requeriments
+
 1. Evidentment, us heu d’instal·lar i configurar Telegram al vostre telèfon mòbil.
 Nota: Si sou menors, consulteu la Guia de menors a Internet i demaneu permís als vostres pares o tutors legals.
 
@@ -19,51 +20,60 @@ pip3 install python-telegram-bot
 
 4. Necessiteu un Access token, que és un identificador que Telegram us dóna per identificar el vostre bot. Aquest pas només cal que el feu un cop per bot. Essencialment:
 
-   * Visiteu el @BotFather.
+   * Visiteu el @BotFather des de l'aplicació de Telegram.
    * Useu la comanda /newbot i doneu la informació que us demana (nom complet i nom d’usari del bot, que ha d’acabar amb bot).
-   * Deseu en un fitxer token.txt el vostre access token, que té un aspecte com ara U10201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw.
-   * Apunteu l’adreça del vostre bot, que té un aspecte com ara https://t.me/Llicons_bot.
+   * Deseu en un fitxer token.txt el vostre access token, que té un aspecte com ara xxxxxxxxxxxxxxxxxx.
+   * Apunteu l’adreça del vostre bot, que té un aspecte com ara <https://t.me/CampalansBot>.
 
-Nota: L’access token no l’heu de compartir, altrament, algú altre podria substituir el vostre bot. Aneu amb en compte de no desar-lo en un repositori de GitHub, per exemple.
+![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/telegram_campalanet.png?raw=true)
 
-Les instruccions completes són a https://core.telegram.org/bots#6-botfather.
+**Nota**: L’access token no l’heu de compartir, altrament, algú altre podria substituir el vostre bot. Aneu amb en compte de no desar-lo en un repositori de GitHub, per exemple.
+
+Les instruccions completes les podeu trobar a <https://core.telegram.org/bots#6-botfather>.
 
 ## Provant un primer bot (Hello bot)
 
-Escriviu aquest programa en un fitxer bot1.py (després l’explicarem en detall):
+Escriviu aquest programa en un fitxer bot1.py:
 
 ```python
 # importa l'API de Telegram
-from telegram.ext import Updater, CommandHandler
+from telegram.ext import Application, CommandHandler,ContextTypes
+from telegram import Update
 
-# defineix una funció que saluda i que s'executarà quan el bot rebi el missatge /start
-def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Hola! Soc un bot bàsic.")
+# defineix una funció start que saluda i que s'executarà quan el bot rebi el missatge /start
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Inform user about what this bot can do"""
+    await update.message.reply_text(
+        "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot del Campalans!!! 🎉 🎊"
 
-# declara una constant amb el access token que llegeix de token.txt
-TOKEN = open('token.txt').read().strip()
+    )
 
-# crea objectes per treballar amb Telegram
-updater = Updater(token=TOKEN, use_context=True)
-dispatcher = updater.dispatcher
+def main():
+    # declara una constant amb el access token que llegeix de token.txt
+    TOKEN = open('./token.txt').read().strip()
+    print(TOKEN)
+    
+    application = Application.builder().token(TOKEN).build()
+    #Definim les opcions que podrà executar
+    application.add_handler(CommandHandler("start", start))
 
-# indica que quan el bot rebi la comanda /start s'executi la funció start
-dispatcher.add_handler(CommandHandler('start', start))
+    # Run the bot until the user presses Ctrl-C
+    application.run_polling()
 
-# engega el bot
-updater.start_polling()
-updater.idle()
+
+if __name__ == "__main__":
+    main()
 ```
 
 Executeu-lo amb
-```
+
+```python
 python3 bot1.py
 ```
 
 i amb un navegador, visiteu l’adreça del vostre bot que us ha donat el @BotFather. Això us redirigirà al Telegram i entrareu en una conversa amb el vostre bot. Doneu-li la comanda /start (o piqueu el botó Inicia’l) i ell us contestarà:
 
-
-👏👏 Felicitats! Tot el món mundial ja pot parlar amb el vostre bot!!! 🎉 🎊
+👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot del Campalans!!! 🎉 🎊
 
 Nota: Sempre va una mica lent a engegar-se.
 
@@ -75,42 +85,48 @@ Podeu aturar el vostre bot interrompent el vostre programa (amb Control+C). Llav
 
 El bot s’executa en el vostre ordinador. Els usuaris es connecten a ell a través de Telegram, que fa d’intermediari. El vostre bot utilitza l’API de [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) per realitzar totes les comunicacions necessàries.
 
-El programa anterior fa que quan el bot rebi la comanda /start, contesti amb el missatge Hola! Soc el teu bot..
+El programa anterior fa que quan el bot rebi la comanda /start, contesti amb el missatge "Felicitats...."
 
 Per a fer-ho, primerament, el programa importa algunes funcions de l’API de Telegram:
 
 ```python
-from telegram.ext import Updater, CommandHandler
+from telegram.ext import Application, CommandHandler,ContextTypes
+from telegram import Update
 ```
 
-Després, el programa defineix la funció start, que de seguida expliquem.
+Després, el programa defineix la funció start.
 
 A continuació, el programa crea un sèrie d’objectes necessaris per establir la comunicació i el control de flux. Per a fer-ho, necessita el vostre access token, que llegeix del fitxer token.txt:
 
 ```python
-TOKEN = open('token.txt').read().strip()
-updater = Updater(token=TOKEN, use_context=True)
-dispatcher = updater.dispatcher
+def main():
+    # declara una constant amb el access token que llegeix de token.txt
+    TOKEN = open('./token.txt').read().strip()
+    print(TOKEN)
+    
+    application = Application.builder().token(TOKEN).build()
 ```
 
 Amb això, ara vincula la funció start amb la comanda /start, utilitzant les crides
 
 ```python
-dispatcher.add_handler(CommandHandler('start', start))
+application.add_handler(CommandHandler('start', start))
 ```
 
 Finalment, el bot es posa en marxa amb aquestes comandes:
 
 ```python
-updater.start_polling()
-updater.idle()
+application.run_polling()
 ```
 
 Per la seva part, la funció start és aquesta:
 
 ```python
-def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Hola! Soc un bot bàsic.")
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Inform user about what this bot can do"""
+    await update.message.reply_text(
+        "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot del Campalans!!! 🎉 🎊"
+    )
 ```
 
 Aquesta funció s’executarà cada cop que un usuari escrigui la comanda /start, perquè així ho hem dit amb el add_handler. Els seus paràmetres update i context són objectes que ens permeten tenir més detalls de la informació de l’usuari i realitzar accions amb el bot. En aquets cas, el bot senzillament envia un missatge amb el text donat.
@@ -118,15 +134,16 @@ Aquesta funció s’executarà cada cop que un usuari escrigui la comanda /start
 Tot bot ha de tenir una comanda /start.
 
 ## Un primer exercici
-Modifiqueu el programa anterior per tal de reconèixer dues comandes més: /help que ha de donar informació sobre el vostre bot i /hora, que ha de retornar l’hora actual. Així:
 
+Anem a modificar el programa anterior per tal de reconèixer dues comandes més: /help que ha de donar informació sobre el vostre bot i /hora, que ha de retornar l’hora actual. Així:
 
 Teniu la solució completa a bot2.py. Fixeu-vos com Telegram entén les comandes /start i /help.
 
 ## Missatges multimèdia
+
 Els missatges de resposta poden ser més rics que un trist missatge de text (que pot incloure emojis):
 
-Per enviar missatges formatejats en Markdown, cal usar el mètode send_message tot indicant parse_mode=telegram.ParseMode.MARKDOWN. Per enviar missatges formatejats en HTML, cal usar el mètode send_message tot indicant parse_mode=telegram.ParseMode.HTML. Per enviar missatges amb imatges, cal usar el mètode send_photo tot indicant la URL de la imatge amb photo=URL. Si enlloc d’una URL es passa un fitxer local obert amb open, s’enviarà aquell fitxer (comproveu que existeixi per provar-ho!). També hi ha formes semblants d’enviar audio o vídeo.
+Per enviar missatges formatejats en Markdown, cal usar el mètode send_message tot indicant `parse_mode=telegram.ParseMode.MARKDOWN`. Per enviar missatges formatejats en HTML, cal usar el mètode send_message tot indicant `parse_mode=telegram.ParseMode.HTML`. Per enviar missatges amb imatges, cal usar el mètode `send_photo` tot indicant la URL de la imatge amb photo=URL. Si enlloc d’una URL es passa un fitxer local obert amb open, s’enviarà aquell fitxer (comproveu que existeixi per provar-ho!). També hi ha formes semblants d’enviar audio o vídeo.
 
 La funció start següent ho demostra amb alguns exemples:
 
@@ -134,10 +151,11 @@ La funció start següent ho demostra amb alguns exemples:
 def start(update, context):
     info = '''
 ```
+
 Aquí es pot escriure en MarkDown:
 
-- En *negreta*
-- En _cursiva_
+* En *negreta*
+* En *cursiva*
 
 '''
     context.bot.send_photo(chat_id=update.effective_chat.id, photo='https://jutge.org/ico/semafor.png')
@@ -172,14 +190,15 @@ def start(update, context):
 Fixeu-vos que aquesta funció també escriu els valors d’update i de context. Volcar-ne el contingut és la manera més senzilla de saber què contenen!
 
 ## Un bot traductor
-Considereu que volem dotar el nostre bot d’una comanda /trad per traduir textos a l’anglès. Per exemple:
 
+Considereu que volem dotar el nostre bot d’una comanda /trad per traduir textos a l’anglès. Per exemple:
 
 Per a fer-ho, instal·leu el mòdul googletrans amb
 
 ```python
 pip3 install googletrans
 ```
+
 Usar-lo és ben fàcil:
 
 ```python
@@ -194,8 +213,8 @@ I per integrar-lo al nostre bot, caldria vincular una funció trad a la comanda 
 ```python
 dispatcher.add_handler(CommandHandler('trad', trad))
 ```
-amb aquesta implementació:
 
+amb aquesta implementació:
 
 ```python
 def trad(update, context):
@@ -209,6 +228,7 @@ def trad(update, context):
 Teniu el programa complet a bot-trad.py.
 
 ## Arguments a les comandes
+
 Com s’ha dit abans, el missatge complet enviat per l’usuari es pot obtenir consultant update.message.text. Tantmateix, sovint és més fàcil usar comandes amb arguments:
 
 Les comandes que s’envien al bot poden tenir arguments que reben a la funció que s’encarrega del seu tractament a la llista context.args. Per exemple, si volem fer una comanda /suma que calculi la suma de dos nombres donats (amb una comanda com ara /suma 21 3.5), podríem definir aquesta funció:
@@ -236,9 +256,11 @@ Fixeu-vos que la funció suma utilitza un bloc try-except. Si es produeix qualse
 Teniu el programa complet a bot3.py.
 
 # Un bot amb cotitzacions de borsa
+
 Considerem ara que volem fer un bot que ens dongui el preu de diverses accions a la borsa. Per a obtenir-les, usarem el mòdul iexfinance que cal instal·lar amb un cop de pip3.
 
 Usar el mòdul no és gaire difícil:
+
 ```python
 >>> from iexfinance.stocks import Stock
 >>> quote = Stock("AAPL")
@@ -278,6 +300,7 @@ def preus(update, context):
             chat_id=update.effective_chat.id,
             text='💣')
 ```
+
 Genial!
 
 Considerem ara que, a més, volem mostrar una gràfica amb la cotització intradia d’un símbol donat. Podem fer-ho així utilitzant Pandas i Matplotlib (havent instal·lat el mòdul matplotlib amb un altre cop de pip3):
@@ -301,8 +324,8 @@ Considerem ara que, a més, volem mostrar una gràfica amb la cotització intrad
 >>> dataframe.plot()
 >>> plt.show()
 
-
 Per fer el nostre bot, vinculem una funció grafica a la comanda /grafica, demanant de passar els arguments (esperem un nom de símbol):
+
 ```
 dispatcher.add_handler(CommandHandler('grafica', grafica))
 ```
@@ -336,7 +359,6 @@ Nota: En Mac, la llibreria Matplotlib s’enfada al córrer dins de l’API de T
 
 Teniu el programa complet a bot-borsa.py. I aquests són uns exemples d’ús del bot:
 
-   
 # Mantenir l’estat de la conversa amb un usuari
 
 En algunes situacions, es vol mantenir informació sobre l’estat d’una conversa amb un usuari entre dues comandes. Per a fer-ho, s’utilitza context.user_data, que és un diccionari per desar informacions per l’usuari amb qui ens estem comunicant (aquest diccionari és diferent per a cada usuari amb qui el bot estigui comunicant-se).
@@ -401,7 +423,6 @@ def where(update, context):
 
 Teniu el programa complet a bot-mapa.py. I aquest és un exemple d’ús del bot:
 
-
 ## Obtenció de la localització en directe
 
 Les darreres versions de Telegram també permeten compartir la localització en directe: Durant un cert marge de temps, el client va informant al servidor de les noves coordenades de l’usuari. Per alguna raó estranya, per obtenir la localització en directe cal fer un codi una mica estrany:
@@ -421,14 +442,13 @@ def where(update, context):
 ```
 
 ## Informació addicional
+
 Amb això ja teniu les bases necessàries per fer bots en Telegram. Evidentment, es poden fer moltes més coses, incloent jocs i transaccions comercials. Podeu trobar una informació més exhaustiva en aquests enllaços:
 
-https://core.telegram.org/bots
+<https://core.telegram.org/bots>
 
-https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API
+<https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API>
 
-https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions-%E2%80%93-Your-first-Bot
+<https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions-%E2%80%93-Your-first-Bot>
 
-Teniu els exemples complets d’aquesta lliçó a https://github.com/jordi-petit/exemples-telegram
-
-
+Teniu els exemples complets d’aquesta lliçó a <https://github.com/jordi-petit/exemples-telegram>
