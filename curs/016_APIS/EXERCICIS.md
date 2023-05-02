@@ -36,7 +36,7 @@ Podeu consultar l'ajuda de l'API a https://openweathermap.org/api
 Crear un programa, amb **Python**, que permeti recuperar els resultats dels partits de la Liga de futbol i inserti les dades en una base de dades MongoDB.
 
 El programa permetrà les següents operacions:
-  * Consultar la classificació a la web de resultados-futbol.com.
+  * Consultar la classificació.
   * Llistar els resultats dels partits a una data.
   * Llistar tots els equips de la Lliga.
 
