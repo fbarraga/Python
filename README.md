@@ -83,7 +83,7 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 ***
 
-### Temari
+## Primers passos amb python
 
 1. [Introducció a Python](curs/000_INTRO/u1/README.md)
 
@@ -116,7 +116,9 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
    * Guía de estil
    * [Algorísmica](curs/000_INTRO/u5a/README.md)
 
-**Estructura del llenguatge**
+    ```text
+    ### Estructura del llenguatge
+    ```
 
 6. [Estructura del programa](curs/001_ESTRU/u6/README.md)
 
@@ -629,4 +631,6 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 ### Exercicis variats de programació
 
-78. [Exercicis variats](curs/999_EXERC/README.md)
+78. Exercicis Simples
+    * [Nivell 0](curs/999_EXERC/EXERCICIS0.md)
+    * [Nivell 1](curs/999_EXERC/EXERCICIS1.md)
