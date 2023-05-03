@@ -30,18 +30,18 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
 
 ## UF1: Persistència de dades amb fitxers
 
-|  Persistència de dades amb fitxers            | Unitats Teoria     | Exercicis      |
+|  Persistència de dades amb fitxers            | Unitats Teoria                        | Exercicis                       |
 |-----------------------------------------------|---------------------------------------|---------------------------------|
-| Sistema de fitxers         | [36](curs/007_FILES/README.md) |      |
-| Mòduls de python per la gestió de fitxers  | [45](curs/009_MODU/u41/README.md) |      |
-| Procés de Serialització   | [36a](curs/007_FILES/u36a/README.md) |      |
-| Tipus de fitxers     | [36b](curs/007_FILES/u36b/README.md) |      |
-| Treball amb fitxers texte    | [36c](curs/007_FILES/u36c/README.md) |         |
-| Treball amb fitxers binari    | [36d](curs/007_FILES/u36d/README.md) |        |
-| Fitxers CSV      | [CSV](curs/007_FILES/u37/README.md) |      |
-| Fitxers JSON     | [JSON](curs/007_FILES/u38/README.md) |      |
-| Fitxers XML      | [XML](curs/007_FILES/u38b/README.md) |      |
-| Treball de fitxers     |     |[A1-1](curs/007_FILES/u99/act6.md) |
+| Sistema de fitxers                            | [36](curs/007_FILES/README.md)        |                                 |
+| Mòduls de python per la gestió de fitxers     | [45](curs/009_MODU/u41/README.md)     |                                 |
+| Procés de Serialització                       | [36a](curs/007_FILES/u36a/README.md)  |                                 |
+| Tipus de fitxers                              | [36b](curs/007_FILES/u36b/README.md)  |                                 |
+| Treball amb fitxers texte                     | [36c](curs/007_FILES/u36c/README.md)  |                                 |
+| Treball amb fitxers binari                    | [36d](curs/007_FILES/u36d/README.md)  |                                 |
+| Fitxers CSV                                   | [CSV](curs/007_FILES/u37/README.md)   |                                 |
+| Fitxers JSON                                  | [JSON](curs/007_FILES/u38/README.md)  |                                 |
+| Fitxers XML                                   | [XML](curs/007_FILES/u38b/README.md)  |                                 |
+| Treball de fitxers                            |                                       |[A1-1](curs/007_FILES/u99/act6.md) |
 
 ## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO
 
