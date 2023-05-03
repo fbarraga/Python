@@ -72,7 +72,7 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
 |------------------------------------------------|------------------------------------|-------------|
 | Jupyter Notebooks     | [jupyter](curs/013_DATA/Jupyter/README.md)     |      |
 | Datascience      |          |             |
-| Recuperar informació d'una font oberta   | [opendata](curs/016_APIS/OPENDATA.md)             |     [bicing](curs/016_APIS/OPENDATA/bicing/bicing.ipynb)        |
+| Recuperar informació d'una font oberta   | [opendata](curs/016_APIS/OPENDATA/OPENDATA.md)             |     [bicing](curs/016_APIS/OPENDATA/bicing/bicing.ipynb)        |
 | Recuperar informació d'una API   |    [APIs](curs/016_APIS/README.md)           |     [A4-1](curs/016_APIS/EXERCICIS.md)          |
 | Treball Final d'accés a dades    |           |          |
 ***
@@ -563,7 +563,7 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
 
 67. [Introducció a Django](curs/015_PYWEB/u56/README.md)
 
-68. [Descripció de les APIS](curs/016_APIS/README.md) )
+68. [Descripció de les APIS](curs/016_APIS/README.md)
 
     * Qué son
     * Funcionament
@@ -581,10 +581,10 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
     * [Weather](curs/016_APIS/pys/weather)
     * [La Liga](curs/016_APIS/pys/futbol)
 
-71. [REST API: Creació d'una API](curs_016_APIS/u56/README.md)
+71. REST API: Creació d'una API
 
-    * Amb Swagger
-    * Amb Flask
+    * [Amb Swagger](curs/016_APIS/SWAGGER/README.md)
+    * [Amb Flask](curs/016_APIS/FLASK/README.md)
 
 ### Intel.ligència artificial i Machine Learning
 
