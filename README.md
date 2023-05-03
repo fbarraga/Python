@@ -6,7 +6,7 @@ Benvinguts al curs de Python. Aquest curs es un repositori de molta documentaci�
 
 Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
 
-Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar amb mi!.
+Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar amb mi!.
 
 ## UF0: Introducció a Python
 
