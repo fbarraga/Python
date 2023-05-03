@@ -63,8 +63,8 @@ Una API es fonamentalment un programa que espera les peticions darrera una URL o
 
 Així per exemple l'entrada a l'API de consulta del temps es : https://api.openweathermap.org/data/3.0/onecall . Els endpoints que té aquesta API son per exemple:
 
-https://api.openweathermap.org/data/3.0/onecall?lat=30.489772&lon=-99.771335
-https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&units={units}
+ * https://api.openweathermap.org/data/3.0/onecall?lat=30.489772&lon=-99.771335
+ * https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&units={units}
 
 
 ## Connexió a una API REST
