@@ -4,7 +4,7 @@ Python té una molt activa comunitat de desenvolupadors i usuaris que desenvolup
 
 ## PyPI y pip
 
-* El *Python Package Index* o *PyPI*, es el repositori de paquets de software oficial per aplicacions de tercers en el llenguatge de programació Python.
+* El *Python Package Index* o [PyPI](https://pypi.org), es el repositori de paquets de software oficial per aplicacions de tercers en el llenguatge de programació Python.
 
 * `pip`: Sistema de gestió de paquets utilizat per instal·lar i administrar paquets de software escrits en Python que es troben allotjats en el repositori *PyPI*.
 
