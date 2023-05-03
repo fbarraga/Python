@@ -30,40 +30,45 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
 
 ## UF1: Persistència de dades amb fitxers
 
-|  Persistència de dades amb fitxers            | Unitats Teoria                        | Exercicis                       |
-|-----------------------------------------------|---------------------------------------|---------------------------------|
-| Sistema de fitxers                            | [36](curs/007_FILES/README.md)        |                                 |
-| Mòduls de python per la gestió de fitxers     | [45](curs/009_MODU/u41/README.md)     |                                 |
-| Procés de Serialització                       | [36a](curs/007_FILES/u36a/README.md)  |                                 |
-| Tipus de fitxers                              | [36b](curs/007_FILES/u36b/README.md)  |                                 |
-| Treball amb fitxers texte                     | [36c](curs/007_FILES/u36c/README.md)  |                                 |
-| Treball amb fitxers binari                    | [36d](curs/007_FILES/u36d/README.md)  |                                 |
-| Fitxers CSV                                   | [CSV](curs/007_FILES/u37/README.md)   |                                 |
-| Fitxers JSON                                  | [JSON](curs/007_FILES/u38/README.md)  |                                 |
-| Fitxers XML                                   | [XML](curs/007_FILES/u38b/README.md)  |                                 |
-| Treball de fitxers                            |                                       |[A1-1](curs/007_FILES/u99/act6.md) |
+|  Persistència de dades amb fitxers            | Unitats Teoria                        | Exercicis                             |
+|-----------------------------------------------|---------------------------------------|---------------------------------------|
+| Sistema de fitxers                            | [36](curs/007_FILES/README.md)        |                                       |
+| Mòduls de python per la gestió de fitxers     | [45](curs/009_MODU/u41/README.md)     |                                       |
+| Procés de Serialització                       | [36a](curs/007_FILES/u36a/README.md)  |                                       |
+| Tipus de fitxers                              | [36b](curs/007_FILES/u36b/README.md)  |                                       |
+| Treball amb fitxers texte                     | [36c](curs/007_FILES/u36c/README.md)  |                                       |
+| Treball amb fitxers binari                    | [36d](curs/007_FILES/u36d/README.md)  |                                       |
+| Fitxers CSV                                   | [CSV](curs/007_FILES/u37/README.md)   |                                       |
+| Fitxers JSON                                  | [JSON](curs/007_FILES/u38/README.md)  |                                       |
+| Fitxers XML                                   | [XML](curs/007_FILES/u38b/README.md)  |                                       |
+| Treball de fitxers                            |                                       |[A1-1](curs/007_FILES/u99/act6.md)     |
+
+***
 
 ## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO
 
-|  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria          | Exercicis   |
-|------------------------------------------------|------------------------------------|-------------|
-| Connectors a Bases de dades       | [60](curs/022_DATABASE/README.md)    |    |
-| Connectar a Postgres       | [60a](curs/022_DATABASE/POSTGRES/README.md)|      |
-| Què és un ORM        | [60c](curs/022_DATABASE/ORM/README.md)     |      |
-| --ORM: Peewee        | [60d](curs/022_DATABASE/ORM/PEEWEE.md)             |    |
-| --ORM: Alchemy       | [60e](curs/022_DATABASE/ORM/ALCHEMY.md)             |    |
-| Bases de dades Orientades a Objectes/NOSQL   | [60f](curs/022_DATABASE/BDOO/README.md)
-| --BD NOSQL: TinyDB Samples    | [60f](curs/022_DATABASE/BDOO/pys)             |    |
-| Treball amb Bases de Dades BDR,BDOR,BDOO    |      |[A2-1](curs/022_DATABASE/EXERCICIS.md)   |
+|  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria                               | Exercicis                                 |
+|------------------------------------------------|----------------------------------------------|-------------------------------------------|
+| Connectors a Bases de dades                    | [60](curs/022_DATABASE/README.md)            |                                           |
+| Connectar a Postgres                           | [60a](curs/022_DATABASE/POSTGRES/README.md)  |                                           |
+| Què és un ORM                                  | [60c](curs/022_DATABASE/ORM/README.md)       |                                           |
+| --ORM: Peewee                                  | [60d](curs/022_DATABASE/ORM/PEEWEE.md)       |                                           |
+| --ORM: Alchemy                                 | [60e](curs/022_DATABASE/ORM/ALCHEMY.md)      |                                           |
+| Bases de dades Orientades a Objectes/NOSQL     | [60f](curs/022_DATABASE/BDOO/README.md)      |                                           |
+| --BD NOSQL: TinyDB Samples                     | [60f](curs/022_DATABASE/BDOO/pys)            |                                           |
+| Treball amb Bases de Dades BDR,BDOR,BDOO       |                                              |[A2-1](curs/022_DATABASE/EXERCICIS.md)     |
+
+***
 
 ## UF3: Persistència amb Bases de Dades XML
 
-|  Persistència amb Bases de Dades XML | Unitats Teoria          | Exercicis   |
-|------------------------------------------------|------------------------------------|-------------|
-| Bases de dades XML     | [bdxml](curs/022_DATABASE/MONGODB/README.md)     |      |
-| MongoDB on Premise / on Cloud          | [mongo](curs/022_DATABASE/MONGODB/INSTALACIO.md) |      |
-| MongoDB i Python    | [mongopython](curs/022_DATABASE/MONGODB/PYMONGO.md) |
-| Treball amb Bases de Dades    |      |[A3-1](curs/022_DATABASE/MONGODB/EXERCICIS.md)   |
+|  Persistència amb Bases de Dades XML           | Unitats Teoria                                       | Exercicis                                       |
+|------------------------------------------------|------------------------------------------------------|-------------------------------------------------|
+| Bases de dades XML                             | [bdxml](curs/022_DATABASE/MONGODB/README.md)         |                                                 |
+| MongoDB on Premise / on Cloud                  | [mongo](curs/022_DATABASE/MONGODB/INSTALACIO.md)     |                                                 |
+| MongoDB i Python                               | [mongopython](curs/022_DATABASE/MONGODB/PYMONGO.md)  |                                                 |
+| Treball amb Bases de Dades                     |                                                      |[A3-1](curs/022_DATABASE/MONGODB/EXERCICIS.md)   |
+
 ***
 
 ## UF4: Components d'accés a dades
@@ -75,6 +80,7 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
 | Recuperar informació d'una API   |    [APIs](curs/016_APIS/README.md)           |     [A4-1](curs/016_APIS/EXERCICIS.md)          |
 | Recuperar informació mitjançant un webcrawler   |    [webcrawler](curs/023_SCRAPE/README.md)           |              |
 | Treball Final d'accés a dades    |           |          |
+
 ***
 
 ### Temari
@@ -450,7 +456,7 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
     * Introducció a la Programació Orientada a Objectes
     * Definició de classe, objecte, atributs i mètodes
     * Atributs d'objetos
-    * Mètode constructor __init__
+    * Mètode constructor **init**
     * Definint mètodes. El paràmetre self
     * Definició d'objectes
 
@@ -524,8 +530,8 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
 
 65. [Llibreria Pandas](curs/017_PANDAS/README.md)
 
-	* Instal·lació
-	* Ús
+ * Instal·lació
+ * Ús
 
 66. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
 
