@@ -2,6 +2,5 @@
 
 En construcció
 
-    
 ***
 [Index](../../../README.md)

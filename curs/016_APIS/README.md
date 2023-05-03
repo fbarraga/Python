@@ -1,15 +1,13 @@
-# APIS
-# Python APIs: Consumint informació d'un servei web tipus API Restful 
+# Python APIs: Consumint informació d'un servei web tipus API Restful
 
 ## Objetius
 
 * Introduir els conceptes sobre serveis web
 * Diferències entre API SOAP i API REST
 * Conèixer les característiques dels serveis web API Restful
-* Conèixer el llenguatge de marques `json` 
+* Conèixer el llenguatge de marques `json`
 * Utilitzar python per realitzar peticions a un servei web API restful
 * Utilitzar python para tractar la informació obtinguda del servei web en formato json
-
 
 ## Serveis web
 
@@ -23,10 +21,10 @@
   * API REST (Representational State Transfer): on s'intercanviarà informació principalment en format JSON.
   * API SOAP (Simple Object Access Protocol): on s'intercanviarà informació principalment en format XML
 
-
 ## JSON
 
 Tal com hem vist en capítols anteriors JSON (JavaScript Object Notation) és un llenguatge de  marques que ens permet representar informació.
+
 ```json
 {
   "colors": [
@@ -45,7 +43,9 @@ Tal com hem vist en capítols anteriors JSON (JavaScript Object Notation) és un
     ]
 }
 ```
+
 Els fitxers JSON tenen dos estructures básiques que es mapegen amb objectes de Python:
+
 * Diccionaris
 * Llistes
 
@@ -53,19 +53,17 @@ Els fitxers JSON tenen dos estructures básiques que es mapegen amb objectes de 
 
 * Podem utilitzar Python3 per crear programes que utilitzin API REST per consumir/modificar els recursos d'un servei web. Per fer-ho haurem de fer servir duess llibreries:
 
-    * `requests`: Ens permet realitzar peticions HTTP i gestionar la resposta del servidor. Podeu consultar més informació en aquest [link](https://pypi.org/project/requests/)
-    * `json`: Ens permet treballar amb informació en formato json, que serà la que recuperarem o enviarem al servei web.
-
+  * `requests`: Ens permet realitzar peticions HTTP i gestionar la resposta del servidor. Podeu consultar més informació en aquest [link](https://pypi.org/project/requests/)
+  * `json`: Ens permet treballar amb informació en formato json, que serà la que recuperarem o enviarem al servei web.
 
 ## Funcionament d'una API
 
 Una API es fonamentalment un programa que espera les peticions darrera una URL on nosaltres anirem a consultar la informació que proveeix la API. Aquesta URL es un punt d'entrada, i cadascuna de les opcions de consulta/modificació les anomenarem Endpoints.
 
-Així per exemple l'entrada a l'API de consulta del temps es : https://api.openweathermap.org/data/3.0/onecall . Els endpoints que té aquesta API son per exemple:
+Així per exemple l'entrada a l'API de consulta del temps es : <https://api.openweathermap.org/data/3.0/onecall> . Els endpoints que té aquesta API son per exemple:
 
- * https://api.openweathermap.org/data/3.0/onecall?lat=30.489772&lon=-99.771335
- * https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&units={units}
-
+* <https://api.openweathermap.org/data/3.0/onecall?lat=30.489772&lon=-99.771335>
+* <https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&units={units>}
 
 ## Connexió a una API REST
 
@@ -81,27 +79,27 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
 
 1. Consultes amb `curl` des de línia de comandes, o directament amb el navegador:
 
-    * API sense key: https://swapi.co (Veure Documentació)
+    * API sense key: <https://swapi.co> (Veure Documentació)
 
-            curl https://swapi.dev/api/
-            curl https://swapi.dev/api/people/1/ | json_pp 
+        * curl <https://swapi.dev/api/>
+        * curl <https://swapi.dev/api/people/1/> | json_pp
 
-    * API amb key: https://openweathermap.org/. Ver Documentació de l'API: https://openweathermap.org/api. Accedir i crear una API key nova.
+    * API amb key: <https://openweathermap.org/>. Ver Documentació de l'API: <https://openweathermap.org/api>. Accedir i crear una API key nova.
 
-            export open_weather_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-            curl https://api.openweathermap.org/data/2.5/weather?q=Sevilla&units=metric&APPID=open_weather_key&mode=json'
-
+        * export open_weather_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        * curl <https://api.openweathermap.org/data/2.5/weather?q=Sevilla&units=metric&APPID=open_weather_key&mode=json>'
 
 2. ¿Com podem realitzar consultes http amb python3? Utilizant la llibrería `requests`.
 
     * Instal·lació de `requests`:
 
-            python3 -m venv env
-            source env/bin/activate
+        python3 -m venv env
+        source env/bin/activate
 
-            pip install requests
+        pip install requests
 
     * Consulta a **swapi**:
+
     ```python
             import requests
             r=requests.get("https://swapi.dev/api/people/1/")
@@ -111,7 +109,7 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
             print(datos["name"])
             >>> Luke Skywalker
     ```
-            
+
     * Consulta a **openwheathermap**:
 
     ```python
@@ -128,13 +126,12 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
             datos=r.json()
             print(datos["main"]["temp"])
     ```
-    
-    ## Exemples d'APIs on es pot anar a consultar informació
-    
-    * Exemple 1: Temperatura: https://openweathermap.org/api
-    * Exemple 2: Fútbol: https://es.besoccer.com/api/documentacion
-    * Exemple 3: Cine: https://developers.themoviedb.org/3/getting-started/introduction
-    
-    
+
+## Exemples d'APIs on es pot anar a consultar informació
+
+* Exemple 1: Temperatura: <https://openweathermap.org/api>
+* Exemple 2: Fútbol: <https://es.besoccer.com/api/documentacion>
+* Exemple 3: Cine: <https://developers.themoviedb.org/3/getting-started/introduction>
+
 ***
 [Index](../../README.md)
