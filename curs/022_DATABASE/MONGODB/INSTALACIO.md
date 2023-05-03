@@ -20,7 +20,7 @@ Per poder desplegar una base de dades en Cloud, utilitzarem [Mongo Atlas](https:
 * Assignem usuari i password a la base de dades.
 * Especifiquem des d'on ens connectarem. Podem aplicar filtres de IPs. Revisem quina es la nostra IP i l'afegim dintre de les IPs validades.
 
-Una vegada desplegat la Base de dades, podem administrar-la des del nostre ordinadoramb el **Mongo Shell**
+Una vegada desplegat la Base de dades, podem administrar-la des del nostre ordinador amb el **Mongo Shell**
 
 Per executar-ho podem 
 ```
@@ -32,7 +32,7 @@ mongosh "mongodb+srv://parking.1jvwodg.mongodb.net/Parking" --apiVersion 1 --use
 ### MongoDB Shell
 
 Es pot descarregar l'eina des d'aquest [link](https://www.mongodb.com/try/download/shell)
-MongoShell es una aplicació en mode comanda que ens permet executar comandes en el nostre MongoDB. Es recomenat quan utilitzem scripts que interactuen amb la base de dades. 
+MongoShell es una aplicació en mode comanda que ens permet executar comandes en el nostre MongoDB. Es l'eina recomanada quan utilitzem scripts que interactuen amb la base de dades. 
 Actua de la mateixa manera que el psql de Postgresql o el sqlplus d'Oracle. Podeu consultar més informació en el següent [link](https://www.mongodb.com/docs/mongodb-shell/)
 
 
@@ -40,7 +40,7 @@ Actua de la mateixa manera que el psql de Postgresql o el sqlplus d'Oracle. Pode
 
 Es pot descarregar l'eina des d'aquest [link](https://www.mongodb.com/try/download/compass)
 
-Es una eina GUI que permet administrar la base de dades des d'una interfície gràfica. Inclou dintre de la solució el MongoShell. Es correspondria al PGAdmin4 de Postgresql o al Enterprise Manager d'Oracle. Podeu consultar més informació en aquest [link](https://www.mongodb.com/docs/compass/master/)
+Es una eina GUI que permet administrar la base de dades des d'una interfície gràfica. Inclou adintre la solució el MongoShell. Es correspondria al PGAdmin4 de Postgresql o al Enterprise Manager d'Oracle. Podeu consultar més informació en aquest [link](https://www.mongodb.com/docs/compass/master/)
 
 
 ## Ordres bàsiques a MongoDB
@@ -48,17 +48,20 @@ Es una eina GUI que permet administrar la base de dades des d'una interfície gr
 * `help`: Mostra informació sobre l'ajuda
 * `db`: Mostra la base de dades en ús
 * `db.stats`: Mostra informació sobre la base de dades en ús
-* `use database`: Crea una base de dades (si el nom indicat existeix, fa la connexió a aquesta bd)
+* `use <database>`: Crea una base de dades (si el nom indicat existeix, fa la connexió a aquesta bd)
 * `show dbs`: Mostra les bases de dades amb contingut (no buides)
 * `db.dropdatabase()`: Borra la base de dades en ús
 * `db.createCollection()`: Crea una col·lecció (equivalent a una taula SQL)
 * `show collections`: Mostra les col·leccions en ús
-* `db.collection.drop`: Borra la col·lecció de la base de dades en ús
-* `db.collection.insertOne`: Insereix un document dintre de la col·lecció
+* `db.<collection>.drop`: Borra la col·lecció de la base de dades en ús
+* `db.<collection>.insertOne`: Insereix un document dintre de la col·lecció
 
 ```mongo
+> use biblioteca
 > db
 biblioteca
+> db.createCollection("autors")
+> db.createCollection("llibres")
 > show collections
 autors
 llibres
