@@ -563,19 +563,19 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
 
 67. [Introducció a Django](curs/015_PYWEB/u56/README.md)
 
-68. [Descripció de les APIS](curs/016_APIS/u55/README.md)
+68. [Descripció de les APIS](curs/016_APIS/README.md) )
 
     * Qué son
     * Funcionament
     * Seguretat
     * REST APIs vs SOAP API
 
-69. [REST API: Consumició amb el modul requests](curs/016_APIS/u56/README.md)
+69. [REST API: Consumició amb el modul requests](curs/016_APIS/REQUESTS/README.md)
 
     * Amb el mètode GET
     * Amb el mètode POST
 
-70. [REST API: Exemples de consumició](curs_016_APIS/u56/README.md)
+70. REST API: Exemples de consumició d'una API
 
     * [Cinema](curs/016_APIS/pys/cinema)
     * [Weather](curs/016_APIS/pys/weather)
