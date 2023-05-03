@@ -59,7 +59,7 @@ Els fitxers JSON tenen dos estructures básiques que es mapegen amb objectes de 
 
 ## Funcionament d'una API
 
-Una API es fonamentalmente una URL on nosaltres anirem a consultar la informació que proveeix la API. Aquesta URL es un punt d'entrada, i cadascuna de les opcions de consulta/modificació les anomenarem Endpoints.
+Una API es fonamentalment un programa que espera les peticions darrera una URL on nosaltres anirem a consultar la informació que proveeix la API. Aquesta URL es un punt d'entrada, i cadascuna de les opcions de consulta/modificació les anomenarem Endpoints.
 
 Així per exemple l'entrada a l'API de consulta del temps es : https://api.openweathermap.org/data/3.0/onecall . Els endpoints que té aquesta API son per exemple:
 
