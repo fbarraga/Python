@@ -133,6 +133,8 @@ I,per instal·lar la darrera versió simplement:
 
 	(entorno3)$ pip install requests	
 
+## Exportar els mòduls utilitzats en el nostre projecte
+
 Per acabar de veeure les opcions de l'eina pip, ara veure com podem guardar en un fitxer (que se sol dir  `requirements.txt`) la llista de paquets instal·lats, que ens permet de manera senzilla crear un altre entorn virtual en una alra màquina amb els mateixos paquets instal·lats. Per fer-ho anem a utilitzar la següent opció de `pip`:
 
 	(entorno3)$ pip freeze
