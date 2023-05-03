@@ -583,8 +583,8 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar a
 
 71. REST API: Creació d'una API
 
-    * [Amb Swagger](curs_016_APIS/SWAGGER/README.md)
-    * [Amb Flask](curs_016_APIS/FLASK/README.md)
+    * [Amb Swagger](curs/016_APIS/SWAGGER/README.md)
+    * [Amb Flask](curs/016_APIS/FLASK/README.md)
 
 ### Intel.ligència artificial i Machine Learning
 
