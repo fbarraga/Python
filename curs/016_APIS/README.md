@@ -34,12 +34,13 @@ Tal com hem vist en capítols anteriors JSON (JavaScript Object Notation) és un
       "color": "black",
       "code": {
         "rgba": [255,255,255,1],
-        "hex": "#000"
+        "hex": "#000"}
     },
     {
       "color": "white",
+      "code": {
         "rgba": [0,0,0,1],
-        "hex": "#FFF"
+        "hex": "#FFF"}
     }
     ]
 }
