@@ -71,9 +71,9 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
 
 * Normalment per connectar a una API Rest haurem de seguir els següents passos:
   1. Identificar-nos a la web que proveeix la API. Ens donarà un usuari i password
-  2. A partir de l'usuari/password generar un token. Un token serveix per afegir-ho a la crida de l'API i així el proveidor de l'API pot saber qui està fent la consulta i aplicar càrrecs en cas de que sigui de pagament. El token no és res més que un hash que es fa sobre les dades de l'usuari normalment. El token es personal no s'ha de donar mai a conèixer a ningú.
+  2. A partir de l'usuari/password generar un **token**. Un token serveix per afegir-ho a la crida de l'API i així el proveidor de l'API pot saber qui està fent la consulta i aplicar càrrecs en cas de que sigui de pagament. El token no és res més que un hash que es fa sobre les dades de l'usuari normalment. El token es personal no s'ha de donar mai a conèixer a ningú.
   3. Consultar a la documentació de l'API com s'han de fer les consultes.
-  4. Amb el mètode requests, preparar com s'ha de fer la consulta i executar la petició
+  4. Amb la llibreria `requests`, preparar com s'ha de fer la consulta i executar la petició
   5. Recuperar les dades que retorna la API en format JSON
   6. Tractar el JSON.
 
