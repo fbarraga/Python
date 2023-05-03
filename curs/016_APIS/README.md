@@ -101,7 +101,7 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
 
             pip install requests
 
-    * Consulta a swapi
+    * Consulta a **swapi**
     ```python
             import requests
             r=requests.get("https://swapi.dev/api/people/1/")
@@ -114,7 +114,7 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
             
     * Consulta openwheathermap:
 
-            ```python
+    ```python
             import requests
             import os
             api_key=os.getenv("open_wheather_key")
@@ -127,11 +127,13 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
             r.json()
             datos=r.json()
             print(datos["main"]["temp"])
-            ```
-            
-    * Demo1: Temperatura: https://openweathermap.org/api
-    * Demo2: Fútbol: https://es.besoccer.com/api/documentacion
-    * Demo3: Cine: https://developers.themoviedb.org/3/getting-started/introduction
+    ```
+    
+    ## Exemples d'APIs on es pot anar a consultar informació
+    
+    * Exemple 1: Temperatura: https://openweathermap.org/api
+    * Exemple 2: Fútbol: https://es.besoccer.com/api/documentacion
+    * Exemple 3: Cine: https://developers.themoviedb.org/3/getting-started/introduction
     
     
 ***
