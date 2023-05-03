@@ -72,7 +72,7 @@ L’usuari interactuarà amb el programa mitjançant menús i l’introducció d
 * +2Punts si utilitzeu un ORM
 
 
-## COL·LECCIÓ MUSICAL
+## D COL·LECCIÓ MUSICAL
 Crear un programa, amb **Python i Psycopg2**, que permeti emmagatzemar les dades d’una col·lecció de discos de vinil.
 El programa permetrà les següents operacions:
 
@@ -86,7 +86,7 @@ El programa permetrà les següents operacions:
 L’usuari interactuarà amb el programa mitjançant mitjançant menús i l’introducció de dades a través del teclat.
 
 
-## AGENDA TELEFÒNICA
+## E AGENDA TELEFÒNICA
 Crear un programa, amb **Python i Psycopg2**, que permeti emmagatzemar les dades referents als números de telèfons d’un grup de persones. S’ha de tenir en compte que una persona pot disposar de més d’un número de telèfon.
 El programa permetrà les següents operacions:
 * Afegir una persona.
@@ -99,7 +99,7 @@ El programa permetrà les següents operacions:
 
 L’usuari interactuarà amb el programa mitjançant mitjançant menús i l’introducció de dades a través del teclat.
 
-## GESTOR DE L’INVENTARI D’UNA BOTIGA
+## F GESTOR DE L’INVENTARI D’UNA BOTIGA
 Crear un programa, amb **Python i Psycopg2**, que permeti gestionar les dades referents a l’inventari d’una botiga.
 El programa permetrà les següents operacions:
 * Afegir un producte.
