@@ -1,6 +1,6 @@
 # Instal·lació de mòduls
 
-Python té una molt activa comunitat de desenvolupadors i usuaris que desenvolupen tant els mòduls estandards de python, com mòduls i paquets desenvolupats per tercers..
+Python té una molt activa comunitat de desenvolupadors i usuaris que desenvolupen tant els mòduls estandards de python, com mòduls i paquets desenvolupats per tercers.
 
 ## PyPI y pip
 
