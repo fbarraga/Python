@@ -10,21 +10,21 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 ## UF0: Introducció a Python
 
-|  Conceptes bàsics | Unitats Teoria  | Exercicis |
-|----------------------------|-----------------|-----------|
-| Introducció               | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md) | |
-| Estructura del llenguatge |[6](curs/001_ESTRU/u6/README.md) [7](curs/001_ESTRU/u7/README.md) [8](curs/001_ESTRU/u8/README.md) [9](curs/001_ESTRU/u9/README.md) [10](curs/001_ESTRU/u10/README.md)| |
-| Tipus de dades numèriques |[12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md)| [A1](curs/002_TDNU/u14/README.md) |
-| Estructures de control Condicionals: IF / ELSE | [15](curs/003_ALTER/u15/README.md) | [A2](curs/003_ALTER/u16/README.md) |
-| Estructures de control Repetitives: WHILE / FOR      | [17](curs/004_REPET/u17/README.md) | [A3](curs/004_REPET/u18/README.md) |
-| Tipus de dades seqüencia | [19](curs/005_SEQUE/u19/README.md)|
-| Tipus de dades seqüència: *Llistes*     |  [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [A4](curs/005_SEQUE/u22/README.md) |
-| Tipus de dades seqüència: *Diccionaris*   | [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [A5](curs/006_MAPES/u35/README.md)|
-| Tipus de dades seqüència: *Tuples i Rangs*    | [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
-| Tipus de dades seqüència: *Cadenes*   | [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[A6](curs/005_SEQUE/u29/README.md) |
-| Tipus de dades bytesarray,set,frozenset|[30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
-| Errors i excepcions | [43](curs/008_EXCEP/u01/README.md)| |
-| Programació Orientada a Objectes | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [A10](curs/011_POOB/u54/README.md)|
+|  Conceptes bàsics                                  | Unitats Teoria  | Exercicis |
+|----------------------------------------------------|-----------------|-----------|
+| Introducció                                        | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md)  |  |
+| Estructura del llenguatge                          | [6](curs/001_ESTRU/u6/README.md) [7](curs/001_ESTRU/u7/README.md) [8](curs/001_ESTRU/u8/README.md) [9](curs/001_ESTRU/u9/README.md) [10](curs/001_ESTRU/u10/README.md)|  |
+| Tipus de dades numèriques                          | [12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md) | [A1](curs/002_TDNU/u14/README.md)                                                                |  |
+| Estructures de control Condicionals: IF / ELSE     | [15](curs/003_ALTER/u15/README.md) | [A2](curs/003_ALTER/u16/README.md) |
+| Estructures de control Repetitives: WHILE / FOR    | [17](curs/004_REPET/u17/README.md) | [A3](curs/004_REPET/u18/README.md) |
+| Tipus de dades seqüencia                           | [19](curs/005_SEQUE/u19/README.md)|
+| Tipus de dades seqüència: *Llistes*                | [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [A4](curs/005_SEQUE/u22/README.md) |
+| Tipus de dades seqüència: *Diccionaris*            | [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [A5](curs/006_MAPES/u35/README.md)|
+| Tipus de dades seqüència: *Tuples i Rangs*         | [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
+| Tipus de dades seqüència: *Cadenes*                | [26](curs/005_SEQUE/u26/README.md) [27](curs/005_SEQUE/u27/README.md)  [28](curs/005_SEQUE/u28/README.md)|[A6](curs/005_SEQUE/u29/README.md) |
+| Tipus de dades bytesarray,set,frozenset            | [30](curs/005_SEQUE/u/README.md) [31](curs/005_SEQUE/u31/README.md)  [32](curs/005_SEQUE/u32/README.md)  ||
+| Errors i excepcions                                | [43](curs/008_EXCEP/u01/README.md)| |
+| Programació Orientada a Objectes                   | [50](curs/000_INTRO/u1/README.md) [51](curs/011_POOB/u51/README.md) [52](curs/011_POOB/u52/README.md) [53](curs/011_POOB/u53/README.md) | [A10](curs/011_POOB/u54/README.md)|
 
 ***
 
@@ -73,13 +73,13 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 ## UF4: Components d'accés a dades
 
-|  Components d'accés a dades                    | Unitats Teoria            | Exercicis   |
-|------------------------------------------------|------------------------------------|-------------|
-| Jupyter Notebooks     | [jupyter](curs/013_DATA/Jupyter/README.md)     |      |
-| Recuperar informació d'una font oberta   | [opendata](curs/016_APIS/OPENDATA/OPENDATA.md)             |     [bicing](curs/016_APIS/OPENDATA/bicing/bicing.ipynb)        |
-| Recuperar informació d'una API   |    [APIs](curs/016_APIS/README.md)           |     [A4-1](curs/016_APIS/EXERCICIS.md)          |
-| Recuperar informació mitjançant un webcrawler   |    [webcrawler](curs/023_SCRAPE/README.md)           |              |
-| Treball Final d'accés a dades    |           |          |
+|  Components d'accés a dades                    | Unitats Teoria                                   | Exercicis                                                   |
+|------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
+| Jupyter Notebooks                              | [jupyter](curs/013_DATA/Jupyter/README.md)       |                                                             |
+| Recuperar informació d'una font oberta         | [opendata](curs/016_APIS/OPENDATA/OPENDATA.md)   | [bicing](curs/016_APIS/OPENDATA/bicing/bicing.ipynb)        |
+| Recuperar informació d'una API                 | [APIs](curs/016_APIS/README.md)                  | [A4-1](curs/016_APIS/EXERCICIS.md)                          |
+| Recuperar informació mitjançant un webcrawler  | [webcrawler](curs/023_SCRAPE/README.md)          |                                                             |
+| Treball Final d'accés a dades                  |                                                  |                                                             |
 
 ***
 
