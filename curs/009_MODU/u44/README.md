@@ -159,10 +159,7 @@ Per poder veure quines noves versions existeixen de les llibrerie, utilitzant el
 	
 ## Actualitzar tots els mòduls
 
-825
-
-
-To upgrade all local packages, you can install pip-review:
+Per upgradar tots els packages locals, podem instal·lar el mòdul `pip-review`:
 
 	$ pip install pip-review
 	
