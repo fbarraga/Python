@@ -27,7 +27,7 @@
 ## JSON
 
 Tal com hem vist en capítols anteriors JSON (JavaScript Object Notation) és un llenguatge de  marques que ens permet representar informació.
-
+```json
 {
   "colors": [
     {
@@ -44,7 +44,7 @@ Tal com hem vist en capítols anteriors JSON (JavaScript Object Notation) és un
       }
     }
 }
-
+```
 Els fitxers JSON tenen dos estructures básiques que es mapegen amb objectes de Python:
 * Diccionaris
 * Llistes
