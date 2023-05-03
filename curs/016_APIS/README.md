@@ -51,9 +51,10 @@ Els fitxers JSON tenen dos estructures básiques que es mapegen amb objectes de 
 
 ## Python3  y REST
 
-* Podem utilitzar Python3 per crear programes que utilitzin API RESTful per consumir/modificar els recursos d'un servei web. Per fer-ho haurem de fer servir dos llibreries:
-    * requests: Ens permet realitzar peticions HTTP i gestionar la resposta del servidor.
-    * json: Ens permet treballar amb informació en formato json, que serà la que recuperarem o enviarem al servei web.
+* Podem utilitzar Python3 per crear programes que utilitzin API REST per consumir/modificar els recursos d'un servei web. Per fer-ho haurem de fer servir duess llibreries:
+
+    * `requests`: Ens permet realitzar peticions HTTP i gestionar la resposta del servidor. Podeu consultar més informació en aquest [link](https://pypi.org/project/requests/)
+    * `json`: Ens permet treballar amb informació en formato json, que serà la que recuperarem o enviarem al servei web.
 
 
 ## Funcionament d'una API
