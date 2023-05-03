@@ -35,14 +35,13 @@ Tal com hem vist en capítols anteriors JSON (JavaScript Object Notation) és un
       "code": {
         "rgba": [255,255,255,1],
         "hex": "#000"
-      }
     },
     {
       "color": "white",
         "rgba": [0,0,0,1],
         "hex": "#FFF"
-      }
     }
+    ]
 }
 ```
 Els fitxers JSON tenen dos estructures básiques que es mapegen amb objectes de Python:
