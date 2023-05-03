@@ -1,4 +1,4 @@
-# Python APIs: Consumint informació d'un servei web tipus API Restful
+# APIs: Consumint informació d'un servei web
 
 ## Objetius
 
