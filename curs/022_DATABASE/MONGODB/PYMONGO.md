@@ -196,5 +196,22 @@ client.close()
 
 
 ***
+# Parsejar les dates amb mongo y python
 
+Si guardem les dates dintre de mongo amb format "data" i no format string, després haurem de fer servir una llibreria que ens ajudi a formatejar el string de consulta amb el mateix format que Mongo utilitza per guardar la data (afegeix el Timezone). Per ajudar-nos podem fer servir la llibreria `dateutil`
+
+```python
+import datetime
+import dateutil.parser
+
+# the date
+now = datetime.datetime.now()
+year = now.year
+month = now.month
+day = now.day
+theDate = str(year) + "-" + str(month) + "-" + str(day)
+dateStr = theDate
+date = dateutil.parser.parse(dateStr)
+```
+# Then put that date into your Mongo insert
 [Index](../../../README.md)
