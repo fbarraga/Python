@@ -11,7 +11,7 @@ MongoDB pot ser utilitzada desplegant la base de dades al cloud i connectant-nos
 
 Per poder desplegar una base de dades en Cloud, utilitzarem [Mongo Atlas](https://www.mongodb.com/atlas). Els passos que haurem de fer per poder-la crear son:
 
-* Registrarnos dintre de Mongo Atlas (És aconsellable utilitzar el compte de Google o Github)
+* Registrar-nos dintre de Mongo Atlas (És aconsellable utilitzar el compte de Google o Github)
 * Crear una organització.
 * Crear un projecte. (per agrupar les bases de dades/Aplicacions que creem)
 * Definir un cluster (Database Deployment). Un cluster es un conjunt de servidors que executarà la teva base de dades. Amb la opció gratuita només podem seleccionar l'opció més simple, pero podriem tenir una base de dades replicada en diferents llocs, backups, polítiques de contingència,etc.
@@ -202,6 +202,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 [ "1", "2", "4" ]
 ```
 
+Per construir sentències més complexes com aggregats, etc podem mirar la [pàgina](https://www.mongodb.com/docs/manual/aggregation/)
 
 ***
 [Index](../../../README.md)
