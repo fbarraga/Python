@@ -116,8 +116,11 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
    * Guía de estil
    * [Algorísmica](curs/000_INTRO/u5a/README.md)
 
-    ```text
-    ### Estructura del llenguatge
+    ```markdown
+    ________________________________________
+     
+     Estructura del llenguatge
+    _________________________________________
     ```
 
 6. [Estructura del programa](curs/001_ESTRU/u6/README.md)
@@ -163,7 +166,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     * Formatejant cadenes de caràcters
     * Funció format()
 
-### Tipus de dades numèriques
+    ```markdown
+    ________________________________________
+     
+     Tipus de dades numèriques
+    _________________________________________
+    ```
 
 12. [Tipus de dades numèriques](curs/002_TDNU/u12/README.md)
 
@@ -185,7 +193,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 14. [Exercicis de programació senzills](curs/002_TDNU/u14/README.md)
 
-### Estructures de control Alternatives/Condicionals (IF)
+    ```markdown
+    _____________________________________________________
+     
+    Estructures de control Alternatives/Condicionals (IF)
+    ______________________________________________________
+    ```
 
 15. [Estructura de control: Condicionals](curs/003_ALTER/u15/README.md)
 
@@ -197,7 +210,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 16. [Exercicis de condicionals](curs/003_ALTER/16/README.md)
 
-### Estructures de control Repetitives (WHILE / FOR)
+    ```markdown
+    _____________________________________________________
+     
+    Estructures de control Repetitives (WHILE / FOR)
+    ______________________________________________________
+    ```
 
 17. [Estructura de control: Repetitives](curs/004_REPET/u17/README.md)
 
@@ -208,7 +226,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 18. [Exercicis de repetitives](curs/004_REPET/u18/README.md)
 
-### Tipus de dades seqüència
+    ```markdown
+    _____________________________________________________
+     
+    Tipus de dades seqüència
+    ______________________________________________________
+    ```
 
 19. [Tipus de dades seqüència](curs/005_SEQUE/u19/README.md)
 
@@ -300,7 +323,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     * Funció next(), reversed()
     * Generadors
 
-### Tipus de dades mapes
+    ```markdown
+    _____________________________________________________
+     
+    Tipus de dades mapes
+    ______________________________________________________
+    ```
 
 33. [Tipus de dades mapa: diccionari](curs/006_MAPES/u33/README.md)
 
@@ -318,7 +346,13 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 35. [Exercicis de diccionaris](curs/006_MAPES/u35/README.md)
 
-### Treballar amb fitxers
+    ```markdown
+    _____________________________________________________
+     
+    Treballar amb fitxers
+    ______________________________________________________
+    ```
+
 
 36. [Procés de serialització](curs/007_FILES/u36a/README.md)
 
@@ -368,7 +402,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     * Llegir fitxers xml
     * Escriure fitxers xml
 
-### Errors i Excepcions
+    ```markdown
+    _____________________________________________________
+     
+    Errors i Excepcions
+    ______________________________________________________
+    ```
 
 43. [Excepcions](curs/008_EXCEP/u01/README.md)
 
@@ -377,7 +416,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     * Obtenint informació de les excpcions
     * Propagant excepcions. raise
 
-### Móduls, paquets i namespaces
+    ```markdown
+    _____________________________________________________
+     
+    Móduls, paquets i namespaces
+    ______________________________________________________
+    ```
 
 44. [Móduls i paquets](curs/009_MODU/u40/README.md)
 
@@ -420,7 +464,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     * Creant entorns virtuals amb `venv`
     * Instal·lant paquets al nostre entorn virtual
 
-### Programació estructurada i modular
+    ```markdown
+    _____________________________________________________
+     
+    Programació estructurada i modular
+    ______________________________________________________
+    ```
 
 49. [Introducció a les funcions](curs/010_PESTR/u45/README.md)
 
@@ -451,7 +500,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 53. [Exercicis Programació estructurada i modular](curs/010_PESTR/u49/README.md)
 
-### Programació orientada a objectes POO
+    ```markdown
+    _____________________________________________________
+     
+    Programació orientada a objectes POO
+    ______________________________________________________
+    ```
 
 54. [Programació orientada a objectes](curs/011_POOB/u50(README.md))
 
@@ -489,7 +543,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 58. [Exercicis Programació orientada a objectes](curs/011_POOB/u54/README.md)
 
-### Crear un programa executable
+    ```markdown
+    _____________________________________________________
+     
+    Crear un programa executable
+    ______________________________________________________
+    ```
 
 59. [Creació d'un executable a partir d'un script de python amb Pyinstaller](curs/018_PYINST/u018_01/README.md)
 
@@ -500,7 +559,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
     * Scripts en Linux
 
-### Treballar amb Bases de Dades (BDR,BDOR,BDOO)
+    ```markdown
+    _____________________________________________________
+     
+    Treballar amb Bases de Dades (BDR,BDOR,BDOO)
+    ______________________________________________________
+    ```
 
 61. [Drivers i connectors de BD](curs/022_DATABASE/README.md)
 
@@ -518,24 +582,29 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
     * MongoDB
 
-### Treballar amb dades - DataScience
+    ```markdown
+    _____________________________________________________
+     
+    Treballar amb dades - DataScience
+    ______________________________________________________
+    ```
 
-63. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
+64. [Eines per treballar amb dades](curs/013_DATA/Jupyter/README.md)
 
     * Jupyter Lab
     * Jupyter Notebook
     * Jupyter Voilà
 
-64. [Data Management](curs/012_IA/u100/README.md)
+65. [Data Management](curs/012_IA/u100/README.md)
 
     * Normalització de dades
 
-65. [Llibreria Pandas](curs/017_PANDAS/README.md)
+66. [Llibreria Pandas](curs/017_PANDAS/README.md)
 
- * Instal·lació
- * Ús
+    * Instal·lació
+    * Ús
 
-66. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
+67. [Extracció de dades de la web](curs/013_DATA/Webcrawler/README.md)
 
     * Web Scraping i  Web Crawling
       * Navegadors web i HTTP
@@ -544,93 +613,138 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
       * Scraping amb Selenium
       * Exemples
 
-67. [Microsoft Power BI i Python](curs/013_DATA/PBI/README.md)
+68. [Microsoft Power BI i Python](curs/013_DATA/PBI/README.md)
 
-### Crear un entorn de proves
+    ```markdown
+    _____________________________________________________
+     
+    Creació un entorn de proves
+    ______________________________________________________
+    ```
 
-68. [Creació d'un entorn de proves/curs](curs/019_TEST/001/README.md)
+69. [Creació d'un entorn de proves/curs](curs/019_TEST/001/README.md)
 
     * Utilització de la llibreria pytest
 
-### Utilització del modul logging DEBUG/INFO
+    ```markdown
+    _____________________________________________________
+     
+    Utilització del modul logging DEBUG/INFO
+    _____________________________________________________
+    ```
 
-69. [Logging i debugging de l'aplicació](curs/020_LOGS/001/README.md)
+70. [Logging i debugging de l'aplicació](curs/020_LOGS/001/README.md)
 
     * Utilització de la llibreria logging
 
-### Desenvolupament d'aplicacions en entorn gràfic
+    ```markdown
+    _____________________________________________________
+     
+    Desenvolupament d'aplicacions en entorn gràfic
+    _____________________________________________________
+    ```
 
-70. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
+71. [Introducció al entorn gràfic](curs/014_PYGUI/u55/README.md)
 
     * Tkinter
     * wxPython
     * PyQt
     * Kivy
 
-### Desenvolupament d'aplicacions en entorn web
+    ```markdown
+    _____________________________________________________
+     
+    Desenvolupament d'aplicacions en entorn web
+    _____________________________________________________
+    ```
 
-67. [Introducció a Django](curs/015_PYWEB/u56/README.md)
+72. [Introducció a Django](curs/015_PYWEB/u56/README.md)
 
-68. [Descripció de les APIS](curs/016_APIS/README.md)
+73. [Descripció de les APIS](curs/016_APIS/README.md)
 
     * Qué son
     * Funcionament
     * Seguretat
     * REST APIs vs SOAP API
 
-69. [REST API: Consumició amb el modul requests](curs/016_APIS/REQUESTS/README.md)
+74. [REST API: Consumició amb el modul requests](curs/016_APIS/REQUESTS/README.md)
 
     * Amb el mètode GET
     * Amb el mètode POST
 
-70. REST API: Exemples de consumició d'una API
+75. REST API: Exemples de consumició d'una API
 
     * [Cinema](curs/016_APIS/pys/cinema)
     * [Weather](curs/016_APIS/pys/weather)
     * [La Liga](curs/016_APIS/pys/futbol)
 
-71. REST API: Creació d'una API
+76. REST API: Creació d'una API
 
     * [Amb Swagger](curs/016_APIS/SWAGGER/README.md)
     * [Amb Flask](curs/016_APIS/FLASK/README.md)
 
-### Intel.ligència artificial i Machine Learning
+    ```markdown
+    _____________________________________________________
+     
+    Intel.ligència artificial i Machine Learning
+    _____________________________________________________
+    ```
 
-72. [Què és la Intel.ligència artificial](curs/012_IA/u101/README.md)
+77. [Què és la Intel.ligència artificial](curs/012_IA/u101/README.md)
 
     * Aprenentatge supervisat
     * Aprenentatge automàtic
     * Aprenentatge semisupervisat
 
-73. [Algoritmes bàsics de IA](curs/012_IA/u102/README.md)
+78. [Algoritmes bàsics de IA](curs/012_IA/u102/README.md)
 
     * Algorismes de regresió
     * Algorismes basats en arbres de decisió
     * Algorismes de clustering
     * Algorismes de xarxes neuronals
 
-74. [Machine learning](curs/012_IA/u56/README.md)
+79. [Machine learning](curs/012_IA/u56/README.md)
 
     * Algorismes de Natural Language
     * Algorismes de Image recognition
 
-### Creació de Videojocs
+    ```markdown
+    _____________________________________________________
+     
+    Creació de Videojocs
+    _____________________________________________________
+    ```
 
-75. [Creació de videojocs](curs/101_GAME/README.md)
+80. [Creació de videojocs](curs/101_GAME/README.md)
 
     * Llibreria pygame
 
-### MarkDown
+    ```markdown
+    _____________________________________________________
+     
+    MarkDown
+    _____________________________________________________
+    ```
 
-76. [Treballant amb Markdown](curs/998_MARKDOWN/README.md)
+81. [Treballant amb Markdown](curs/998_MARKDOWN/README.md)
 
-### BOTS
+    ```markdown
+    _____________________________________________________
+     
+    MarkDown
+    _____________________________________________________
+    ```
 
-77. [BOTS]((curs/103_BOTS/TELEGRAM/README.md)  )
+82. [BOTS]((curs/103_BOTS/TELEGRAM/README.md)  )
     * BOTS amb TELEGRAM
 
-### Exercicis variats de programació
+    ```markdown
+    _____________________________________________________
+     
+    Exercicis variats de programació
+    _____________________________________________________
+    ```
 
-78. Exercicis Simples
+83. Exercicis Simples
     * [Nivell 0](curs/999_EXERC/EXERCICIS0.md)
     * [Nivell 1](curs/999_EXERC/EXERCICIS1.md)
