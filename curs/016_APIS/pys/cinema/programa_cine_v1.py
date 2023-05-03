@@ -5,7 +5,7 @@ import os
 #Usuari fbarragan
 
 api_key=os.getenv("cine_key")
-api_key="c8ac3185df63e1dcb1ffbd9e0411aed8"
+api_key="<get_token>"
 
 
 

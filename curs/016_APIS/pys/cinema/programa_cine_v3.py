@@ -6,7 +6,7 @@
 import requests
 import os
 api_key=os.getenv("cine_key")
-api_key="c8ac3185df63e1dcb1ffbd9e0411aed8"
+api_key="<get_token>"
 URL_BASE="https://api.themoviedb.org/3/"
 parametros={"language":"es-ES","page":"1","region":"ES","api_key":api_key}
 r=requests.get(URL_BASE+"movie/popular",params=parametros)

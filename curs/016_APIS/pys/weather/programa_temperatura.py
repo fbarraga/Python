@@ -6,7 +6,7 @@ api_key=os.getenv("open_wheather_key")
 # Es pot solicitar una apikey directament a traves del registre de openweathermap
 # Despues de darse de alta no es usable hasta al cabo de unas horas
 
-api_key ="b106289e4b4fcfdaa3d219da7118a2e1" #fbarraga@institutcampalans.net
+api_key ="<get token>" #fbarraga@institutcampalans.net
 
 ciudad=input("Dime el nombre de una ciudad:")
 
