@@ -5,7 +5,7 @@
 
 * Introduir els conceptes sobre serveis web
 * Diferències entre API SOAP i API REST
-* Conèixer les característiques dels serveis web API Restful.cer las características de los servicios web API Restful
+* Conèixer les característiques dels serveis web API Restful
 * Conèixer el llenguatge de marques `json` 
 * Utilitzar python per realitzar peticions a un servei web API restful
 * Utilitzar python para tractar la informació obtinguda del servei web en formato json
