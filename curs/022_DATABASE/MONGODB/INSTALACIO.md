@@ -32,7 +32,7 @@ mongosh "mongodb+srv://parking.1jvwodg.mongodb.net/Parking" --apiVersion 1 --use
 ### MongoDB Shell
 
 Es pot descarregar l'eina des d'aquest [link](https://www.mongodb.com/try/download/shell)
-MongoShell es una aplicació en mode comanda que ens permet executar comandes en el nostre MongoDB. Es recomenat quan utilitzem scripts que interactuen amb la base de dades. 
+MongoShell es una aplicació en mode comanda que ens permet executar comandes en el nostre MongoDB. Es l'eina recomanada quan utilitzem scripts que interactuen amb la base de dades. 
 Actua de la mateixa manera que el psql de Postgresql o el sqlplus d'Oracle. Podeu consultar més informació en el següent [link](https://www.mongodb.com/docs/mongodb-shell/)
 
 
@@ -40,7 +40,7 @@ Actua de la mateixa manera que el psql de Postgresql o el sqlplus d'Oracle. Pode
 
 Es pot descarregar l'eina des d'aquest [link](https://www.mongodb.com/try/download/compass)
 
-Es una eina GUI que permet administrar la base de dades des d'una interfície gràfica. Inclou dintre de la solució el MongoShell. Es correspondria al PGAdmin4 de Postgresql o al Enterprise Manager d'Oracle. Podeu consultar més informació en aquest [link](https://www.mongodb.com/docs/compass/master/)
+Es una eina GUI que permet administrar la base de dades des d'una interfície gràfica. Inclou adintre la solució el MongoShell. Es correspondria al PGAdmin4 de Postgresql o al Enterprise Manager d'Oracle. Podeu consultar més informació en aquest [link](https://www.mongodb.com/docs/compass/master/)
 
 
 ## Ordres bàsiques a MongoDB
