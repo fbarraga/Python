@@ -6,6 +6,8 @@ Benvinguts al curs de Python. Aquest curs es un repositori de molta documentaci�
 
 Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
 
+Aquest curs està obert a tothom. Per fer-hi aportacions no dubte en contactar amb mi!.
+
 ## UF0: Introducció a Python
 
 |  Conceptes bàsics | Unitats Teoria  | Exercicis |
@@ -69,10 +71,10 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 |  Components d'accés a dades                    | Unitats Teoria            | Exercicis   |
 |------------------------------------------------|------------------------------------|-------------|
 | Jupyter Notebooks     | [jupyter](curs/013_DATA/Jupyter/README.md)     |      |
-| Datascience      |          |             |
-| Recuperar informació d'una font oberta   | [opendata](curs/016_APIS/OPENDATA.md)             |     [bicing](curs/016_APIS/OPENDATA/bicing/bicing.ipynb)        |
-| Recuperar informació d'una API   |              |             |
-| Treball Final d'accés a dades    |           |   [A4-1](curs/016_APIS/EXERCICIS.md)         |
+| Recuperar informació d'una font oberta   | [opendata](curs/016_APIS/OPENDATA/OPENDATA.md)             |     [bicing](curs/016_APIS/OPENDATA/bicing/bicing.ipynb)        |
+| Recuperar informació d'una API   |    [APIs](curs/016_APIS/README.md)           |     [A4-1](curs/016_APIS/EXERCICIS.md)          |
+| Recuperar informació mitjançant un webcrawler   |    [webcrawler](curs/023_SCRAPE/README.md)           |              |
+| Treball Final d'accés a dades    |           |          |
 ***
 
 ### Temari
@@ -561,28 +563,28 @@ Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, 
 
 67. [Introducció a Django](curs/015_PYWEB/u56/README.md)
 
-68. [Descripció de les APIS](curs/016_APIS/u55/README.md)
+68. [Descripció de les APIS](curs/016_APIS/README.md)
 
     * Qué son
     * Funcionament
     * Seguretat
     * REST APIs vs SOAP API
 
-69. [REST API: Consumició amb el modul requests](curs/016_APIS/u56/README.md)
+69. [REST API: Consumició amb el modul requests](curs/016_APIS/REQUESTS/README.md)
 
     * Amb el mètode GET
     * Amb el mètode POST
 
-70. [REST API: Exemples de consumició](curs_016_APIS/u56/README.md)
+70. REST API: Exemples de consumició d'una API
 
     * [Cinema](curs/016_APIS/pys/cinema)
     * [Weather](curs/016_APIS/pys/weather)
     * [La Liga](curs/016_APIS/pys/futbol)
 
-71. [REST API: Creació d'una API](curs_016_APIS/u56/README.md)
+71. REST API: Creació d'una API
 
-    * Amb Swagger
-    * Amb Flask
+    * [Amb Swagger](curs/016_APIS/SWAGGER/README.md)
+    * [Amb Flask](curs/016_APIS/FLASK/README.md)
 
 ### Intel.ligència artificial i Machine Learning
 
