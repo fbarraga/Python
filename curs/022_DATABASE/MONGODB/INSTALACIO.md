@@ -20,7 +20,7 @@ Per poder desplegar una base de dades en Cloud, utilitzarem [Mongo Atlas](https:
 * Assignem usuari i password a la base de dades.
 * Especifiquem des d'on ens connectarem. Podem aplicar filtres de IPs. Revisem quina es la nostra IP i l'afegim dintre de les IPs validades.
 
-Una vegada desplegat la Base de dades, podem administrar-la des del nostre ordinadoramb el **Mongo Shell**
+Una vegada desplegat la Base de dades, podem administrar-la des del nostre ordinador amb el **Mongo Shell**
 
 Per executar-ho podem 
 ```
