@@ -1,48 +1,32 @@
-# Python requests: Consumiendo información de un servicio web Restful
+# APIS
+# Python APIs: Consumint informació d'un servei web tipus API Restful 
 
-## Objetivos
+## Objetius
 
-* Introducir los conceptos sobre servicios web
-* Conocer las características de los servicios web API restful
-* Conocer el lenguaje de marcas json 
-* Utilizar python para realizar peticiones a un servicio web API restful
-* Utilizar python para tratar la información obtenida del servicio web en formato json
-
-## Nivel
-
-Intermedio
-
-## ¿Qué aprenderás en el taller?
-
-* Las características principales de los servicios web API restful
-* Las formas de autentificación para conectar a los servicios web API restful
-* Las características fundamentales del lenguaje de marcas json
-* El uso de la librería *requests* de python que nos permite realizar peticiones HTTP
-* El tratamiento de información formateada en json desde python
-
-## Conocimientos previos
-
-* Conocimientos básicos del protocolo HTTP
-* Conocimientos básicos de python3
+* Introduir els conceptes sobre serveis web
+* Conèixer les característiques dels serveis web API Restful.cer las características de los servicios web API Restful
+* Conèixer el llenguatge de marques `json` 
+* Utilitzar python per realitzar peticions a un servei web API restful
+* Utilitzar python para tractar la informació obtinguda del servei web en formato json
 
 
-## Servicio web
-Servicios Web
-▸ Es un método de comunicación entre máquinas/programas a través de la red (normalmente Internet)
-▹ Las páginas web la usan las personas.
-▹ Los servicios web lo usan los programas.
-▸ WEB PROGRAMABLE: mediante diferentes APIs (web API) podemos configurar gran cantidad de aplicaciones basadas en 
-recursos de la Web
-▹ Podemos consumir (solo lectura) recursos de un servicio 
-web
-▹ Podemos modificar (lectura/escritura)los recursos de un 
-servicio web
+## Serveis web
+
+* És un mètode de comunicació entre màquines/programes mitjançant la xarxa (normalment Internet)
+* Les pàgines web les utilitzen les persones.
+* Els serveis web el utilitzen els programes.
+* Web Programable: mitjançant diferents APIS (web API) podem configurar gran quantitat d'aplicacions basades en recursos de la web.
+* Podem consumir (només lectura) recursos d'un servei web
+* Podem modificar (lectura/escriptura) els recursos de un servei web
+* Bàsicament podem trobar dos tipus de APIs:
+  * API REST (Representational State Transfer): on s'intercanviarà informació principalment en format JSON.
+  * API SOAP (Simple Object Access Protocol): on s'intercanviarà informació principalment en format XML
 
 
 
+## JSON
 
-3. JSON
-JSON JSON (JavaScript Object Notation) es un lenguaje de  marcas que nos permite representar información.
+Tal com hem vist en capítols anteriors JSON (JavaScript Object Notation) és un llenguatge de  marques que ens permet representar informació.
 
 {
   "colors": [
@@ -61,36 +45,37 @@ JSON JSON (JavaScript Object Notation) es un lenguaje de  marcas que nos permite
     }
 }
 
+Els fitxers JSON tenen dos estructures básiques que es mapegen amb objectes de Python:
+* Diccionaris
+* Llistes
 
-Dos estructuras básicas:
-▸ Diccionarios
-▸ Listas
+## Python3  y REST
 
-4. Python3  y REST
-Python3 y REST
-▸ Podemos usar Python3 para crear programas que utilice API RESTful para consumir/modificar los recursos de un servicio 
-web. Para ello vamos a usar dos librerías: 
-▹ requests: Nos permite realizar peticiones HTTP y gestionar la respuesta del servidor.
-▹ json: Nos permite trabajar con información en formato json 
+* Podem utilitzar Python3 per crear programes que utilitzin API RESTful per consumir/modificar els recursos d'un servei web. Per fer-ho haurem de fer servir dos llibreries:
+    * requests: Ens permet realitzar peticions HTTP i gestionar la resposta del servidor.
+    * json: Ens permet treballar amb informació en formato json, que serà la que recuperarem o enviarem al servei web.
 
 
+## Connexió a una API REST
 
-## Desarrollo
+* Normalment per connectar a una API Rest haurem de seguir els següents passos:
+  1. 
 
-1. Ver presentación
-2. Consultas con `curl` desde línea de comandos:
+## Exemples
 
-    * API sin key: https://swapi.co (Ver Documentación)
+1. Consultes amb `curl` des de línia de comandes:
+
+    * API sense key: https://swapi.co (Ver Documentación)
 
             curl https://swapi.co/api/people/
             curl https://swapi.co/api/people/1/ | json_pp 
 
-    * API con key: https://openweathermap.org/. Ver Documentación de la API: https://openweathermap.org/api. Acceder y crear un API key nueva.
+    * API amb key: https://openweathermap.org/. Ver Documentación de la API: https://openweathermap.org/api. Acceder y crear un API key nueva.
 
             export open_wheather_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
             curl curl "http://api.openweathermap.org/data/2.5/weather?q=Sevilla&mode=json&units=metric&APPID=$open_wheather_key" | json_pp
 
-3. ¿Cómo podemos realizar consultas http con python3? Utilizando la librería `requests`.
+2. ¿Cómo podemos realizar consultas http con python3? Utilizando la librería `requests`.
 
     * Instalación de `requests`:
 
