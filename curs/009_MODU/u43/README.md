@@ -2,7 +2,7 @@
 
 ## Mòdul time
 
-El temps es mesurat com un número real que representa els segons transcorreguts des del 1 de gener de 1970. Per lo tanto es impossible representar dates anteriors a aquesta data i posteriors a 2038	(tamany del float en la llibreria C (32 bits)).
+El temps es mesurat com un número real que representa els segons transcorreguts des del 1 de gener de 1970. Per lo tant es impossible representar dates anteriors a aquesta data i posteriors a 2038	(tamany del float en la llibreria C (32 bits)).
 
 	>>> import time
 	>>> time.time()
