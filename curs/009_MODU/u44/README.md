@@ -46,8 +46,9 @@ A vegades pot ser que tinguem una versió de Python superior a la versió amb la
 	# pip install <nom modul> --pre
 
 
+## Entorns virtuals
 
-## Creant entornos virtuals en linux amb `virtualenv`
+### Creant entornos virtuals en linux amb `virtualenv`
 
 Podem utiliztar aquest software para treballar amb qualsevol distribució de python.
 
@@ -69,7 +70,7 @@ I per desactivar-ho:
 	(entorno2)$ deactivate
 	$
 
-## Creant entorns virtuals amb `venv`
+### Creant entorns virtuals amb `venv`
 
 A partir de la versió 3.3 de python podem utilizar el módulo `venv` per crear l'entorn virtual.
 
@@ -90,7 +91,7 @@ Per activar i desactivar l'entorn virtual:
 	$ 
 
 
-## Creants entorns virtuals en Windows amb virtualenv
+### Creant entorns virtuals en Windows amb virtualenv
 
 S'instal·la el mòdul de virtual env
 
@@ -104,7 +105,7 @@ virtualenv .venv
 ```
 On `.venv` es la carpeta del nostre entorn virtual. Es recomana utilitzar aquest nom (.venv)
 
-## Instal·lant paquets en el nostre entorn virtual
+### Instal·lant paquets en el nostre entorn virtual
 
 Independientement del sistema utilitzat per crear el nostre entorn virtual, una vegada que ho tenim activat podem instal·lar paquets python en ell utilitzat l'eina `pip` (que la tenim instal·lada automàticament en el nostre entorn). Partint d'un entorn activat podem, per exemple, instal·lar la darrera versió de django:
 
@@ -148,6 +149,27 @@ I si volem guardar aquesta informació en un fitxer que poguem distribuir:
 De tal manera que un altre usuari, en un altre entorn, tenint aquest fitxer pot instal·lar els mateixos paquets de la següent manera:
 
 	(entorno4)$ pip install -r requirements.txt
+
+
+## Comparar les versions que tenim instal·lades amb les més actuals
+
+Per poder veure quines noves versions existeixen de les llibrerie, utilitzant el modul pyversions. L'instal·lem amb:
+
+	pip install pyversions
+	
+## Actualitzar tots els mòduls
+
+825
+
+
+To upgrade all local packages, you can install pip-review:
+
+	$ pip install pip-review
+	
+	$ pip-review --local --interactive
+	$ pip-review --local --auto
+
+
 
 
 ***
