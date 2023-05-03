@@ -102,7 +102,7 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
             pip install requests
 
     * Consulta a swapi
-            ```python
+    ```python
             import requests
             r=requests.get("https://swapi.dev/api/people/1/")
             r.status_code            
@@ -110,7 +110,7 @@ Així per exemple l'entrada a l'API de consulta del temps es : https://api.openw
             datos=r.json()
             print(datos["name"])
             >>> Luke Skywalker
-            ```
+    ```
             
     * Consulta openwheathermap:
 
