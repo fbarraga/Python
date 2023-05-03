@@ -195,7 +195,7 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
     ```markdown
     _____________________________________________________
-     
+    
     Estructures de control Alternatives/Condicionals (IF)
     ______________________________________________________
     ```
