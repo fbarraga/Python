@@ -353,7 +353,6 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     ______________________________________________________
     ```
 
-
 36. [Procés de serialització](curs/007_FILES/u36a/README.md)
 
     * Seqüència de bytes
