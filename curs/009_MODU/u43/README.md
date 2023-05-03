@@ -39,9 +39,9 @@ O amb un determinat format:
 	>>> time.strftime('%d/%m/%Y %H:%M:%S',tiempo)
 	'04/03/2017 10:39:21'
 
-# Mòdulo datetime
+# Mòdul datetime
 
-Els mòduls datetime i calendar amplien les possibilitats del mòdul time que dona les funcions per manipular expresions de temps.
+El mòdul datetime amplia les possibilitats del mòdul time que dona les funcions per manipular expresions de temps.
 
 	>>> from datetime import datetime
 	>>> datetime.now()
@@ -93,7 +93,7 @@ I podem treballar amb quantitats (segons, minuts, hores, dies, setmanes,...) amb
 
 # Mòdul calendar
 
-Podem obtenir el calendario del mes actual:
+Podem obtenir el calendari del mes actual:
 
 	>>> año = date.today().year 
 	>>> mes = date.today().month
