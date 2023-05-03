@@ -20,7 +20,7 @@ N = (D+A+M) mod 3
 
 
 ## A GESTOR DE COMPTES BANCARIS
-Crear un programa, amb **Python i Pyscopg**, que permeti gestionar les dades referents als comptes corrents 
+Crear un programa, amb **Python i Psycopg2**,, que permeti gestionar les dades referents als comptes corrents 
 dels clients d’una entitat bancària.
 El programa permetrà les següents operacions:
   * Llistar les dades personals de tots els clients.
