@@ -93,7 +93,7 @@ personal
 
 ## Exemple bàsic amb MongoDB. Programar amb python accedint a la BD
 
-* Exemple 1: Creem un petit programa en python per cercar documents a MongoDB
+* Exemple 1: Creem un petit programa en python per cercar documents
 
 ```python
 # cerca-nom.py
@@ -116,7 +116,7 @@ print()
 client.close()
 ```
 
-* Exemple 2: Creem un programa en python per llistar documents a MongoDB
+* Exemple 2: Creem un programa en python per llistar documents
 
 ```python
 # llistar-cp.py
