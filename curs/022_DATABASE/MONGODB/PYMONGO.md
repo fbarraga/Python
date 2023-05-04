@@ -214,15 +214,15 @@ Per connectar a una base de dades en Mongo Atlas l'unic que canvia es la cadena 
 
   1. Anem a la part de connect:
 
-![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn.png?raw=true)
+        ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn.png?raw=true)
 
   2. Seleccionem drivers:
 
-![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn2.png?raw=true)
+        ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn2.png?raw=true)
 
   3. Copiem la cadena de connexió:
 
-![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn3.png?raw=true)
+        ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn3.png?raw=true)
 
 Una cadena de connexió a una bd en cloud tindria el següent format:
 
