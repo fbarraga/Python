@@ -56,7 +56,7 @@ Es una eina GUI que permet administrar la base de dades des d'una interfície gr
 
 ### Creació de BD i col·leccions
 
-```mongo
+```console
 > use biblioteca
 > db
 biblioteca

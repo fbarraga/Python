@@ -252,4 +252,5 @@ db.autors.find({ fecha: {$eq: date}})
 
 ```
 
+***
 [Index](../../../README.md)
