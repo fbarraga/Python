@@ -54,6 +54,8 @@ Es una eina GUI que permet administrar la base de dades des d'una interfície gr
 * `db.<collection>.drop`: Borra la col·lecció de la base de dades en ús
 * `db.<collection>.insertOne`: Insereix un document dintre de la col·lecció
 
+### Creació de BD i col·leccions
+
 ```mongo
 > use biblioteca
 > db
@@ -70,6 +72,8 @@ llibres
 }
 >
 ```
+
+### CRUD (Create Read Update Delete)
 
 * `db.collection.insertMany()`: Insereix n documents dintre de la col·lecció
 
