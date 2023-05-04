@@ -6,8 +6,8 @@ PyMongo és una biblioteca de Python que permet interactuar amb bases de dades M
 
 Per instal·lar-ho ho farem mitjançant la comanda pip
 
-```python
-#pip3 install pymongo
+```console
+regular@debian:~$ pip3 install pymongo
 ```
 
 ## Exemple bàsic amb mongodb on premise. Creació de la BD
