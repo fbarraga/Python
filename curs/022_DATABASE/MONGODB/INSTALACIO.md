@@ -209,7 +209,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 [ "1", "2", "4" ]
 ```
 
-Per construir sentències més complexes com aggregats, etc podem mirar la [pàgina](https://www.mongodb.com/docs/manual/aggregation/)
+Per construir sentències més complexes com aggregats, etc podem mirar la [pàgina](https://www.mongodb.com/docs/manual/aggregation/) oficial de MongoDB.
 
 ***
 [Index](../../../README.md)
