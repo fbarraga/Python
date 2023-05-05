@@ -6,17 +6,18 @@ PyMongo és una biblioteca de Python que permet interactuar amb bases de dades M
 
 Per instal·lar-ho ho farem mitjançant la comanda pip
 
-```python
-pip install pymongo
+```console
+regular@debian:~$ pip3 install pymongo
 ```
 
-# Exemple bàsic
+## Exemple bàsic amb mongodb on premise. Creació de la BD
 
 Crearem una base de dades "personal" que ens servirà per anar introduint mongo amb Python.
 Totes les opcions de pymongo les podeu trobar a la [documentació oficial](https://www.mongodb.com/docs/drivers/pymongo/)
 
 * Pas 1: Creem la base de dades i les col·leccions
-```
+
+```console
 regular@debian:~$ mongo --quiet -u adminbdd
 Enter password: 
 > db
@@ -35,7 +36,7 @@ personal
 
 * Pas 2: Introduim dades de mostra
 
-```
+```console
 > db.codis_postals.insertOne( { cp: "17300", poblacio: "blanes" } );
 {
 "acknowledged" : true,
@@ -89,16 +90,22 @@ personal
 }
 > exit
 ```
-* Exemple 1: Creem un petit programa en python per cercar documents a MongoDB
+
+## Exemple bàsic amb MongoDB. Programar amb python accedint a la BD
+
+* Exemple 1: Creem un petit programa en python per cercar documents
+
 ```python
 # cerca-nom.py
 import pymongo
 
 client = pymongo.MongoClient(host="localhost",
                              port=27017,
-                             username="adminbdd",
+                             username="adminbd",
                              password="12345678")
+# El primer que fem es seleccionar la base de dades escollint-la desde la connexió. En aquest cas la bd es personal
 base_de_dades = client.personal
+# De la base de dades "personal" agafem la colecció "dades_persones" i busquem un document on el nom sigui Joan
 document = base_de_dades["dades_persones"].find_one({"nom":"joan"})
 print(document)
 print()
@@ -108,8 +115,8 @@ print(document["cognoms"])
 print()
 client.close()
 ```
-* Exemple 2: Creem un programa en python per llistar documents a MongoDB
 
+* Exemple 2: Creem un programa en python per llistar documents
 
 ```python
 # llistar-cp.py
@@ -119,6 +126,7 @@ client = pymongo.MongoClient(host="localhost",
                              username="adminbdd",
                             password="12345678")
 base_de_dades = client.personal
+# Si no especifiquem cap clàusula en el find() retorna tots els registres en format llista, que després podem recorrer amb unfor
 for doc in base_de_dades["codis_postals"].find():
     print(doc)
 print()
@@ -130,6 +138,7 @@ client.close()
 * Exemple 3: Crear un programa que retorni el cp en funció de la població
 
 ```python
+
 # llistar_cp_pob.py
 import sys
 import pymongo
@@ -146,6 +155,7 @@ if not doc:
 else:
  print(doc['cp']
 ```
+
 * Exemple 4: Llistar edat
   
 ```python
@@ -184,21 +194,47 @@ for doc in base_de_dades["dades_persones"].find().sort("cognoms"):
 client.close()
 ```
 
-
 * Exemple 6: Consulta el numero de documents en una col·lecció
+
 ```python
    # Connexió a MongoDB Atlas
-    conn = pymongo.MongoClient("mongodb+srv://xxxxx:xxxxxx@cluster0.xxxxxx.mongodb.net/?retryWrites=true&w=majority")
-    db=conn.get_database('parking')
+    client = pymongo.MongoClient(host="localhost",
+                             port=27017,
+                             username="adminbdd",
+                             password="12345678")
+
+    db=conn.get_database('personal')
     records = db.atopic
     print(records.count_documents({}))
 ```
 
+## Exemple amb connexió a una base de dades en cloud (Mongo Atlas)
+
+Per connectar a una base de dades en Mongo Atlas l'unic que canvia es la cadena de connexió que informem quan executem el pymongo.MongoClient. La cadena de connexió la podem consultar directament a la web de Mongo Atlas:
+
+  1. Anem a la part de connect:
+
+        ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn.png?raw=true)
+
+  2. Seleccionem drivers:
+
+        ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn2.png?raw=true)
+
+  3. Copiem la cadena de connexió:
+
+        ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/mongodb_conn3.png?raw=true)
+
+Una cadena de connexió a una bd en cloud tindria el següent format:
+
+```python
+conn = pymongo.MongoClient("mongodb+srv://xxxxx:xxxxxx@cluster0.xxxxxx.mongodb.net/?retryWrites=true&w=majority")
+```
 
 ***
-# Parsejar les dates amb mongo y python
 
-Si guardem les dates dintre de mongo amb format "data" i no format string, després haurem de fer servir una llibreria que ens ajudi a formatejar el string de consulta amb el mateix format que Mongo utilitza per guardar la data (afegeix el Timezone). Per ajudar-nos podem fer servir la llibreria `dateutil`
+## Parsejar les dates amb mongo y python
+
+Si guardem les dates dintre de mongo amb format "data" i no en format string, després haurem de fer servir una llibreria que ens ajudi a formatejar la data de la consulta amb el mateix format que Mongo utilitza per guardar la data (afegeix el Timezone). Per ajudar-nos podem fer servir la llibreria `dateutil`
 
 ```python
 import datetime
@@ -206,12 +242,15 @@ import dateutil.parser
 
 # the date
 now = datetime.datetime.now()
-year = now.year
-month = now.month
-day = now.day
-theDate = str(year) + "-" + str(month) + "-" + str(day)
-dateStr = theDate
-date = dateutil.parser.parse(dateStr)
+anyo = now.year
+mes = now.month
+dia = now.day
+date_str  = str(anyo) + "-" + str(mes) + "-" + str(dia)
+date = dateutil.parser.parse(date_str)
+# Si tinguessim una colecció autors amb un atribut fecha podriem comparar de la següent manera
+db.autors.find({ fecha: {$eq: date}})
+
 ```
-# Then put that date into your Mongo insert
+
+***
 [Index](../../../README.md)

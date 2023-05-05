@@ -4,12 +4,11 @@
 
 MongoDB es pot instal·lar sobre plataforma Windows / Linux encara que es preferible utilitzar Linux. El procediment d'instal·lació per distribució Linux/Debian el podeu consultar en la [documentació oficial de MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-debian/)
 
-
 ## MongoDB SaaS "cloud"
 
-MongoDB pot ser utilitzada desplegant la base de dades al cloud i connectant-nos des del nostre ordinador. És un servei gratuit per una base de dades simple, i de pagament quan volem fer definicions més complexes.
+MongoDB pot ser utilitzada desplegant la base de dades al cloud i connectant-nos des del nostre ordinador/aplicació. És un servei gratuit per una base de dades simple, i de pagament quan volem fer definicions més complexes.
 
-Per poder desplegar una base de dades en Cloud, utilitzarem [Mongo Atlas](https://www.mongodb.com/atlas). Els passos que haurem de fer per poder-la crear son:
+Per poder desplegar una base de dades en Cloud, utilitzarem el servei [Mongo Atlas](https://www.mongodb.com/atlas). Els passos que haurem de fer per poder-la crear son:
 
 * Registrar-nos dintre de Mongo Atlas (És aconsellable utilitzar el compte de Google o Github)
 * Crear una organització.
@@ -22,9 +21,10 @@ Per poder desplegar una base de dades en Cloud, utilitzarem [Mongo Atlas](https:
 
 Una vegada desplegat la Base de dades, podem administrar-la des del nostre ordinador amb el **Mongo Shell**
 
-Per executar-ho podem 
-```
-mongosh "mongodb+srv://parking.1jvwodg.mongodb.net/Parking" --apiVersion 1 --username adminbdd
+Per executar-ho fem mitjançant la següent comanda: 
+
+```console
+mongosh "mongodb+srv://<el vostre servidor>.mongodb.net/<base dades>" --apiVersion 1 --username <el vostre usuari>
 ```
 
 ## Eines per la gestió de la base de dades
@@ -35,13 +35,11 @@ Es pot descarregar l'eina des d'aquest [link](https://www.mongodb.com/try/downlo
 MongoShell es una aplicació en mode comanda que ens permet executar comandes en el nostre MongoDB. Es l'eina recomanada quan utilitzem scripts que interactuen amb la base de dades. 
 Actua de la mateixa manera que el psql de Postgresql o el sqlplus d'Oracle. Podeu consultar més informació en el següent [link](https://www.mongodb.com/docs/mongodb-shell/)
 
-
 ### MongoDB Compass (GUI)
 
 Es pot descarregar l'eina des d'aquest [link](https://www.mongodb.com/try/download/compass)
 
 Es una eina GUI que permet administrar la base de dades des d'una interfície gràfica. Inclou adintre la solució el MongoShell. Es correspondria al PGAdmin4 de Postgresql o al Enterprise Manager d'Oracle. Podeu consultar més informació en aquest [link](https://www.mongodb.com/docs/compass/master/)
-
 
 ## Ordres bàsiques a MongoDB
 
@@ -56,7 +54,9 @@ Es una eina GUI que permet administrar la base de dades des d'una interfície gr
 * `db.<collection>.drop`: Borra la col·lecció de la base de dades en ús
 * `db.<collection>.insertOne`: Insereix un document dintre de la col·lecció
 
-```mongo
+### Creació de BD i col·leccions
+
+```console
 > use biblioteca
 > db
 biblioteca
@@ -71,11 +71,13 @@ llibres
 "insertedId" : ObjectId("605c6c1d2e50ebf3923f1b3d")
 }
 >
-``` 
+```
+
+### CRUD (Create Read Update Delete)
 
 * `db.collection.insertMany()`: Insereix n documents dintre de la col·lecció
 
-```
+```console
 > db.autors.insertMany([
 ... { id: "2", cognoms: "oller y moragas", nom: "narcís"},
 ... { id: "3", cognoms: "carner i puig-oriol", nom: "josep"},
@@ -92,7 +94,8 @@ ObjectId("605c75912e50ebf3923f1b40")
 ```
 
 * `db.collection.find()`:Buscar els elements d'una col·lecció
-```
+
+```console
 > db.autors.find()
 { "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
 { "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
@@ -116,10 +119,11 @@ ObjectId("605c75912e50ebf3923f1b40")
 > db.autors.find({ nom: {$regex: /^m/}})
 { "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
 ```
+
 * `db.collection.find().pretty()`: Mostra el resultat en un format amigable
 * `db.collection.update()`: Actualitza un document d’una col·lecció
   
-```
+```console
 > db.autors.find()
 { "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
 { "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
@@ -144,7 +148,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 
 * `db.collection.deleteOne()`: Elimina un document d’una col·lecció
 
-```
+```console
 > db.autors.find()
 { "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
 { "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
@@ -158,8 +162,10 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 { "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
 >
 ```
+
 * `db.collection.deleteMany()`: Elimina varis documents d’una col·lecció
-```
+
+```console
 > db.autors.find()
 { "_id" : ObjectId("605c6c1d2e50ebf3923f1b3d"), "id" : "1", "cognoms" : "rodoreda i gurguí", "nom" : "mercè" }
 { "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
@@ -181,9 +187,10 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 { "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
 >
 ```
+
 * `db.collection.distinct`: Retorna els documents únics
   
-```
+```console
 > db.autors.find()
 { "_id" : ObjectId("605c75912e50ebf3923f1b3e"), "id" : "2", "cognoms" : "oller y moragas", "nom" : "narcís" }
 { "_id" : ObjectId("605c75912e50ebf3923f1b40"), "id" : "4", "cognoms" : "albert i paradis", "nom" : "Caterina" }
@@ -202,7 +209,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 [ "1", "2", "4" ]
 ```
 
-Per construir sentències més complexes com aggregats, etc podem mirar la [pàgina](https://www.mongodb.com/docs/manual/aggregation/)
+Per construir sentències més complexes com aggregats, etc podem mirar la [pàgina](https://www.mongodb.com/docs/manual/aggregation/) oficial de MongoDB.
 
 ***
 [Index](../../../README.md)

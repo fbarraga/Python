@@ -23,7 +23,7 @@ Exemples d'aquests datasets els podem consultar a :
 https://opendata-ajuntament.barcelona.cat/data/ca/dataset
 
 https://governobert.gencat.cat/ca/dades_obertes/inici
-     
+
 Per exemple les dades obertes de la Generalitat de Catalunya ens ofereix les següents categories entre altres:
 
     * Ciencia i Tecnologia
@@ -39,7 +39,6 @@ Aquests organismes publiquen la informació agrupada en diferents catàlegs, i a
 
 Els datasets disponibles a la plataforma de dades obertes es poden exportar en múltiples formats. A continuació es detallen breument:
 
- 
 * CSV / TSV
 És un format obert, senzill i d’ús molt estès per representar dades tabulades. Aquests fitxers es poden obrir tant amb editors de text (bloc de notes de Windows, MS Word) com amb editors de fulls de càlcul (MS Excel, OpenOffice Calc, etc.). Les dades s’estructuren en columnes separades per un caràcter determinat (generalment el separador és una coma o un punt i coma per als CSV, i tabulació per als TSV). Totes les files tenen els mateixos camps, i al final de cada fila hi ha un salt de línia. A més, es disposa de les opcions d’exportació "CSV for Excel" i "CSV for Excel" (Europa). Aquestes opcions estan formatades de manera que, quan s’obren amb MS Excel, el programa interpreta el separador i mostra les columnes de manera separada, facilitant-ne la lectura. Més informació a http://tools.ietf.org/html/rfc4180.
 
