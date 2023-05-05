@@ -4,19 +4,15 @@
 
 2. Suma dels naturals fins al natural n, que serà llegit per teclat (1+2+3+...).
 
-3. Donat un natural n>=1 llegit per teclat, mostrar per pantalla tots els nombres
-parells menors que n.
+3. Donat un natural n>=1 llegit per teclat, mostrar per pantalla tots els nombres parells menors que n.
 
-4. Donat un natural n>=1 llegit per teclat, mostrar per pantalla tots els nombres fins
-a n que siguin parells i múltiples de 7.
+4. Donat un natural n>=1 llegit per teclat, mostrar per pantalla tots els nombres fins a n que siguin parells i múltiples de 7.
 
 5. Donat un natural n>0 llegit per teclat, mostrar tots els seus divisors.
 
-6. Donat un natural n>=1 llegit per teclat, mostrar per pantalla tots els quadrats
-perfectes menors que n.
+6. Donat un natural n>=1 llegit per teclat, mostrar per pantalla tots els quadrats perfectes menors que n.
 
-7. Donat un natural n>=1 llegit per teclat, mostrar per pantalla tots els quadrats
-perfectes menors que n i que a més siguin parells.
+7. Donat un natural n>=1 llegit per teclat, mostrar per pantalla tots els quadrats perfectes menors que n i que a més siguin parells.
 
 8. Donat un natural n>0 llegit per teclat, dir si és un nombre primer (un nombre és primer si només és divisible per 1 i per ell mateix).
 
@@ -41,4 +37,6 @@ perfectes menors que n i que a més siguin parells.
     3
     ```
 
-12. Donat un natural n llegit per teclat, dir per quants dígits està format
+12. Donat un natural n llegit per teclat, dir per quants dígits està format.
+
+***
