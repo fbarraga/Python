@@ -8,11 +8,11 @@ La versió 3.x està en desenvolupament actiu, la darrera versió 3.11 va sortir
 
 Pots consultar els EOL de les diferents versions de Python en el [post: End of life versions Python](https://endoflife.date/python).
 
-En el [post: What’s New In Python 3.0](https://docs.python.org/3.0/whatsnew/3.0.html) escrit per Guido van Rossum podem trobar els canvis introduits a la versió 3.x vs a la versió 2.0. 
+En el [post: What’s New In Python 3.0](https://docs.python.org/3.0/whatsnew/3.0.html) escrit per Guido van Rossum podem trobar els canvis introduits a la versió 3.x vs a la versió 2.0.
 
 A la documentació podeu trobar la página [What’s New in Python](https://docs.python.org/3/whatsnew/index.html) on podeu veure les millores que es van incorporant en cada nova versió.
 
-## ¿Quina versió he d'utilitzar? 
+## ¿Quina versió he d'utilitzar?
 
 Depenent del projecte que hagis de fer, hauràs de revisar si les biblioteques que has d'utilizar son compatibles amb la versió que utilizaràs. El problema en els darrers anys es que no totes les llibreries s'exporten a la darrera versió en el moment que surt aquesta.
 
@@ -59,16 +59,19 @@ A Python2 existeix dos tipus diferenciats de cadenes: str (ascii) i unicode, a P
 
 Amb Python2:
 
-	>>> cad = "piña"
-	>>> cad
-	'pi\xc3\xb1a'
+```console
+>>> cad = "piña"
+>>> cad
+'pi\xc3\xb1a'
+```
 
+Amb Python3:
 
-Amb Python3: 
-
-	>>> cad = "piña"
-	>>> cad
-	'piña'
+```console
+ >>> cad = "piña"
+ >>> cad
+ 'piña'
+```
 
 ### Generació de llistes de número
 
@@ -125,9 +128,8 @@ Amb python3:
 
 	>>> [1,2] > "hola"
 	Traceback (most recent call last):
-	  File "<stdin>", line 1, in <module>
+	File "<stdin>", line 1, in <module>
 	TypeError: unorderable types: list() > str()
-
 
 ***
 [Index](../../../README.md)
