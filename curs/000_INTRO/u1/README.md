@@ -10,7 +10,7 @@ Python és un llenguatge:
   * **programació imperativa**
   * **orientació a objectes**
   * **programació funcional**
-* Multiplataforma
+* Multiplataforma  s
 * Lliure
 
 ## ¿Per què escollir Python?
