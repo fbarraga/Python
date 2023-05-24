@@ -753,4 +753,4 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
     Nivell Mig
     * [Nivell 3 - Varis](curs/999_EXERC/3_MITJA/README.md)
-    * 
+  
