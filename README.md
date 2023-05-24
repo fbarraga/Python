@@ -156,7 +156,7 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     * Objectes inmutables i mutables
     * Funció id()
     * Operadors d'identitat
-    * Operadors d'assignación
+    * Operadors d'assignació
     * Assignació múltiple
 
 11. [Entrada i sortida estàndar](curs/001_ESTRU/u11/README.md)
