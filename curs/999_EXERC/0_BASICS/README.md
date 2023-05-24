@@ -25,25 +25,25 @@
 
 12. Una fleca ven barres de pa a 3.49€ cada una. El pa que no es del día té un descompte del 60%. Escriure un programa que comenci llegint el número de barres que tenim d'avui i d'ahir. A partir d'aquí haurà de demanar les barres que venem i el programa haurà de mostrar el preu total de les barres de pa considerant els diferents preus que pot haver-hi.
 
-13. Definir una función max() que tome como argumento dos números y devuelva el mayor de ellos. (Es cierto que python tiene una función max() incorporada, pero hacerla nosotros mismos es un muy buen ejercicio.
+13. Definir una funció max() que agafi com argument dos números i retorni el més gran dels dos.. (Python té una función max() incorporada, pero hem de fer una nosaltres mateixos).
 
-14. Definir una función max_de_tres(), que tome tres números como argumentos y devuelva el mayor de ellos.
+14. Definir una funció max_de_tres(), que agafi tres números com arguments i retorni el més gran d' ells.
 
-15. Definir una función que calcule la longitud de una lista o una cadena dada. (Es cierto que python tiene la función len() incorporada, pero escribirla por nosotros mismos resulta un muy buen ejercicio.
+15. Definir una funció que calcule la longitud d'una lista o una cadena donada. (Amb python hi ha la función len() , però hem d'escriure la nostra des de zero.
 
-16. Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrario devuelve False.
+16. Escriure una funció que demani un caràcter i retorni True si és una vocal, en cas contrari retorna False.
 
-17. Escribir una función sum() y una función multip() que sumen y multipliquen respectivamente todos los números de una lista. Por ejemplo: sum([1,2,3,4]) debería devolver 10 y multip([1,2,3,4]) debería devolver 24.
+17. Escriure una funció sum() i una funció multip() que sumin i multipliquin respectivament tots els números d'una llista. Per ejemplo: sum([1,2,3,4]) hauria de retornar 10 i multip([1,2,3,4]) hauria de retornar 24.
 
-18. Definir una función inversa() que calcule la inversión de una cadena. Por ejemplo la cadena "estoy probando" debería devolver la cadena "odnaborp yotse"
+18. Definir una funció inversa() que calculi la inversa d'una cadena. Per exemple la cadena "estoy probando" hauria de retornar la cadena "odnaborp yotse"
 
-19. Definir una función es_palindromo() que reconoce palíndromos (es decir, palabras que tienen el mismo aspecto escritas invertidas), ejemplo: es_palindromo ("radar") tendría que devolver True.
+19. Definir una funció es_palindromo() que reconeix els palíndroms (és a dir, paraules que tenen el mateix aspecte quan les escrius al revés), exemple: es_palindromo ("radar") hauria de retornar True.
 
-20. Definir una función superposicion() que tome dos listas y devuelva True si tienen al menos 1 miembro en común o devuelva False de lo contrario. Escribir la función usando el bucle for anidado.
+20. Definir una funció superposicio() que agafi dues llistes i retorni True si tenen al mennys 1 membre en comú o retorni False de lo contrari. Escriure la funció utilitzant el bucle for aniuat.
 
-21. Definir una función generar_n_caracteres() que tome un entero n y devuelva el caracter multiplicado por n. Por ejemplo: generar_n_caracteres(5, "x") debería devolver "xxxxx".
+21. Definir una funció generar_n_caracters() que prengui un enter n i retorna el caràcter multiplicat por n. Per exemple: generar_n_caracters(5, "x") hauria de retornar "xxxxx".
 
-22. Definir un histograma procedimiento() que tome una lista de números enteros e imprima un histograma en la pantalla. Ejemplo: procedimiento([4, 9, 7]) debería imprimir lo siguiente:
+22. Definir un histograma procediment() que agafi una llista de números enters e imprimeixi un histograma a la pantalla. Exemplo: procediment([4, 9, 7]) hauria d'imprimir:
 
     ```text
     ****
@@ -51,32 +51,29 @@
     *******
     ```
 
-23. La función max() del ejercicio 1 (primera parte) y la función max_de_tres() del ejercicio 2 (primera parte), solo van a funcionar para 2 o 3 números. Supongamos que tenemos mas de 3 números o no sabemos cuantos números son. Escribir una función max_in_list() que tome una lista de números y devuelva el mas grande.
+23. La funció max() i la funció max_de_tres() fets anteriorment, només funcionen per 2 o 3 números. Suposem que tenim més de 3 números o no sabem quants números ens entraran. Escriure una funció max_in_list() que afafi una llista de números i retorni el més gran.
 
-24. Escribir una función mas_larga() que tome una lista de palabras y devuelva la mas larga.
+24. Escriure una funció mes_llarga() que agafi una llista de paraules i retorni la més llarga.
 
-25. Escribir una función filtrar_palabras() que tome una lista de palabras y un entero n, y devuelva las palabras que tengan mas de n caracteres.
+25. Escriure una funció filtrar_paraules() que agafi una llista de paraules i un enter n, i retorni les parauless que tinguin més de n caràcters.
 
-26. Escribir un programa que le diga al usuario que ingrese una cadena. El programa tiene que evaluar la cadena y decir cuantas letras mayúsculas tiene.
+26. Escriure un programa que demani a l'usuari que ingresi una cadena. El programa ha d'avaluar la cadena i dir quantes lletres minúscules té.
 
-27. Construir un pequeño programa que convierta números binarios en enteros.
+27. Construir un programa que converteixi números binarios en enters (no facis servir les built-in de python).
 
-28. Escribir un pequeño programa donde:
+28. Escriure un programa on:
 
-    - Se ingresa el año en curso.
-    - Se ingresa el nombre y el año de nacimiento de tres personas.
-    - Se calcula cuántos años cumplirán durante el año en curso.
-    - Se imprime en pantalla.
+    - Es demani l'any en curs.
+    - Es demani el nom i l'anyde naixement de tres persones.
+    - Es calcula quants anys cumplirán durant l'any en curs.
+    - S'imprimeix per pantalla.
 
-29. Definir una tupla con 10 edades de personas.
-Imprimir la cantidad de personas con edades superiores a 20.
-Puedes variar el ejercicio para que sea el usuario quien ingrese las edades.
+29. Demanar a l'usuari que entri 10 edats de persones i desa-ho en una tupla.
+Imprimir la quantitat de persones amb edats superiors a 20.
 
-30. Definir una lista con un conjunto de nombres, imprimir la cantidad de comienzan con la letra a.
-También se puede hacer elegir al usuario la letra a buscar.  (Un poco mas emocionante)
+30. Definir una llista amb un conjunt de noms, imprimir la quantitat que comencen amb la lletra a.
+També es pot fer escollir a l'usuari la lletra a buscar. 
 
-31. Crear una función contar_vocales(), que reciba una palabra y cuente cuantas letras "a" tiene, cuantas letras "e" tiene y así hasta completar todas las vocales.
-Se puede hacer que el usuario sea quien elija la palabra.
+31. Crear una funció comptar_vocals(), que rebi una paraula i compti quantes lletres "a" té, quantes lletres "e" té i aixífins completar totes les vocals
 
-32. Escriba una función es_bisiesto() que determine si un año determinado es un año
-bisiesto.Un año bisiesto es divisible por 4, pero no por 100. También es divisible por 400
+32. Escriu una función es_bisiest() que determini si un any determinado es un any bisiest () es divisible per 4, però no per 100. També és divisible por 400)
