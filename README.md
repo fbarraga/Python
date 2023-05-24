@@ -745,5 +745,12 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     ```
 
 83. Exercicis Simples
-    * [Nivell 0](curs/999_EXERC/EXERCICIS0.md)
-    * [Nivell 1](curs/999_EXERC/EXERCICIS1.md)
+
+    Nivell bàsic:
+    * [Nivell 0 - Basics](curs/999_EXERC/0_BASICS/README.md)
+    * [Nivell 1 - Condicionals](curs/999_EXERC/1_CONDICIONALS/README.md)
+    * [Nivell 2 - Bucles](curs/999_EXERC/2_BUCLES/README.md)
+
+    Nivell Mig
+    * [Nivell 3 - Varis](curs/999_EXERC/3_MITJA/README.md)
+    * 
