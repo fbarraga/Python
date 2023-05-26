@@ -10,4 +10,4 @@ Primer de tot citarem el awesome-python amb un gran repositori de links a molts 
 
 * https://hackr.io/tutorials/learn-python?sort=upvotes&level_tags%5B%5D=5
 
-
+***
