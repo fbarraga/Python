@@ -753,4 +753,15 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
     Nivell Mig
     * [Nivell 3 - Varis](curs/999_EXERC/3_MITJA/README.md)
+
+    HPCDS Codewars
+    * [2017](curs/999_EXERC/4_CODEWARS/2017/README.md) 
+    * [2018](curs/999_EXERC/4_CODEWARS/2018/README.md) 
+    * [2019](curs/999_EXERC/4_CODEWARS/2019/README.md) 
+    * [2020](curs/999_EXERC/4_CODEWARS/2020/README.md) 
+    * [2021](curs/999_EXERC/4_CODEWARS/2021/README.md) 
+    * [2022](curs/999_EXERC/4_CODEWARS/2022/README.md) 
+    * [2023](curs/999_EXERC/4_CODEWARS/2023/README.md) 
+
+***
   
