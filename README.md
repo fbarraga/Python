@@ -763,5 +763,9 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     * [2022](curs/999_EXERC/4_CODEWARS/2022/README.md) 
     * [2023](curs/999_EXERC/4_CODEWARS/2023/README.md) 
 
+84. Recursos de Python a la Web
+
+    *[Links](curs/900_LINKS/README.md) Cursos, llibreries, documentació
+
 ***
   
