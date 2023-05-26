@@ -3,6 +3,7 @@
 Primer de tot citarem el awesome-python amb un gran repositori de links a molts mòduls de python agrupats per funcionalitat.
 
 * https://github.com/vinta/awesome-python
+* https://toweave.github.io/awesome/python/#wsgi-servers
 
 ## Cursos a Youtube
 
