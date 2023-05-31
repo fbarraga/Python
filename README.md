@@ -767,5 +767,6 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
     * [Links](curs/900_LINKS/README.md) Cursos, llibreries, documentació
     * Llibreria interessant per veure el grau de similtud entre dues cadenes: https://pypi.org/project/strsimpy/
+    * https://github.com/jamesturk/jellyfish
 ***
   
