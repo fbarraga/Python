@@ -12,7 +12,7 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 
 ## Autors
 
-Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris i mantinguda per:
+Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris públics i mantinguda per:
 
 * Francesc Barragán (<fbarragan@sapalomera.cat>)
 
