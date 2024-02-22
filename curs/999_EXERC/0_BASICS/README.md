@@ -15,6 +15,15 @@
 
 7. Escriure un programa que demani a l'usuari el seu pes (en kg) i alçada (en metres), i calculi l'índex de massa corporal i ho guardi en una variable. Després  ha de mostrar per pantalla la frase "Tu índice de masa corporal es <imc>"  on <imc> es la variable on heu guardat el càlcul redondejat a dos decimals.
 
+Després de calcular-ho en funció del valor que surti que et digui en quin segment estàs.
+Peso bajo = menos de 18.5;
+Peso normal = 18.5 a 24.9;
+Sobrepeso = 25 a 29.9;
+Obesidad = 30 a 35;
+Obesidad mórbida = 35 y más.
+
+
+
 8. Escriure un programa que demani a l'usuari dos nombres enters (n,m) i mostri per pantalla  el quocient (c) i el reste (r) com a resultat de dividir n per m.
 
 9. Escriure un programa que pregunti a l'usuari una quantitat a invertir, l'interés anual i el número d'anys, i mostri per pantalla el capital obtingut en la inversió.
