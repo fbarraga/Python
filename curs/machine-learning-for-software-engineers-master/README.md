@@ -1,4 +1,5 @@
 # Top-down learning path: Machine Learning for Software Engineers
+
 Inspired by [Google Interview University](https://github.com/jwasham/google-interview-university).
 
 _If you like this project, please give me a star._ &#9733;
@@ -16,28 +17,31 @@ Please, feel free to make any contributions you feel will make it better.
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Follow me](#follow-me)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
+- [Top-down learning path: Machine Learning for Software Engineers](#top-down-learning-path-machine-learning-for-software-engineers)
+	- [What is it?](#what-is-it)
+	- [Table of Contents](#table-of-contents)
+	- [Why use it?](#why-use-it)
+	- [How to use it](#how-to-use-it)
+	- [Follow me](#follow-me)
+	- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+	- [About Video Resources](#about-video-resources)
+	- [Prerequisite Knowledge](#prerequisite-knowledge)
+	- [The Daily Plan](#the-daily-plan)
 - [Motivation](#motivation)
-- [Machine learning overview](#machine-learning-overview)
-- [Machine learning mastery](#machine-learning-mastery)
-- [Machine learning is fun](#machine-learning-is-fun)
-- [Machine learning: an in-depth, non-technical guide](#machine-learning-an-in-depth-non-technical-guide)
-- [Stories and experiences](#stories-and-experiences)
-- [Beginner Books](#beginner-books)
-- [Practical Books](#practical-books)
-- [Kaggle knowledge competitions](#kaggle-knowledge-competitions)
-- [Video](#video)
-- [MOOC](#mooc)
-- [Becoming an Open Source Contributor](#becoming-an-open-source-contributor)
-- [Communities](#communities)
-- [My admired companies](#my-admired-companies)
+	- [Machine learning overview](#machine-learning-overview)
+	- [Machine learning mastery](#machine-learning-mastery)
+	- [Machine learning is fun](#machine-learning-is-fun)
+	- [Machine learning: an in-depth, non-technical guide](#machine-learning-an-in-depth-non-technical-guide)
+	- [Stories and experiences](#stories-and-experiences)
+	- [Beginner Books](#beginner-books)
+	- [Practical Books](#practical-books)
+	- [Kaggle knowledge competitions](#kaggle-knowledge-competitions)
+	- [Video Series](#video-series)
+	- [MOOC](#mooc)
+	- [Resources](#resources)
+	- [Becoming an Open Source Contributor](#becoming-an-open-source-contributor)
+	- [Communities](#communities)
+	- [My admired companies](#my-admired-companies)
 
 ---
 
@@ -64,6 +68,7 @@ I think the best way for practice-focused methodology is something like ['practi
  It's a long plan. It's going to take me years. If you are familiar with a lot of this already it will take you a lot less time.
 
 ## How to use it
+
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
 I'm using Github's special markdown flavor, including tasks lists to check progress.
@@ -73,6 +78,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Follow me
+
 I'm a Vietnamese Software Engineer who are really passionate and want to work in the USA.
 
 How much did I work during this plan? Roughly 4 hours/night after a long, hard day at work.
@@ -112,14 +118,17 @@ Each subject does not require a whole day to be able to understand it fully, and
 Each day I take one subject from the list below, read it cover to cover, take note, do the exercises and write an implementation in Python or R.
 
 # Motivation
+
 - [ ] [Dream](https://www.youtube.com/watch?v=g-jwWYX7Jlo)
 
 ## Machine learning overview
+
 - [ ] [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [ ] [A Gentle Guide to Machine Learning](https://blog.monkeylearn.com/a-gentle-guide-to-machine-learning/)
 - [ ] [Machine Learning basics for a newbie](https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/)
 
 ## Machine learning mastery
+
 - [ ] [The Machine Learning Mastery Method](http://machinelearningmastery.com/machine-learning-mastery-method/)
 - [ ] [Machine Learning for Programmers](http://machinelearningmastery.com/machine-learning-for-programmers/)
 - [ ] [Applied Machine Learning with Machine Learning Mastery](http://machinelearningmastery.com/start-here/)
@@ -127,6 +136,7 @@ Each day I take one subject from the list below, read it cover to cover, take no
 - [ ] [Machine Learning Algorithms Mini-Course](http://machinelearningmastery.com/machine-learning-algorithms-mini-course/)
 
 ## Machine learning is fun
+
 - [ ] [Machine Learning is Fun!](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471#.37ue6caww)
 - [ ] [Part 2: Using Machine Learning to generate Super Mario Maker levels](https://medium.com/@ageitgey/machine-learning-is-fun-part-2-a26a10b68df3#.kh7qgvp1b)
 - [ ] [Part 3: Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.44rhxy637)
@@ -134,6 +144,7 @@ Each day I take one subject from the list below, read it cover to cover, take no
 - [ ] [Part 5: Language Translation with Deep Learning and the Magic of Sequences](https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa#.wyfthap4c)
 
 ## Machine learning: an in-depth, non-technical guide
+
 - [ ] [Overview, goals, learning types, and algorithms](http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide/)
 - [ ] [Data selection, preparation, and modeling](http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide-part-2/)
 - [ ] [Model evaluation, validation, complexity, and improvement](http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide-part-3/)
@@ -141,6 +152,7 @@ Each day I take one subject from the list below, read it cover to cover, take no
 - [ ] [Unsupervised learning, related fields, and machine learning in practice](http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide-part-5/)
 
 ## Stories and experiences
+
 - [ ] [Machine Learning in a Week](https://medium.com/learning-new-stuff/machine-learning-in-a-week-a0da25d59850#.tk6ft2kcg)
 - [ ] [Machine Learning in a Year](https://medium.com/learning-new-stuff/machine-learning-in-a-year-cdb0b0ebd29c#.hhcb9fxk1)
 - [ ] [Learning Path : Your mentor to become a machine learning expert](https://www.analyticsvidhya.com/learning-path-learn-machine-learning/)
@@ -153,11 +165,13 @@ Each day I take one subject from the list below, read it cover to cover, take no
 - [ ] [How can one become a good machine learning engineer?](https://www.quora.com/How-can-one-become-a-good-machine-learning-engineer)
 
 ## Beginner Books
+
 - [ ] [Data Smart: Using Data Science to Transform Information into Insight 1st Edition](https://www.amazon.com/Data-Smart-Science-Transform-Information/dp/111866146X)
 - [ ] [Data Science for Business: What you need to know about data mining and data­ analytic-thinking](https://www.amazon.com/Data-Science-Business-Data-Analytic-Thinking/dp/1449361323/)
 - [ ] [Predictive Analytics: The Power to Predict Who Will Click, Buy, Lie, or Die](https://www.amazon.com/Predictive-Analytics-Power-Predict-Click/dp/1118356853)
 
 ## Practical Books
+
 - [ ] [Machine Learning for Hackers](https://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714)
 	- [GitHub repository](https://github.com/johnmyleswhite/ML_for_Hackers)
 - [ ] [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka-ebook/dp/B00YSILNL0)
@@ -177,18 +191,21 @@ Each day I take one subject from the list below, read it cover to cover, take no
 - [ ] [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
 
 ## Kaggle knowledge competitions
+
 - [ ] [Kaggle Competitions: How and where to begin?](https://www.analyticsvidhya.com/blog/2015/06/start-journey-kaggle/)
 - [ ] [How a Beginner Used Small Projects To Get Started in Machine Learning and Compete on Kaggle](http://machinelearningmastery.com/how-a-beginner-used-small-projects-to-get-started-in-machine-learning-and-compete-on-kaggle)
 - [ ] [Master Kaggle By Competing Consistently](http://machinelearningmastery.com/master-kaggle-by-competing-consistently/)
 
 
 ## Video Series
+
 - [ ] [Machine Learning for Hackers](https://www.youtube.com/playlist?list=PL2-dafEMk2A4ut2pyv0fSIXqOzXtBGkLj)
 - [ ] [Fresh Machine Learning](https://www.youtube.com/playlist?list=PL2-dafEMk2A6Kc7pV6gHH-apBFxwFjKeY)
 - [ ] [Machine Learning Recipes with Josh Gordon](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
 - [ ] [Everything You Need to know about Machine Learning in 30 Minutes or Less](https://vimeo.com/43547079)
 
 ## MOOC
+
 - [ ] [Udacity’s Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
     - [Udacity Intro to Machine Learning Review](http://hamelg.blogspot.com/2014/12/udacity-intro-to-machine-learning-review.html)
 - [ ] [Udacity’s Supervised, Unsupervised & Reinforcement](https://www.udacity.com/course/machine-learning--ud262)
@@ -199,6 +216,7 @@ Each day I take one subject from the list below, read it cover to cover, take no
     - [Coursera: Machine Learning Roadmap](https://metacademy.org/roadmaps/cjrd/coursera_ml_supplement)
 
 ## Resources
+
 - [ ] [Machine Learning for Developers](https://xyclade.github.io/MachineLearning/) 
 - [ ] [Machine Learning Advice for Developers](https://dev.to/thealexlavin/machine-learning-advice-for-developers)
 - [ ] [Machine Learning For Complete Beginners](http://pythonforengineers.com/machine-learning-for-complete-beginners/)
@@ -207,12 +225,14 @@ Each day I take one subject from the list below, read it cover to cover, take no
 - [ ] [Enough Machine Learning to Make Hacker News Readable Again](https://speakerdeck.com/pycon2014/enough-machine-learning-to-make-hacker-news-readable-again-by-ned-jackson-lovely)
 
 ## Becoming an Open Source Contributor
+
 - [ ] [tensorflow/magenta: Magenta: Music and Art Generation with Machine Intelligence](https://github.com/tensorflow/magenta)
 - [ ] [tensorflow/tensorflow: Computation using data flow graphs for scalable machine learning](https://github.com/tensorflow/tensorflow)
 - [ ] [cmusatyalab/openface: Face recognition with deep neural networks.](https://github.com/cmusatyalab/openface)
 - [ ] [tensorflow/models/syntaxnet: Neural Models of Syntax.](https://github.com/tensorflow/models/tree/master/syntaxnet)
 
 ## Communities
+
 - ### Quora
 	- [Machine Learning](https://www.quora.com/topic/Machine-Learning)
 	- [Statistics](https://www.quora.com/topic/Statistics-academic-discipline)
@@ -224,4 +244,5 @@ Each day I take one subject from the list below, read it cover to cover, take no
 - ### [Data Tau](http://www.datatau.com/)
 
 ## My admired companies
+
 - [ ] [ELSA - Your virtual pronunciation coach](https://www.elsanow.io/home)
