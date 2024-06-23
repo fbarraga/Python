@@ -1,5 +1,7 @@
 # Curs: Introducció a python3
 
+Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 
+
 ## Introducció
 
 Benvinguts al curs de Python. Aquest curs es un repositori de molta documentació trobada a través de la web (realpython.com,w3schools..., repositoris de github i altres) i vol servir com a introducció a un dels llenguatges més utilitzats avui en dia.
@@ -7,6 +9,23 @@ Benvinguts al curs de Python. Aquest curs es un repositori de molta documentaci�
 Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
 
 Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar amb mi!.
+
+## Autors
+
+Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris públics i mantinguda per:
+
+* Francesc Barragán (<fbarragan@sapalomera.cat>)
+
+De l'**Institut Sa Palomera - Blanes**
+
+## Reconeixements
+
+Alguns del materials que podeu trobar en aquest moodle provenen de les següents fonts:
+
+* Curs de python d'Openwebinars
+* Real Python (https://www.realpython.com)
+* PyCoders
+ 
 
 ## UF0: Introducció a Python
 
@@ -768,5 +787,6 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
     * [Links](curs/900_LINKS/README.md) Cursos, llibreries, documentació
     * Llibreria interessant per veure el grau de similtud entre dues cadenes: https://pypi.org/project/strsimpy/
     * https://github.com/jamesturk/jellyfish
+    * https://exercism.org/tracks
 ***
   

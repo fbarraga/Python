@@ -2,7 +2,7 @@
 
 ### Introducció
 
-Un cop hem aprés a formalitzar l’enunciat d’un problema i a trobar la seva especificació, cal que siguem capaços de dissenyar l’algorisme que porta a la seva solució. L’eina bàsica de que disposem pel disseny d’algorismes és el *llenguatge algorísmic*.
+Un cop tenim l’enunciat d’un problema, cal que siguem capaços de dissenyar l’algorisme que porta a la seva solució. L’eina bàsica de que disposem pel disseny d’algorismes és el *llenguatge algorísmic*.
 
 Un llenguatge és un conjunt de símbols juntament amb un conjunt de regles **sintàctiques i semàntiques** que serveix per comunicar-nos.
 
