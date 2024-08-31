@@ -82,7 +82,7 @@ Setembre 2024
 
 ***
 
-## Persistència amb Bases de Dades XML
+## Persistència amb Bases de Dades XML i Orientades a Documents
 
 |  Persistència amb Bases de Dades XML           | Unitats Teoria                                       | Exercicis                                       |
 |------------------------------------------------|------------------------------------------------------|-------------------------------------------------|
