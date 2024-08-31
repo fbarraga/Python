@@ -1,6 +1,6 @@
 # Curs: Introducció a python3
 
-Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 
+Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 #CE IA&BD
 
 ## Introducció
 
@@ -25,7 +25,10 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 * Curs de python d'Openwebinars
 * Real Python (https://www.realpython.com)
 * PyCoders
- 
+
+## Darrera Actualització:
+
+Setembre 2024
 
 ## UF0: Introducció a Python
 
