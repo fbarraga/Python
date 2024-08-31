@@ -30,7 +30,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 
 Setembre 2024
 
-## UF0: Introducció a Python
+## Introducció a Python
 
 |  Conceptes bàsics                                  | Unitats Teoria  | Exercicis |
 |----------------------------------------------------|-----------------|-----------|
@@ -50,7 +50,7 @@ Setembre 2024
 
 ***
 
-## UF1: Persistència de dades amb fitxers
+## Persistència de dades amb fitxers
 
 |  Persistència de dades amb fitxers            | Unitats Teoria                        | Exercicis                             |
 |-----------------------------------------------|---------------------------------------|---------------------------------------|
@@ -67,7 +67,7 @@ Setembre 2024
 
 ***
 
-## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO
+## Persistència amb Bases de Dades BDR,BDOR,BDOO
 
 |  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria                               | Exercicis                                 |
 |------------------------------------------------|----------------------------------------------|-------------------------------------------|
@@ -82,7 +82,7 @@ Setembre 2024
 
 ***
 
-## UF3: Persistència amb Bases de Dades XML
+## Persistència amb Bases de Dades XML
 
 |  Persistència amb Bases de Dades XML           | Unitats Teoria                                       | Exercicis                                       |
 |------------------------------------------------|------------------------------------------------------|-------------------------------------------------|
@@ -93,7 +93,7 @@ Setembre 2024
 
 ***
 
-## UF4: Components d'accés a dades
+## Components d'accés a dades
 
 |  Components d'accés a dades                    | Unitats Teoria                                   | Exercicis                                                   |
 |------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
