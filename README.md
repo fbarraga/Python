@@ -112,7 +112,7 @@ Setembre 2024
 |  IA - Machine Learning - Deep Learning                  | Unitats Teoria                                   | Exercicis                                                   |
 |------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
 | Jupyter Notebooks                              | [jupyter](curs/013_DATA/Jupyter/README.md)       |                                                             |
-| Llibreria Pandas                               | [Pandas](curs/017_PANDAS/Pandas_DataFrame_UltraQuick_Tutorial.ipynb      |   [Exercicis Pandas](curs/999_EXERC/200_EXERCISES/pandas)                                                             |
+| Llibreria Pandas                               | [Pandas](curs/017_PANDAS/Pandas_DataFrame_UltraQuick_Tutorial.ipynb)      |   [Exercicis Pandas](curs/999_EXERC/200_EXERCISES/pandas)                                                             |
 | Llibreria Numpy                                | [Numpy](curs/021_NUMPY/NumPy_UltraQuick_Tutorial.ipynb)       |   [Exercicis Numpy](curs/999_EXERC/200_EXERCISES/numpy)                                                          |
 | Llibreria Sklearn                              | [Sklearn](curs/013_DATA/Jupyter/README.md)       |                                                             |
 | Llibreria Keras - Tensorflow                   | [Keras](curs/013_DATA/Jupyter/README.md)       |                                                             |
