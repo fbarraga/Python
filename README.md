@@ -103,6 +103,23 @@ Setembre 2024
 | Recuperar informació mitjançant un webcrawler  | [webcrawler](curs/023_SCRAPE/README.md)          |                                                             |
 | Treball Final d'accés a dades                  |                                                  |                                                             |
 
+
+
+
+
+## IA - Machine Learning - Deep Learning
+
+|  IA - Machine Learning - Deep Learning                  | Unitats Teoria                                   | Exercicis                                                   |
+|------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
+| Jupyter Notebooks                              | [jupyter](curs/013_DATA/Jupyter/README.md)       |                                                             |
+| Llibreria Pandas                               | [jupyter]curs/017_PANDAS/Pandas_DataFrame_UltraQuick_Tutorial.ipynb      |   [jupyter](curs/999_EXERC/200_EXERCISES/pandas)                                                             |
+| Llibreria Numpy                                | [jupyter](curs/021_NUMPY/NumPy_UltraQuick_Tutorial.ipynb)       |   [jupyter](curs/999_EXERC/200_EXERCISES/numpy                                                          |
+| Llibreria Sklearn                              | [jupyter](curs/013_DATA/Jupyter/README.md)       |                                                             |
+| Llibreria Keras - Tensorflow                   | [jupyter](curs/013_DATA/Jupyter/README.md)       |                                                             |
+
+
+
+
 ***
 
 ## Primers passos amb python
