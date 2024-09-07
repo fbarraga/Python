@@ -6,7 +6,7 @@ Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 #CE IA&BD
 
 Benvinguts al curs de Python. Aquest curs es un repositori de molta documentació trobada a través de la web (realpython.com,w3schools..., repositoris de github i altres) i vol servir com a introducció a un dels llenguatges més utilitzats avui en dia.
 
-Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
+Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, cursos d'especialització, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
 
 Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar amb mi!.
 
