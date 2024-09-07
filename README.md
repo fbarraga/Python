@@ -1,6 +1,6 @@
 # Curs: Introducció a python3
 
-Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 
+Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 #CE IA&BD
 
 ## Introducció
 
@@ -25,9 +25,12 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 * Curs de python d'Openwebinars
 * Real Python (https://www.realpython.com)
 * PyCoders
- 
 
-## UF0: Introducció a Python
+## Darrera Actualització:
+
+Setembre 2024
+
+## Introducció a Python
 
 |  Conceptes bàsics                                  | Unitats Teoria  | Exercicis |
 |----------------------------------------------------|-----------------|-----------|
@@ -47,7 +50,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 
 ***
 
-## UF1: Persistència de dades amb fitxers
+## Persistència de dades amb fitxers
 
 |  Persistència de dades amb fitxers            | Unitats Teoria                        | Exercicis                             |
 |-----------------------------------------------|---------------------------------------|---------------------------------------|
@@ -64,7 +67,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 
 ***
 
-## UF2: Persistència amb Bases de Dades BDR,BDOR,BDOO
+## Persistència amb Bases de Dades BDR,BDOR,BDOO
 
 |  Persistència amb Bases de Dades BDR,BDOR,BDOO | Unitats Teoria                               | Exercicis                                 |
 |------------------------------------------------|----------------------------------------------|-------------------------------------------|
@@ -79,7 +82,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 
 ***
 
-## UF3: Persistència amb Bases de Dades XML
+## Persistència amb Bases de Dades XML i Orientades a Documents
 
 |  Persistència amb Bases de Dades XML           | Unitats Teoria                                       | Exercicis                                       |
 |------------------------------------------------|------------------------------------------------------|-------------------------------------------------|
@@ -90,7 +93,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 
 ***
 
-## UF4: Components d'accés a dades
+## Components d'accés a dades
 
 |  Components d'accés a dades                    | Unitats Teoria                                   | Exercicis                                                   |
 |------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
