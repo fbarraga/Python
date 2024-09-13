@@ -16,6 +16,7 @@ Aquest repositori es una recopilació d'informació pròpia i extreta d'altres r
 
 * Francesc Barragán (<fbarragan@sapalomera.cat>)
 * Jaume Pujol (<jpujol@sapalomera.cat>)
+* Josep Mota (<jmota@sapalomera.cat>)
 * Sílvia Fortuny (<sfortuny@sapalomera.cat>)
 
 De l'**Institut Sa Palomera - Blanes**
