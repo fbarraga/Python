@@ -15,9 +15,11 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris públics i mantinguda per:
 
 * Francesc Barragán (<fbarragan@sapalomera.cat>)
-* Jaume Pujol (<jpujol@sapalomera.cat>)
-* Josep Mota (<jmota@sapalomera.cat>)
 * Sílvia Fortuny (<sfortuny@sapalomera.cat>)
+* Josep Mota (<jmota@sapalomera.cat>)
+* Jaume Pujol (<jpujol@sapalomera.cat>)
+
+
 
 De l'**Institut Sa Palomera - Blanes**
 
