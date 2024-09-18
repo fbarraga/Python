@@ -28,11 +28,11 @@
 
 10. Escriure un programa que pregunti a l'usuari una quantitat a invertir, l'interés anual i el número d'anys, i mostri per pantalla el capital obtingut en la inversió.
 
-11. Una jugueteria té molt èxit en dos dels seus productes: paiasos i niness. Sol fer la venta per correu i la empresa de lgística els hi cobra pel pes de cada paquet, així que han de calcula el pes dels paiasos i de les nine que surtiran en cada paquet que es demani. Cada paiaso pesa 112g i cada nina 75g. Escriur un programa que llegeixi el número de paiasos i ninen venudes en la darreera comanda i calculi el pes total del paquest que serà enviat.
+11. Una botiga de joguines té molt èxit en dos dels seus productes: pallassos i nines. Sol fer la venda per correu i l'empresa de logística cobra pel pes de cada paquet. Per tant, han de calcular el pes dels pallassos i de les nines que sortiran en cada paquet que es demani. Cada pallasso pesa 112g i cada nina 75g. Escriure un programa que llegeixi el número de pallassos i nines venudes en la darrera comanda i calculi el pes total del paquet que serà enviat.
 
-12. Imagina que acabes d'obrir una nova compte d'estalvi que t'ofereix el 4% d'interés a l'any. Aquests estalvis degut als interessos que no es cobren fins a final d'any, se t'afegeixen al balanç final de la teva compte. Esciure un programa que comenci llegint la quantitat de diners depositada a la compte d'estalvis. Després ha de calcular i mostrar per pantalla la quantitat d'estalvis després del primer, segon i tercer any. Redondejar cada quantitat a dos decimals.
+12. Imagina que acabes d'obrir un nou compte d'estalvi que t'ofereix el 4% d'interés a l'any. Aquests estalvis degut als interessos que no es cobren fins a final d'any, se t'afegeixen al balanç final del teu compte. Esciure un programa que comenci llegint la quantitat de diners depositada al compte d'estalvis. Després ha de calcular i mostrar per pantalla la quantitat d'estalvis després del primer, segon i tercer any. Arrodonir cada quantitat a dos decimals.
 
-13. Una fleca ven barres de pa a 3.49€ cada una. El pa que no es del día té un descompte del 60%. Escriure un programa que comenci llegint el número de barres que tenim d'avui i d'ahir. A partir d'aquí haurà de demanar les barres que venem i el programa haurà de mostrar el preu total de les barres de pa considerant els diferents preus que pot haver-hi.
+13. Una fleca ven barres de pa a 3.49€ cada una. El pa que no és del día té un descompte del 60%. Escriure un programa que comenci llegint el número de barres que tenim d'avui i d'ahir. A partir d'aquí haurà de demanar les barres que venem i el programa haurà de mostrar el preu total de les barres de pa considerant els diferents preus segons el tipus.
 
 14. Definir una funció max() que agafi com argument dos números i retorni el més gran dels dos.. (Python té una función max() incorporada, pero hem de fer una nosaltres mateixos).
 
