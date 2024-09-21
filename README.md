@@ -8,13 +8,18 @@ Benvinguts al curs de Python. Aquest curs es un repositori de molta documentaci�
 
 Aquest curs està pensat en ser utilitzat en Cicles Formatius de Grau Superior, cursos d'especialització, mòduls de programació i tots aquells en els que s'hagi d'utilitzar dades i accés a dades.
 
-Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar amb mi!.
+Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar amb nosaltres!.
 
 ## Autors
 
 Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris públics i mantinguda per:
 
 * Francesc Barragán (<fbarragan@sapalomera.cat>)
+* Sílvia Fortuny (<sfortuny@sapalomera.cat>)
+* Josep Mota (<jmota@sapalomera.cat>)
+* Jaume Pujol (<jpujol@sapalomera.cat>)
+
+
 
 De l'**Institut Sa Palomera - Blanes**
 
