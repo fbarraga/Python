@@ -1,4 +1,4 @@
-# Curs: Introducció a python3
+# Curs: Introducció a Python3
 
 Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 #CE IA&BD
 
