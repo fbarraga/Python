@@ -1,4 +1,4 @@
-# Curs: Introducció a python3
+# Curs: Introducció a Python3
 
 Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 #CE IA&BD
 
@@ -19,8 +19,6 @@ Aquest repositori es una recopilació d'informació pròpia i extreta d'altres r
 * Josep Mota (<jmota@sapalomera.cat>)
 * Jaume Pujol (<jpujol@sapalomera.cat>)
 
-
-
 De l'**Institut Sa Palomera - Blanes**
 
 ## Reconeixements
@@ -31,7 +29,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 * Real Python (https://www.realpython.com)
 * PyCoders
 
-## Darrera Actualització:
+## Darrera Actualització
 
 Setembre 2024
 

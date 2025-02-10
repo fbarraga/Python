@@ -49,7 +49,7 @@ async def trad(update, context):
 
 async def where1(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print("1")
-     lat = Location
+    lat = Location
     lat = await update.message.location.latitude
     print("2")
     lon = await update.message.location.longitude

@@ -1,7 +1,9 @@
 # Bots de Telegram
 
-Basat en Lliçons Jordi Petit UPC https://xn--llions-yua.jutge.org/python/telegram.html
-Actualitzat per Francesc Barragan amb noves llibreries de Telegram-BOT v20.2  llibreries a Maig 2023
+* CE IABD 
+* Creació d'un bot simple
+* Actualitzat per Francesc Barragan amb noves llibreries de Telegram-BOT v21.7  llibreries a Octubre 2024
+* Testejat amb Python version 3.12.3
 
 
 Telegram és una aplicació de missatgeria instantània gratuïta i feta amb programari lliure que permet enviar i rebre missatges a través d’Internet. Un dels seus objectius és proveir una major privadesa i seguretat en comparació amb altres aplicacions similars. Telegram permet crear grups, enviar imatges o vídeos i programar bots (robots) que atenen peticions dels usuaris.
@@ -25,9 +27,9 @@ pip3 install python-telegram-bot
 4. Necessiteu un Access token, que és un identificador que Telegram us dóna per identificar el vostre bot. Aquest pas només cal que el feu un cop per bot. Essencialment:
 
    * Visiteu el @BotFather des de l'aplicació de Telegram.
-   * Useu la comanda /newbot i doneu la informació que us demana (nom complet i nom d’usari del bot, que ha d’acabar amb bot).
+   * Useu la comanda /newbot i doneu la informació que us demana (nom complet i nom d’usari del bot, que ha d’acabar amb bot). Per exemple: ceiabdsapabot
    * Deseu en un fitxer token.txt el vostre access token, que té un aspecte com ara xxxxxxxxxxxxxxxxxx.
-   * Apunteu l’adreça del vostre bot, que té un aspecte com ara <https://t.me/CampalansBot>.
+   * Apunteu l’adreça del vostre bot, que té un aspecte com ara <https://t.me/ceiabdsapabot>.
 
 ![Tabla](https://github.com/fbarraga/Python/blob/master/master/assets/telegram_campalanet.png?raw=true)
 
@@ -48,7 +50,7 @@ from telegram import Update
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Inform user about what this bot can do"""
     await update.message.reply_text(
-        "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot del Campalans!!! 🎉 🎊"
+        "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot!!! 🎉 🎊"
 
     )
 
@@ -77,7 +79,7 @@ python3 bot1.py
 
 i amb un navegador, visiteu l’adreça del vostre bot que us ha donat el @BotFather. Això us redirigirà al Telegram i entrareu en una conversa amb el vostre bot. Doneu-li la comanda /start (o piqueu el botó Inicia’l) i ell us contestarà:
 
-👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot del Campalans!!! 🎉 🎊
+👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot!!! 🎉 🎊
 
 Nota: Sempre va una mica lent a engegar-se.
 
@@ -129,7 +131,7 @@ Per la seva part, la funció start és aquesta:
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Inform user about what this bot can do"""
     await update.message.reply_text(
-        "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot del Campalans!!! 🎉 🎊"
+        "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot!!! 🎉 🎊"
     )
 ```
 
@@ -192,6 +194,7 @@ async def poll(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 Pots consultar el codi en el [bot3.py](./bot3.py).
 
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 ## Informació del bot i de la conversa
 
 Com s’ha dit, els objectes bot i update que reben les funcions per tractar comandes contenen informació sobre el bot i la conversa. En particular:
