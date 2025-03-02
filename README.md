@@ -28,7 +28,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 
 ## Darrera Actualització
 
-Setembre 2024
+Febrer 2025 - S'afegeix temes de ML i exercicis Codeworks
 
 ## Introducció a Python
 
