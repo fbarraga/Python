@@ -107,7 +107,7 @@ Febrer 2025
 
 
 
-## IA - Machine Learning - Deep Learning
+## IA - Llibreries per Machine Learning - Deep Learning
 
 |  IA - Machine Learning - Deep Learning                  | Unitats Teoria                                   | Exercicis                                                   |
 |------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
@@ -116,6 +116,13 @@ Febrer 2025
 | Llibreria Numpy                                | [Numpy](curs/021_NUMPY/NumPy_UltraQuick_Tutorial.ipynb)       |   [Exercicis Numpy](curs/999_EXERC/200_EXERCISES/numpy)                                                          |
 | Llibreria Sklearn                              | [Sklearn](curs/013_DATA/Jupyter/README.md)       |                                                             |
 | Llibreria Keras - Tensorflow                   | [Keras](curs/013_DATA/Jupyter/README.md)       |                                                             |
+
+## IA - Imatges
+
+|  IA - Machine Learning - Deep Learning                  | Unitats Teoria                                   | Exercicis                                                   |
+|------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
+| Detector de sexe i edats                       | [jupyter](curs/200_IA/Image/Detector_sexe_edat/                                                           |
+
 
 ## BigData - Fitxers avançats
 
