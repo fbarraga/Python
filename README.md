@@ -23,7 +23,7 @@ De l'**Institut Sa Palomera - Blanes**
 Alguns del materials que podeu trobar en aquest moodle provenen de les següents fonts:
 
 * Curs de python d'Openwebinars
-* Real Python (https://www.realpython.com)
+* [Real Python](https://www.realpython.com)
 * PyCoders
 
 ## Darrera Actualització
@@ -36,10 +36,10 @@ Febrer 2025
 |----------------------------------------------------|-----------------|-----------|
 | Introducció                                        | [1](curs/000_INTRO/u1/README.md) [2](curs/000_INTRO/u2/README.md) [3](curs/000_INTRO/u3/README.md) [4](curs/000_INTRO/u4/README.md) [5](curs/000_INTRO/u5/README.md)  |  |
 | Estructura del llenguatge                          | [6](curs/001_ESTRU/u6/README.md) [7](curs/001_ESTRU/u7/README.md) [8](curs/001_ESTRU/u8/README.md) [9](curs/001_ESTRU/u9/README.md) [10](curs/001_ESTRU/u10/README.md)|  |
-| Tipus de dades numèriques                          | [12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md) | [A1](curs/002_TDNU/u14/README.md)                                                                |  |
+| Tipus de dades numèriques                          | [12](curs/002_TDNU/u12/README.md) [13](curs/002_TDNU/u13/README.md) | [A1](curs/002_TDNU/u14/README.md)                                                              |
 | Estructures de control Condicionals: IF / ELSE     | [15](curs/003_ALTER/u15/README.md) | [A2](curs/003_ALTER/u16/README.md) |
 | Estructures de control Repetitives: WHILE / FOR    | [17](curs/004_REPET/u17/README.md) | [A3](curs/004_REPET/u18/README.md) |
-| Tipus de dades seqüencia                           | [19](curs/005_SEQUE/u19/README.md)|
+| Tipus de dades seqüencia                           | [19](curs/005_SEQUE/u19/README.md) |                                    |
 | Tipus de dades seqüència: *Llistes*                | [20](curs/005_SEQUE/u20/README.md) [21](curs/005_SEQUE/u21/README.md) | [A4](curs/005_SEQUE/u22/README.md) |
 | Tipus de dades seqüència: *Diccionaris*            | [33](curs/006_MAPES/u33/README.md) [34](curs/006_MAPES/u34/README.md) | [A5](curs/006_MAPES/u35/README.md)|
 | Tipus de dades seqüència: *Tuples i Rangs*         | [23](curs/005_SEQUE/u23/README.md) [24](curs/005_SEQUE/u24/README.md)  [25](curs/005_SEQUE/u25/README.md)| |
@@ -102,11 +102,6 @@ Febrer 2025
 | Recuperar informació d'una API REST                | [APIs](curs/016_APIS/README.md)                  | [A4-1](curs/016_APIS/EXERCICIS.md)                          |
 | Recuperar informació mitjançant un webcrawler  | [webcrawler](curs/023_SCRAPE/README.md)          |                                                             |
 
-
-
-
-
-
 ## IA - Llibreries per Machine Learning - Deep Learning
 
 |  IA - Machine Learning - Deep Learning                  | Unitats Teoria                                   | Exercicis                                                   |
@@ -119,22 +114,18 @@ Febrer 2025
 
 ## IA - Imatges
 
-|  IA - Machine Learning - Deep Learning                  | Unitats Teoria                                   | Exercicis                                                   |
+|  IA - Machine Learning - Deep Learning                  | Unitats Teoria                                   | Exercicis                                          |
 |------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
-| Detector de sexe i edats                       | [jupyter](curs/200_IA/Image/Detector_sexe_edat/)                                                          |
-
+| Detector de sexe i edats                       | [jupyter](curs/200_IA/Image/Detector_sexe_edat/) |                                                             |
 
 ## BigData - Fitxers avançats
 
-|  Fitxers aançats                 | Unitats Teoria                                   | Exercicis                                                   |
-|------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
-| Parquet                             | [Parquet](curs/013_DATA/Jupyter/README.md)       |                                                             |
-| ORC                               | [ORC](curs/017_PANDAS/Pandas_DataFrame_UltraQuick_Tutorial.ipynb)      |   [](curs/999_EXERC/200_EXERCISES/pandas)                                                             |
-| Avro                                | [Avro](curs/021_NUMPY/NumPy_UltraQuick_Tutorial.ipynb)       |   [](curs/999_EXERC/200_EXERCISES/numpy)                                                          |
-| FastAvro                              | [FastAvro](curs/013_DATA/Jupyter/README.md)       |                                                             |
- |
-
-
+|  Fitxers avançats                 | Unitats Teoria                                   | Exercicis                                                   |
+|------------------------------------------------|------------------------------------|-------------------------------------------------------------|
+| Parquet                          | [Parquet](curs/300_BIGDATA/Parquet/README.md)    |                                                             |
+| ORC                              | [ORC]((curs/300_BIGDATA/ORC/README.md)           |                                                             |
+| Avro                             | [Avro]((curs/300_BIGDATA/Avro/README.md)         |                                                             |
+| FastAvro                         | [FastAvro](curs/300_BIGDATA/Fastavro/README.md)  |                                                             |
 
 ***
 
@@ -811,22 +802,20 @@ Febrer 2025
 
     HPCDS Codewars BCN
     * [2015](curs/999_EXERC/4_CODEWARS/2015/Codewars_BCN_2015.pdf)  
-    * [2016](curs/999_EXERC/4_CODEWARS/2016/Codewars_BCN_2016.pdf) 
-    * [2017](curs/999_EXERC/4_CODEWARS/2017/Codewars_BCN_2017.pdf) 
-    * [2018](curs/999_EXERC/4_CODEWARS/2018/Codewars_BCN_2018.pdf) 
-    * [2019](curs/999_EXERC/4_CODEWARS/2019/Codewars_BCN_2019.pdf) 
-    * [2020](curs/999_EXERC/4_CODEWARS/2020/Codewars_BCN_2020.pdf) 
-    * [2021](curs/999_EXERC/4_CODEWARS/2021/Codewars_BCN_2021.pdf) 
-    * [2022](curs/999_EXERC/4_CODEWARS/2022/Codewars_BCN_2022.pdf) 
-    * [2023](curs/999_EXERC/4_CODEWARS/2023/Codewars_BCN_2023.pdf) 
-    * [2024](curs/999_EXERC/4_CODEWARS/2024/Codewars_BCN_2024.pdf) 
-    * [2025](curs/999_EXERC/4_CODEWARS/2025/Codewars_BCN_2025.pdf) 
+    * [2016](curs/999_EXERC/4_CODEWARS/2016/Codewars_BCN_2016.pdf)
+    * [2017](curs/999_EXERC/4_CODEWARS/2017/Codewars_BCN_2017.pdf)
+    * [2018](curs/999_EXERC/4_CODEWARS/2018/Codewars_BCN_2018.pdf)
+    * [2019](curs/999_EXERC/4_CODEWARS/2019/Codewars_BCN_2019.pdf)
+    * [2020](curs/999_EXERC/4_CODEWARS/2020/Codewars_BCN_2020.pdf)
+    * [2021](curs/999_EXERC/4_CODEWARS/2021/Codewars_BCN_2021.pdf)
+    * [2022](curs/999_EXERC/4_CODEWARS/2022/Codewars_BCN_2022.pdf)
+    * [2023](curs/999_EXERC/4_CODEWARS/2023/Codewars_BCN_2023.pdf)
+    * [2024](curs/999_EXERC/4_CODEWARS/2024/Codewars_BCN_2024.pdf)
+    * [2025](curs/999_EXERC/4_CODEWARS/2025/Codewars_BCN_2025.pdf)
 
 84. Recursos de Python a la Web
 
     * [Links](curs/900_LINKS/README.md) Cursos, llibreries, documentació
-    * Llibreria interessant per veure el grau de similtud entre dues cadenes: https://pypi.org/project/strsimpy/
-    * https://github.com/jamesturk/jellyfish
-    * https://exercism.org/tracks
-***
-  
+    * Llibreria interessant per veure el grau de similtud entre dues cadenes:[strsimpy](https://pypi.org/project/strsimpy/)
+    * [jellyfish](https://github.com/jamesturk/jellyfish)
+    * [tracks](https://exercism.org/tracks)
