@@ -15,11 +15,6 @@ Aquest curs està obert a tothom. Per fer-hi aportacions no dubteu en contactar 
 Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris públics i mantinguda per:
 
 * Francesc Barragán (<fbarragan@sapalomera.cat>)
-* Sílvia Fortuny (<sfortuny@sapalomera.cat>)
-* Josep Mota (<jmota@sapalomera.cat>)
-* Jaume Pujol (<jpujol@sapalomera.cat>)
-
-
 
 De l'**Institut Sa Palomera - Blanes**
 
@@ -31,7 +26,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 * Real Python (https://www.realpython.com)
 * PyCoders
 
-## Darrera Actualització:
+## Darrera Actualització
 
 Setembre 2024
 

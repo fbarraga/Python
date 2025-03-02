@@ -1,3 +1,7 @@
+# Llibreries necessaries
+# pip install python-telegram-bot
+
+
 # importa l'API de Telegram
 from telegram.ext import Application, CommandHandler,ContextTypes
 from telegram import Update
@@ -7,14 +11,14 @@ import datetime
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Inform user about what this bot can do"""
     await update.message.reply_text(
-    "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot del Campalans!!! 🎉 🎊")
+    "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot!!! 🎉 🎊")
     await update.message.reply_text(
         "Utilitza  /help per veure les comandes disponibles"
     )
 
     
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Soc un bot amb comandes /start, /help , /hora, /mongodb")
+    await update.message.reply_text("Soc un bot amb comandes /start, /help , /hora")
 
 async def hora(update: Update, context: ContextTypes.DEFAULT_TYPE):
     missatge = str(datetime.datetime.now())
