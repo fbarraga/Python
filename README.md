@@ -99,9 +99,9 @@ Febrer 2025
 |------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
 | Jupyter Notebooks                              | [jupyter](curs/013_DATA/Jupyter/README.md)       |                                                             |
 | Recuperar informació d'una font oberta         | [opendata](curs/016_APIS/OPENDATA/OPENDATA.md)   | [bicing](curs/016_APIS/OPENDATA/bicing/bicing.ipynb)        |
-| Recuperar informació d'una API                 | [APIs](curs/016_APIS/README.md)                  | [A4-1](curs/016_APIS/EXERCICIS.md)                          |
+| Recuperar informació d'una API REST                | [APIs](curs/016_APIS/README.md)                  | [A4-1](curs/016_APIS/EXERCICIS.md)                          |
 | Recuperar informació mitjançant un webcrawler  | [webcrawler](curs/023_SCRAPE/README.md)          |                                                             |
-| Treball Final d'accés a dades                  |                                                  |                                                             |
+
 
 
 
