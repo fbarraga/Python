@@ -28,7 +28,7 @@ Alguns del materials que podeu trobar en aquest moodle provenen de les següents
 
 ## Darrera Actualització
 
-Setembre 2024
+Febrer 2025
 
 ## Introducció a Python
 
@@ -117,6 +117,15 @@ Setembre 2024
 | Llibreria Sklearn                              | [Sklearn](curs/013_DATA/Jupyter/README.md)       |                                                             |
 | Llibreria Keras - Tensorflow                   | [Keras](curs/013_DATA/Jupyter/README.md)       |                                                             |
 
+## BigData - Fitxers avançats
+
+|  Fitxers aançats                 | Unitats Teoria                                   | Exercicis                                                   |
+|------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
+| Parquet                             | [Parquet](curs/013_DATA/Jupyter/README.md)       |                                                             |
+| ORC                               | [ORC](curs/017_PANDAS/Pandas_DataFrame_UltraQuick_Tutorial.ipynb)      |   [](curs/999_EXERC/200_EXERCISES/pandas)                                                             |
+| Avro                                | [Avro](curs/021_NUMPY/NumPy_UltraQuick_Tutorial.ipynb)       |   [](curs/999_EXERC/200_EXERCISES/numpy)                                                          |
+| FastAvro                              | [FastAvro](curs/013_DATA/Jupyter/README.md)       |                                                             |
+ |
 
 
 
@@ -793,14 +802,18 @@ Setembre 2024
     Nivell Mig
     * [Nivell 3 - Varis](curs/999_EXERC/3_MITJA/README.md)
 
-    HPCDS Codewars
-    * [2017](curs/999_EXERC/4_CODEWARS/2017/README.md) 
-    * [2018](curs/999_EXERC/4_CODEWARS/2018/README.md) 
-    * [2019](curs/999_EXERC/4_CODEWARS/2019/README.md) 
-    * [2020](curs/999_EXERC/4_CODEWARS/2020/README.md) 
-    * [2021](curs/999_EXERC/4_CODEWARS/2021/README.md) 
-    * [2022](curs/999_EXERC/4_CODEWARS/2022/README.md) 
-    * [2023](curs/999_EXERC/4_CODEWARS/2023/README.md) 
+    HPCDS Codewars BCN
+    * [2015](curs/999_EXERC/4_CODEWARS/2015/Codewars_BCN_2015.pdf)  
+    * [2016](curs/999_EXERC/4_CODEWARS/2016/Codewars_BCN_2016.pdf) 
+    * [2017](curs/999_EXERC/4_CODEWARS/2017/Codewars_BCN_2017.pdf) 
+    * [2018](curs/999_EXERC/4_CODEWARS/2018/Codewars_BCN_2018.pdf) 
+    * [2019](curs/999_EXERC/4_CODEWARS/2019/Codewars_BCN_2019.pdf) 
+    * [2020](curs/999_EXERC/4_CODEWARS/2020/Codewars_BCN_2020.pdf) 
+    * [2021](curs/999_EXERC/4_CODEWARS/2021/Codewars_BCN_2021.pdf) 
+    * [2022](curs/999_EXERC/4_CODEWARS/2022/Codewars_BCN_2022.pdf) 
+    * [2023](curs/999_EXERC/4_CODEWARS/2023/Codewars_BCN_2023.pdf) 
+    * [2024](curs/999_EXERC/4_CODEWARS/2024/Codewars_BCN_2024.pdf) 
+    * [2025](curs/999_EXERC/4_CODEWARS/2025/Codewars_BCN_2025.pdf) 
 
 84. Recursos de Python a la Web
 
@@ -810,4 +823,3 @@ Setembre 2024
     * https://exercism.org/tracks
 ***
   
-Rectificar.
