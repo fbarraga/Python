@@ -121,7 +121,7 @@ Febrer 2025
 
 |  IA - Machine Learning - Deep Learning                  | Unitats Teoria                                   | Exercicis                                                   |
 |------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
-| Detector de sexe i edats                       | [jupyter](curs/200_IA/Image/Detector_sexe_edat/                                                           |
+| Detector de sexe i edats                       | [jupyter](curs/200_IA/Image/Detector_sexe_edat/)                                                          |
 
 
 ## BigData - Fitxers avançats
