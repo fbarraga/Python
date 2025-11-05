@@ -118,6 +118,17 @@ Febrer 2025
 |------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
 | Detector de sexe i edats                       | [jupyter](curs/200_IA/Image/Detector_sexe_edat/) |                                                             |
 
+## MCP - 
+
+|  Fitxers avançats                 | Unitats Teoria                                   | Exercicis                                                   |
+|------------------------------------------------|------------------------------------|-------------------------------------------------------------|
+| Creació de MCP                   | [MCP Curs](https://github.com/fbarraga/mcp-for-beginners/blob/main/translations/es/README.md)    |                                                             |
+
+***
+
+
+
+
 ## BigData - Fitxers avançats
 
 |  Fitxers avançats                 | Unitats Teoria                                   | Exercicis                                                   |
