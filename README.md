@@ -2,9 +2,9 @@
 
 
 
-# ******************************* IMPORTANT *******************************
+# ************ IMPORTANT *********
 REPOSITORI ES MOU A https://www.asixsapa.cat/python
-# ******************************* IMPORTANT *******************************
+# ************ IMPORTANT **********
 
 
 Hashtags: #FpInfor #Daw #Dam #Asix #DamMp06 #CE IA&BD
